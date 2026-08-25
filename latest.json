@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-25T10:14:00Z",
+  "generatedAt": "2026-08-25T20:00:00Z",
   "matches": [
     {
       "id": "dg-today",
-      "date": "Tuesday 26 Aug 2026",
+      "date": "Tuesday 25 Aug 2026",
       "leagues": [
         {
           "id": "lg-laliga",
@@ -16,10 +16,110 @@
               "homeTeam": "Atletico Madrid",
               "awayTeam": "Sevilla FC",
               "readiness": "READY",
-              "mostLikelyScore": "1-0",
-              "prob1": 48,
-              "probX": 28,
-              "prob2": 24
+              "mostLikelyScore": "2-1",
+              "prob1": 52,
+              "probX": 25,
+              "prob2": 23,
+              "goals": { "xgHome": 1.62, "xgAway": 0.94, "probOver25": 54 },
+              "corners": { "expTotal": 10.4, "probOver95": 57 },
+              "cards": { "expTotal": 4.3, "probOver35": 61, "provisional": false },
+              "decision": {
+                "status": "VALUE",
+                "selection": "Home Win",
+                "market": "1X2",
+                "edge": 8.2,
+                "dataConfidence": 84,
+                "fairOdds": 1.92,
+                "referencePrice": 2.08,
+                "minAcceptableOdds": 2.00,
+                "modelProbability": 52,
+                "instruction": "Bet only if odds are 2.00 or higher."
+              }
+            },
+            {
+              "id": "m-rma-vil",
+              "kickoff": "22:00",
+              "homeTeam": "Real Madrid",
+              "awayTeam": "Villarreal",
+              "readiness": "PROVISIONAL",
+              "mostLikelyScore": "2-1",
+              "prob1": 58,
+              "probX": 23,
+              "prob2": 19,
+              "goals": { "xgHome": 1.88, "xgAway": 1.02, "probOver25": 61 },
+              "corners": { "expTotal": 10.9, "probOver95": 62 },
+              "cards": { "expTotal": 4.8, "probOver35": 66, "provisional": true },
+              "decision": {
+                "status": "VALUE",
+                "selection": "Over 2.5",
+                "market": "Goals",
+                "edge": 6.8,
+                "dataConfidence": 71,
+                "fairOdds": 1.64,
+                "referencePrice": 1.75,
+                "minAcceptableOdds": 1.70,
+                "modelProbability": 61,
+                "instruction": "Bet only if odds are 1.70 or higher. Referee not yet appointed."
+              }
+            }
+          ]
+        },
+        {
+          "id": "lg-premier-league",
+          "name": "Premier League",
+          "country": "England",
+          "matches": [
+            {
+              "id": "m-che-new",
+              "kickoff": "19:45",
+              "homeTeam": "Chelsea",
+              "awayTeam": "Newcastle United",
+              "readiness": "READY",
+              "mostLikelyScore": "1-1",
+              "prob1": 39,
+              "probX": 31,
+              "prob2": 30,
+              "goals": { "xgHome": 1.31, "xgAway": 1.18, "probOver25": 46 },
+              "corners": { "expTotal": 9.2, "probOver95": 43 },
+              "cards": { "expTotal": 3.7, "probOver35": 49, "provisional": false },
+              "decision": {
+                "status": "NO_VALUE",
+                "selection": "Home Win",
+                "market": "1X2",
+                "edge": -0.9,
+                "dataConfidence": 82,
+                "fairOdds": 2.56,
+                "referencePrice": 2.54,
+                "minAcceptableOdds": 2.67,
+                "modelProbability": 39,
+                "instruction": "Qualifies at 2.67 or higher."
+              }
+            },
+            {
+              "id": "m-tot-bha",
+              "kickoff": "21:00",
+              "homeTeam": "Tottenham Hotspur",
+              "awayTeam": "Brighton & Hove Albion",
+              "readiness": "READY",
+              "mostLikelyScore": "2-1",
+              "prob1": 42,
+              "probX": 27,
+              "prob2": 31,
+              "goals": { "xgHome": 1.74, "xgAway": 1.46, "probOver25": 67 },
+              "corners": { "expTotal": 11.1, "probOver95": 65 },
+              "cards": { "expTotal": 4.1, "probOver35": 56, "provisional": false },
+              "decision": {
+                "status": "BET_TRAP",
+                "selection": "Home Win",
+                "market": "1X2",
+                "edge": -18.1,
+                "dataConfidence": 79,
+                "fairOdds": 2.38,
+                "referencePrice": 1.95,
+                "minAcceptableOdds": 2.48,
+                "modelProbability": 42,
+                "instruction": "Avoid at this price. The market implies 51% where we model 42%."
+              }
             }
           ]
         }
