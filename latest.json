@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-08-25T10:14:00Z",
+  "matches": [
+    {
+      "id": "dg-today",
+      "date": "Tuesday 26 Aug 2026",
+      "leagues": [
+        {
+          "id": "lg-laliga",
+          "name": "La Liga",
+          "country": "Spain",
+          "matches": [
+            {
+              "id": "m-atl-sev",
+              "kickoff": "20:00",
+              "homeTeam": "Atletico Madrid",
+              "awayTeam": "Sevilla FC",
+              "readiness": "READY",
+              "mostLikelyScore": "1-0",
+              "prob1": 48,
+              "probX": 28,
+              "prob2": 24
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
