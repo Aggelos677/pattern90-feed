@@ -1,0 +1,161 @@
+# Pattern90 — TotalCorner API check
+# Runs in the cloud on GitHub. Nothing is installed on your PC.
+# The token is read from the repository secret TC_TOKEN and is never printed.
+name: TotalCorner check
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Query TotalCorner and write report
+        env:
+          TC_TOKEN: ${{ secrets.TC_TOKEN }}
+        run: |
+          python - << 'PY'
+          import os, json, urllib.request, urllib.parse, datetime, collections, pathlib
+
+          TOKEN = os.environ.get("TC_TOKEN", "").strip()
+          BASE  = "https://api.totalcorner.com/v1"
+          COLS  = "odds,asian,goalLine,cornerLine,attacks,dangerousAttacks,shotOn,possession"
+          out, calls = [], 0
+
+          def say(s=""): out.append(s)
+
+          def get(path, params):
+              """One API call. Returns (data, error_text, headers)."""
+              global calls
+              p = dict(params); p["token"] = TOKEN
+              url = f"{BASE}{path}?" + urllib.parse.urlencode(p)
+              try:
+                  with urllib.request.urlopen(url, timeout=40) as r:
+                      calls += 1
+                      body = json.loads(r.read().decode("utf-8"))
+                      hdr  = {k.lower(): v for k, v in r.headers.items()}
+              except Exception as e:
+                  return None, f"connection failed: {e}", {}
+              if not body.get("success"):
+                  err = body.get("error", {})
+                  return None, f'{err.get("code","?")} — {err.get("message","")}', hdr
+              return body, None, hdr
+
+          say("# TotalCorner API check")
+          say(f"Run at {datetime.datetime.utcnow():%Y-%m-%d %H:%M} UTC")
+          say()
+
+          if not TOKEN:
+              say("**FAILED — the secret TC_TOKEN is empty or was not created.**")
+              say("Add it under Settings -> Secrets and variables -> Actions -> New repository secret.")
+              pathlib.Path("reports").mkdir(exist_ok=True)
+              pathlib.Path("reports/totalcorner_check.md").write_text("\n".join(out), encoding="utf-8")
+              raise SystemExit(0)
+
+          # ---- 1. token + tomorrow's schedule -------------------------------
+          day = (datetime.date.today() + datetime.timedelta(days=1)).strftime("%Y%m%d")
+          body, err, hdr = get("/match/schedule", {"date": day, "columns": COLS})
+
+          if err:
+              say(f"## 1. Token: **FAILED** — {err}")
+              say()
+              say("TOKEN_ERROR = wrong token · NO_PERMISSION = VIP not active · TOO_MANY_REQUEST = rate limit.")
+              pathlib.Path("reports").mkdir(exist_ok=True)
+              pathlib.Path("reports/totalcorner_check.md").write_text("\n".join(out), encoding="utf-8")
+              raise SystemExit(0)
+
+          say("## 1. Token: **OK**")
+          lim = hdr.get("x-rate-limit-limit"); rem = hdr.get("x-rate-limit-remaining")
+          if lim: say(f"Rate limit {rem} of {lim} requests left in this minute.")
+          pg = body.get("pagination", {})
+          rows = body.get("data", [])
+          say(f"Date requested: {day} · page 1 of {pg.get('pages','?')} · {len(rows)} matches on this page.")
+          say()
+
+          # ---- 2. how many matches / leagues --------------------------------
+          leagues = collections.Counter(m.get("l", "?") for m in rows)
+          say("## 2. Coverage on page 1")
+          say(f"Leagues on this page: {len(leagues)}")
+          say()
+          say("| League | Matches |")
+          say("| --- | --- |")
+          for l, n in leagues.most_common(12):
+              say(f"| {l} | {n} |")
+          say()
+
+          # ---- 3. which fields actually arrive ------------------------------
+          def filled(key, idx=None):
+              n = 0
+              for m in rows:
+                  v = m.get(key)
+                  if isinstance(v, list):
+                      v = v[idx] if (idx is not None and len(v) > idx) else (v[0] if v else None)
+                  if v not in (None, "", "0", 0, []):
+                      n += 1
+              return n
+
+          say("## 3. Fields that actually arrive (out of "
+              f"{len(rows)} matches)")
+          say()
+          say("| Field | Filled | Meaning |")
+          say("| --- | --- | --- |")
+          for key, label in [("start","kickoff time"), ("l","league name"), ("hc","home corners"),
+                             ("hyc","home yellow cards"), ("hrc","home red cards"),
+                             ("p_odds","1X2 latest price"), ("po_odds","1X2 OPENING price"),
+                             ("p_goal","goal line"), ("p_corner","corner line"),
+                             ("p_asian","asian handicap"), ("attacks","attacks"),
+                             ("shot_on","shots on target"), ("possess","possession")]:
+              say(f"| `{key}` | {filled(key)} | {label} |")
+          say()
+          say("`po_odds` is the one that matters most: without an opening price there is no Market Moves page.")
+          say()
+
+          # ---- 4. one example match -----------------------------------------
+          if rows:
+              m = rows[0]
+              say("## 4. One example match (raw)")
+              say(f"**{m.get('h')} v {m.get('a')}** — {m.get('l')} — {m.get('start')}")
+              say()
+              say("```json")
+              say(json.dumps(m, indent=1, ensure_ascii=False)[:2600])
+              say("```")
+              say()
+
+              # ---- 5. odds history for that match --------------------------
+              b2, e2, _ = get(f"/match/odds/{m.get('id')}",
+                              {"columns": "oddsList,goalList,cornerList,asianList"})
+              say("## 5. Odds history for that match")
+              if e2:
+                  say(f"**FAILED** — {e2}")
+              else:
+                  d2 = b2.get("data", [])
+                  d2 = d2[0] if isinstance(d2, list) and d2 else {}
+                  say("| List | Entries | First entry |")
+                  say("| --- | --- | --- |")
+                  for k in ("odds_list", "goal_list", "corner_list", "asian_list"):
+                      v = d2.get(k) or []
+                      first = json.dumps(v[0], ensure_ascii=False) if v else "—"
+                      say(f"| `{k}` | {len(v)} | {first} |")
+                  say()
+                  say("Each entry is: match status, line, home price, away price, timestamp, home goal, away goal.")
+              say()
+
+          say(f"---\nAPI calls used: {calls} (limit 30 per minute).")
+
+          pathlib.Path("reports").mkdir(exist_ok=True)
+          pathlib.Path("reports/totalcorner_check.md").write_text("\n".join(out), encoding="utf-8")
+          print("report written")
+          PY
+
+      - name: Commit report
+        run: |
+          git config user.name  "pattern90-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add reports/totalcorner_check.md
+          git commit -m "TotalCorner check report" || echo "nothing to commit"
+          git push
