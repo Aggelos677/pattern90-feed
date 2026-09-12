@@ -1,0 +1,743 @@
+{
+ "generatedAt": "2026-09-12T06:21:29.038113+00:00",
+ "source": "TotalCorner",
+ "bookmaker": "TO_VERIFY",
+ "demo": false,
+ "matches": [
+  {
+   "id": "200110411",
+   "league": "England National League",
+   "kickoffUtc": "2026-09-12T13:30:00+00:00",
+   "home": "Worthing",
+   "away": "Barrow",
+   "x12": {
+    "open": [
+     2.25,
+     3.6,
+     2.7
+    ],
+    "now": [
+     2.55,
+     3.6,
+     2.35
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200110409",
+   "league": "England National League",
+   "kickoffUtc": "2026-09-12T13:30:00+00:00",
+   "home": "Harrogate Town",
+   "away": "Tamworth",
+   "x12": {
+    "open": [
+     1.571,
+     4.0,
+     4.75
+    ],
+    "now": [
+     1.75,
+     3.9,
+     3.7
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200110444",
+   "league": "England National League",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Yeovil",
+   "away": "AFC Fylde",
+   "x12": {
+    "open": [
+     2.375,
+     3.5,
+     2.6
+    ],
+    "now": [
+     2.375,
+     3.5,
+     2.6
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200110440",
+   "league": "England National League",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Woking",
+   "away": "Altrincham",
+   "x12": {
+    "open": [
+     2.0,
+     3.5,
+     3.2
+    ],
+    "now": [
+     2.15,
+     3.4,
+     3.0
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200110437",
+   "league": "England National League",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Sutton Utd",
+   "away": "Scunthorpe",
+   "x12": {
+    "open": [
+     2.3,
+     3.5,
+     2.7
+    ],
+    "now": [
+     2.2,
+     3.5,
+     2.875
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200110433",
+   "league": "England National League",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Solihull Moors",
+   "away": "Aldershot",
+   "x12": {
+    "open": [
+     2.25,
+     3.6,
+     2.7
+    ],
+    "now": [
+     2.15,
+     3.6,
+     2.8
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200110429",
+   "league": "England National League",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Forest Green",
+   "away": "Gateshead",
+   "x12": {
+    "open": [
+     1.48,
+     4.2,
+     5.5
+    ],
+    "now": [
+     1.48,
+     4.2,
+     5.5
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200110421",
+   "league": "England National League",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Halifax",
+   "away": "Hornchurch FC",
+   "x12": {
+    "open": [
+     2.05,
+     3.5,
+     3.1
+    ],
+    "now": [
+     2.05,
+     3.5,
+     3.1
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200110416",
+   "league": "England National League",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Eastleigh",
+   "away": "Boreham Wood",
+   "x12": {
+    "open": [
+     5.0,
+     4.2,
+     1.533
+    ],
+    "now": [
+     5.0,
+     4.2,
+     1.533
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200110413",
+   "league": "England National League",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Boston Utd",
+   "away": "Wealdstone",
+   "x12": {
+    "open": [
+     1.85,
+     3.6,
+     3.6
+    ],
+    "now": [
+     1.95,
+     3.5,
+     3.4
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200099956",
+   "league": "England National League North",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Worksop Town",
+   "away": "Southport",
+   "x12": {
+    "open": [
+     2.0,
+     3.4,
+     3.0
+    ],
+    "now": [
+     1.85,
+     3.5,
+     3.3
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200099953",
+   "league": "England National League North",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Spennymoor Town",
+   "away": "Macclesfield FC",
+   "x12": {
+    "open": [
+     3.5,
+     3.5,
+     1.833
+    ],
+    "now": [
+     4.0,
+     3.6,
+     1.7
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200099947",
+   "league": "England National League North",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Spalding Utd",
+   "away": "Bedford Town",
+   "x12": {
+    "open": [
+     1.8,
+     3.6,
+     3.6
+    ],
+    "now": [
+     1.8,
+     3.6,
+     3.6
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200099945",
+   "league": "England National League North",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Scarborough Athletic",
+   "away": "Merthyr Town",
+   "x12": {
+    "open": [
+     1.833,
+     3.6,
+     3.4
+    ],
+    "now": [
+     2.0,
+     3.6,
+     3.0
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200099943",
+   "league": "England National League North",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Radcliffe FC",
+   "away": "Oxford City",
+   "x12": {
+    "open": [
+     2.625,
+     3.5,
+     2.25
+    ],
+    "now": [
+     2.9,
+     3.6,
+     2.05
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200099940",
+   "league": "England National League North",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Morecambe",
+   "away": "Brackley",
+   "x12": {
+    "open": [
+     2.05,
+     3.4,
+     3.0
+    ],
+    "now": [
+     1.667,
+     3.7,
+     4.1
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200099929",
+   "league": "England National League North",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Marine",
+   "away": "Darlington",
+   "x12": {
+    "open": [
+     2.2,
+     3.4,
+     2.7
+    ],
+    "now": [
+     2.05,
+     3.5,
+     2.9
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200099926",
+   "league": "England National League North",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Kings Lynn Town",
+   "away": "Chorley",
+   "x12": {
+    "open": [
+     2.2,
+     3.3,
+     2.75
+    ],
+    "now": [
+     1.833,
+     3.5,
+     3.4
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200099924",
+   "league": "England National League North",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Hereford",
+   "away": "South Shields",
+   "x12": {
+    "open": [
+     2.9,
+     3.5,
+     2.05
+    ],
+    "now": [
+     3.4,
+     3.4,
+     1.9
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200099918",
+   "league": "England National League North",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Hebburn Town",
+   "away": "Hednesford",
+   "x12": {
+    "open": [
+     2.75,
+     3.4,
+     2.2
+    ],
+    "now": [
+     2.35,
+     3.5,
+     2.55
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200099909",
+   "league": "England National League North",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Harborough Town",
+   "away": "AFC Telford",
+   "x12": {
+    "open": [
+     2.25,
+     3.5,
+     2.625
+    ],
+    "now": [
+     1.85,
+     3.7,
+     3.3
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200099906",
+   "league": "England National League North",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Buxton",
+   "away": "Chester",
+   "x12": {
+    "open": [
+     2.625,
+     3.4,
+     2.25
+    ],
+    "now": [
+     2.4,
+     3.4,
+     2.4
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200100075",
+   "league": "England National League South",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Weston Super Mare",
+   "away": "Dag & Red",
+   "x12": {
+    "open": [
+     2.3,
+     3.2,
+     2.75
+    ],
+    "now": [
+     2.45,
+     3.1,
+     2.55
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200100073",
+   "league": "England National League South",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Truro City",
+   "away": "Walton & Hersham",
+   "x12": {
+    "open": [
+     1.167,
+     7.0,
+     11.0
+    ],
+    "now": [
+     1.27,
+     5.5,
+     7.5
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200100071",
+   "league": "England National League South",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Torquay",
+   "away": "Dorking",
+   "x12": {
+    "open": [
+     1.85,
+     3.7,
+     3.2
+    ],
+    "now": [
+     1.8,
+     3.75,
+     3.4
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200100068",
+   "league": "England National League South",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Maidenhead Utd",
+   "away": "Billericay",
+   "x12": {
+    "open": [
+     1.85,
+     3.5,
+     3.3
+    ],
+    "now": [
+     1.833,
+     3.7,
+     3.4
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200100061",
+   "league": "England National League South",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Horsham",
+   "away": "Chesham",
+   "x12": {
+    "open": [
+     2.2,
+     3.4,
+     2.7
+    ],
+    "now": [
+     2.0,
+     3.5,
+     2.9
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200100054",
+   "league": "England National League South",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Hemel Hempstead",
+   "away": "Tonbridge Angels",
+   "x12": {
+    "open": [
+     2.2,
+     3.3,
+     2.75
+    ],
+    "now": [
+     2.2,
+     3.4,
+     2.7
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200100043",
+   "league": "England National League South",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Hampton & Richmond",
+   "away": "Chelmsford",
+   "x12": {
+    "open": [
+     3.8,
+     3.7,
+     1.727
+    ],
+    "now": [
+     3.6,
+     3.5,
+     1.8
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200100037",
+   "league": "England National League South",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Folkestone Invicta",
+   "away": "Farnham Town",
+   "x12": {
+    "open": [
+     1.7,
+     3.7,
+     3.8
+    ],
+    "now": [
+     1.667,
+     3.9,
+     3.9
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200100031",
+   "league": "England National League South",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Farnborough",
+   "away": "Dover",
+   "x12": {
+    "open": [
+     1.8,
+     3.7,
+     3.5
+    ],
+    "now": [
+     1.667,
+     3.8,
+     3.8
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200100023",
+   "league": "England National League South",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Ebbsfleet United",
+   "away": "Salisbury",
+   "x12": {
+    "open": [
+     1.833,
+     3.6,
+     3.4
+    ],
+    "now": [
+     1.75,
+     3.6,
+     3.7
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200100017",
+   "league": "England National League South",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "Braintree Town",
+   "away": "Maidstone Utd",
+   "x12": {
+    "open": [
+     4.333,
+     3.8,
+     1.6
+    ],
+    "now": [
+     3.9,
+     3.7,
+     1.7
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200100011",
+   "league": "England National League South",
+   "kickoffUtc": "2026-09-12T16:00:00+00:00",
+   "home": "AFC Totton",
+   "away": "Slough",
+   "x12": {
+    "open": [
+     1.364,
+     4.333,
+     6.5
+    ],
+    "now": [
+     1.55,
+     3.9,
+     4.5
+    ]
+   },
+   "goals": null,
+   "fair": null
+  },
+  {
+   "id": "200110449",
+   "league": "England National League",
+   "kickoffUtc": "2026-09-12T18:30:00+00:00",
+   "home": "Carlisle",
+   "away": "Southend",
+   "x12": {
+    "open": [
+     2.1,
+     3.6,
+     2.9
+    ],
+    "now": [
+     2.2,
+     3.6,
+     2.8
+    ]
+   },
+   "goals": null,
+   "fair": null
+  }
+ ]
+}
