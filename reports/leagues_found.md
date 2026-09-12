@@ -20,12 +20,12 @@ Dates: 20260912, 20260913, 20260914
 | USA MLS | 15 |
 | USA MLS Next Pro League | 13 |
 | USA USL Championship | 12 |
-| Austria Landesliga | 9 |
 | USA USL League One | 8 |
 | Colombia Primera A | 8 |
 | Mexico Liga MX | 8 |
 | Czechia 4. Liga | 8 |
 | Czechia 3. Liga | 8 |
+| Austria Landesliga | 8 |
 | Bolivia Primera Division | 6 |
 | USA NWSL Women | 6 |
 | Mexico Primera Premier | 6 |
@@ -41,7 +41,6 @@ Dates: 20260912, 20260913, 20260914
 | Croatia U19 League | 5 |
 | England Super League Women | 5 |
 | Denmark Division 2 | 5 |
-| Sweden Allsvenskan | 5 |
 | France U19 League | 5 |
 | England FA WSL 2 | 5 |
 | Bulgaria Second League | 5 |
@@ -53,5 +52,6 @@ Dates: 20260912, 20260913, 20260914
 | Venezuela Primera Division | 4 |
 | Ecuador LigaPro Serie A | 4 |
 | South Korea K League 2 | 4 |
+| Spain Segunda Division RFEF Group 3 | 4 |
 
 API calls used: 27
