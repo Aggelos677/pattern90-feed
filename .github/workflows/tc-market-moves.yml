@@ -1,0 +1,195 @@
+# Pattern90 — build market_moves.json from TotalCorner
+# Two modes, chosen when you press "Run workflow":
+#   discover = list the leagues playing in the next days, with their league_id
+#   build    = fetch those leagues and write market_moves.json for the site
+name: TotalCorner market moves
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "discover (find league ids) or build (write market_moves.json)"
+        required: true
+        default: discover
+        type: choice
+        options: [discover, build]
+      leagues:
+        description: "build mode only: league ids, comma separated (e.g. 42,7)"
+        required: false
+        default: ""
+      match:
+        description: "discover mode only: text to look for in league names"
+        required: false
+        default: "National League,Conference,Scotland,England"
+      days:
+        description: "how many days ahead to include"
+        required: false
+        default: "3"
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Query TotalCorner
+        env:
+          TC_TOKEN: ${{ secrets.TC_TOKEN }}
+          MODE:     ${{ inputs.mode }}
+          LEAGUES:  ${{ inputs.leagues }}
+          MATCH:    ${{ inputs.match }}
+          DAYS:     ${{ inputs.days }}
+        run: |
+          python - << 'PY'
+          import os, json, time, urllib.request, urllib.parse, datetime, collections, pathlib
+          from zoneinfo import ZoneInfo
+
+          TOKEN = os.environ.get("TC_TOKEN","").strip()
+          MODE  = os.environ.get("MODE","discover")
+          DAYS  = max(1, min(7, int(os.environ.get("DAYS") or 3)))
+          BASE  = "https://api.totalcorner.com/v1"
+          LON   = ZoneInfo("Europe/London")          # the timezone of the TotalCorner profile
+          GAP   = 13                                  # seconds between calls — safe for a 5/min limit
+          calls, out = 0, []
+          def say(s=""): out.append(s)
+
+          def get(path, params):
+              global calls
+              if calls: time.sleep(GAP)
+              p = dict(params); p["token"] = TOKEN
+              url = f"{BASE}{path}?" + urllib.parse.urlencode(p)
+              try:
+                  with urllib.request.urlopen(url, timeout=45) as r:
+                      calls += 1
+                      return json.loads(r.read().decode("utf-8")), None
+              except Exception as e:
+                  return None, f"connection failed: {e}"
+
+          def ok(body):
+              if not body: return None
+              if not body.get("success"):
+                  e = body.get("error", {}); return f'{e.get("code","?")} — {e.get("message","")}'
+              return None
+
+          if not TOKEN:
+              print("TC_TOKEN secret is empty"); raise SystemExit(1)
+
+          today = datetime.datetime.now(LON).date()
+          dates = [(today + datetime.timedelta(days=i)).strftime("%Y%m%d") for i in range(DAYS)]
+
+          # ---------------- DISCOVER ----------------
+          if MODE == "discover":
+              wanted = [w.strip().lower() for w in (os.environ.get("MATCH") or "").split(",") if w.strip()]
+              found  = {}
+              counts = collections.Counter()
+              say("# League discovery"); say(f"Dates: {', '.join(dates)}"); say()
+              for d in dates:
+                  page, pages = 1, 1
+                  while page <= pages and page <= 12:      # cap the scan so it stays quick
+                      body, err = get("/match/schedule", {"date": d, "page": page})
+                      e = err or ok(body)
+                      if e: say(f"- {d} page {page}: **{e}**"); break
+                      pages = int(body.get("pagination", {}).get("pages", 1))
+                      for m in body.get("data", []):
+                          name = m.get("l",""); counts[name] += 1
+                          if any(w in name.lower() for w in wanted):
+                              found[name] = m.get("l_id")
+                      page += 1
+              say("## Leagues that matched your text")
+              say("| league | league_id | matches seen |"); say("| --- | --- | --- |")
+              for n, i in sorted(found.items()):
+                  say(f"| {n} | **{i}** | {counts[n]} |")
+              if not found: say("_nothing matched — try other words_")
+              say(); say("## Everything seen (top 40)")
+              say("| league | matches |"); say("| --- | --- |")
+              for n, c in counts.most_common(40): say(f"| {n} | {c} |")
+              say(); say(f"API calls used: {calls}")
+              pathlib.Path("reports").mkdir(exist_ok=True)
+              pathlib.Path("reports/leagues_found.md").write_text("\n".join(out), encoding="utf-8")
+              print("discovery written")
+              raise SystemExit(0)
+
+          # ---------------- BUILD ----------------
+          ids = [x.strip() for x in (os.environ.get("LEAGUES") or "").split(",") if x.strip()]
+          if not ids:
+              print("build mode needs league ids — run discover first"); raise SystemExit(1)
+
+          def num(v):
+              try:
+                  f = float(v); return f if f > 1.01 else None
+              except: return None
+
+          matches, notes = [], []
+          horizon = datetime.datetime.now(LON) + datetime.timedelta(days=DAYS)
+          for lid in ids:
+              page, pages, kept = 1, 1, 0
+              while page <= pages and page <= 6:
+                  body, err = get(f"/league/schedule/{lid}", {"page": page, "columns": "odds,goalLine"})
+                  e = err or ok(body)
+                  if e: notes.append(f"league {lid}: {e}"); break
+                  pages = int(body.get("pagination", {}).get("pages", 1))
+                  data  = body.get("data", {})
+                  lname = (data.get("league") or {}).get("name", f"League {lid}")
+                  for m in data.get("matches", []):
+                      if m.get("status"):                 # already started or finished
+                          continue
+                      try:
+                          ko = datetime.datetime.strptime(m["start"], "%Y-%m-%d %H:%M:%S").replace(tzinfo=LON)
+                      except Exception:
+                          continue
+                      if not (datetime.datetime.now(LON) <= ko <= horizon):
+                          continue
+                      po, pn = m.get("po_odds") or [], m.get("p_odds") or []
+                      o = [num(x) for x in po[:3]] if len(po) >= 3 else [None]*3
+                      n = [num(x) for x in pn[:3]] if len(pn) >= 3 else [None]*3
+                      if not (all(o) and all(n)):
+                          continue                        # no opening or no current price → not a move
+                      matches.append({
+                          "id": m.get("id"),
+                          "league": lname,
+                          "kickoffUtc": ko.astimezone(datetime.timezone.utc).isoformat(),
+                          "home": m.get("h"), "away": m.get("a"),
+                          "x12": {"open": o, "now": n},
+                          "goals": None,
+                          "fair": None,
+                      })
+                      kept += 1
+                  page += 1
+              notes.append(f"league {lid}: {kept} matches with opening and current prices")
+
+          feed = {
+              "generatedAt": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+              "source": "TotalCorner",
+              "bookmaker": "TO_VERIFY",
+              "demo": False,
+              "matches": sorted(matches, key=lambda x: x["kickoffUtc"]),
+          }
+          pathlib.Path("market_moves.json").write_text(json.dumps(feed, indent=1, ensure_ascii=False), encoding="utf-8")
+
+          say("# Market moves build"); say(f"Built at {feed['generatedAt']}")
+          say(f"Matches written: **{len(matches)}** · API calls: {calls}"); say()
+          for n in notes: say(f"- {n}")
+          if matches:
+              say(); say("| kickoff | league | match | open 1X2 | now 1X2 | biggest move |")
+              say("| --- | --- | --- | --- | --- | --- |")
+              for m in matches[:25]:
+                  o, n2 = m["x12"]["open"], m["x12"]["now"]
+                  mv = max(range(3), key=lambda i: abs(o[i]/n2[i]-1))
+                  lab = ["1","X","2"][mv]; val = (o[mv]/n2[mv]-1)*100
+                  say(f"| {m['kickoffUtc'][5:16]} | {m['league']} | {m['home']} v {m['away']} | "
+                      f"{o[0]:.2f}/{o[1]:.2f}/{o[2]:.2f} | {n2[0]:.2f}/{n2[1]:.2f}/{n2[2]:.2f} | {lab} {val:+.1f}% |")
+          pathlib.Path("reports").mkdir(exist_ok=True)
+          pathlib.Path("reports/market_moves_build.md").write_text("\n".join(out), encoding="utf-8")
+          print("build written")
+          PY
+
+      - name: Commit
+        run: |
+          git config user.name  "pattern90-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A reports market_moves.json 2>/dev/null || true
+          git commit -m "TotalCorner ${{ inputs.mode }}" || echo "nothing to commit"
+          git push
