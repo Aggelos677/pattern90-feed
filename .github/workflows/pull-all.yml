@@ -7,6 +7,14 @@ on:
         description: "which books from btfodds"
         required: false
         default: "pinnacle,bet365,betfair,average,best"
+      days:
+        description: "bet-mate days: today, tomorrow, all"
+        required: false
+        default: "today,tomorrow,all"
+      btfdays:
+        description: "btfodds days: today, tomorrow, next-7days"
+        required: false
+        default: "today,next-7days"
   schedule:
     - cron: "10 * * * *"
 
@@ -29,6 +37,8 @@ jobs:
       - name: Pull both feeds and marry them
         env:
           BOOKIES: ${{ inputs.bookies || 'pinnacle,bet365,betfair,average,best' }}
+          DAYS:    ${{ inputs.days    || 'today,tomorrow,all' }}
+          BTFDAYS: ${{ inputs.btfdays || 'today,next-7days' }}
         run: |
           python - << 'PY'
           import os, re, json, html, time, datetime, pathlib, unicodedata, urllib.request, urllib.parse
@@ -47,9 +57,9 @@ jobs:
           say("")
 
           # ---------------- bet-mate: Betfair with volume ----------------
-          def betmate():
-              url = ("https://www.bet-mate.co/classes/home-ajax.php?date=today&_=%d"
-                     % int(time.time()*1000))
+          def betmate(day="today"):
+              url = ("https://www.bet-mate.co/classes/home-ajax.php?date=%s&_=%d"
+                     % (day, int(time.time()*1000)))
               req = urllib.request.Request(url, headers={
                   "User-Agent":"Mozilla/5.0 (compatible; Pattern90/1.0)",
                   "Referer":"https://www.bet-mate.co/",
@@ -75,7 +85,7 @@ jobs:
                   if not (o1 and ox and o2 and teams and mid): continue
                   t = teams.group(1)
                   home, away = [x.strip() for x in t.split(" - ", 1)] if " - " in t else (t, "")
-                  rows.append(dict(id=mid.group(1), league=html.unescape(a.get("1","")).strip(),
+                  rows.append(dict(id=mid.group(1), day=day, league=html.unescape(a.get("1","")).strip(),
                       kickoff=ko.group(1) if ko else None,
                       home=html.unescape(home), away=html.unescape(away),
                       odds={"1":o1,"X":ox,"2":o2}, volume1x2=num(a.get("2")),
@@ -84,9 +94,9 @@ jobs:
 
           # ---------------- btfodds: several books ----------------
           BTF = "https://www.btfodds.com/classes/soccer/football-odds/display-odds.php"
-          def btfodds(bookie):
+          def btfodds(bookie, day="today"):
               p = {"id":"1","sport":"soccer","pg":"soccer/football-odds/display-odds",
-                   "date":"today","country":"all","bookie":bookie,"type":"UO",
+                   "date":day,"country":"all","bookie":bookie,"type":"UO",
                    "sort":"league","oddType":"eu","tz":"Europe/Bucharest","upd":3}
               u = BTF + "?alldata=" + urllib.parse.quote(json.dumps(p, separators=(",",":")))
               u += "&_=%d" % int(time.time()*1000)
@@ -120,25 +130,39 @@ jobs:
                           try: best[k] = {"odd": float(parts[0]), "book": " ".join(parts[1:])}
                           except ValueError: pass
                   if odds:
-                      rows[mid.group(1)] = dict(id=mid.group(1), league=league,
+                      rows[mid.group(1)] = dict(id=mid.group(1), day=day, league=league,
                           kickoff=ko.group(1).strip() if ko else None,
                           home=home.strip(), away=away.strip(), odds=odds, best=best)
               return rows
 
-          try:
-              bm = betmate()
-          except Exception as e:
-              say("**bet-mate failed** — %s" % str(e)[:80]); bm = []
-          say("bet-mate: **%d** matches" % len(bm))
+          DAYS = [d.strip() for d in os.environ.get("DAYS","today").split(",") if d.strip()]
+          bm, seen = [], set()
+          for d in DAYS:
+              try:
+                  part = betmate(d)
+              except Exception as e:
+                  say("**bet-mate %s failed** — %s" % (d, str(e)[:70])); continue
+              fresh = [r for r in part if r["id"] not in seen]
+              seen |= {r["id"] for r in fresh}
+              bm += fresh
+              say("bet-mate %s: **%d** matches" % (d, len(fresh)))
+              time.sleep(1)
 
+          BTFDAYS = [d.strip() for d in os.environ.get("BTFDAYS","today").split(",") if d.strip()]
           byBook = {}
           for b in [x.strip() for x in os.environ.get("BOOKIES","pinnacle").split(",") if x.strip()]:
-              try:
-                  byBook[b] = btfodds(b)
-                  say("btfodds %s: **%d** matches" % (b, len(byBook[b])))
-              except Exception as e:
-                  say("btfodds %s: **failed** — %s" % (b, str(e)[:60]))
-              time.sleep(2)
+              byBook[b] = {}
+              got = []
+              for d in BTFDAYS:
+                  try:
+                      part = btfodds(b, d)
+                  except Exception as e:
+                      say("btfodds %s %s: **failed** — %s" % (b, d, str(e)[:50])); continue
+                  for i, m in part.items(): byBook[b].setdefault(i, m)
+                  got.append("%s %d" % (d, len(part)))
+                  time.sleep(2)
+              say("btfodds %s: **%d** matches (%s)" % (b, len(byBook[b]), ", ".join(got)))
+          byBook = {b: r for b, r in byBook.items() if r}
           if not bm or not byBook: finish(1)
           say("")
 
@@ -175,7 +199,8 @@ jobs:
               hit = (idx.get(norm(m["home"]) + "|" + norm(m["away"]))
                      or idx.get(key(m["home"], m["away"]))
                      or idx.get(key(m["home"], m["away"], 5)))
-              rec = dict(home=m["home"], away=m["away"], league=m["league"], kickoff=m["kickoff"],
+              rec = dict(home=m["home"], away=m["away"], league=m["league"],
+                         day=m.get("day"), kickoff=m["kickoff"],
                          betfairMarket=m["id"],
                          betfair=dict(odds=m["odds"], goals=m["goals"],
                                       volume1x2=m["volume1x2"], volumeGoals=m["volumeGoals"]))
@@ -208,6 +233,9 @@ jobs:
 
           say("Paired **%d** of %d bet-mate matches (%.0f%%). History holds **%d** snapshots today."
               % (len(merged), len(bm), 100.0*len(merged)/max(1,len(bm)), len(hist["points"])))
+          byday = {}
+          for r in merged: byday[r.get("day","?")] = byday.get(r.get("day","?"),0)+1
+          say("Paired by day: " + ", ".join("**%s** %d" % (k,v) for k,v in sorted(byday.items())))
           say("")
 
           # both feeds carry Betfair — now read at the same moment, so they should agree
@@ -230,14 +258,14 @@ jobs:
 
           say("## Pinnacle beside Betfair")
           say("")
-          say("| Kick-off | Match | BF 1 | PIN 1 | BF O2.5 | PIN O2.5 | Matched |")
-          say("| --- | --- | --- | --- | --- | --- | --- |")
+          say("| Day | Kick-off | Match | BF 1 | PIN 1 | BF O2.5 | PIN O2.5 | Matched |")
+          say("| --- | --- | --- | --- | --- | --- | --- | --- |")
           n = 0
           for r in merged:
               pin = (r.get("books") or {}).get("pinnacle")
               if not pin: continue
-              say("| %s | %s v %s | %s | %s | %s | %s | %s |" % (
-                  r["kickoff"] or "—", r["home"], r["away"],
+              say("| %s | %s | %s v %s | %s | %s | %s | %s | %s |" % (
+                  r.get("day","—"), r["kickoff"] or "—", r["home"], r["away"],
                   r["betfair"]["odds"].get("1","—"), pin.get("1","—"),
                   r["betfair"]["goals"].get("over2_5","—"), pin.get("over2_5","—"),
                   r["betfair"].get("volume1x2","—")))
