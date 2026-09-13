@@ -1,0 +1,121 @@
+# Pattern90 — Betfair prices from your own site
+# Reads bet-mate's own data feed and turns it into prices.json:
+# 1X2 and Over/Under 2.5 with the matched volume on each, per match.
+# Nothing is asked of Betfair, so your API limit is untouched.
+name: Bet-mate prices
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "which day: today, tomorrow or all"
+        required: false
+        default: "today"
+  schedule:
+    - cron: "*/20 5-21 * * *"      # every 20 minutes, 05:00–21:00 UTC
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bm-prices
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pull and parse
+        env:
+          DAY: ${{ inputs.days || 'today' }}
+        run: |
+          python - << 'PY'
+          import os, re, json, html, time, datetime, pathlib, urllib.request
+
+          DAY=(os.environ.get("DAY") or "today").strip()
+          URL=f"https://www.bet-mate.co/classes/home-ajax.php?date={DAY}&_={int(time.time()*1000)}"
+          REQ=urllib.request.Request(URL, headers={
+              "User-Agent":"Mozilla/5.0 (compatible; Pattern90/1.0)",
+              "Referer":"https://www.bet-mate.co/",
+              "X-Requested-With":"XMLHttpRequest",
+              "Accept":"text/html, */*; q=0.01",
+          })
+          log=[]
+          def say(s=""): log.append(s)
+
+          try:
+              with urllib.request.urlopen(REQ, timeout=45) as r:
+                  raw=r.read().decode("utf-8","replace")
+          except Exception as e:
+              say(f"**Could not reach bet-mate:** {e}")
+              pathlib.Path("reports").mkdir(exist_ok=True)
+              pathlib.Path("reports/bm_prices_run.md").write_text("\n".join(log),encoding="utf-8")
+              print("\n".join(log)); raise SystemExit(1)
+
+          say("# Bet-mate prices")
+          say(f"Run {datetime.datetime.utcnow():%Y-%m-%d %H:%M} UTC · day = {DAY} · {len(raw):,} characters received")
+          say()
+
+          # each fixture is one "body" block carrying its sort attributes
+          blocks=re.split(r'<div class="body (?:even|odd)"', raw)[1:]
+          say(f"Blocks found: **{len(blocks)}**"); say()
+
+          def num(x):
+              try: return float(x)
+              except: return None
+
+          out=[]
+          for b in blocks:
+              attrs=dict(re.findall(r'data-sort(\d+)="([^"]*)"', b))
+              league=html.unescape(attrs.get("1","")).strip()
+              vol1=num(attrs.get("2"))
+              o1,ox,o2 = num(attrs.get("3")), num(attrs.get("4")), num(attrs.get("5"))
+              # kick-off and teams sit in the left column
+              ko=re.search(r'>([A-Z][a-z]{2} \d{2}:\d{2})', b)
+              teams=re.search(r'</span>\s*([^<>]+?)\s*</div>', b)
+              mid=re.search(r'market\?id=([\d.]+)', b)
+              # the visible cells: 1, X, 2, volume, then under, over, volume
+              cells=[num(x) for x in re.findall(r'<div class="col-md-3[^"]*"[^>]*>(?:&#0128;)?([\d.,]+)</div>', b)]
+              cells=[c for c in cells if c is not None]
+              u=o=vol2=None
+              if len(cells)>=7:
+                  u,o,vol2 = cells[4], cells[5], cells[6]
+              if not (league and o1 and ox and o2 and teams):
+                  continue
+              t=teams.group(1)
+              home,away = [x.strip() for x in t.split(" - ",1)] if " - " in t else (t,"")
+              out.append(dict(
+                  league=league, kickoff=ko.group(1) if ko else None,
+                  home=html.unescape(home), away=html.unescape(away),
+                  odds={"1":o1,"X":ox,"2":o2}, volume1x2=vol1,
+                  goals={"under2_5":u,"over2_5":o}, volumeGoals=vol2,
+                  betfairMarket=mid.group(1) if mid else None))
+
+          payload=dict(generatedAt=datetime.datetime.utcnow().isoformat()+"Z",
+                       source="bet-mate.co (Betfair exchange)", day=DAY, matches=out)
+          pathlib.Path("prices.json").write_text(json.dumps(payload,ensure_ascii=False,indent=1),encoding="utf-8")
+
+          withgoals=sum(1 for m in out if m["goals"]["over2_5"])
+          say(f"Parsed **{len(out)}** matches, **{withgoals}** of them with Over/Under prices.")
+          say()
+          if out:
+              say("| Kick-off | Match | 1 | X | 2 | Matched | U2.5 | O2.5 |")
+              say("| --- | --- | --- | --- | --- | --- | --- | --- |")
+              for m in out[:20]:
+                  g=m["goals"]
+                  say(f"| {m['kickoff'] or '—'} | {m['home']} v {m['away']} | {m['odds']['1']} | {m['odds']['X']} | "
+                      f"{m['odds']['2']} | {m['volume1x2'] or '—'} | {g['under2_5'] or '—'} | {g['over2_5'] or '—'} |")
+          pathlib.Path("reports").mkdir(exist_ok=True)
+          pathlib.Path("reports/bm_prices_run.md").write_text("\n".join(log),encoding="utf-8")
+          print("\n".join(log))
+          PY
+      - name: Commit
+        run: |
+          git config user.name  "pattern90-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git commit -m "bet-mate prices $(date -u +%H:%M)" || echo "nothing to commit"
+          git pull --rebase --autostash || true
+          git push
