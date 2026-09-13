@@ -26,6 +26,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Pull, store and compare
         env:
           DAY: ${{ inputs.days || 'today' }}
@@ -154,7 +156,20 @@ jobs:
         run: |
           git config user.name  "pattern90-bot"
           git config user.email "bot@users.noreply.github.com"
+          # take whatever is already on the branch first, then add ours
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
           git add -A
-          git commit -m "bet-mate prices $(date -u +%H:%M)" || echo "nothing to commit"
-          git pull --rebase --autostash || true
-          git push
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git commit -m "bet-mate prices $(date -u +%H:%M)"
+          for i in 1 2 3; do
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "pushed"; exit 0
+            fi
+            echo "push rejected, syncing and trying again"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            sleep 5
+          done
+          echo "could not push after three attempts"; exit 1
