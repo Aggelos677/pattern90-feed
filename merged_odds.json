@@ -1,1324 +1,12 @@
 {
- "generatedAt": "2026-09-13T19:46:43.227211Z",
+ "generatedAt": "2026-09-13T22:22:54.956155Z",
  "sources": {
   "betfair": "bet-mate.co",
   "books": "btfodds.com"
  },
- "matched": 55,
+ "matched": 40,
  "unmatched": 0,
  "matches": [
-  {
-   "home": "Argentinos Juniors",
-   "away": "Gimnasia Lp",
-   "league": "Argentina-Liga Profesional",
-   "day": "today",
-   "kickoff": "Sun 21:00",
-   "betfairMarket": "1.261710782",
-   "betfair": {
-    "odds": {
-     "1": 1.83,
-     "X": 3.6,
-     "2": 5.7
-    },
-    "goals": {
-     "under2_5": 1.72,
-     "over2_5": 2.4
-    },
-    "volume1x2": 19259.03,
-    "volumeGoals": 347.0
-   },
-   "btfName": "Argentinos Juniors v Gimnasia Lp",
-   "books": {
-    "pinnacle": {
-     "1": 1.78,
-     "X": 3.56,
-     "2": 5.15
-    },
-    "betfair": {
-     "1": 1.83,
-     "X": 3.6,
-     "2": 5.7,
-     "under2_5": 1.72,
-     "over2_5": 2.4
-    },
-    "average": {
-     "1": 1.77,
-     "X": 3.48,
-     "2": 5.28,
-     "under2_5": 1.65,
-     "over2_5": 2.31
-    },
-    "best": {
-     "1": 1.78,
-     "X": 3.56,
-     "2": 5.38,
-     "under2_5": 1.66,
-     "over2_5": 2.32
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.77,
-     "book": "Pinnacle"
-    },
-    "X": {
-     "odd": 3.48,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 4.97,
-     "book": "AsianOdds"
-    }
-   }
-  },
-  {
-   "home": "Atletico Grau",
-   "away": "Alianza Atletico",
-   "league": "Peru-Primera Division",
-   "day": "today",
-   "kickoff": "Sun 21:15",
-   "betfairMarket": "1.262106261",
-   "betfair": {
-    "odds": {
-     "1": 2.76,
-     "X": 3.3,
-     "2": 2.98
-    },
-    "goals": {
-     "under2_5": 1.8,
-     "over2_5": 2.16
-    },
-    "volume1x2": 586.68,
-    "volumeGoals": 24.0
-   },
-   "btfName": "Atletico Grau v Alianza Atletico",
-   "books": {
-    "pinnacle": {
-     "1": 2.67,
-     "X": 3.03,
-     "2": 2.78,
-     "under2_5": 1.72,
-     "over2_5": 2.12
-    },
-    "betfair": {
-     "1": 2.76,
-     "X": 3.3,
-     "2": 2.98,
-     "under2_5": 1.8,
-     "over2_5": 2.16
-    },
-    "average": {
-     "1": 2.62,
-     "X": 3.13,
-     "2": 2.75,
-     "under2_5": 1.73,
-     "over2_5": 2.1
-    },
-    "best": {
-     "1": 2.52,
-     "X": 3.25,
-     "2": 2.98,
-     "under2_5": 1.75,
-     "over2_5": 2.09
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 2.27,
-     "book": "Pinnacle"
-    },
-    "X": {
-     "odd": 3.2,
-     "book": "Marathon"
-    },
-    "2": {
-     "odd": 3.1,
-     "book": "Pinnacle"
-    },
-    "under2_5": {
-     "odd": 1.74,
-     "book": "AsianOdds"
-    },
-    "over2_5": {
-     "odd": 2.06,
-     "book": "Pinnacle"
-    }
-   }
-  },
-  {
-   "home": "Ada Jaen",
-   "away": "Union Comercio",
-   "league": "Peru-Segunda Division",
-   "day": "today",
-   "kickoff": "Sun 21:15",
-   "betfairMarket": "1.262318304",
-   "betfair": {
-    "odds": {
-     "1": 1.73,
-     "X": 3.7,
-     "2": 6.4
-    },
-    "goals": {
-     "under2_5": 1.62,
-     "over2_5": 2.56
-    },
-    "volume1x2": 4055.68,
-    "volumeGoals": 56.0
-   },
-   "btfName": "Ada Jaen v Union Comercio",
-   "books": {
-    "betfair": {
-     "1": 1.73,
-     "X": 3.7,
-     "2": 6.4,
-     "under2_5": 1.62,
-     "over2_5": 2.56
-    },
-    "average": {
-     "1": 1.95,
-     "X": 2.93,
-     "2": 3.83,
-     "under2_5": 1.5,
-     "over2_5": 2.5
-    },
-    "best": {
-     "1": 2.05,
-     "X": 3.0,
-     "2": 4.5,
-     "under2_5": 1.5,
-     "over2_5": 2.5
-    }
-   },
-   "bestAvailable": {}
-  },
-  {
-   "home": "Boca Juniors De Cali",
-   "away": "Real Santander",
-   "league": "Colombia-Primera B",
-   "day": "today",
-   "kickoff": "Sun 21:30",
-   "betfairMarket": "1.262327827",
-   "betfair": {
-    "odds": {
-     "1": 2.76,
-     "X": 3.55,
-     "2": 2.78
-    },
-    "goals": {
-     "under2_5": 1.91,
-     "over2_5": 2.04
-    },
-    "volume1x2": 584.35,
-    "volumeGoals": 20.0
-   },
-   "btfName": "Boca Juniors De Cali v Real Santander",
-   "books": {
-    "pinnacle": {
-     "1": 2.51,
-     "X": 3.41,
-     "2": 2.68,
-     "under2_5": 1.85,
-     "over2_5": 1.99
-    },
-    "betfair": {
-     "1": 2.76,
-     "X": 3.55,
-     "2": 2.78,
-     "under2_5": 1.91,
-     "over2_5": 2.04
-    },
-    "average": {
-     "1": 2.39,
-     "X": 3.24,
-     "2": 2.73,
-     "under2_5": 1.86,
-     "over2_5": 1.96
-    },
-    "best": {
-     "1": 2.66,
-     "X": 3.41,
-     "2": 2.88,
-     "under2_5": 1.9,
-     "over2_5": 1.99
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 2.59,
-     "book": "AsianOdds"
-    },
-    "X": {
-     "odd": 2.96,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 2.59,
-     "book": "Betvictor"
-    },
-    "under2_5": {
-     "odd": 1.7,
-     "book": "AsianOdds"
-    },
-    "over2_5": {
-     "odd": 2.03,
-     "book": "Pinnacle"
-    }
-   }
-  },
-  {
-   "home": "Colo Colo",
-   "away": "Deportes Concepcion",
-   "league": "Chile-Primera Division",
-   "day": "today",
-   "kickoff": "Sun 21:30",
-   "betfairMarket": "1.262066415",
-   "betfair": {
-    "odds": {
-     "1": 1.48,
-     "X": 4.9,
-     "2": 7.8
-    },
-    "goals": {
-     "under2_5": 2.3,
-     "over2_5": 1.73
-    },
-    "volume1x2": 1124.19,
-    "volumeGoals": 224.0
-   },
-   "btfName": "Colo Colo v Deportes Concepcion",
-   "books": {
-    "pinnacle": {
-     "1": 1.44,
-     "X": 4.69,
-     "2": 7.21
-    },
-    "bet365": {
-     "1": 1.41,
-     "X": 4.2,
-     "2": 6.5,
-     "under2_5": 2.15,
-     "over2_5": 1.67
-    },
-    "betfair": {
-     "1": 1.48,
-     "X": 4.9,
-     "2": 7.8,
-     "under2_5": 2.3,
-     "over2_5": 1.73
-    },
-    "average": {
-     "1": 1.41,
-     "X": 4.47,
-     "2": 6.83,
-     "under2_5": 2.15,
-     "over2_5": 1.65
-    },
-    "best": {
-     "1": 1.46,
-     "X": 4.69,
-     "2": 7.21,
-     "under2_5": 2.2,
-     "over2_5": 1.67
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.39,
-     "book": "AsianOdds"
-    },
-    "X": {
-     "odd": 4.49,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 6.87,
-     "book": "Pinnacle"
-    },
-    "under2_5": {
-     "odd": 2.15,
-     "book": "Betway"
-    },
-    "over2_5": {
-     "odd": 1.67,
-     "book": "Betfred"
-    }
-   }
-  },
-  {
-   "home": "Flamengo",
-   "away": "Corinthians",
-   "league": "Brazil-Serie A",
-   "day": "today",
-   "kickoff": "Sun 21:30",
-   "betfairMarket": "1.261820098",
-   "betfair": {
-    "odds": {
-     "1": 1.28,
-     "X": 6.4,
-     "2": 16.0
-    },
-    "goals": {
-     "under2_5": 2.32,
-     "over2_5": 1.76
-    },
-    "volume1x2": 61913.31,
-    "volumeGoals": 8780.0
-   },
-   "btfName": "Flamengo v Corinthians",
-   "books": {
-    "pinnacle": {
-     "1": 1.26,
-     "X": 5.96,
-     "2": 13.03
-    },
-    "bet365": {
-     "1": 1.22,
-     "X": 5.5,
-     "2": 12.0,
-     "under2_5": 2.03,
-     "over2_5": 1.83
-    },
-    "betfair": {
-     "1": 1.28,
-     "X": 6.4,
-     "2": 16.0,
-     "under2_5": 2.32,
-     "over2_5": 1.76
-    },
-    "average": {
-     "1": 1.25,
-     "X": 5.49,
-     "2": 11.71,
-     "under2_5": 1.97,
-     "over2_5": 1.79
-    },
-    "best": {
-     "1": 1.3,
-     "X": 5.95,
-     "2": 14.0,
-     "under2_5": 2.16,
-     "over2_5": 1.91
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.34,
-     "book": "Unibet"
-    },
-    "X": {
-     "odd": 4.75,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 9.19,
-     "book": "AsianOdds"
-    },
-    "under2_5": {
-     "odd": 2.02,
-     "book": "Marathon"
-    },
-    "over2_5": {
-     "odd": 1.81,
-     "book": "Betfred"
-    }
-   }
-  },
-  {
-   "home": "Csd Macara",
-   "away": "Emelec",
-   "league": "Ecuador-Serie A",
-   "day": "today",
-   "kickoff": "Sun 21:30",
-   "betfairMarket": "1.262167659",
-   "betfair": {
-    "odds": {
-     "1": 1.89,
-     "X": 3.55,
-     "2": 5.0
-    },
-    "goals": {
-     "under2_5": 1.74,
-     "over2_5": 2.3
-    },
-    "volume1x2": 595.77,
-    "volumeGoals": 416.0
-   },
-   "btfName": "Csd Macara v Emelec",
-   "books": {
-    "pinnacle": {
-     "1": 1.85,
-     "X": 3.37,
-     "2": 4.61,
-     "under2_5": 1.68,
-     "over2_5": 2.22
-    },
-    "bet365": {
-     "1": 1.79,
-     "X": 3.3,
-     "2": 4.5,
-     "under2_5": 1.62,
-     "over2_5": 2.25
-    },
-    "betfair": {
-     "1": 1.89,
-     "X": 3.55,
-     "2": 5.2,
-     "under2_5": 1.74,
-     "over2_5": 2.3
-    },
-    "average": {
-     "1": 1.86,
-     "X": 3.19,
-     "2": 4.11,
-     "under2_5": 1.61,
-     "over2_5": 2.21
-    },
-    "best": {
-     "1": 2.02,
-     "X": 3.4,
-     "2": 4.65,
-     "under2_5": 1.68,
-     "over2_5": 2.28
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.94,
-     "book": "Betsson"
-    },
-    "X": {
-     "odd": 3.11,
-     "book": "10Bet"
-    },
-    "2": {
-     "odd": 3.78,
-     "book": "AsianOdds"
-    },
-    "under2_5": {
-     "odd": 1.59,
-     "book": "Pinnacle"
-    },
-    "over2_5": {
-     "odd": 2.27,
-     "book": "1xbet"
-    }
-   }
-  },
-  {
-   "home": "Fuerte San Francisco",
-   "away": "Municipal Limeno",
-   "league": "El Salvador-Primera Division",
-   "day": "today",
-   "kickoff": "Sun 22:00",
-   "betfairMarket": "1.262302294",
-   "betfair": {
-    "odds": {
-     "1": 4.9,
-     "X": 3.55,
-     "2": 1.93
-    },
-    "goals": {
-     "under2_5": 1.75,
-     "over2_5": 2.2
-    },
-    "volume1x2": 576.1,
-    "volumeGoals": 41.0
-   },
-   "btfName": "Fuerte San Francisco v Municipal Limeno",
-   "books": {
-    "pinnacle": {
-     "1": 4.26,
-     "X": 3.46,
-     "2": 1.81
-    },
-    "betfair": {
-     "1": 4.9,
-     "X": 3.55,
-     "2": 1.93,
-     "under2_5": 1.75,
-     "over2_5": 2.2
-    },
-    "average": {
-     "1": 4.02,
-     "X": 3.29,
-     "2": 1.8,
-     "under2_5": 1.66,
-     "over2_5": 2.11
-    },
-    "best": {
-     "1": 4.34,
-     "X": 3.5,
-     "2": 2.0,
-     "under2_5": 1.69,
-     "over2_5": 2.18
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 3.45,
-     "book": "AsianOdds"
-    },
-    "X": {
-     "odd": 3.06,
-     "book": "Betway"
-    },
-    "under2_5": {
-     "odd": 1.63,
-     "book": "3ET"
-    },
-    "over2_5": {
-     "odd": 2.17,
-     "book": "3ET"
-    }
-   }
-  },
-  {
-   "home": "Juventude",
-   "away": "Athletic Club",
-   "league": "Brazil-Serie B",
-   "day": "today",
-   "kickoff": "Sun 22:00",
-   "betfairMarket": "1.262230229",
-   "betfair": {
-    "odds": {
-     "1": 1.73,
-     "X": 3.6,
-     "2": 6.8
-    },
-    "goals": {
-     "under2_5": 1.63,
-     "over2_5": 2.52
-    },
-    "volume1x2": 2027.91,
-    "volumeGoals": 197.0
-   },
-   "btfName": "Juventude v Athletic Club",
-   "books": {
-    "pinnacle": {
-     "1": 1.72,
-     "X": 3.46,
-     "2": 5.8,
-     "under2_5": 1.55,
-     "over2_5": 2.53
-    },
-    "betfair": {
-     "1": 1.74,
-     "X": 3.6,
-     "2": 6.8,
-     "under2_5": 1.63,
-     "over2_5": 2.6
-    },
-    "average": {
-     "1": 1.71,
-     "X": 3.41,
-     "2": 5.8,
-     "under2_5": 1.54,
-     "over2_5": 2.49
-    },
-    "best": {
-     "1": 1.72,
-     "X": 3.46,
-     "2": 5.95,
-     "under2_5": 1.53,
-     "over2_5": 2.42
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.7,
-     "book": "Pinnacle"
-    },
-    "X": {
-     "odd": 3.38,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 5.53,
-     "book": "AsianOdds"
-    },
-    "under2_5": {
-     "odd": 1.54,
-     "book": "Pinnacle"
-    },
-    "over2_5": {
-     "odd": 2.4,
-     "book": "Pinnacle"
-    }
-   }
-  },
-  {
-   "home": "Godoy Cruz",
-   "away": "Colon",
-   "league": "Argentina-Primera Nacional",
-   "day": "today",
-   "kickoff": "Sun 22:00",
-   "betfairMarket": "1.262109328",
-   "betfair": {
-    "odds": {
-     "1": 2.3,
-     "X": 3.1,
-     "2": 4.3
-    },
-    "goals": {
-     "under2_5": 1.5,
-     "over2_5": 3.0
-    },
-    "volume1x2": 229.25,
-    "volumeGoals": 36.0
-   },
-   "btfName": "Godoy Cruz v Colon",
-   "books": {
-    "pinnacle": {
-     "1": 2.25,
-     "X": 2.93,
-     "2": 3.77,
-     "under2_5": 1.4,
-     "over2_5": 2.93
-    },
-    "bet365": {
-     "1": 2.15,
-     "X": 3.0,
-     "2": 3.6,
-     "under2_5": 1.4,
-     "over2_5": 2.88
-    },
-    "betfair": {
-     "1": 2.3,
-     "X": 3.1,
-     "2": 4.3,
-     "under2_5": 1.5,
-     "over2_5": 3.0
-    },
-    "average": {
-     "1": 2.2,
-     "X": 2.9,
-     "2": 3.53,
-     "under2_5": 1.41,
-     "over2_5": 2.77
-    },
-    "best": {
-     "1": 2.25,
-     "X": 3.04,
-     "2": 3.85,
-     "under2_5": 1.44,
-     "over2_5": 2.93
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 2.21,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 3.45,
-     "book": "AsianOdds"
-    },
-    "under2_5": {
-     "odd": 1.4,
-     "book": "Betfred"
-    },
-    "over2_5": {
-     "odd": 2.86,
-     "book": "Pinnacle"
-    }
-   }
-  },
-  {
-   "home": "Atletico Nacional",
-   "away": "Aguilas Doradas",
-   "league": "Colombia-Primera A",
-   "day": "today",
-   "kickoff": "Sun 22:05",
-   "betfairMarket": "1.262178448",
-   "betfair": {
-    "odds": {
-     "1": 1.42,
-     "X": 4.7,
-     "2": 10.0
-    },
-    "goals": {
-     "under2_5": 2.24,
-     "over2_5": 1.8
-    },
-    "volume1x2": 4334.79,
-    "volumeGoals": 100.0
-   },
-   "btfName": "Atletico Nacional v Aguilas Doradas",
-   "books": {
-    "pinnacle": {
-     "1": 1.4,
-     "X": 4.24,
-     "2": 10.12
-    },
-    "bet365": {
-     "1": 1.36,
-     "X": 4.75,
-     "2": 9.0,
-     "under2_5": 2.05,
-     "over2_5": 1.75
-    },
-    "betfair": {
-     "1": 1.43,
-     "X": 4.7,
-     "2": 10.0,
-     "under2_5": 2.24,
-     "over2_5": 1.8
-    },
-    "average": {
-     "1": 1.37,
-     "X": 4.43,
-     "2": 8.63,
-     "under2_5": 2.02,
-     "over2_5": 1.74
-    },
-    "best": {
-     "1": 1.41,
-     "X": 4.75,
-     "2": 10.22,
-     "under2_5": 2.15,
-     "over2_5": 1.75
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.38,
-     "book": "AsianOdds"
-    },
-    "X": {
-     "odd": 4.28,
-     "book": "Bet365"
-    },
-    "2": {
-     "odd": 8.01,
-     "book": "Pinnacle"
-    },
-    "under2_5": {
-     "odd": 2.06,
-     "book": "10Bet"
-    },
-    "over2_5": {
-     "odd": 1.77,
-     "book": "10Bet"
-    }
-   }
-  },
-  {
-   "home": "Universitario De Vinto",
-   "away": "Independiente Petrolero",
-   "league": "Bolivia-Primera Division",
-   "day": "today",
-   "kickoff": "Sun 22:15",
-   "betfairMarket": "1.262254400",
-   "betfair": {
-    "odds": {
-     "1": 1.83,
-     "X": 4.4,
-     "2": 4.5
-    },
-    "goals": {
-     "under2_5": 2.46,
-     "over2_5": 1.68
-    },
-    "volume1x2": 1834.59,
-    "volumeGoals": 106.0
-   },
-   "btfName": "Universitario De Vinto v Independiente Petrolero",
-   "books": {
-    "pinnacle": {
-     "1": 1.66,
-     "X": 3.93,
-     "2": 4.12,
-     "under2_5": 2.25,
-     "over2_5": 1.58
-    },
-    "betfair": {
-     "1": 1.79,
-     "X": 4.4,
-     "2": 4.7,
-     "under2_5": 2.46,
-     "over2_5": 1.68
-    },
-    "average": {
-     "1": 1.66,
-     "X": 3.89,
-     "2": 4.13,
-     "under2_5": 2.22,
-     "over2_5": 1.57
-    },
-    "best": {
-     "1": 1.66,
-     "X": 3.93,
-     "2": 4.15,
-     "under2_5": 2.25,
-     "over2_5": 1.58
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.89,
-     "book": "Pinnacle"
-    },
-    "X": {
-     "odd": 3.6,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 3.3,
-     "book": "Marathon"
-    },
-    "under2_5": {
-     "odd": 2.3,
-     "book": "Pinnacle"
-    },
-    "over2_5": {
-     "odd": 1.49,
-     "book": "Pinnacle"
-    }
-   }
-  },
-  {
-   "home": "Chicago Fire Fc",
-   "away": "New England Revolution",
-   "league": "Usa-Major League Soccer",
-   "day": "today",
-   "kickoff": "Sun 22:30",
-   "betfairMarket": "1.262090587",
-   "betfair": {
-    "odds": {
-     "1": 2.06,
-     "X": 4.0,
-     "2": 3.7
-    },
-    "goals": {
-     "under2_5": 2.96,
-     "over2_5": 1.51
-    },
-    "volume1x2": 6058.38,
-    "volumeGoals": 1541.0
-   },
-   "btfName": "Chicago Fire Fc v New England Revolution",
-   "books": {
-    "pinnacle": {
-     "1": 2.03,
-     "X": 3.91,
-     "2": 3.51,
-     "under2_5": 2.76,
-     "over2_5": 1.48
-    },
-    "bet365": {
-     "1": 1.96,
-     "X": 3.8,
-     "2": 3.4,
-     "under2_5": 2.5,
-     "over2_5": 1.5
-    },
-    "betfair": {
-     "1": 2.06,
-     "X": 4.0,
-     "2": 3.7,
-     "under2_5": 2.96,
-     "over2_5": 1.51
-    },
-    "average": {
-     "1": 1.94,
-     "X": 3.88,
-     "2": 3.5,
-     "under2_5": 2.57,
-     "over2_5": 1.47
-    },
-    "best": {
-     "1": 2.03,
-     "X": 4.11,
-     "2": 3.8,
-     "under2_5": 2.63,
-     "over2_5": 1.52
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.83,
-     "book": "Pinnacle"
-    },
-    "X": {
-     "odd": 3.91,
-     "book": "1xbet"
-    }
-   }
-  },
-  {
-   "home": "Brusque",
-   "away": "Inter De Limeira",
-   "league": "Brazil-State Leagues 3",
-   "day": "today",
-   "kickoff": "Sun 22:30",
-   "betfairMarket": "1.262325343",
-   "betfair": {
-    "odds": {
-     "1": 2.28,
-     "X": 3.1,
-     "2": 3.95
-    },
-    "goals": {
-     "under2_5": 1.63,
-     "over2_5": 2.56
-    },
-    "volume1x2": 640.63,
-    "volumeGoals": 38.0
-   },
-   "btfName": "Brusque v Inter De Limeira",
-   "books": {
-    "pinnacle": {
-     "1": 2.12,
-     "X": 2.76,
-     "2": 3.68,
-     "under2_5": 1.52,
-     "over2_5": 2.35
-    },
-    "betfair": {
-     "1": 2.28,
-     "X": 3.1,
-     "2": 3.95,
-     "under2_5": 1.63,
-     "over2_5": 2.56
-    },
-    "average": {
-     "1": 2.11,
-     "X": 2.79,
-     "2": 3.6,
-     "under2_5": 1.51,
-     "over2_5": 2.33
-    },
-    "best": {
-     "1": 2.12,
-     "X": 2.81,
-     "2": 3.68,
-     "under2_5": 1.52,
-     "over2_5": 2.35
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 2.58,
-     "book": "Pinnacle"
-    },
-    "X": {
-     "odd": 3.03,
-     "book": "AsianOdds"
-    },
-    "2": {
-     "odd": 2.52,
-     "book": "Pinnacle"
-    },
-    "under2_5": {
-     "odd": 1.48,
-     "book": "Pinnacle"
-    },
-    "over2_5": {
-     "odd": 2.4,
-     "book": "Pinnacle"
-    }
-   }
-  },
-  {
-   "home": "Novorizontino",
-   "away": "Cuiaba",
-   "league": "Brazil-Serie B",
-   "day": "today",
-   "kickoff": "Sun 22:30",
-   "betfairMarket": "1.262256728",
-   "betfair": {
-    "odds": {
-     "1": 1.74,
-     "X": 3.65,
-     "2": 6.4
-    },
-    "goals": {
-     "under2_5": 1.68,
-     "over2_5": 2.42
-    },
-    "volume1x2": 904.14,
-    "volumeGoals": 1142.0
-   },
-   "btfName": "Novorizontino v Cuiaba",
-   "books": {
-    "pinnacle": {
-     "1": 1.69,
-     "X": 3.62,
-     "2": 5.69
-    },
-    "bet365": {
-     "1": 1.61,
-     "X": 3.4,
-     "2": 6.0,
-     "under2_5": 1.6,
-     "over2_5": 2.3
-    },
-    "betfair": {
-     "1": 1.74,
-     "X": 3.65,
-     "2": 6.4,
-     "under2_5": 1.68,
-     "over2_5": 2.42
-    },
-    "average": {
-     "1": 1.66,
-     "X": 3.44,
-     "2": 5.5,
-     "under2_5": 1.6,
-     "over2_5": 2.26
-    },
-    "best": {
-     "1": 1.71,
-     "X": 3.62,
-     "2": 6.0,
-     "under2_5": 1.64,
-     "over2_5": 2.34
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.69,
-     "book": "AsianOdds"
-    },
-    "X": {
-     "odd": 3.37,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 5.21,
-     "book": "Bet365"
-    },
-    "over2_5": {
-     "odd": 2.36,
-     "book": "3ET"
-    }
-   }
-  },
-  {
-   "home": "Fortaleza",
-   "away": "Ceara",
-   "league": "Brazil-Serie B",
-   "day": "today",
-   "kickoff": "Sun 22:30",
-   "betfairMarket": "1.262258068",
-   "betfair": {
-    "odds": {
-     "1": 2.0,
-     "X": 3.35,
-     "2": 4.7
-    },
-    "goals": {
-     "under2_5": 1.62,
-     "over2_5": 2.6
-    },
-    "volume1x2": 1367.51,
-    "volumeGoals": 299.0
-   },
-   "btfName": "Fortaleza v Ceara",
-   "books": {
-    "pinnacle": {
-     "1": 1.96,
-     "X": 3.25,
-     "2": 4.47
-    },
-    "bet365": {
-     "1": 1.91,
-     "X": 3.2,
-     "2": 4.33,
-     "under2_5": 1.53,
-     "over2_5": 2.4
-    },
-    "betfair": {
-     "1": 2.0,
-     "X": 3.35,
-     "2": 4.7,
-     "under2_5": 1.62,
-     "over2_5": 2.6
-    },
-    "average": {
-     "1": 1.89,
-     "X": 3.18,
-     "2": 4.31,
-     "under2_5": 1.55,
-     "over2_5": 2.34
-    },
-    "best": {
-     "1": 1.97,
-     "X": 3.3,
-     "2": 4.6,
-     "under2_5": 1.6,
-     "over2_5": 2.4
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.79,
-     "book": "AsianOdds"
-    },
-    "X": {
-     "odd": 3.31,
-     "book": "Unibet"
-    },
-    "2": {
-     "odd": 4.55,
-     "book": "Unibet"
-    },
-    "under2_5": {
-     "odd": 1.6,
-     "book": "Betway"
-    },
-    "over2_5": {
-     "odd": 2.27,
-     "book": "Bet365"
-    }
-   }
-  },
-  {
-   "home": "San Martin De Tucuman",
-   "away": "Agropecuario",
-   "league": "Argentina-Primera Nacional",
-   "day": "today",
-   "kickoff": "Sun 22:30",
-   "betfairMarket": "1.262109058",
-   "betfair": {
-    "odds": {
-     "1": 1.99,
-     "X": 3.15,
-     "2": 5.2
-    },
-    "goals": {
-     "under2_5": 1.54,
-     "over2_5": 2.86
-    },
-    "volume1x2": 467.34,
-    "volumeGoals": 65.0
-   },
-   "btfName": "San Martin De Tucuman v Agropecuario",
-   "books": {
-    "pinnacle": {
-     "1": 1.89,
-     "X": 3.14,
-     "2": 4.83
-    },
-    "betfair": {
-     "1": 1.99,
-     "X": 3.15,
-     "2": 5.2,
-     "under2_5": 1.54,
-     "over2_5": 2.86
-    },
-    "average": {
-     "1": 1.89,
-     "X": 3.08,
-     "2": 4.7,
-     "under2_5": 1.41,
-     "over2_5": 2.52
-    },
-    "best": {
-     "1": 1.93,
-     "X": 3.14,
-     "2": 4.83,
-     "under2_5": 1.41,
-     "over2_5": 2.52
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.85,
-     "book": "AsianOdds"
-    },
-    "X": {
-     "odd": 3.08,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 4.7,
-     "book": "Pinnacle"
-    },
-    "under2_5": {
-     "odd": 1.41,
-     "book": "Marathon"
-    },
-    "over2_5": {
-     "odd": 2.52,
-     "book": "Marathon"
-    }
-   }
-  },
-  {
-   "home": "Pacific Fc",
-   "away": "Cavalry Fc",
-   "league": "Canada-Premier League",
-   "day": "today",
-   "kickoff": "Sun 23:00",
-   "betfairMarket": "1.262356024",
-   "betfair": {
-    "odds": {
-     "1": 5.3,
-     "X": 4.4,
-     "2": 1.71
-    },
-    "goals": {
-     "under2_5": 2.5,
-     "over2_5": 1.66
-    },
-    "volume1x2": 291.52,
-    "volumeGoals": 20.0
-   },
-   "btfName": "Pacific Fc v Cavalry Fc",
-   "books": {
-    "pinnacle": {
-     "1": 4.47,
-     "X": 4.05,
-     "2": 1.61,
-     "under2_5": 2.38,
-     "over2_5": 1.53
-    },
-    "betfair": {
-     "1": 5.3,
-     "X": 4.4,
-     "2": 1.71,
-     "under2_5": 2.5,
-     "over2_5": 1.66
-    },
-    "average": {
-     "1": 4.59,
-     "X": 3.96,
-     "2": 1.58,
-     "under2_5": 2.27,
-     "over2_5": 1.57
-    },
-    "best": {
-     "1": 4.8,
-     "X": 4.1,
-     "2": 1.62,
-     "under2_5": 2.38,
-     "over2_5": 1.62
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 4.58,
-     "book": "10Bet"
-    },
-    "X": {
-     "odd": 3.88,
-     "book": "Betvictor"
-    },
-    "2": {
-     "odd": 1.6,
-     "book": "Unibet"
-    },
-    "under2_5": {
-     "odd": 2.19,
-     "book": "Pinnacle"
-    },
-    "over2_5": {
-     "odd": 1.61,
-     "book": "Betfred"
-    }
-   }
-  },
   {
    "home": "Independiente",
    "away": "San Lorenzo",
@@ -1328,37 +16,37 @@
    "betfairMarket": "1.261712286",
    "betfair": {
     "odds": {
-     "1": 2.3,
-     "X": 3.1,
-     "2": 4.4
+     "1": 2.22,
+     "X": 3.05,
+     "2": 4.6
     },
     "goals": {
      "under2_5": 1.48,
      "over2_5": 3.0
     },
-    "volume1x2": 573.95,
-    "volumeGoals": 606.0
+    "volume1x2": 5655.61,
+    "volumeGoals": 1476.0
    },
    "btfName": "Independiente v San Lorenzo",
    "books": {
     "betfair": {
-     "1": 2.3,
-     "X": 3.1,
-     "2": 4.4,
+     "1": 2.22,
+     "X": 3.05,
+     "2": 4.6,
      "under2_5": 1.48,
      "over2_5": 3.0
     },
     "average": {
-     "1": 2.14,
-     "X": 2.88,
-     "2": 3.88,
+     "1": 2.04,
+     "X": 2.91,
+     "2": 4.2,
      "under2_5": 1.39,
      "over2_5": 2.61
     },
     "best": {
-     "1": 2.14,
-     "X": 2.88,
-     "2": 3.88,
+     "1": 2.04,
+     "X": 2.91,
+     "2": 4.2,
      "under2_5": 1.39,
      "over2_5": 2.61
     }
@@ -1395,65 +83,67 @@
    "betfairMarket": "1.262090718",
    "betfair": {
     "odds": {
-     "1": 1.31,
-     "X": 6.6,
-     "2": 11.5
+     "1": 1.32,
+     "X": 6.8,
+     "2": 10.0
     },
     "goals": {
-     "under2_5": 3.25,
-     "over2_5": 1.45
+     "under2_5": 3.4,
+     "over2_5": 1.41
     },
-    "volume1x2": 6999.79,
-    "volumeGoals": 756.0
+    "volume1x2": 22468.31,
+    "volumeGoals": 2364.0
    },
    "btfName": "Vancouver Whitecaps v Austin Fc",
    "books": {
     "pinnacle": {
-     "1": 1.27,
-     "X": 6.45,
-     "2": 9.64
+     "1": 1.28,
+     "X": 6.26,
+     "2": 9.39,
+     "under2_5": 3.22,
+     "over2_5": 1.35
     },
     "bet365": {
-     "1": 1.24,
+     "1": 1.25,
      "X": 6.5,
-     "2": 8.5,
+     "2": 8.0,
      "under2_5": 2.88,
      "over2_5": 1.4
     },
     "betfair": {
-     "1": 1.31,
-     "X": 6.6,
-     "2": 11.5,
-     "under2_5": 3.25,
-     "over2_5": 1.45
+     "1": 1.32,
+     "X": 6.8,
+     "2": 10.0,
+     "under2_5": 3.4,
+     "over2_5": 1.41
     },
     "average": {
      "1": 1.26,
-     "X": 6.02,
-     "2": 9.21,
-     "under2_5": 2.86,
-     "over2_5": 1.38
+     "X": 6.13,
+     "2": 9.08,
+     "under2_5": 2.93,
+     "over2_5": 1.37
     },
     "best": {
      "1": 1.29,
      "X": 6.5,
      "2": 10.0,
-     "under2_5": 3.0,
+     "under2_5": 3.22,
      "over2_5": 1.42
     }
    },
    "bestAvailable": {
     "1": {
      "odd": 1.26,
-     "book": "Bwin"
+     "book": "AsianOdds"
     },
     "X": {
      "odd": 5.93,
      "book": "Bet365"
     },
-    "2": {
-     "odd": 8.99,
-     "book": "Betvictor"
+    "under2_5": {
+     "odd": 2.76,
+     "book": "Pinnacle"
     },
     "over2_5": {
      "odd": 1.35,
@@ -1470,46 +160,46 @@
    "betfairMarket": "1.262104036",
    "betfair": {
     "odds": {
-     "1": 2.76,
-     "X": 3.45,
-     "2": 2.84
+     "1": 2.98,
+     "X": 3.55,
+     "2": 2.6
     },
     "goals": {
-     "under2_5": 1.99,
-     "over2_5": 2.0
+     "under2_5": 2.04,
+     "over2_5": 1.98
     },
-    "volume1x2": 287.46,
-    "volumeGoals": 225.0
+    "volume1x2": 1643.41,
+    "volumeGoals": 298.0
    },
    "btfName": "Audax Italiano v O Higgins",
    "books": {
     "pinnacle": {
-     "1": 2.74,
-     "X": 3.32,
-     "2": 2.69,
-     "under2_5": 1.94,
-     "over2_5": 1.93
-    },
-    "betfair": {
-     "1": 2.76,
+     "1": 2.86,
      "X": 3.45,
-     "2": 2.84,
-     "under2_5": 1.99,
-     "over2_5": 2.0
-    },
-    "average": {
-     "1": 2.7,
-     "X": 3.31,
-     "2": 2.66,
-     "under2_5": 1.93,
+     "2": 2.5,
+     "under2_5": 1.96,
      "over2_5": 1.91
     },
-    "best": {
-     "1": 2.74,
-     "X": 3.38,
-     "2": 2.69,
+    "betfair": {
+     "1": 2.98,
+     "X": 3.55,
+     "2": 2.6,
+     "under2_5": 2.04,
+     "over2_5": 1.98
+    },
+    "average": {
+     "1": 2.83,
+     "X": 3.4,
+     "2": 2.49,
      "under2_5": 1.95,
-     "over2_5": 1.93
+     "over2_5": 1.9
+    },
+    "best": {
+     "1": 2.86,
+     "X": 3.45,
+     "2": 2.52,
+     "under2_5": 1.98,
+     "over2_5": 1.91
     }
    },
    "bestAvailable": {
@@ -1519,11 +209,11 @@
     },
     "X": {
      "odd": 3.25,
-     "book": "AsianOdds"
+     "book": "Pinnacle"
     },
     "2": {
      "odd": 2.79,
-     "book": "Pinnacle"
+     "book": "AsianOdds"
     },
     "under2_5": {
      "odd": 1.9,
@@ -1544,46 +234,42 @@
    "betfairMarket": "1.262112633",
    "betfair": {
     "odds": {
-     "1": 4.4,
-     "X": 3.85,
-     "2": 1.92
+     "1": 3.7,
+     "X": 3.55,
+     "2": 2.18
     },
     "goals": {
-     "under2_5": 2.04,
-     "over2_5": 1.95
+     "under2_5": 1.97,
+     "over2_5": 2.0
     },
-    "volume1x2": 689.5,
-    "volumeGoals": 44.0
+    "volume1x2": 5370.66,
+    "volumeGoals": 96.0
    },
    "btfName": "Libertad v Independiente Del Valle",
    "books": {
     "pinnacle": {
-     "1": 4.18,
-     "X": 3.62,
-     "2": 1.86,
-     "under2_5": 1.92,
-     "over2_5": 1.92
+     "1": 3.57,
+     "X": 3.44,
+     "2": 2.08,
+     "under2_5": 1.88,
+     "over2_5": 1.96
     },
     "betfair": {
-     "1": 4.4,
-     "X": 3.85,
-     "2": 1.92,
-     "under2_5": 2.04,
-     "over2_5": 1.95
+     "1": 3.7,
+     "X": 3.55,
+     "2": 2.18,
+     "under2_5": 1.97,
+     "over2_5": 2.0
     },
     "average": {
-     "1": 4.17,
-     "X": 3.61,
-     "2": 1.87,
-     "under2_5": 1.93,
-     "over2_5": 1.91
+     "1": 3.53,
+     "X": 3.45,
+     "2": 2.11
     },
     "best": {
-     "1": 4.18,
-     "X": 3.62,
-     "2": 1.88,
-     "under2_5": 1.94,
-     "over2_5": 1.92
+     "1": 3.57,
+     "X": 3.46,
+     "2": 2.12
     }
    },
    "bestAvailable": {
@@ -1593,19 +279,11 @@
     },
     "X": {
      "odd": 3.44,
-     "book": "Pinnacle"
+     "book": "AsianOdds"
     },
     "2": {
      "odd": 1.98,
      "book": "AsianOdds"
-    },
-    "under2_5": {
-     "odd": 1.89,
-     "book": "AsianOdds"
-    },
-    "over2_5": {
-     "odd": 1.92,
-     "book": "Pinnacle"
     }
    }
   },
@@ -1618,23 +296,23 @@
    "betfairMarket": "1.262111337",
    "betfair": {
     "odds": {
-     "1": 1.59,
-     "X": 4.3,
-     "2": 7.0
+     "1": 1.63,
+     "X": 4.0,
+     "2": 7.2
     },
     "goals": {
-     "under2_5": 1.9,
-     "over2_5": 2.14
+     "under2_5": 1.84,
+     "over2_5": 2.16
     },
-    "volume1x2": 770.5,
-    "volumeGoals": 133.0
+    "volume1x2": 1703.87,
+    "volumeGoals": 211.0
    },
    "btfName": "Barcelona Sc v Delfin",
    "books": {
     "pinnacle": {
      "1": 1.57,
      "X": 3.76,
-     "2": 6.48
+     "2": 6.49
     },
     "bet365": {
      "1": 1.53,
@@ -1644,22 +322,22 @@
      "over2_5": 2.05
     },
     "betfair": {
-     "1": 1.59,
-     "X": 4.3,
-     "2": 7.0,
-     "under2_5": 1.83,
-     "over2_5": 2.14
+     "1": 1.63,
+     "X": 4.0,
+     "2": 7.2,
+     "under2_5": 1.84,
+     "over2_5": 2.16
     },
     "average": {
      "1": 1.55,
-     "X": 3.67,
+     "X": 3.65,
      "2": 6.07,
      "under2_5": 1.68,
      "over2_5": 2.08
     },
     "best": {
      "1": 1.62,
-     "X": 3.89,
+     "X": 3.82,
      "2": 7.4,
      "under2_5": 1.75,
      "over2_5": 2.2
@@ -1672,7 +350,7 @@
     },
     "X": {
      "odd": 3.6,
-     "book": "AsianOdds"
+     "book": "1xbet"
     },
     "2": {
      "odd": 5.89,
@@ -1697,58 +375,127 @@
    "betfairMarket": "1.262178778",
    "betfair": {
     "odds": {
-     "1": 2.1,
-     "X": 3.45,
+     "1": 2.14,
+     "X": 3.35,
      "2": 4.2
     },
     "goals": {
-     "under2_5": 1.74,
-     "over2_5": 2.36
+     "under2_5": 1.72,
+     "over2_5": 2.38
     },
-    "volume1x2": 295.89,
-    "volumeGoals": 18.0
+    "volume1x2": 485.3,
+    "volumeGoals": 114.0
    },
    "btfName": "Once Caldas v Deportivo Cali",
    "books": {
     "pinnacle": {
-     "1": 2.06,
-     "X": 3.32,
-     "2": 3.87
+     "1": 2.08,
+     "X": 3.25,
+     "2": 3.9,
+     "under2_5": 1.66,
+     "over2_5": 2.27
     },
     "betfair": {
-     "1": 2.1,
-     "X": 3.45,
+     "1": 2.14,
+     "X": 3.35,
      "2": 4.2,
-     "under2_5": 1.74,
+     "under2_5": 1.72,
      "over2_5": 2.38
     },
     "average": {
-     "1": 2.06,
-     "X": 3.26,
-     "2": 3.83,
-     "under2_5": 1.65,
-     "over2_5": 2.23
+     "1": 2.07,
+     "X": 3.22,
+     "2": 3.85,
+     "under2_5": 1.66,
+     "over2_5": 2.25
     },
     "best": {
      "1": 2.08,
-     "X": 3.32,
-     "2": 3.91,
-     "under2_5": 1.66,
-     "over2_5": 2.26
+     "X": 3.25,
+     "2": 3.92,
+     "under2_5": 1.67,
+     "over2_5": 2.27
     }
    },
    "bestAvailable": {
     "1": {
      "odd": 2.03,
-     "book": "AsianOdds"
+     "book": "Pinnacle"
     },
     "X": {
      "odd": 3.26,
      "book": "Pinnacle"
     },
+    "over2_5": {
+     "odd": 2.22,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "home": "Cd Marathon",
+   "away": "Cd Olimpia",
+   "league": "Honduras-Liga Nacional",
+   "day": "tomorrow",
+   "kickoff": "Mon 00:15",
+   "betfairMarket": "1.262328838",
+   "betfair": {
+    "odds": {
+     "1": 2.52,
+     "X": 3.15,
+     "2": 3.65
+    },
+    "goals": {
+     "under2_5": 1.99,
+     "over2_5": 2.02
+    },
+    "volume1x2": 394.7,
+    "volumeGoals": 7.0
+   },
+   "btfName": "Cd Marathon v Cd Olimpia",
+   "books": {
+    "betfair": {
+     "1": 2.52,
+     "X": 3.15,
+     "2": 3.65,
+     "under2_5": 1.99,
+     "over2_5": 2.02
+    },
+    "average": {
+     "1": 2.24,
+     "X": 2.94,
+     "2": 3.06,
+     "under2_5": 1.69,
+     "over2_5": 2.02
+    },
+    "best": {
+     "1": 2.24,
+     "X": 2.94,
+     "2": 3.06,
+     "under2_5": 1.69,
+     "over2_5": 2.02
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.16,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.24,
+     "book": "Marathon"
+    },
     "2": {
-     "odd": 3.76,
-     "book": "AsianOdds"
+     "odd": 2.94,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.7,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.01,
+     "book": "Marathon"
     }
    }
   },
@@ -1763,14 +510,14 @@
     "odds": {
      "1": 5.9,
      "X": 4.8,
-     "2": 1.65
+     "2": 1.62
     },
     "goals": {
-     "under2_5": 2.9,
+     "under2_5": 2.78,
      "over2_5": 1.55
     },
-    "volume1x2": 457.71,
-    "volumeGoals": 95.0
+    "volume1x2": 520.47,
+    "volumeGoals": 106.0
    },
    "btfName": "Real Tomayapo v Bolivar",
    "books": {
@@ -1783,24 +530,24 @@
     },
     "betfair": {
      "1": 5.9,
-     "X": 4.8,
-     "2": 1.65,
-     "under2_5": 2.9,
-     "over2_5": 1.55
+     "X": 4.9,
+     "2": 1.62,
+     "under2_5": 2.78,
+     "over2_5": 1.52
     },
     "average": {
-     "1": 4.91,
+     "1": 5.03,
      "X": 4.27,
-     "2": 1.49,
-     "under2_5": 2.69,
-     "over2_5": 1.38
+     "2": 1.48,
+     "under2_5": 2.6,
+     "over2_5": 1.41
     },
     "best": {
-     "1": 4.95,
+     "1": 5.3,
      "X": 4.33,
-     "2": 1.5,
+     "2": 1.49,
      "under2_5": 2.74,
-     "over2_5": 1.39
+     "over2_5": 1.43
     }
    },
    "bestAvailable": {
@@ -1814,7 +561,7 @@
     },
     "2": {
      "odd": 1.36,
-     "book": "Marathon"
+     "book": "Pinnacle"
     },
     "under2_5": {
      "odd": 2.92,
@@ -1822,6 +569,78 @@
     },
     "over2_5": {
      "odd": 1.31,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "home": "Cs Cartagines",
+   "away": "Ld Alajuelense",
+   "league": "Costa Rica-Primera Division",
+   "day": "tomorrow",
+   "kickoff": "Mon 01:00",
+   "betfairMarket": "1.262112863",
+   "betfair": {
+    "odds": {
+     "1": 2.34,
+     "X": 3.3,
+     "2": 3.65
+    },
+    "goals": {
+     "under2_5": null,
+     "over2_5": null
+    },
+    "volume1x2": 247.13,
+    "volumeGoals": null
+   },
+   "btfName": "Cs Cartagines v Ld Alajuelense",
+   "books": {
+    "pinnacle": {
+     "1": 2.32,
+     "X": 2.93,
+     "2": 3.59,
+     "under2_5": 1.79,
+     "over2_5": 2.06
+    },
+    "betfair": {
+     "1": 2.34,
+     "X": 3.3,
+     "2": 3.65
+    },
+    "average": {
+     "1": 2.28,
+     "X": 2.99,
+     "2": 3.47,
+     "under2_5": 1.78,
+     "over2_5": 2.04
+    },
+    "best": {
+     "1": 2.32,
+     "X": 3.08,
+     "2": 3.59,
+     "under2_5": 1.8,
+     "over2_5": 2.06
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.25,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 2.88,
+     "book": "AsianOdds"
+    },
+    "2": {
+     "odd": 3.55,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.78,
+     "book": "AsianOdds"
+    },
+    "over2_5": {
+     "odd": 2.02,
      "book": "Pinnacle"
     }
    }
@@ -1835,57 +654,59 @@
    "betfairMarket": "1.262091506",
    "betfair": {
     "odds": {
-     "1": 2.88,
-     "X": 4.0,
-     "2": 2.52
+     "1": 2.84,
+     "X": 3.95,
+     "2": 2.5
     },
     "goals": {
      "under2_5": 2.9,
-     "over2_5": 1.52
+     "over2_5": 1.53
     },
-    "volume1x2": 2849.22,
-    "volumeGoals": 626.0
+    "volume1x2": 3845.82,
+    "volumeGoals": 888.0
    },
    "btfName": "San Diego Fc v Philadelphia Union",
    "books": {
     "pinnacle": {
-     "1": 2.83,
-     "X": 3.81,
-     "2": 2.39
+     "1": 2.79,
+     "X": 3.77,
+     "2": 2.44,
+     "under2_5": 2.7,
+     "over2_5": 1.49
     },
     "bet365": {
      "1": 2.75,
-     "X": 3.75,
+     "X": 3.8,
      "2": 2.3,
      "under2_5": 2.6,
      "over2_5": 1.48
     },
     "betfair": {
-     "1": 2.88,
-     "X": 4.0,
-     "2": 2.52,
-     "under2_5": 2.9,
-     "over2_5": 1.52
-    },
-    "average": {
-     "1": 2.67,
-     "X": 3.75,
-     "2": 2.36,
-     "under2_5": 2.57,
-     "over2_5": 1.45
-    },
-    "best": {
-     "1": 2.83,
+     "1": 2.84,
      "X": 3.95,
      "2": 2.5,
-     "under2_5": 2.63,
+     "under2_5": 2.9,
+     "over2_5": 1.53
+    },
+    "average": {
+     "1": 2.65,
+     "X": 3.75,
+     "2": 2.38,
+     "under2_5": 2.59,
+     "over2_5": 1.46
+    },
+    "best": {
+     "1": 2.8,
+     "X": 3.95,
+     "2": 2.5,
+     "under2_5": 2.7,
      "over2_5": 1.5
     }
    },
    "bestAvailable": {
     "1": {
      "odd": 2.65,
-     "book": "Pinnacle"
+     "book": "AsianOdds"
     },
     "X": {
      "odd": 3.72,
@@ -1893,7 +714,7 @@
     },
     "under2_5": {
      "odd": 2.59,
-     "book": "Betfred"
+     "book": "Pinnacle"
     },
     "over2_5": {
      "odd": 1.47,
@@ -1910,25 +731,23 @@
    "betfairMarket": "1.262111775",
    "betfair": {
     "odds": {
-     "1": 2.06,
-     "X": 4.0,
-     "2": 3.65
+     "1": 2.1,
+     "X": 3.85,
+     "2": 3.75
     },
     "goals": {
-     "under2_5": 2.32,
-     "over2_5": 1.76
+     "under2_5": 2.2,
+     "over2_5": 1.81
     },
-    "volume1x2": 294.66,
-    "volumeGoals": 1386.0
+    "volume1x2": 402.78,
+    "volumeGoals": 3116.0
    },
    "btfName": "Santos Laguna v Fc Juarez",
    "books": {
     "pinnacle": {
      "1": 2.04,
-     "X": 3.68,
-     "2": 3.68,
-     "under2_5": 2.19,
-     "over2_5": 1.73
+     "X": 3.64,
+     "2": 3.72
     },
     "bet365": {
      "1": 1.96,
@@ -1938,34 +757,30 @@
      "over2_5": 1.62
     },
     "betfair": {
-     "1": 2.06,
-     "X": 4.0,
-     "2": 3.65,
-     "under2_5": 2.32,
-     "over2_5": 1.76
+     "1": 2.1,
+     "X": 3.85,
+     "2": 3.75,
+     "under2_5": 2.2,
+     "over2_5": 1.81
     },
     "average": {
-     "1": 1.98,
-     "X": 3.59,
-     "2": 3.46,
-     "under2_5": 2.21,
-     "over2_5": 1.64
+     "1": 1.99,
+     "X": 3.56,
+     "2": 3.48,
+     "under2_5": 2.22,
+     "over2_5": 1.6
     },
     "best": {
-     "1": 2.04,
-     "X": 3.78,
-     "2": 3.68,
+     "1": 2.06,
+     "X": 3.7,
+     "2": 3.72,
      "under2_5": 2.3,
-     "over2_5": 1.73
+     "over2_5": 1.62
     }
    },
    "bestAvailable": {
     "1": {
      "odd": 1.97,
-     "book": "Pinnacle"
-    },
-    "X": {
-     "odd": 3.65,
      "book": "AsianOdds"
     },
     "2": {
@@ -1978,7 +793,7 @@
     },
     "over2_5": {
      "odd": 1.64,
-     "book": "Pinnacle"
+     "book": "Betfred"
     }
    }
   },
@@ -1991,50 +806,52 @@
    "betfairMarket": "1.262261234",
    "betfair": {
     "odds": {
-     "1": 4.7,
-     "X": 3.6,
-     "2": 1.93
+     "1": 5.0,
+     "X": 3.65,
+     "2": 1.91
     },
     "goals": {
-     "under2_5": 1.92,
+     "under2_5": 1.9,
      "over2_5": 2.14
     },
-    "volume1x2": 240.64,
-    "volumeGoals": 31.0
+    "volume1x2": 553.12,
+    "volumeGoals": 37.0
    },
    "btfName": "Cucuta v Millonarios",
    "books": {
     "pinnacle": {
-     "1": 4.51,
-     "X": 3.51,
-     "2": 1.85
+     "1": 4.55,
+     "X": 3.54,
+     "2": 1.83,
+     "under2_5": 1.82,
+     "over2_5": 2.05
     },
     "bet365": {
-     "1": 4.75,
-     "X": 3.4,
-     "2": 1.8,
+     "1": 5.0,
+     "X": 3.5,
+     "2": 1.75,
      "under2_5": 1.8,
      "over2_5": 2.0
     },
     "betfair": {
-     "1": 4.7,
-     "X": 3.6,
-     "2": 1.93,
-     "under2_5": 1.92,
+     "1": 4.8,
+     "X": 3.65,
+     "2": 1.91,
+     "under2_5": 1.9,
      "over2_5": 2.14
     },
     "average": {
-     "1": 4.38,
-     "X": 3.41,
+     "1": 4.39,
+     "X": 3.43,
      "2": 1.81,
-     "under2_5": 1.75,
-     "over2_5": 2.0
+     "under2_5": 1.77,
+     "over2_5": 2.01
     },
     "best": {
-     "1": 4.75,
-     "X": 3.53,
+     "1": 5.0,
+     "X": 3.54,
      "2": 1.85,
-     "under2_5": 1.8,
+     "under2_5": 1.83,
      "over2_5": 2.1
     }
    },
@@ -2045,15 +862,15 @@
     },
     "X": {
      "odd": 3.4,
-     "book": "AsianOdds"
+     "book": "Pinnacle"
     },
     "2": {
      "odd": 1.82,
-     "book": "Pinnacle"
+     "book": "AsianOdds"
     },
     "under2_5": {
      "odd": 1.77,
-     "book": "Bet365"
+     "book": "AsianOdds"
     }
    }
   },
@@ -2071,37 +888,41 @@
      "2": 3.5
     },
     "goals": {
-     "under2_5": null,
-     "over2_5": null
+     "under2_5": 1.37,
+     "over2_5": 3.75
     },
     "volume1x2": 305.08,
-    "volumeGoals": null
+    "volumeGoals": 25.0
    },
    "btfName": "Tala Ea El Gaish v Smouha Sc",
    "books": {
     "pinnacle": {
      "1": 2.83,
      "X": 2.39,
-     "2": 3.6
+     "2": 3.6,
+     "under2_5": 1.32,
+     "over2_5": 3.34
     },
     "betfair": {
      "1": 2.92,
      "X": 2.56,
-     "2": 3.5
+     "2": 3.5,
+     "under2_5": 1.37,
+     "over2_5": 3.75
     },
     "average": {
      "1": 2.7,
      "X": 2.41,
      "2": 3.3,
      "under2_5": 1.32,
-     "over2_5": 3.07
+     "over2_5": 3.12
     },
     "best": {
      "1": 2.88,
      "X": 2.63,
      "2": 3.75,
      "under2_5": 1.42,
-     "over2_5": 3.3
+     "over2_5": 3.34
     }
    },
    "bestAvailable": {
@@ -2116,6 +937,10 @@
     "under2_5": {
      "odd": 1.32,
      "book": "Unibet"
+    },
+    "over2_5": {
+     "odd": 3.07,
+     "book": "Pinnacle"
     }
    }
   },
@@ -2128,51 +953,53 @@
    "betfairMarket": "1.262250968",
    "betfair": {
     "odds": {
-     "1": 1.75,
+     "1": 1.78,
      "X": 4.0,
      "2": 6.0
     },
     "goals": {
-     "under2_5": 1.84,
+     "under2_5": 1.88,
      "over2_5": 2.06
     },
-    "volume1x2": 744.1,
-    "volumeGoals": 42.0
+    "volume1x2": 775.44,
+    "volumeGoals": 49.0
    },
    "btfName": "Fc Inter Turku v Vps",
    "books": {
     "pinnacle": {
-     "1": 1.67,
-     "X": 3.85,
-     "2": 5.39
+     "1": 1.72,
+     "X": 3.76,
+     "2": 5.09,
+     "under2_5": 1.84,
+     "over2_5": 2.04
     },
     "bet365": {
-     "1": 1.65,
+     "1": 1.7,
      "X": 3.4,
-     "2": 5.5,
+     "2": 5.25,
      "under2_5": 1.88,
      "over2_5": 1.93
     },
     "betfair": {
-     "1": 1.75,
+     "1": 1.78,
      "X": 4.0,
      "2": 6.0,
-     "under2_5": 1.84,
+     "under2_5": 1.88,
      "over2_5": 2.06
     },
     "average": {
-     "1": 1.68,
-     "X": 3.62,
-     "2": 4.94,
+     "1": 1.7,
+     "X": 3.59,
+     "2": 4.83,
      "under2_5": 1.84,
-     "over2_5": 1.89
+     "over2_5": 1.93
     },
     "best": {
      "1": 1.75,
-     "X": 3.85,
-     "2": 5.5,
+     "X": 3.76,
+     "2": 5.25,
      "under2_5": 1.88,
-     "over2_5": 1.93
+     "over2_5": 2.04
     }
    },
    "bestAvailable": {
@@ -2194,7 +1021,7 @@
     },
     "over2_5": {
      "odd": 1.89,
-     "book": "Bet365"
+     "book": "Pinnacle"
     }
    }
   },
@@ -2208,22 +1035,24 @@
    "betfair": {
     "odds": {
      "1": 1.25,
-     "X": 7.0,
-     "2": 18.0
+     "X": 6.8,
+     "2": 18.5
     },
     "goals": {
-     "under2_5": 2.4,
+     "under2_5": 2.38,
      "over2_5": 1.71
     },
-    "volume1x2": 28611.76,
-    "volumeGoals": 9801.0
+    "volume1x2": 47180.46,
+    "volumeGoals": 10172.0
    },
    "btfName": "Como v Parma Calcio 1913",
    "books": {
     "pinnacle": {
      "1": 1.21,
-     "X": 6.64,
-     "2": 14.5
+     "X": 6.66,
+     "2": 14.55,
+     "under2_5": 2.27,
+     "over2_5": 1.67
     },
     "bet365": {
      "1": 1.22,
@@ -2233,24 +1062,24 @@
      "over2_5": 1.67
     },
     "betfair": {
-     "1": 1.24,
-     "X": 7.0,
-     "2": 18.0,
-     "under2_5": 2.4,
+     "1": 1.25,
+     "X": 6.8,
+     "2": 18.5,
+     "under2_5": 2.38,
      "over2_5": 1.71
     },
     "average": {
      "1": 1.22,
-     "X": 6.07,
-     "2": 14.0,
-     "under2_5": 2.2,
-     "over2_5": 1.64
+     "X": 6.08,
+     "2": 14.16,
+     "under2_5": 2.22,
+     "over2_5": 1.65
     },
     "best": {
      "1": 1.25,
-     "X": 6.64,
-     "2": 16.0,
-     "under2_5": 2.26,
+     "X": 6.66,
+     "2": 16.5,
+     "under2_5": 2.28,
      "over2_5": 1.67
     }
    },
@@ -2269,7 +1098,7 @@
     },
     "under2_5": {
      "odd": 2.21,
-     "book": "3ET"
+     "book": "AsianOdds"
     },
     "over2_5": {
      "odd": 1.64,
@@ -2288,22 +1117,22 @@
     "odds": {
      "1": 6.6,
      "X": 4.5,
-     "2": 1.61
+     "2": 1.59
     },
     "goals": {
      "under2_5": 2.22,
-     "over2_5": 1.8
+     "over2_5": 1.81
     },
-    "volume1x2": 26837.7,
-    "volumeGoals": 23523.0
+    "volume1x2": 32650.55,
+    "volumeGoals": 24979.0
    },
    "btfName": "Torino v Roma",
    "books": {
     "pinnacle": {
-     "1": 5.97,
-     "X": 4.28,
+     "1": 5.98,
+     "X": 4.3,
      "2": 1.57,
-     "under2_5": 2.11,
+     "under2_5": 2.12,
      "over2_5": 1.78
     },
     "bet365": {
@@ -2316,22 +1145,22 @@
     "betfair": {
      "1": 6.6,
      "X": 4.5,
-     "2": 1.61,
+     "2": 1.59,
      "under2_5": 2.22,
-     "over2_5": 1.8
+     "over2_5": 1.81
     },
     "average": {
      "1": 5.57,
-     "X": 4.0,
+     "X": 4.01,
      "2": 1.75,
-     "under2_5": 1.98,
+     "under2_5": 1.99,
      "over2_5": 1.83
     },
     "best": {
      "1": 6.5,
-     "X": 4.28,
+     "X": 4.3,
      "2": 4.5,
-     "under2_5": 2.11,
+     "under2_5": 2.12,
      "over2_5": 2.4
     }
    },
@@ -2367,23 +1196,25 @@
    "betfairMarket": "1.262169918",
    "betfair": {
     "odds": {
-     "1": 6.8,
+     "1": 6.6,
      "X": 4.4,
      "2": 1.61
     },
     "goals": {
      "under2_5": 2.2,
-     "over2_5": 1.78
+     "over2_5": 1.79
     },
-    "volume1x2": 3209.32,
-    "volumeGoals": 71.0
+    "volume1x2": 6289.91,
+    "volumeGoals": 84.0
    },
    "btfName": "Gaziantep Fk v Fenerbahce",
    "books": {
     "pinnacle": {
-     "1": 6.0,
-     "X": 4.38,
-     "2": 1.54
+     "1": 5.75,
+     "X": 4.3,
+     "2": 1.57,
+     "under2_5": 2.12,
+     "over2_5": 1.77
     },
     "bet365": {
      "1": 5.5,
@@ -2393,25 +1224,25 @@
      "over2_5": 1.73
     },
     "betfair": {
-     "1": 6.8,
+     "1": 6.6,
      "X": 4.4,
-     "2": 1.6,
+     "2": 1.61,
      "under2_5": 2.2,
-     "over2_5": 1.78
+     "over2_5": 1.79
     },
     "average": {
-     "1": 5.67,
-     "X": 4.13,
-     "2": 1.53,
-     "under2_5": 2.06,
-     "over2_5": 1.71
+     "1": 5.59,
+     "X": 4.11,
+     "2": 1.54,
+     "under2_5": 2.08,
+     "over2_5": 1.72
     },
     "best": {
      "1": 6.0,
-     "X": 4.38,
+     "X": 4.3,
      "2": 1.57,
-     "under2_5": 2.1,
-     "over2_5": 1.73
+     "under2_5": 2.13,
+     "over2_5": 1.77
     }
    },
    "bestAvailable": {
@@ -2423,13 +1254,17 @@
      "odd": 4.1,
      "book": "Pinnacle"
     },
+    "2": {
+     "odd": 1.53,
+     "book": "Pinnacle"
+    },
     "under2_5": {
      "odd": 2.06,
-     "book": "10Bet"
+     "book": "AsianOdds"
     },
     "over2_5": {
      "odd": 1.71,
-     "book": "Betfred"
+     "book": "Pinnacle"
     }
    }
   },
@@ -2442,52 +1277,52 @@
    "betfairMarket": "1.262118034",
    "betfair": {
     "odds": {
-     "1": 1.89,
+     "1": 1.85,
      "X": 4.1,
-     "2": 4.5
+     "2": 4.7
     },
     "goals": {
-     "under2_5": 2.46,
+     "under2_5": 2.54,
      "over2_5": 1.63
     },
-    "volume1x2": 1049.62,
-    "volumeGoals": 20.0
+    "volume1x2": 1817.77,
+    "volumeGoals": 47.0
    },
    "btfName": "Fc Midtjylland v Brondby If",
    "books": {
     "pinnacle": {
-     "1": 1.86,
-     "X": 3.67,
-     "2": 4.33,
-     "under2_5": 2.42,
-     "over2_5": 1.6
+     "1": 1.78,
+     "X": 3.82,
+     "2": 4.61,
+     "under2_5": 2.45,
+     "over2_5": 1.58
     },
     "bet365": {
-     "1": 1.79,
-     "X": 3.9,
-     "2": 3.8,
+     "1": 1.71,
+     "X": 4.0,
+     "2": 4.0,
      "under2_5": 2.35,
      "over2_5": 1.57
     },
     "betfair": {
-     "1": 1.89,
+     "1": 1.85,
      "X": 4.1,
-     "2": 4.5,
-     "under2_5": 2.48,
-     "over2_5": 1.67
+     "2": 4.7,
+     "under2_5": 2.54,
+     "over2_5": 1.63
     },
     "average": {
-     "1": 1.84,
-     "X": 3.73,
-     "2": 3.89,
-     "under2_5": 2.31,
-     "over2_5": 1.58
+     "1": 1.8,
+     "X": 3.79,
+     "2": 4.06,
+     "under2_5": 2.32,
+     "over2_5": 1.57
     },
     "best": {
      "1": 1.88,
-     "X": 3.9,
-     "2": 4.33,
-     "under2_5": 2.42,
+     "X": 4.0,
+     "2": 4.61,
+     "under2_5": 2.45,
      "over2_5": 1.6
     }
    },
@@ -2523,16 +1358,16 @@
    "betfairMarket": "1.262161224",
    "betfair": {
     "odds": {
-     "1": 1.19,
+     "1": 1.18,
      "X": 9.6,
-     "2": 18.0
+     "2": 17.0
     },
     "goals": {
-     "under2_5": 4.2,
-     "over2_5": 1.3
+     "under2_5": 4.3,
+     "over2_5": 1.28
     },
-    "volume1x2": 1010.56,
-    "volumeGoals": 62.0
+    "volume1x2": 1296.9,
+    "volumeGoals": 68.0
    },
    "btfName": "Bodoe/glimt v Sandefjord",
    "books": {
@@ -2552,10 +1387,10 @@
     },
     "betfair": {
      "1": 1.18,
-     "X": 9.6,
-     "2": 18.0,
-     "under2_5": 4.2,
-     "over2_5": 1.3
+     "X": 10.0,
+     "2": 17.0,
+     "under2_5": 4.3,
+     "over2_5": 1.28
     },
     "average": {
      "1": 1.16,
@@ -2600,51 +1435,53 @@
    "betfairMarket": "1.262122012",
    "betfair": {
     "odds": {
-     "1": 1.59,
-     "X": 4.5,
-     "2": 6.4
+     "1": 1.58,
+     "X": 4.7,
+     "2": 6.6
     },
     "goals": {
      "under2_5": 2.46,
-     "over2_5": 1.68
+     "over2_5": 1.67
     },
-    "volume1x2": 456.37,
-    "volumeGoals": 66.0
+    "volume1x2": 554.66,
+    "volumeGoals": 87.0
    },
    "btfName": "Djurgaarden v GAIS",
    "books": {
     "pinnacle": {
      "1": 1.57,
      "X": 4.19,
-     "2": 5.75
+     "2": 5.75,
+     "under2_5": 2.31,
+     "over2_5": 1.63
     },
     "bet365": {
-     "1": 1.53,
-     "X": 4.0,
-     "2": 5.75,
+     "1": 1.51,
+     "X": 4.1,
+     "2": 6.0,
      "under2_5": 2.25,
      "over2_5": 1.62
     },
     "betfair": {
-     "1": 1.59,
-     "X": 4.5,
-     "2": 6.4,
+     "1": 1.58,
+     "X": 4.7,
+     "2": 6.6,
      "under2_5": 2.46,
-     "over2_5": 1.68
+     "over2_5": 1.67
     },
     "average": {
-     "1": 1.56,
-     "X": 4.04,
-     "2": 5.35,
-     "under2_5": 2.26,
-     "over2_5": 1.59
+     "1": 1.55,
+     "X": 4.08,
+     "2": 5.39,
+     "under2_5": 2.27,
+     "over2_5": 1.6
     },
     "best": {
      "1": 1.6,
-     "X": 4.25,
-     "2": 5.75,
-     "under2_5": 2.3,
-     "over2_5": 1.62
+     "X": 4.28,
+     "2": 6.0,
+     "under2_5": 2.31,
+     "over2_5": 1.63
     }
    },
    "bestAvailable": {
@@ -2654,19 +1491,19 @@
     },
     "X": {
      "odd": 4.02,
-     "book": "Unibet"
+     "book": "AsianOdds"
     },
     "2": {
      "odd": 5.23,
-     "book": "Pinnacle"
+     "book": "Bet365"
     },
     "under2_5": {
      "odd": 2.27,
-     "book": "10Bet"
+     "book": "Pinnacle"
     },
     "over2_5": {
      "odd": 1.6,
-     "book": "10Bet"
+     "book": "Pinnacle"
     }
    }
   },
@@ -2679,42 +1516,44 @@
    "betfairMarket": "1.262170250",
    "betfair": {
     "odds": {
-     "1": 2.88,
-     "X": 3.35,
-     "2": 2.76
+     "1": 2.78,
+     "X": 3.5,
+     "2": 2.86
     },
     "goals": {
      "under2_5": 1.93,
-     "over2_5": 2.06
+     "over2_5": 2.12
     },
-    "volume1x2": 1488.69,
-    "volumeGoals": 147.0
+    "volume1x2": 2439.61,
+    "volumeGoals": 224.0
    },
    "btfName": "Rio Ave v Estrela Da Amadora",
    "books": {
     "pinnacle": {
-     "1": 2.79,
+     "1": 2.65,
      "X": 3.33,
-     "2": 2.63
+     "2": 2.77,
+     "under2_5": 1.84,
+     "over2_5": 2.04
     },
     "betfair": {
-     "1": 2.88,
-     "X": 3.35,
-     "2": 2.76,
+     "1": 2.78,
+     "X": 3.5,
+     "2": 2.86,
      "under2_5": 1.93,
-     "over2_5": 2.06
+     "over2_5": 2.12
     },
     "average": {
-     "1": 2.75,
+     "1": 2.63,
      "X": 3.27,
-     "2": 2.61,
+     "2": 2.74,
      "under2_5": 1.83,
-     "over2_5": 2.01
+     "over2_5": 2.02
     },
     "best": {
-     "1": 2.79,
+     "1": 2.68,
      "X": 3.33,
-     "2": 2.67,
+     "2": 2.78,
      "under2_5": 1.84,
      "over2_5": 2.04
     }
@@ -2722,7 +1561,7 @@
    "bestAvailable": {
     "1": {
      "odd": 2.81,
-     "book": "Pinnacle"
+     "book": "AsianOdds"
     },
     "X": {
      "odd": 3.26,
@@ -2734,11 +1573,11 @@
     },
     "under2_5": {
      "odd": 1.84,
-     "book": "3ET"
+     "book": "Pinnacle"
     },
     "over2_5": {
      "odd": 2.01,
-     "book": "3ET"
+     "book": "Pinnacle"
     }
    }
   },
@@ -2753,13 +1592,13 @@
     "odds": {
      "1": 1.47,
      "X": 4.7,
-     "2": 8.0
+     "2": 7.8
     },
     "goals": {
      "under2_5": null,
      "over2_5": null
     },
-    "volume1x2": 384.93,
+    "volume1x2": 392.04,
     "volumeGoals": null
    },
    "btfName": "Fc Fcsb v Petrolul Ploiesti",
@@ -2781,7 +1620,7 @@
     "betfair": {
      "1": 1.47,
      "X": 4.7,
-     "2": 8.0
+     "2": 7.8
     },
     "average": {
      "1": 1.4,
@@ -2795,14 +1634,10 @@
      "X": 4.67,
      "2": 7.5,
      "under2_5": 2.2,
-     "over2_5": 1.7
+     "over2_5": 1.71
     }
    },
    "bestAvailable": {
-    "1": {
-     "odd": 1.39,
-     "book": "AsianOdds"
-    },
     "X": {
      "odd": 4.46,
      "book": "Pinnacle"
@@ -2810,10 +1645,6 @@
     "under2_5": {
      "odd": 2.15,
      "book": "Pinnacle"
-    },
-    "over2_5": {
-     "odd": 1.66,
-     "book": "Unibet"
     }
    }
   },
@@ -2826,25 +1657,25 @@
    "betfairMarket": "1.262162343",
    "betfair": {
     "odds": {
-     "1": 2.56,
+     "1": 2.52,
      "X": 3.4,
-     "2": 3.2
+     "2": 3.25
     },
     "goals": {
      "under2_5": 1.83,
      "over2_5": 2.18
     },
-    "volume1x2": 445.44,
+    "volume1x2": 634.27,
     "volumeGoals": 28.0
    },
    "btfName": "Red Star v Metz",
    "books": {
     "pinnacle": {
      "1": 2.42,
-     "X": 3.3,
+     "X": 3.29,
      "2": 3.05,
      "under2_5": 1.69,
-     "over2_5": 1.91
+     "over2_5": 1.92
     },
     "bet365": {
      "1": 2.3,
@@ -2854,31 +1685,31 @@
      "over2_5": 1.95
     },
     "betfair": {
-     "1": 2.56,
-     "X": 3.4,
-     "2": 3.2,
-     "under2_5": 1.83,
-     "over2_5": 2.18
+     "1": 2.52,
+     "X": 3.35,
+     "2": 3.3,
+     "under2_5": 1.79,
+     "over2_5": 2.28
     },
     "average": {
-     "1": 2.36,
+     "1": 2.35,
      "X": 3.21,
-     "2": 2.94,
-     "under2_5": 1.79,
-     "over2_5": 1.9
+     "2": 2.95,
+     "under2_5": 1.78,
+     "over2_5": 1.93
     },
     "best": {
-     "1": 2.44,
+     "1": 2.42,
      "X": 3.4,
-     "2": 3.07,
+     "2": 3.1,
      "under2_5": 1.9,
-     "over2_5": 1.96
+     "over2_5": 2.11
     }
    },
    "bestAvailable": {
     "1": {
      "odd": 2.31,
-     "book": "AsianOdds"
+     "book": "Pinnacle"
     },
     "2": {
      "odd": 2.9,
@@ -2908,18 +1739,20 @@
      "2": 14.5
     },
     "goals": {
-     "under2_5": 2.7,
-     "over2_5": 1.59
+     "under2_5": 2.8,
+     "over2_5": 1.55
     },
-    "volume1x2": 18587.13,
-    "volumeGoals": 351.0
+    "volume1x2": 23219.13,
+    "volumeGoals": 504.0
    },
    "btfName": "Inter v Udinese",
    "books": {
     "pinnacle": {
      "1": 1.25,
      "X": 6.44,
-     "2": 11.24
+     "2": 11.25,
+     "under2_5": 2.61,
+     "over2_5": 1.52
     },
     "bet365": {
      "1": 1.25,
@@ -2932,18 +1765,18 @@
      "1": 1.28,
      "X": 6.8,
      "2": 14.5,
-     "under2_5": 2.7,
-     "over2_5": 1.59
+     "under2_5": 2.8,
+     "over2_5": 1.55
     },
     "average": {
-     "1": 1.25,
-     "X": 6.06,
-     "2": 11.61,
-     "under2_5": 2.54,
+     "1": 1.24,
+     "X": 6.08,
+     "2": 11.69,
+     "under2_5": 2.55,
      "over2_5": 1.49
     },
     "best": {
-     "1": 1.29,
+     "1": 1.26,
      "X": 6.5,
      "2": 14.5,
      "under2_5": 2.63,
@@ -2953,7 +1786,7 @@
    "bestAvailable": {
     "1": {
      "odd": 1.25,
-     "book": "Betfred"
+     "book": "Bwin"
     },
     "X": {
      "odd": 6.05,
@@ -2969,7 +1802,7 @@
     },
     "over2_5": {
      "odd": 1.5,
-     "book": "Unibet"
+     "book": "Pinnacle"
     }
    }
   },
@@ -2982,16 +1815,16 @@
    "betfairMarket": "1.261739444",
    "betfair": {
     "odds": {
-     "1": 2.4,
+     "1": 2.42,
      "X": 3.7,
-     "2": 3.2
+     "2": 3.15
     },
     "goals": {
-     "under2_5": 2.18,
-     "over2_5": 1.84
+     "under2_5": 2.2,
+     "over2_5": 1.86
     },
-    "volume1x2": 127736.12,
-    "volumeGoals": 1478.0
+    "volume1x2": 138151.82,
+    "volumeGoals": 2167.0
    },
    "btfName": "Leeds v Newcastle",
    "books": {
@@ -3008,24 +1841,24 @@
      "2": 3.0
     },
     "betfair": {
-     "1": 2.4,
+     "1": 2.42,
      "X": 3.7,
-     "2": 3.2,
-     "under2_5": 2.18,
-     "over2_5": 1.84
+     "2": 3.15,
+     "under2_5": 2.2,
+     "over2_5": 1.86
     },
     "average": {
-     "1": 2.38,
-     "X": 3.54,
+     "1": 2.39,
+     "X": 3.53,
      "2": 2.93,
-     "under2_5": 2.07,
+     "under2_5": 2.06,
      "over2_5": 1.81
     },
     "best": {
      "1": 3.0,
      "X": 3.6,
      "2": 3.11,
-     "under2_5": 2.1,
+     "under2_5": 2.08,
      "over2_5": 1.82
     }
    },
@@ -3069,17 +1902,15 @@
      "under2_5": 2.6,
      "over2_5": 1.62
     },
-    "volume1x2": 22434.87,
-    "volumeGoals": 4082.0
+    "volume1x2": 29891.18,
+    "volumeGoals": 4351.0
    },
    "btfName": "Villarreal v Real Betis",
    "books": {
     "pinnacle": {
-     "1": 1.94,
-     "X": 3.95,
-     "2": 3.74,
-     "under2_5": 2.46,
-     "over2_5": 1.59
+     "1": 1.95,
+     "X": 3.94,
+     "2": 3.72
     },
     "bet365": {
      "1": 1.91,
@@ -3098,16 +1929,16 @@
     "average": {
      "1": 1.93,
      "X": 3.86,
-     "2": 3.67,
-     "under2_5": 2.43,
-     "over2_5": 1.57
+     "2": 3.66,
+     "under2_5": 2.41,
+     "over2_5": 1.56
     },
     "best": {
-     "1": 1.98,
+     "1": 1.99,
      "X": 4.0,
-     "2": 3.8,
-     "under2_5": 2.46,
-     "over2_5": 1.59
+     "2": 3.75,
+     "under2_5": 2.45,
+     "over2_5": 1.58
     }
    },
    "bestAvailable": {
@@ -3121,15 +1952,11 @@
     },
     "2": {
      "odd": 3.69,
-     "book": "Bwin"
-    },
-    "under2_5": {
-     "odd": 2.43,
-     "book": "Pinnacle"
+     "book": "Betsson"
     },
     "over2_5": {
      "odd": 1.57,
-     "book": "Pinnacle"
+     "book": "Betsson"
     }
    }
   },
@@ -3142,46 +1969,50 @@
    "betfairMarket": "1.262181495",
    "betfair": {
     "odds": {
-     "1": 2.62,
+     "1": 2.72,
      "X": 3.25,
-     "2": 3.2
+     "2": 3.1
     },
     "goals": {
-     "under2_5": null,
-     "over2_5": null
+     "under2_5": 1.67,
+     "over2_5": 2.36
     },
-    "volume1x2": 1054.97,
-    "volumeGoals": null
+    "volume1x2": 1832.98,
+    "volumeGoals": 37.0
    },
    "btfName": "Moreirense v Maritimo",
    "books": {
     "pinnacle": {
-     "1": 2.47,
+     "1": 2.55,
      "X": 3.23,
-     "2": 3.08
+     "2": 2.97,
+     "under2_5": 1.64,
+     "over2_5": 2.33
     },
     "bet365": {
-     "1": 2.32,
+     "1": 2.4,
      "X": 3.2,
-     "2": 3.0
+     "2": 2.85
     },
     "betfair": {
-     "1": 2.62,
+     "1": 2.72,
      "X": 3.25,
-     "2": 3.2
+     "2": 3.1,
+     "under2_5": 1.67,
+     "over2_5": 2.36
     },
     "average": {
-     "1": 2.42,
-     "X": 3.12,
-     "2": 2.98,
-     "under2_5": 1.63,
-     "over2_5": 2.3
+     "1": 2.49,
+     "X": 3.13,
+     "2": 2.88,
+     "under2_5": 1.65,
+     "over2_5": 2.31
     },
     "best": {
-     "1": 2.48,
+     "1": 2.59,
      "X": 3.23,
-     "2": 3.1,
-     "under2_5": 1.64,
+     "2": 2.97,
+     "under2_5": 1.66,
      "over2_5": 2.33
     }
    },
@@ -3196,11 +2027,15 @@
     },
     "2": {
      "odd": 2.97,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.63,
      "book": "AsianOdds"
     },
     "over2_5": {
      "odd": 2.3,
-     "book": "3ET"
+     "book": "Pinnacle"
     }
    }
   },
@@ -3213,25 +2048,25 @@
    "betfairMarket": "1.262170139",
    "betfair": {
     "odds": {
-     "1": 1.48,
-     "X": 4.8,
-     "2": 8.0
+     "1": 1.46,
+     "X": 5.0,
+     "2": 8.6
     },
     "goals": {
-     "under2_5": 2.28,
+     "under2_5": 2.22,
      "over2_5": 1.79
     },
-    "volume1x2": 469.57,
-    "volumeGoals": 9.0
+    "volume1x2": 577.36,
+    "volumeGoals": 12.0
    },
    "btfName": "Braga v Estoril",
    "books": {
     "pinnacle": {
-     "1": 1.43,
-     "X": 4.65,
-     "2": 6.93,
-     "under2_5": 2.14,
-     "over2_5": 1.74
+     "1": 1.44,
+     "X": 4.72,
+     "2": 7.12,
+     "under2_5": 2.15,
+     "over2_5": 1.75
     },
     "bet365": {
      "1": 1.41,
@@ -3239,25 +2074,25 @@
      "2": 7.5
     },
     "betfair": {
-     "1": 1.48,
-     "X": 4.8,
-     "2": 8.0,
-     "under2_5": 2.28,
+     "1": 1.46,
+     "X": 5.0,
+     "2": 8.6,
+     "under2_5": 2.22,
      "over2_5": 1.79
     },
     "average": {
      "1": 1.43,
-     "X": 4.36,
-     "2": 6.75,
+     "X": 4.44,
+     "2": 6.95,
      "under2_5": 2.15,
      "over2_5": 1.74
     },
     "best": {
      "1": 1.46,
-     "X": 4.65,
-     "2": 7.5,
-     "under2_5": 2.15,
-     "over2_5": 1.74
+     "X": 4.72,
+     "2": 7.6,
+     "under2_5": 2.16,
+     "over2_5": 1.75
     }
    },
    "bestAvailable": {
@@ -3271,7 +2106,7 @@
     },
     "2": {
      "odd": 6.76,
-     "book": "Bet365"
+     "book": "10Bet"
     },
     "under2_5": {
      "odd": 2.15,
@@ -3284,6 +2119,78 @@
    }
   },
   {
+   "home": "Banfield",
+   "away": "Barracas Central",
+   "league": "Argentina-Liga Profesional",
+   "day": "tomorrow",
+   "kickoff": "Mon 23:00",
+   "betfairMarket": "1.261711224",
+   "betfair": {
+    "odds": {
+     "1": 2.6,
+     "X": 2.94,
+     "2": 3.75
+    },
+    "goals": {
+     "under2_5": 1.47,
+     "over2_5": 3.2
+    },
+    "volume1x2": 211.41,
+    "volumeGoals": 14.0
+   },
+   "btfName": "Banfield v Barracas Central",
+   "books": {
+    "pinnacle": {
+     "1": 2.5,
+     "X": 2.87,
+     "2": 3.45
+    },
+    "betfair": {
+     "1": 2.6,
+     "X": 2.94,
+     "2": 3.75,
+     "under2_5": 1.47,
+     "over2_5": 3.2
+    },
+    "average": {
+     "1": 2.47,
+     "X": 2.87,
+     "2": 3.43,
+     "under2_5": 1.35,
+     "over2_5": 2.76
+    },
+    "best": {
+     "1": 2.5,
+     "X": 2.9,
+     "2": 3.49,
+     "under2_5": 1.35,
+     "over2_5": 2.76
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.42,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 2.92,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 3.36,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 1.38,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.88,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
    "home": "Beijing Guoan",
    "away": "Pohang Steelers",
    "league": "International-AFC Champions League Elite",
@@ -3292,15 +2199,15 @@
    "betfairMarket": "1.262362789",
    "betfair": {
     "odds": {
-     "1": 2.0,
-     "X": 3.95,
+     "1": 1.99,
+     "X": 3.9,
      "2": 4.1
     },
     "goals": {
      "under2_5": null,
      "over2_5": null
     },
-    "volume1x2": 1037.61,
+    "volume1x2": 1477.93,
     "volumeGoals": null
    },
    "btfName": "Beijing Guoan v Pohang Steelers",
@@ -3312,13 +2219,13 @@
     },
     "betfair": {
      "1": 1.99,
-     "X": 3.95,
+     "X": 3.9,
      "2": 4.1
     },
     "average": {
-     "1": 1.94,
+     "1": 1.95,
      "X": 3.61,
-     "2": 3.53,
+     "2": 3.52,
      "under2_5": 1.95,
      "over2_5": 1.82
     },
@@ -3326,8 +2233,8 @@
      "1": 1.98,
      "X": 3.79,
      "2": 3.71,
-     "under2_5": 1.96,
-     "over2_5": 1.84
+     "under2_5": 1.95,
+     "over2_5": 1.82
     }
    },
    "bestAvailable": {
@@ -3345,7 +2252,11 @@
     },
     "under2_5": {
      "odd": 1.95,
-     "book": "3ET"
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.82,
+     "book": "Marathon"
     }
    }
   },
@@ -3358,71 +2269,73 @@
    "betfairMarket": "1.262067688",
    "betfair": {
     "odds": {
-     "1": 2.26,
+     "1": 2.3,
      "X": 3.5,
-     "2": 3.7
+     "2": 3.55
     },
     "goals": {
      "under2_5": 1.92,
      "over2_5": 2.06
     },
-    "volume1x2": 18572.99,
+    "volume1x2": 20650.25,
     "volumeGoals": 85.0
    },
    "btfName": "Rayo Vallecano v Espanyol",
    "books": {
     "pinnacle": {
-     "1": 2.14,
-     "X": 3.5,
-     "2": 3.56
+     "1": 2.22,
+     "X": 3.47,
+     "2": 3.38,
+     "under2_5": 1.87,
+     "over2_5": 2.03
     },
     "bet365": {
-     "1": 2.1,
+     "1": 2.15,
      "X": 3.4,
-     "2": 3.5
+     "2": 3.4
     },
     "betfair": {
-     "1": 2.24,
+     "1": 2.3,
      "X": 3.5,
-     "2": 3.7,
+     "2": 3.55,
      "under2_5": 1.92,
      "over2_5": 2.06
     },
     "average": {
-     "1": 2.11,
-     "X": 3.43,
-     "2": 3.48,
-     "under2_5": 1.88,
-     "over2_5": 1.99
+     "1": 2.17,
+     "X": 3.4,
+     "2": 3.35,
+     "under2_5": 1.87,
+     "over2_5": 2.01
     },
     "best": {
-     "1": 2.18,
-     "X": 3.55,
-     "2": 3.64,
+     "1": 2.24,
+     "X": 3.5,
+     "2": 3.5,
      "under2_5": 1.88,
-     "over2_5": 2.02
+     "over2_5": 2.03
     }
    },
    "bestAvailable": {
     "1": {
-     "odd": 2.11,
+     "odd": 2.17,
      "book": "AsianOdds"
     },
     "X": {
-     "odd": 3.43,
+     "odd": 3.4,
      "book": "10Bet"
     },
     "2": {
-     "odd": 3.48,
+     "odd": 3.35,
      "book": "Marathon"
     },
     "under2_5": {
-     "odd": 1.88,
+     "odd": 1.87,
      "book": "Marathon"
     },
     "over2_5": {
-     "odd": 1.99,
-     "book": "3ET"
+     "odd": 2.01,
+     "book": "Pinnacle"
     }
    }
   },
@@ -3435,23 +2348,25 @@
    "betfairMarket": "1.262067550",
    "betfair": {
     "odds": {
-     "1": 1.98,
-     "X": 3.45,
-     "2": 4.9
+     "1": 1.96,
+     "X": 3.4,
+     "2": 5.0
     },
     "goals": {
      "under2_5": null,
      "over2_5": null
     },
-    "volume1x2": 15781.17,
+    "volume1x2": 17430.23,
     "volumeGoals": null
    },
    "btfName": "Deportivo Alaves v Valencia",
    "books": {
     "pinnacle": {
      "1": 1.92,
-     "X": 3.21,
-     "2": 4.93
+     "X": 3.22,
+     "2": 4.91,
+     "under2_5": 1.67,
+     "over2_5": 2.3
     },
     "bet365": {
      "1": 1.85,
@@ -3459,19 +2374,23 @@
      "2": 4.75
     },
     "betfair": {
-     "1": 1.98,
-     "X": 3.45,
-     "2": 4.9
+     "1": 1.96,
+     "X": 3.4,
+     "2": 5.0
     },
     "average": {
      "1": 1.9,
-     "X": 3.23,
-     "2": 4.54
+     "X": 3.24,
+     "2": 4.53,
+     "under2_5": 1.67,
+     "over2_5": 2.3
     },
     "best": {
      "1": 1.92,
      "X": 3.3,
-     "2": 4.93
+     "2": 4.91,
+     "under2_5": 1.67,
+     "over2_5": 2.3
     }
    },
    "bestAvailable": {
@@ -3480,11 +2399,19 @@
      "book": "Pinnacle"
     },
     "X": {
-     "odd": 3.23,
-     "book": "AsianOdds"
+     "odd": 3.24,
+     "book": "Betfred"
     },
     "2": {
-     "odd": 4.54,
+     "odd": 4.53,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.67,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.3,
      "book": "Pinnacle"
     }
    }
@@ -3514,11 +2441,13 @@
     "pinnacle": {
      "1": 2.17,
      "X": 3.66,
-     "2": 3.11
+     "2": 3.11,
+     "under2_5": 1.99,
+     "over2_5": 1.83
     },
     "bet365": {
      "1": 2.15,
-     "X": 3.5,
+     "X": 3.6,
      "2": 3.0
     },
     "betfair": {
@@ -3527,9 +2456,9 @@
      "2": 3.35
     },
     "average": {
-     "1": 2.2,
-     "X": 3.5,
-     "2": 3.01,
+     "1": 2.19,
+     "X": 3.51,
+     "2": 3.02,
      "under2_5": 1.99,
      "over2_5": 1.83
     },
@@ -3543,15 +2472,15 @@
    },
    "bestAvailable": {
     "1": {
-     "odd": 2.2,
+     "odd": 2.19,
      "book": "10Bet"
     },
     "X": {
-     "odd": 3.5,
+     "odd": 3.51,
      "book": "Pinnacle"
     },
     "2": {
-     "odd": 3.01,
+     "odd": 3.02,
      "book": "Marathon"
     },
     "under2_5": {
@@ -3561,81 +2490,6 @@
     "over2_5": {
      "odd": 1.83,
      "book": "Marathon"
-    }
-   }
-  },
-  {
-   "home": "Bristol City",
-   "away": "Lincoln City",
-   "league": "England-Championship",
-   "day": "all",
-   "kickoff": "Tue 19:45",
-   "betfairMarket": "1.262335183",
-   "betfair": {
-    "odds": {
-     "1": 2.06,
-     "X": 3.8,
-     "2": 4.0
-    },
-    "goals": {
-     "under2_5": null,
-     "over2_5": null
-    },
-    "volume1x2": 468.0,
-    "volumeGoals": null
-   },
-   "btfName": "Bristol City v Lincoln City",
-   "books": {
-    "pinnacle": {
-     "1": 1.99,
-     "X": 3.6,
-     "2": 3.7
-    },
-    "bet365": {
-     "1": 1.91,
-     "X": 3.5,
-     "2": 3.5
-    },
-    "betfair": {
-     "1": 2.06,
-     "X": 3.8,
-     "2": 4.0
-    },
-    "average": {
-     "1": 1.97,
-     "X": 3.54,
-     "2": 3.63,
-     "under2_5": 1.98,
-     "over2_5": 1.85
-    },
-    "best": {
-     "1": 2.0,
-     "X": 3.6,
-     "2": 3.8,
-     "under2_5": 1.99,
-     "over2_5": 1.86
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.97,
-     "book": "Betfred"
-    },
-    "X": {
-     "odd": 3.54,
-     "book": "Betfred"
-    },
-    "2": {
-     "odd": 3.63,
-     "book": "10Bet"
-    },
-    "under2_5": {
-     "odd": 1.98,
-     "book": "AsianOdds"
-    },
-    "over2_5": {
-     "odd": 1.85,
-     "book": "AsianOdds"
     }
    }
   },
@@ -3656,7 +2510,7 @@
      "under2_5": null,
      "over2_5": null
     },
-    "volume1x2": 7910.38,
+    "volume1x2": 8365.67,
     "volumeGoals": null
    },
    "btfName": "Middlesbrough v Millwall",
@@ -3681,16 +2535,16 @@
     "average": {
      "1": 1.58,
      "X": 4.21,
-     "2": 5.09,
+     "2": 5.11,
      "under2_5": 2.28,
-     "over2_5": 1.63
+     "over2_5": 1.64
     },
     "best": {
      "1": 1.63,
      "X": 4.42,
      "2": 5.5,
      "under2_5": 2.3,
-     "over2_5": 1.63
+     "over2_5": 1.66
     }
    },
    "bestAvailable": {
@@ -3703,7 +2557,7 @@
      "book": "Pinnacle"
     },
     "2": {
-     "odd": 5.09,
+     "odd": 5.11,
      "book": "Betvictor"
     },
     "under2_5": {
@@ -3711,8 +2565,85 @@
      "book": "Pinnacle"
     },
     "over2_5": {
-     "odd": 1.63,
+     "odd": 1.64,
+     "book": "AsianOdds"
+    }
+   }
+  },
+  {
+   "home": "Bristol City",
+   "away": "Lincoln City",
+   "league": "England-Championship",
+   "day": "all",
+   "kickoff": "Tue 19:45",
+   "betfairMarket": "1.262335183",
+   "betfair": {
+    "odds": {
+     "1": 2.02,
+     "X": 3.75,
+     "2": 3.95
+    },
+    "goals": {
+     "under2_5": null,
+     "over2_5": null
+    },
+    "volume1x2": 642.29,
+    "volumeGoals": null
+   },
+   "btfName": "Bristol City v Lincoln City",
+   "books": {
+    "pinnacle": {
+     "1": 1.99,
+     "X": 3.6,
+     "2": 3.7,
+     "under2_5": 1.99,
+     "over2_5": 1.85
+    },
+    "bet365": {
+     "1": 1.91,
+     "X": 3.5,
+     "2": 3.5
+    },
+    "betfair": {
+     "1": 2.02,
+     "X": 3.75,
+     "2": 3.95
+    },
+    "average": {
+     "1": 1.97,
+     "X": 3.54,
+     "2": 3.63,
+     "under2_5": 1.98,
+     "over2_5": 1.86
+    },
+    "best": {
+     "1": 2.0,
+     "X": 3.6,
+     "2": 3.8,
+     "under2_5": 1.99,
+     "over2_5": 1.89
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.97,
+     "book": "Betfred"
+    },
+    "X": {
+     "odd": 3.54,
+     "book": "Betfred"
+    },
+    "2": {
+     "odd": 3.63,
+     "book": "10Bet"
+    },
+    "under2_5": {
+     "odd": 1.98,
      "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.86,
+     "book": "AsianOdds"
     }
    }
   },
@@ -3725,15 +2656,15 @@
    "betfairMarket": "1.261959943",
    "betfair": {
     "odds": {
-     "1": 3.2,
-     "X": 3.85,
+     "1": 3.35,
+     "X": 3.9,
      "2": 2.3
     },
     "goals": {
      "under2_5": null,
      "over2_5": null
     },
-    "volume1x2": 440.38,
+    "volume1x2": 545.57,
     "volumeGoals": null
    },
    "btfName": "West Ham v Fulham",
@@ -3747,36 +2678,36 @@
     },
     "bet365": {
      "1": 3.25,
-     "X": 3.4,
+     "X": 3.5,
      "2": 2.05
     },
     "betfair": {
-     "1": 3.2,
-     "X": 3.85,
+     "1": 3.35,
+     "X": 3.9,
      "2": 2.3
     },
     "average": {
-     "1": 3.06,
-     "X": 3.47,
+     "1": 3.07,
+     "X": 3.48,
      "2": 2.18,
-     "under2_5": 2.15,
-     "over2_5": 1.71
+     "under2_5": 2.16,
+     "over2_5": 1.7
     },
     "best": {
      "1": 3.25,
      "X": 3.62,
      "2": 2.5,
-     "under2_5": 2.16,
+     "under2_5": 2.18,
      "over2_5": 1.72
     }
    },
    "bestAvailable": {
     "1": {
-     "odd": 3.06,
+     "odd": 3.07,
      "book": "Bet365"
     },
     "X": {
-     "odd": 3.47,
+     "odd": 3.48,
      "book": "AsianOdds"
     },
     "2": {
@@ -3784,11 +2715,11 @@
      "book": "10Bet"
     },
     "under2_5": {
-     "odd": 2.15,
-     "book": "Marathon"
+     "odd": 2.16,
+     "book": "AsianOdds"
     },
     "over2_5": {
-     "odd": 1.71,
+     "odd": 1.7,
      "book": "Marathon"
     }
    }
@@ -3803,14 +2734,14 @@
    "betfair": {
     "odds": {
      "1": 1.86,
-     "X": 4.2,
-     "2": 4.6
+     "X": 4.3,
+     "2": 4.4
     },
     "goals": {
      "under2_5": null,
      "over2_5": null
     },
-    "volume1x2": 8639.11,
+    "volume1x2": 8953.84,
     "volumeGoals": null
    },
    "btfName": "Liverpool v Tottenham",
@@ -3829,18 +2760,18 @@
     },
     "betfair": {
      "1": 1.86,
-     "X": 4.2,
-     "2": 4.6
+     "X": 4.3,
+     "2": 4.4
     },
     "average": {
-     "1": 1.79,
-     "X": 3.77,
-     "2": 3.97,
+     "1": 1.82,
+     "X": 3.73,
+     "2": 3.9,
      "under2_5": 2.47,
      "over2_5": 1.51
     },
     "best": {
-     "1": 1.83,
+     "1": 2.1,
      "X": 4.0,
      "2": 4.25,
      "under2_5": 2.49,
@@ -3849,15 +2780,15 @@
    },
    "bestAvailable": {
     "1": {
-     "odd": 1.79,
-     "book": "Pinnacle"
+     "odd": 1.82,
+     "book": "10Bet"
     },
     "X": {
-     "odd": 3.77,
+     "odd": 3.73,
      "book": "Bwin"
     },
     "2": {
-     "odd": 3.97,
+     "odd": 3.9,
      "book": "Marathon"
     },
     "under2_5": {
@@ -3879,15 +2810,15 @@
    "betfairMarket": "1.261960053",
    "betfair": {
     "odds": {
-     "1": 8.2,
-     "X": 5.3,
-     "2": 1.46
+     "1": 8.8,
+     "X": 5.2,
+     "2": 1.44
     },
     "goals": {
      "under2_5": null,
      "over2_5": null
     },
-    "volume1x2": 4978.07,
+    "volume1x2": 5979.52,
     "volumeGoals": null
    },
    "btfName": "Ipswich v Arsenal",
@@ -3900,25 +2831,25 @@
      "over2_5": 1.61
     },
     "bet365": {
-     "1": 8.0,
-     "X": 4.33,
-     "2": 1.37
+     "1": 8.5,
+     "X": 4.5,
+     "2": 1.35
     },
     "betfair": {
-     "1": 8.2,
-     "X": 5.3,
-     "2": 1.46
+     "1": 8.8,
+     "X": 5.2,
+     "2": 1.44
     },
     "average": {
-     "1": 7.21,
-     "X": 4.56,
+     "1": 7.31,
+     "X": 4.59,
      "2": 1.39,
-     "under2_5": 2.26,
+     "under2_5": 2.25,
      "over2_5": 1.63
     },
     "best": {
-     "1": 8.4,
-     "X": 4.75,
+     "1": 8.5,
+     "X": 4.8,
      "2": 1.42,
      "under2_5": 2.28,
      "over2_5": 1.65
@@ -3926,19 +2857,19 @@
    },
    "bestAvailable": {
     "1": {
-     "odd": 7.21,
+     "odd": 7.31,
      "book": "10Bet"
     },
     "X": {
-     "odd": 4.56,
-     "book": "Bwin"
+     "odd": 4.59,
+     "book": "AsianOdds"
     },
     "2": {
      "odd": 1.39,
      "book": "Bwin"
     },
     "under2_5": {
-     "odd": 2.26,
+     "odd": 2.25,
      "book": "Marathon"
     },
     "over2_5": {
@@ -3956,16 +2887,16 @@
    "betfairMarket": "1.262067412",
    "betfair": {
     "odds": {
-     "1": 12.0,
-     "X": 7.2,
-     "2": 1.28
+     "1": 11.0,
+     "X": 7.0,
+     "2": 1.31
     },
     "goals": {
      "under2_5": 3.5,
-     "over2_5": 1.39
+     "over2_5": 1.4
     },
-    "volume1x2": 55923.5,
-    "volumeGoals": 39.0
+    "volume1x2": 81723.89,
+    "volumeGoals": 44.0
    },
    "btfName": "Elche v Real Madrid",
    "books": {
@@ -3982,39 +2913,39 @@
      "2": 1.27
     },
     "betfair": {
-     "1": 12.0,
-     "X": 7.2,
-     "2": 1.28,
+     "1": 11.0,
+     "X": 7.0,
+     "2": 1.31,
      "under2_5": 3.5,
-     "over2_5": 1.39
+     "over2_5": 1.4
     },
     "average": {
-     "1": 9.83,
-     "X": 6.36,
-     "2": 1.26,
+     "1": 9.74,
+     "X": 6.32,
+     "2": 1.27,
      "under2_5": 3.23,
      "over2_5": 1.33
     },
     "best": {
      "1": 10.75,
      "X": 6.83,
-     "2": 1.28,
+     "2": 1.29,
      "under2_5": 3.32,
      "over2_5": 1.33
     }
    },
    "bestAvailable": {
     "1": {
-     "odd": 9.83,
+     "odd": 9.74,
      "book": "10Bet"
     },
     "X": {
-     "odd": 6.36,
+     "odd": 6.32,
      "book": "Pinnacle"
     },
     "2": {
-     "odd": 1.26,
-     "book": "Bwin"
+     "odd": 1.27,
+     "book": "AsianOdds"
     },
     "under2_5": {
      "odd": 3.23,
@@ -4035,15 +2966,15 @@
    "betfairMarket": "1.262234815",
    "betfair": {
     "odds": {
-     "1": 1.54,
-     "X": 4.2,
+     "1": 1.52,
+     "X": 4.4,
      "2": 9.0
     },
     "goals": {
      "under2_5": null,
      "over2_5": null
     },
-    "volume1x2": 1343.8,
+    "volume1x2": 1482.8,
     "volumeGoals": null
    },
    "btfName": "Vasco Da Gama v Santa Fe",
@@ -4054,8 +2985,8 @@
      "2": 5.75
     },
     "betfair": {
-     "1": 1.54,
-     "X": 4.2,
+     "1": 1.52,
+     "X": 4.4,
      "2": 9.0
     },
     "average": {
