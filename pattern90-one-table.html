@@ -337,7 +337,7 @@ footer b{color:var(--ink)}
     <div class="seg" id="subSeg"></div>
     <span class="lab">DAY</span><div class="seg" id="daySeg"></div>
     <span class="lab" id="koLab">KICK-OFF</span><div class="seg" id="koSeg"></div>
-    <span class="hint" id="srcNote"></span>
+ 
   </div>
   <div class="live">
     <span class="pulse"></span><b id="liveN">0</b> markets open
@@ -381,23 +381,34 @@ const SNAPSHOT = M;
 
 // the feed arrives in the shape the workflow writes; this turns it into a row
 function adapt(d){
-  const year = new Date().getFullYear();
+  // the feed writes its own clock; every date is worked out from that, never from the reader's
+  const base = d.generatedAt ? new Date(d.generatedAt) : new Date();
   const MON = {Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
   const DOW = {Sun:0,Mon:1,Tue:2,Wed:3,Thu:4,Fri:5,Sat:6};
-  function when(k){
+  const iso = (y,mo,da,hh,mi) =>
+    new Date(Date.UTC(y,mo,da,hh,mi)).toISOString();       // kick-offs arrive in UTC
+  function when(k, dayTag){
     if(!k) return null;
-    let m = k.match(/^(\w{3}) (\d{2}):(\d{2})$/);          // "Sun 17:00"
+    let m = k.match(/^(\w{3}) (\d{1,2}):(\d{2})$/);        // "Sun 21:30"
     if(m){
-      const now=new Date(), want=DOW[m[1]];
-      const d0=new Date(now); d0.setHours(+m[2],+m[3],0,0);
-      let add=(want-d0.getDay()+7)%7;
-      if(add===0 && d0<now-3600e3) add=7;
-      d0.setDate(d0.getDate()+add);
-      return d0.toISOString();
+      const hh=+m[2], mi=+m[3];
+      let day = new Date(base);
+      if(dayTag === 'tomorrow'){
+        day.setUTCDate(day.getUTCDate()+1);
+      } else if(dayTag !== 'today'){
+        // no tag we can trust: walk forward to the named weekday
+        const want = DOW[m[1]];
+        let add = (want - day.getUTCDay() + 7) % 7;
+        const sameDayPassed = (add === 0 && (hh*60+mi) < (base.getUTCHours()*60+base.getUTCMinutes()-60));
+        if(sameDayPassed) add = 7;
+        day.setUTCDate(day.getUTCDate()+add);
+      }
+      return iso(day.getUTCFullYear(), day.getUTCMonth(), day.getUTCDate(), hh, mi);
     }
-    m = k.match(/^(\d{1,2}) (\w{3}) (\d{2}):(\d{2})$/);     // "15 Sep 17:00"
-    if(m) return new Date(year, MON[m[2]], +m[1], +m[3], +m[4]).toISOString();
-    const t=Date.parse(k); return isNaN(t)?null:new Date(t).toISOString();
+    m = k.match(/^(\d{1,2}) (\w{3}) (\d{1,2}):(\d{2})$/);   // "15 Sep 17:00"
+    if(m) return iso(base.getUTCFullYear(), MON[m[2]], +m[1], +m[3], +m[4]);
+    const t = Date.parse(k);
+    return isNaN(t) ? null : new Date(t).toISOString();
   }
   // anything outside a sane range is a placeholder, not a price
   const ok = v => (typeof v === 'number' && v >= 1.01 && v <= 1000) ? v : null;
@@ -407,7 +418,7 @@ function adapt(d){
     const g=(r.betfair&&r.betfair.goals)||{};
     const books=r.books||{};
     const bfT=trio(r.betfair&&r.betfair.odds), pinT=trio(books.pinnacle);
-    const ko=when(r.kickoff);
+    const ko=when(r.kickoff, r.day);
     if(!ko || !bfT) return null;
     const u=ok(g.under2_5), ov=ok(g.over2_5);
     return {
@@ -432,14 +443,14 @@ async function loadFeed(){
     if(!r.ok) throw new Error(r.status);
     const d = await r.json();
     const rows = adapt(d);
+    if(d.generatedAt){ const g=new Date(d.generatedAt); g.setHours(0,0,0,0); FEED_DAY=g; }
     if(!rows.length) throw new Error('empty feed');
     M = rows;
     baseline();
     seg('daySeg',dayOptions(),day,v=>{ day=v; koVisible(); });
     document.getElementById('lastRun').textContent =
       new Date(d.generatedAt || Date.now()).toLocaleString([], {day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'});
-    document.querySelector('.hint').textContent =
-      'live feed · ' + rows.length + ' matches · Betfair from bet-mate, books from btfodds';
+
     render();
   }catch(err){
     // the page keeps working on the last good data rather than going blank
@@ -460,16 +471,18 @@ baseline();
 let lens='value', sub='all', maxKo=0, day='1';
 // a window of days, not a list of dates: today, the next two, the next seven
 const dayKey = m => new Date(m.ko).toISOString().slice(0,10);
+let FEED_DAY = null;                       // midnight of the feed's own day, in UTC
 const daysAway = m => {
-  const t = new Date(); t.setHours(0,0,0,0);
+  const t = FEED_DAY ? new Date(FEED_DAY) : (()=>{ const x=new Date(); x.setHours(0,0,0,0); return x; })();
   const d = new Date(m.ko); d.setHours(0,0,0,0);
   return Math.round((d - t) / 86400000);
 };
 function dayOptions(){
   const span = M.length ? Math.max(...M.map(daysAway)) : 0;
-  const opts = [['1','Today'], ['2','Next 2 days']];
+  const opts = [['1','Today']];
+  if(span >= 1) opts.push(['2','Next 2 days']);
   if(span >= 2) opts.push(['7','Next 7 days']);
-  return opts;
+  return opts.length > 1 ? opts : [['1','Today'],['2','Next 2 days'],['7','Next 7 days']];
 }
 const inDayWindow = m => { const n = daysAway(m); return n >= 0 && n < (+day); };
 const WATCH=new Set(); const key=m=>m.h+'|'+m.a;
@@ -828,7 +841,8 @@ function render(){
   document.getElementById('exp').innerHTML=L.exp;
   document.getElementById('tblCard').classList.toggle('pin-lens', L.book==='pin');
   document.getElementById('tblCard').classList.toggle('val-lens', lens==='value');
-  const rows=M.filter(m=> inDayWindow(m) && (day==='1' ? mins(m)>0 : true)
+  // a match that has kicked off is gone from every window, not just today's
+  const rows=M.filter(m=> mins(m)>0 && inDayWindow(m)
       && (maxKo===0 || mins(m)<=maxKo) && keep(m)).sort((a,b)=>new Date(a.ko)-new Date(b.ko));
   const isVal = lens==='value';
   let t = isVal
@@ -886,9 +900,7 @@ function drawTabs(){
 }
 function drawSubs(){
   seg('subSeg',SUBS[lens],sub,v=>sub=v);
-  document.getElementById('srcNote').textContent = LENS[lens].book==='pin'
-    ? 'Pinnacle prices · 13 Sept · opening prices are demo'
-    : 'real Betfair prices and turnover · 13 Sept · fair odds and opening prices are demo';
+
 }
 drawTabs(); drawSubs();
 seg('daySeg',dayOptions(),day,v=>{ day=v; koVisible(); });
