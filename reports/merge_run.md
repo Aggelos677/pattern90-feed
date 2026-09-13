@@ -1,49 +1,44 @@
 # Merge odds
-Run 2026-09-13 15:48 UTC
+Run 2026-09-13 18:53 UTC
 
-bet-mate generated 2026-09-13T14:19:13.562511Z, btfodds generated 2026-09-13T15:48:01.692459Z
+bet-mate generated 2026-09-13T14:19:13.562511Z, btfodds generated 2026-09-13T18:49:59.161065Z
 
-bet-mate carried **94** matches. Paired with btfodds: **55** (59%). Unpaired: **39**.
+bet-mate carried **94** matches. Paired with btfodds: **17** (18%). Unpaired: **77**.
 
-Both feeds carry a Betfair price on **55** matches. **34** of them agree within 2%.
+Both feeds carry a Betfair price on **17** matches. **6** of them agree within 2%.
 
 | Match | bet-mate | btfodds | Difference |
 | --- | --- | --- | --- |
-| Colombia U20 (w) v North Korea U20 (w) | 30.0 | 21.0 | 30.0% |
-| Fk Imt Beograd v Fk Crvena Zvezda | 12.0 | 14.0 | 16.7% |
-| Suduva v Zalgiris Vilnius | 2.66 | 2.3 | 13.5% |
-| Brest v Paris Saint-germain | 13.0 | 14.5 | 11.5% |
-| Asteras Tripolis v Aek Athens | 9.4 | 8.4 | 10.6% |
-| Nsi Runavik v Vikingur | 2.16 | 1.98 | 8.3% |
-| Freiburg (w) v Mainz 05 (w) | 1.32 | 1.42 | 7.6% |
-| Teplice v Slavia Prague | 6.4 | 6.0 | 6.2% |
-| Csd Macara v Emelec | 1.97 | 1.85 | 6.1% |
+| Famalicao v Sporting Cp | 7.8 | 6.8 | 12.8% |
+| Ada Jaen v Union Comercio | 1.86 | 1.7 | 8.6% |
+| Deportivo Pereira v Bucaramanga | 7.6 | 7.0 | 7.9% |
+| Ca Ferrocarril Midland v Chacarita Juniors | 2.16 | 1.99 | 7.9% |
+| Brest v Paris Saint-germain | 13.0 | 14.0 | 7.7% |
+| Mirassol v Vitoria | 1.8 | 1.92 | 6.7% |
+| Atletico Go v Criciuma | 2.34 | 2.48 | 6.0% |
 | Atletico Grau v Alianza Atletico | 2.52 | 2.66 | 5.6% |
+| Real Sociedad v Atletico Madrid | 3.5 | 3.65 | 4.3% |
+| Tenerife v Leganes | 2.42 | 2.5 | 3.3% |
 
 ## Pinnacle beside Betfair
 
 | Kick-off | Match | BF 1 | PIN 1 | BF O2.5 | PIN O2.5 | Matched |
 | --- | --- | --- | --- | --- | --- | --- |
-| Sun 16:45 | Suduva v Zalgiris Vilnius | 2.66 | 2.23 | 2.04 | 1.91 | 267.89 |
-| Sun 17:00 | Teplice v Slavia Prague | 6.4 | 5.97 | 1.89 | — | 1521.64 |
-| Sun 17:00 | Aek Larnaca v Pafos Fc | 2.88 | 2.67 | 2.04 | 2.04 | 749.0 |
-| Sun 17:00 | Fc Nordsjaelland v Agf | 1.85 | 1.78 | 1.52 | 1.5 | 8511.42 |
-| Sun 17:00 | Ssc Napoli v Bologna | 1.96 | 1.83 | 2.0 | 1.97 | 221490.5 |
-| Sun 17:00 | Colombia U20 (w) v North Korea U20 (w) | 30.0 | 17.81 | None | 1.51 | 210.81 |
-| Sun 17:00 | Asteras Tripolis v Aek Athens | 9.4 | 7.51 | 1.93 | 1.87 | 3569.18 |
-| Sun 17:15 | Nsi Runavik v Vikingur | 2.16 | 1.88 | 1.68 | 1.55 | 506.82 |
-| Sun 17:30 | Elbasani v Egnatia | 2.82 | 2.34 | 2.14 | 2.19 | 332.94 |
-| Sun 17:30 | Getafe v Deportivo La Coruna | 2.82 | 2.68 | 3.15 | 2.81 | 49389.7 |
-| Sun 17:30 | Mallorca v Sabadell | 1.94 | 1.88 | 2.46 | 2.44 | 31715.7 |
-| Sun 17:30 | Freiburg (w) v Mainz 05 (w) | 1.32 | 1.34 | None | 1.51 | 506.39 |
-| Sun 17:30 | Zulte Waregem v Sporting Charleroi | 2.9 | 2.85 | 1.96 | — | 4362.55 |
-| Sun 18:00 | Galatasaray v Kocaelispor | 1.31 | 1.28 | 1.62 | — | 53434.27 |
-| Sun 18:00 | Slovan Bratislava v Zilina | 1.63 | 1.55 | 1.46 | — | 774.44 |
-| Sun 18:00 | Fk Imt Beograd v Fk Crvena Zvezda | 12.0 | 9.15 | 1.66 | — | 414.64 |
-| Sun 18:00 | Olympiakos Nicosia v Omonia 29 Maiou | 1.89 | 1.82 | 2.24 | — | 742.8 |
-| Sun 18:00 | Bursaspor v Esenler Erokspor | 1.8 | 1.76 | 1.87 | — | 508.08 |
-| Sun 18:00 | Fatih Karagumruk v Manisa Futbol Kulubu | 1.9 | 1.87 | 1.75 | — | 287.59 |
-| Sun 18:00 | Arouca v Santa Clara | 2.74 | 2.66 | 2.32 | 2.27 | 7275.86 |
+| Sun 19:45 | Brest v Paris Saint-germain | 13.0 | 11.84 | 1.4 | — | 106759.98 |
+| Sun 19:45 | Sassuolo v Juventus | 5.9 | 5.48 | 1.85 | 1.93 | 143310.71 |
+| Sun 20:00 | Ferroviaria v Paysandu | 1.87 | 1.85 | None | — | 286.77 |
+| Sun 20:00 | Mirassol v Vitoria | 1.8 | 1.91 | 1.93 | 1.96 | 1234.27 |
+| Sun 20:00 | Atletico Go v Criciuma | 2.34 | 2.45 | 2.46 | 2.43 | 1253.56 |
+| Sun 20:00 | Deportivo Pereira v Bucaramanga | 7.6 | 5.75 | 2.28 | 2.15 | 9777.61 |
+| Sun 20:00 | Real Sociedad v Atletico Madrid | 3.5 | 3.58 | 1.68 | 1.75 | 166320.52 |
+| Sun 20:00 | Tenerife v Leganes | 2.42 | 2.45 | 2.88 | — | 7978.29 |
+| Sun 20:30 | Ca Ferrocarril Midland v Chacarita Juniors | 2.16 | 1.85 | 3.15 | 2.58 | 610.73 |
+| Sun 20:30 | Famalicao v Sporting Cp | 7.8 | 6.14 | 1.87 | — | 29588.67 |
+| Sun 21:00 | Argentinos Juniors v Gimnasia Lp | 1.82 | 1.78 | 2.38 | — | 548.48 |
+| Sun 21:15 | Atletico Grau v Alianza Atletico | 2.52 | 2.5 | 2.16 | — | 258.1 |
+| Sun 21:30 | Csd Macara v Emelec | 1.97 | 1.89 | 2.38 | — | 304.27 |
+| Sun 21:30 | Flamengo v Corinthians | 1.29 | 1.27 | 1.77 | — | 21961.22 |
+| Sun 21:30 | Colo Colo v Deportes Concepcion | 1.48 | 1.44 | 1.73 | — | 398.5 |
 
 ## Not paired — names to look at
 

@@ -1,2777 +1,12 @@
 {
- "generatedAt": "2026-09-13T15:48:49.212094Z",
+ "generatedAt": "2026-09-13T18:53:15.990590Z",
  "sources": {
   "betfair": "bet-mate.co",
   "books": "btfodds.com"
  },
- "matched": 55,
- "unmatched": 39,
+ "matched": 17,
+ "unmatched": 77,
  "matches": [
-  {
-   "home": "Suduva",
-   "away": "Zalgiris Vilnius",
-   "league": "Lithuania-A Lyga",
-   "kickoff": "Sun 16:45",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 2.66,
-     "X": 3.55,
-     "2": 2.86
-    },
-    "goals": {
-     "under2_5": 1.95,
-     "over2_5": 2.04
-    },
-    "volume1x2": 267.89,
-    "volumeGoals": 204.0
-   },
-   "move": {},
-   "btfName": "Suduva v Zalgiris Vilnius",
-   "books": {
-    "pinnacle": {
-     "1": 2.23,
-     "X": 3.45,
-     "2": 3.06,
-     "under2_5": 1.93,
-     "over2_5": 1.91
-    },
-    "betfair": {
-     "1": 2.3,
-     "X": 3.65,
-     "2": 3.3,
-     "under2_5": 1.99,
-     "over2_5": 1.98
-    },
-    "average": {
-     "1": 2.4,
-     "X": 3.26,
-     "2": 2.67,
-     "under2_5": 1.86,
-     "over2_5": 1.85
-    },
-    "best": {
-     "1": 2.55,
-     "X": 3.45,
-     "2": 3.14,
-     "under2_5": 1.93,
-     "over2_5": 1.92
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 2.57,
-     "book": "Unibet"
-    },
-    "X": {
-     "odd": 3.2,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 2.47,
-     "book": "AsianOdds"
-    },
-    "under2_5": {
-     "odd": 1.83,
-     "book": "Pinnacle"
-    },
-    "over2_5": {
-     "odd": 1.9,
-     "book": "AsianOdds"
-    }
-   }
-  },
-  {
-   "home": "Teplice",
-   "away": "Slavia Prague",
-   "league": "Czechia-First League",
-   "kickoff": "Sun 17:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 6.4,
-     "X": 4.2,
-     "2": 1.67
-    },
-    "goals": {
-     "under2_5": 2.12,
-     "over2_5": 1.89
-    },
-    "volume1x2": 1521.64,
-    "volumeGoals": 495.0
-   },
-   "move": {},
-   "btfName": "Teplice v Slavia Prague",
-   "books": {
-    "pinnacle": {
-     "1": 5.97,
-     "X": 4.01,
-     "2": 1.58
-    },
-    "bet365": {
-     "1": 5.25,
-     "X": 3.8,
-     "2": 1.55,
-     "under2_5": 2.08,
-     "over2_5": 1.73
-    },
-    "betfair": {
-     "1": 6.0,
-     "X": 4.6,
-     "2": 1.62,
-     "under2_5": 2.58,
-     "over2_5": 1.63
-    },
-    "average": {
-     "1": 5.42,
-     "X": 3.92,
-     "2": 1.58,
-     "under2_5": 2.06,
-     "over2_5": 1.7
-    },
-    "best": {
-     "1": 5.97,
-     "X": 4.21,
-     "2": 1.62,
-     "under2_5": 2.33,
-     "over2_5": 1.75
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 5.56,
-     "book": "Pinnacle"
-    },
-    "X": {
-     "odd": 3.7,
-     "book": "AsianOdds"
-    },
-    "2": {
-     "odd": 1.58,
-     "book": "10Bet"
-    },
-    "under2_5": {
-     "odd": 2.09,
-     "book": "Marathon"
-    },
-    "over2_5": {
-     "odd": 1.7,
-     "book": "10Bet"
-    }
-   }
-  },
-  {
-   "home": "Aek Larnaca",
-   "away": "Pafos Fc",
-   "league": "Cyprus-Cyprus League",
-   "kickoff": "Sun 17:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 2.88,
-     "X": 3.3,
-     "2": 2.88
-    },
-    "goals": {
-     "under2_5": 1.94,
-     "over2_5": 2.04
-    },
-    "volume1x2": 749.0,
-    "volumeGoals": 67.0
-   },
-   "move": {},
-   "btfName": "Aek Larnaca v Pafos Fc",
-   "books": {
-    "pinnacle": {
-     "1": 2.67,
-     "X": 3.11,
-     "2": 2.71,
-     "under2_5": 1.81,
-     "over2_5": 2.04
-    },
-    "betfair": {
-     "1": 2.88,
-     "X": 3.3,
-     "2": 2.86,
-     "under2_5": 1.92,
-     "over2_5": 2.04
-    },
-    "average": {
-     "1": 2.49,
-     "X": 3.14,
-     "2": 2.67,
-     "under2_5": 1.8,
-     "over2_5": 1.95
-    },
-    "best": {
-     "1": 2.67,
-     "X": 3.3,
-     "2": 2.88,
-     "under2_5": 1.82,
-     "over2_5": 2.04
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 2.3,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 2.78,
-     "book": "Unibet"
-    }
-   }
-  },
-  {
-   "home": "Fc Nordsjaelland",
-   "away": "Agf",
-   "league": "Denmark-Superleague",
-   "kickoff": "Sun 17:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 1.85,
-     "X": 4.3,
-     "2": 4.3
-    },
-    "goals": {
-     "under2_5": 2.9,
-     "over2_5": 1.52
-    },
-    "volume1x2": 8511.42,
-    "volumeGoals": 720.0
-   },
-   "move": {},
-   "btfName": "Fc Nordsjaelland v Agf",
-   "books": {
-    "pinnacle": {
-     "1": 1.78,
-     "X": 4.16,
-     "2": 4.26,
-     "under2_5": 2.69,
-     "over2_5": 1.5
-    },
-    "bet365": {
-     "1": 1.81,
-     "X": 3.9,
-     "2": 3.75,
-     "under2_5": 2.7,
-     "over2_5": 1.44
-    },
-    "betfair": {
-     "1": 1.8,
-     "X": 4.4,
-     "2": 4.5,
-     "under2_5": 2.94,
-     "over2_5": 1.51
-    },
-    "average": {
-     "1": 1.8,
-     "X": 3.96,
-     "2": 3.83,
-     "under2_5": 2.65,
-     "over2_5": 1.45
-    },
-    "best": {
-     "1": 1.88,
-     "X": 4.16,
-     "2": 4.26,
-     "under2_5": 2.75,
-     "over2_5": 1.5
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.8,
-     "book": "Betsson"
-    },
-    "X": {
-     "odd": 3.94,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 3.75,
-     "book": "Pinnacle"
-    },
-    "under2_5": {
-     "odd": 2.54,
-     "book": "Betfred"
-    },
-    "over2_5": {
-     "odd": 1.47,
-     "book": "Pinnacle"
-    }
-   }
-  },
-  {
-   "home": "Ssc Napoli",
-   "away": "Bologna",
-   "league": "Italy-Serie A",
-   "kickoff": "Sun 17:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 1.96,
-     "X": 3.7,
-     "2": 4.7
-    },
-    "goals": {
-     "under2_5": 1.98,
-     "over2_5": 2.0
-    },
-    "volume1x2": 221490.5,
-    "volumeGoals": 4860.0
-   },
-   "move": {},
-   "btfName": "Ssc Napoli v Bologna",
-   "books": {
-    "pinnacle": {
-     "1": 1.83,
-     "X": 3.64,
-     "2": 4.78,
-     "under2_5": 1.93,
-     "over2_5": 1.97
-    },
-    "bet365": {
-     "1": 1.85,
-     "X": 3.6,
-     "2": 4.2,
-     "under2_5": 1.73,
-     "over2_5": 2.1
-    },
-    "betfair": {
-     "1": 1.88,
-     "X": 3.7,
-     "2": 5.1,
-     "under2_5": 1.99,
-     "over2_5": 2.0
-    },
-    "average": {
-     "1": 1.84,
-     "X": 3.53,
-     "2": 4.45,
-     "under2_5": 1.79,
-     "over2_5": 2.04
-    },
-    "best": {
-     "1": 1.91,
-     "X": 3.66,
-     "2": 5.0,
-     "under2_5": 1.95,
-     "over2_5": 2.1
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.8,
-     "book": "10Bet"
-    },
-    "X": {
-     "odd": 3.55,
-     "book": "1xbet"
-    },
-    "under2_5": {
-     "odd": 1.75,
-     "book": "AsianOdds"
-    },
-    "over2_5": {
-     "odd": 2.11,
-     "book": "10Bet"
-    }
-   }
-  },
-  {
-   "home": "Colombia U20 (w)",
-   "away": "North Korea U20 (w)",
-   "league": "international-U20 World Cup (Women)",
-   "kickoff": "Sun 17:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 30.0,
-     "X": 8.8,
-     "2": 1.14
-    },
-    "goals": {
-     "under2_5": null,
-     "over2_5": null
-    },
-    "volume1x2": 210.81,
-    "volumeGoals": null
-   },
-   "move": {},
-   "btfName": "Colombia U20 (w) v North Korea U20 (w)",
-   "books": {
-    "pinnacle": {
-     "1": 17.81,
-     "X": 7.47,
-     "2": 1.13,
-     "under2_5": 2.47,
-     "over2_5": 1.51
-    },
-    "betfair": {
-     "1": 21.0,
-     "X": 9.0,
-     "2": 1.19
-    },
-    "average": {
-     "1": 16.66,
-     "X": 7.36,
-     "2": 1.15,
-     "under2_5": 2.47,
-     "over2_5": 1.51
-    },
-    "best": {
-     "1": 17.81,
-     "X": 7.47,
-     "2": 1.16,
-     "under2_5": 2.47,
-     "over2_5": 1.51
-    }
-   },
-   "bestAvailable": {
-    "under2_5": {
-     "odd": 2.42,
-     "book": "Pinnacle"
-    },
-    "over2_5": {
-     "odd": 1.48,
-     "book": "Pinnacle"
-    }
-   }
-  },
-  {
-   "home": "Asteras Tripolis",
-   "away": "Aek Athens",
-   "league": "Greece-Super League",
-   "kickoff": "Sun 17:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 9.4,
-     "X": 5.0,
-     "2": 1.45
-    },
-    "goals": {
-     "under2_5": 2.06,
-     "over2_5": 1.93
-    },
-    "volume1x2": 3569.18,
-    "volumeGoals": 238.0
-   },
-   "move": {},
-   "btfName": "Asteras Tripolis v Aek Athens",
-   "books": {
-    "pinnacle": {
-     "1": 7.51,
-     "X": 4.63,
-     "2": 1.44,
-     "under2_5": 2.01,
-     "over2_5": 1.87
-    },
-    "betfair": {
-     "1": 8.4,
-     "X": 4.6,
-     "2": 1.51,
-     "under2_5": 2.06,
-     "over2_5": 1.92
-    },
-    "average": {
-     "1": 7.4,
-     "X": 4.51,
-     "2": 1.44,
-     "under2_5": 2.0,
-     "over2_5": 1.85
-    },
-    "best": {
-     "1": 7.51,
-     "X": 4.63,
-     "2": 1.47,
-     "under2_5": 2.02,
-     "over2_5": 1.87
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 7.94,
-     "book": "Pinnacle"
-    },
-    "X": {
-     "odd": 4.57,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 1.38,
-     "book": "AsianOdds"
-    },
-    "under2_5": {
-     "odd": 1.89,
-     "book": "AsianOdds"
-    },
-    "over2_5": {
-     "odd": 1.93,
-     "book": "Pinnacle"
-    }
-   }
-  },
-  {
-   "home": "Nsi Runavik",
-   "away": "Vikingur",
-   "league": "Faroe Islands-Premier League",
-   "kickoff": "Sun 17:15",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 2.16,
-     "X": 4.1,
-     "2": 3.45
-    },
-    "goals": {
-     "under2_5": 2.4,
-     "over2_5": 1.68
-    },
-    "volume1x2": 506.82,
-    "volumeGoals": 105.0
-   },
-   "move": {},
-   "btfName": "Nsi Runavik v Vikingur",
-   "books": {
-    "pinnacle": {
-     "1": 1.88,
-     "X": 3.85,
-     "2": 3.5,
-     "under2_5": 2.39,
-     "over2_5": 1.55
-    },
-    "betfair": {
-     "1": 1.98,
-     "X": 4.1,
-     "2": 3.7,
-     "under2_5": 2.6,
-     "over2_5": 1.63
-    },
-    "average": {
-     "1": 2.02,
-     "X": 3.6,
-     "2": 3.1,
-     "under2_5": 2.29,
-     "over2_5": 1.57
-    },
-    "best": {
-     "1": 2.05,
-     "X": 3.85,
-     "2": 3.5,
-     "under2_5": 2.39,
-     "over2_5": 1.6
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.84,
-     "book": "Betfred"
-    },
-    "X": {
-     "odd": 3.65,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 3.5,
-     "book": "Pinnacle"
-    },
-    "under2_5": {
-     "odd": 2.27,
-     "book": "Pinnacle"
-    },
-    "over2_5": {
-     "odd": 1.58,
-     "book": "Betway"
-    }
-   }
-  },
-  {
-   "home": "Neom Sc",
-   "away": "Al Fateh Fc",
-   "league": "Saudi Arabia-Saudi Pro League",
-   "kickoff": "Sun 17:20",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 1.73,
-     "X": 4.5,
-     "2": 5.5
-    },
-    "goals": {
-     "under2_5": 2.36,
-     "over2_5": 1.73
-    },
-    "volume1x2": 349.47,
-    "volumeGoals": 212.0
-   },
-   "move": {},
-   "btfName": "Neom Sc v Al Fateh Fc",
-   "books": {
-    "bet365": {
-     "1": 1.62,
-     "X": 3.75,
-     "2": 4.33,
-     "under2_5": 2.3,
-     "over2_5": 1.6
-    },
-    "betfair": {
-     "1": 1.67,
-     "X": 4.4,
-     "2": 5.5,
-     "under2_5": 2.4,
-     "over2_5": 1.69
-    },
-    "average": {
-     "1": 1.64,
-     "X": 3.88,
-     "2": 4.39,
-     "under2_5": 2.27,
-     "over2_5": 1.58
-    },
-    "best": {
-     "1": 1.67,
-     "X": 4.2,
-     "2": 4.6,
-     "under2_5": 2.3,
-     "over2_5": 1.6
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.67,
-     "book": "10Bet"
-    },
-    "X": {
-     "odd": 3.89,
-     "book": "Betway"
-    },
-    "2": {
-     "odd": 4.22,
-     "book": "10Bet"
-    }
-   }
-  },
-  {
-   "home": "Elbasani",
-   "away": "Egnatia",
-   "league": "Albania-Kategoria Superiore",
-   "kickoff": "Sun 17:30",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 2.82,
-     "X": 3.4,
-     "2": 2.88
-    },
-    "goals": {
-     "under2_5": 1.79,
-     "over2_5": 2.14
-    },
-    "volume1x2": 332.94,
-    "volumeGoals": 69.0
-   },
-   "move": {},
-   "btfName": "Elbasani v Egnatia",
-   "books": {
-    "pinnacle": {
-     "1": 2.34,
-     "X": 3.08,
-     "2": 2.63,
-     "under2_5": 1.61,
-     "over2_5": 2.19
-    },
-    "betfair": {
-     "1": 2.82,
-     "X": 3.3,
-     "2": 2.88,
-     "under2_5": 1.79,
-     "over2_5": 2.14
-    },
-    "average": {
-     "1": 2.44,
-     "X": 3.08,
-     "2": 2.57,
-     "under2_5": 1.62,
-     "over2_5": 2.16
-    },
-    "best": {
-     "1": 2.64,
-     "X": 3.08,
-     "2": 2.63,
-     "under2_5": 1.64,
-     "over2_5": 2.19
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 2.79,
-     "book": "Marathon"
-    },
-    "X": {
-     "odd": 3.18,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 2.27,
-     "book": "Pinnacle"
-    },
-    "under2_5": {
-     "odd": 1.72,
-     "book": "Marathon"
-    },
-    "over2_5": {
-     "odd": 1.98,
-     "book": "Pinnacle"
-    }
-   }
-  },
-  {
-   "home": "Getafe",
-   "away": "Deportivo La Coruna",
-   "league": "Spain-LaLiga",
-   "kickoff": "Sun 17:30",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 2.82,
-     "X": 2.98,
-     "2": 3.25
-    },
-    "goals": {
-     "under2_5": 1.47,
-     "over2_5": 3.15
-    },
-    "volume1x2": 49389.7,
-    "volumeGoals": 1473.0
-   },
-   "move": {},
-   "btfName": "Getafe v Deportivo La Coruna",
-   "books": {
-    "pinnacle": {
-     "1": 2.68,
-     "X": 2.89,
-     "2": 3.24,
-     "under2_5": 1.47,
-     "over2_5": 2.81
-    },
-    "bet365": {
-     "1": 2.5,
-     "X": 3.0,
-     "2": 3.1,
-     "under2_5": 1.36,
-     "over2_5": 3.2
-    },
-    "betfair": {
-     "1": 2.72,
-     "X": 3.0,
-     "2": 3.3,
-     "under2_5": 1.54,
-     "over2_5": 2.86
-    },
-    "average": {
-     "1": 2.54,
-     "X": 2.88,
-     "2": 3.25,
-     "under2_5": 1.39,
-     "over2_5": 2.92
-    },
-    "best": {
-     "1": 2.7,
-     "X": 3.0,
-     "2": 3.55,
-     "under2_5": 1.47,
-     "over2_5": 3.2
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 2.43,
-     "book": "10Bet"
-    },
-    "X": {
-     "odd": 2.85,
-     "book": "Bet365"
-    },
-    "under2_5": {
-     "odd": 1.33,
-     "book": "Pinnacle"
-    },
-    "over2_5": {
-     "odd": 2.98,
-     "book": "Bet365"
-    }
-   }
-  },
-  {
-   "home": "Mallorca",
-   "away": "Sabadell",
-   "league": "Spain-Segunda Division",
-   "kickoff": "Sun 17:30",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 1.94,
-     "X": 3.45,
-     "2": 5.0
-    },
-    "goals": {
-     "under2_5": 1.68,
-     "over2_5": 2.46
-    },
-    "volume1x2": 31715.7,
-    "volumeGoals": 20760.0
-   },
-   "move": {},
-   "btfName": "Mallorca v Sabadell",
-   "books": {
-    "pinnacle": {
-     "1": 1.88,
-     "X": 3.48,
-     "2": 4.62,
-     "under2_5": 1.6,
-     "over2_5": 2.44
-    },
-    "betfair": {
-     "1": 1.92,
-     "X": 3.5,
-     "2": 5.0,
-     "under2_5": 1.68,
-     "over2_5": 2.52
-    },
-    "average": {
-     "1": 1.87,
-     "X": 3.41,
-     "2": 4.55,
-     "under2_5": 1.62,
-     "over2_5": 2.37
-    },
-    "best": {
-     "1": 1.88,
-     "X": 3.48,
-     "2": 4.74,
-     "under2_5": 1.64,
-     "over2_5": 2.44
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.69,
-     "book": "Pinnacle"
-    },
-    "X": {
-     "odd": 3.7,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 4.96,
-     "book": "AsianOdds"
-    },
-    "under2_5": {
-     "odd": 1.77,
-     "book": "AsianOdds"
-    },
-    "over2_5": {
-     "odd": 2.08,
-     "book": "Pinnacle"
-    }
-   }
-  },
-  {
-   "home": "Freiburg (w)",
-   "away": "Mainz 05 (w)",
-   "league": "Germany-Bundesliga Women",
-   "kickoff": "Sun 17:30",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 1.32,
-     "X": 6.6,
-     "2": 12.0
-    },
-    "goals": {
-     "under2_5": null,
-     "over2_5": null
-    },
-    "volume1x2": 506.39,
-    "volumeGoals": null
-   },
-   "move": {},
-   "btfName": "Freiburg (w) v Mainz 05 (w)",
-   "books": {
-    "pinnacle": {
-     "1": 1.34,
-     "X": 5.19,
-     "2": 7.39,
-     "under2_5": 2.48,
-     "over2_5": 1.51
-    },
-    "betfair": {
-     "1": 1.42,
-     "X": 5.7,
-     "2": 9.4,
-     "under2_5": 2.8,
-     "over2_5": 1.5
-    },
-    "average": {
-     "1": 1.33,
-     "X": 5.13,
-     "2": 7.48,
-     "under2_5": 2.46,
-     "over2_5": 1.49
-    },
-    "best": {
-     "1": 1.36,
-     "X": 5.19,
-     "2": 8.0,
-     "under2_5": 2.48,
-     "over2_5": 1.51
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.28,
-     "book": "AsianOdds"
-    },
-    "X": {
-     "odd": 5.27,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 7.91,
-     "book": "Marathon"
-    },
-    "under2_5": {
-     "odd": 2.5,
-     "book": "Pinnacle"
-    },
-    "over2_5": {
-     "odd": 1.46,
-     "book": "Pinnacle"
-    }
-   }
-  },
-  {
-   "home": "Zulte Waregem",
-   "away": "Sporting Charleroi",
-   "league": "Belgium-First Division A",
-   "kickoff": "Sun 17:30",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 2.9,
-     "X": 3.4,
-     "2": 2.7
-    },
-    "goals": {
-     "under2_5": 2.04,
-     "over2_5": 1.96
-    },
-    "volume1x2": 4362.55,
-    "volumeGoals": 1544.0
-   },
-   "move": {},
-   "btfName": "Zulte Waregem v Sporting Charleroi",
-   "books": {
-    "pinnacle": {
-     "1": 2.85,
-     "X": 3.31,
-     "2": 2.63
-    },
-    "bet365": {
-     "1": 2.45,
-     "X": 3.3,
-     "2": 2.55,
-     "under2_5": 2.08,
-     "over2_5": 1.73
-    },
-    "betfair": {
-     "1": 2.92,
-     "X": 3.4,
-     "2": 2.74,
-     "under2_5": 2.06,
-     "over2_5": 1.96
-    },
-    "average": {
-     "1": 2.62,
-     "X": 3.39,
-     "2": 2.57,
-     "under2_5": 2.07,
-     "over2_5": 1.69
-    },
-    "best": {
-     "1": 2.86,
-     "X": 3.6,
-     "2": 2.63,
-     "under2_5": 2.1,
-     "over2_5": 1.78
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 2.55,
-     "book": "AsianOdds"
-    },
-    "X": {
-     "odd": 3.42,
-     "book": "Bwin"
-    },
-    "2": {
-     "odd": 2.59,
-     "book": "Pinnacle"
-    },
-    "under2_5": {
-     "odd": 2.08,
-     "book": "10Bet"
-    },
-    "over2_5": {
-     "odd": 1.71,
-     "book": "1xbet"
-    }
-   }
-  },
-  {
-   "home": "Galatasaray",
-   "away": "Kocaelispor",
-   "league": "Turkiye-Super Lig",
-   "kickoff": "Sun 18:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 1.31,
-     "X": 6.4,
-     "2": 13.0
-    },
-    "goals": {
-     "under2_5": 2.58,
-     "over2_5": 1.62
-    },
-    "volume1x2": 53434.27,
-    "volumeGoals": 585.0
-   },
-   "move": {},
-   "btfName": "Galatasaray v Kocaelispor",
-   "books": {
-    "pinnacle": {
-     "1": 1.28,
-     "X": 5.97,
-     "2": 11.52
-    },
-    "bet365": {
-     "1": 1.19,
-     "X": 5.75,
-     "2": 11.0,
-     "under2_5": 2.4,
-     "over2_5": 1.53
-    },
-    "betfair": {
-     "1": 1.32,
-     "X": 6.2,
-     "2": 12.5,
-     "under2_5": 2.62,
-     "over2_5": 1.62
-    },
-    "average": {
-     "1": 1.28,
-     "X": 5.49,
-     "2": 10.05,
-     "under2_5": 2.44,
-     "over2_5": 1.5
-    },
-    "best": {
-     "1": 1.35,
-     "X": 6.0,
-     "2": 12.25,
-     "under2_5": 2.55,
-     "over2_5": 1.54
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.3,
-     "book": "GGBet"
-    },
-    "X": {
-     "odd": 5.15,
-     "book": "Betway"
-    },
-    "2": {
-     "odd": 8.37,
-     "book": "Marathon"
-    },
-    "under2_5": {
-     "odd": 2.38,
-     "book": "10Bet"
-    },
-    "over2_5": {
-     "odd": 1.47,
-     "book": "Unibet"
-    }
-   }
-  },
-  {
-   "home": "Slovan Bratislava",
-   "away": "Zilina",
-   "league": "Slovakia-1. Liga",
-   "kickoff": "Sun 18:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 1.63,
-     "X": 5.1,
-     "2": 5.7
-    },
-    "goals": {
-     "under2_5": 3.05,
-     "over2_5": 1.46
-    },
-    "volume1x2": 774.44,
-    "volumeGoals": 184.0
-   },
-   "move": {},
-   "btfName": "Slovan Bratislava v Zilina",
-   "books": {
-    "pinnacle": {
-     "1": 1.55,
-     "X": 4.59,
-     "2": 5.18
-    },
-    "betfair": {
-     "1": 1.63,
-     "X": 4.7,
-     "2": 5.9,
-     "under2_5": 3.05,
-     "over2_5": 1.48
-    },
-    "average": {
-     "1": 1.58,
-     "X": 4.24,
-     "2": 4.62,
-     "under2_5": 2.69,
-     "over2_5": 1.41
-    },
-    "best": {
-     "1": 1.73,
-     "X": 4.59,
-     "2": 5.23,
-     "under2_5": 2.8,
-     "over2_5": 1.45
-    }
-   },
-   "bestAvailable": {
-    "X": {
-     "odd": 3.99,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 3.95,
-     "book": "AsianOdds"
-    },
-    "under2_5": {
-     "odd": 2.64,
-     "book": "Betway"
-    },
-    "over2_5": {
-     "odd": 1.46,
-     "book": "Unibet"
-    }
-   }
-  },
-  {
-   "home": "Fk Imt Beograd",
-   "away": "Fk Crvena Zvezda",
-   "league": "Serbia-Super Liga",
-   "kickoff": "Sun 18:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 12.0,
-     "X": 6.6,
-     "2": 1.29
-    },
-    "goals": {
-     "under2_5": 2.54,
-     "over2_5": 1.66
-    },
-    "volume1x2": 414.64,
-    "volumeGoals": 60.0
-   },
-   "move": {},
-   "btfName": "Fk Imt Beograd v Fk Crvena Zvezda",
-   "books": {
-    "pinnacle": {
-     "1": 9.15,
-     "X": 6.82,
-     "2": 1.2
-    },
-    "bet365": {
-     "1": 9.0,
-     "X": 5.25,
-     "2": 1.3,
-     "under2_5": 2.3,
-     "over2_5": 1.6
-    },
-    "betfair": {
-     "1": 14.0,
-     "X": 7.4,
-     "2": 1.27,
-     "under2_5": 2.62,
-     "over2_5": 1.64
-    },
-    "average": {
-     "1": 8.44,
-     "X": 5.5,
-     "2": 1.25,
-     "under2_5": 2.24,
-     "over2_5": 1.55
-    },
-    "best": {
-     "1": 10.0,
-     "X": 6.82,
-     "2": 1.3,
-     "under2_5": 2.45,
-     "over2_5": 1.6
-    }
-   },
-   "bestAvailable": {
-    "X": {
-     "odd": 4.97,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 1.31,
-     "book": "10Bet"
-    },
-    "under2_5": {
-     "odd": 2.24,
-     "book": "Unibet"
-    },
-    "over2_5": {
-     "odd": 1.58,
-     "book": "10Bet"
-    }
-   }
-  },
-  {
-   "home": "Olympiakos Nicosia",
-   "away": "Omonia 29 Maiou",
-   "league": "Cyprus-Cyprus League",
-   "kickoff": "Sun 18:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 1.89,
-     "X": 3.55,
-     "2": 5.0
-    },
-    "goals": {
-     "under2_5": 1.76,
-     "over2_5": 2.24
-    },
-    "volume1x2": 742.8,
-    "volumeGoals": 29.0
-   },
-   "move": {},
-   "btfName": "Olympiakos Nicosia v Omonia 29 Maiou",
-   "books": {
-    "pinnacle": {
-     "1": 1.82,
-     "X": 3.46,
-     "2": 4.42
-    },
-    "betfair": {
-     "1": 1.92,
-     "X": 3.55,
-     "2": 5.1,
-     "under2_5": 1.76,
-     "over2_5": 2.24
-    },
-    "average": {
-     "1": 1.81,
-     "X": 3.42,
-     "2": 4.49,
-     "under2_5": 1.69,
-     "over2_5": 2.12
-    },
-    "best": {
-     "1": 1.82,
-     "X": 3.46,
-     "2": 4.52,
-     "under2_5": 1.7,
-     "over2_5": 2.12
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 2.12,
-     "book": "Pinnacle"
-    },
-    "X": {
-     "odd": 3.18,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 3.42,
-     "book": "AsianOdds"
-    }
-   }
-  },
-  {
-   "home": "Bursaspor",
-   "away": "Esenler Erokspor",
-   "league": "Turkiye-1. Lig",
-   "kickoff": "Sun 18:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 1.8,
-     "X": 4.1,
-     "2": 4.9
-    },
-    "goals": {
-     "under2_5": 2.2,
-     "over2_5": 1.87
-    },
-    "volume1x2": 508.08,
-    "volumeGoals": 59.0
-   },
-   "move": {},
-   "btfName": "Bursaspor v Esenler Erokspor",
-   "books": {
-    "pinnacle": {
-     "1": 1.76,
-     "X": 4.09,
-     "2": 4.16
-    },
-    "betfair": {
-     "1": 1.83,
-     "X": 4.1,
-     "2": 4.9,
-     "under2_5": 2.14,
-     "over2_5": 1.84
-    },
-    "average": {
-     "1": 1.72,
-     "X": 3.94,
-     "2": 4.12,
-     "under2_5": 1.99,
-     "over2_5": 1.73
-    },
-    "best": {
-     "1": 1.76,
-     "X": 4.09,
-     "2": 4.4,
-     "under2_5": 2.02,
-     "over2_5": 1.75
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.68,
-     "book": "Pinnacle"
-    },
-    "X": {
-     "odd": 3.99,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 4.15,
-     "book": "AsianOdds"
-    },
-    "under2_5": {
-     "odd": 2.03,
-     "book": "1xbet"
-    },
-    "over2_5": {
-     "odd": 1.74,
-     "book": "Marathon"
-    }
-   }
-  },
-  {
-   "home": "Fatih Karagumruk",
-   "away": "Manisa Futbol Kulubu",
-   "league": "Turkiye-1. Lig",
-   "kickoff": "Sun 18:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 1.9,
-     "X": 4.2,
-     "2": 4.0
-    },
-    "goals": {
-     "under2_5": 2.4,
-     "over2_5": 1.75
-    },
-    "volume1x2": 287.59,
-    "volumeGoals": 193.0
-   },
-   "move": {},
-   "btfName": "Fatih Karagumruk v Manisa Futbol Kulubu",
-   "books": {
-    "pinnacle": {
-     "1": 1.87,
-     "X": 3.91,
-     "2": 3.81
-    },
-    "betfair": {
-     "1": 1.93,
-     "X": 3.95,
-     "2": 4.0,
-     "under2_5": 2.44,
-     "over2_5": 1.71
-    },
-    "average": {
-     "1": 1.85,
-     "X": 3.8,
-     "2": 3.85,
-     "under2_5": 2.14,
-     "over2_5": 1.63
-    },
-    "best": {
-     "1": 1.87,
-     "X": 3.91,
-     "2": 3.92,
-     "under2_5": 2.14,
-     "over2_5": 1.63
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.9,
-     "book": "Pinnacle"
-    },
-    "X": {
-     "odd": 3.67,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 3.6,
-     "book": "AsianOdds"
-    },
-    "under2_5": {
-     "odd": 2.14,
-     "book": "Marathon"
-    },
-    "over2_5": {
-     "odd": 1.68,
-     "book": "Marathon"
-    }
-   }
-  },
-  {
-   "home": "Arouca",
-   "away": "Santa Clara",
-   "league": "Portugal-Liga Portugal",
-   "kickoff": "Sun 18:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 2.74,
-     "X": 3.25,
-     "2": 3.05
-    },
-    "goals": {
-     "under2_5": 1.76,
-     "over2_5": 2.32
-    },
-    "volume1x2": 7275.86,
-    "volumeGoals": 431.0
-   },
-   "move": {},
-   "btfName": "Arouca v Santa Clara",
-   "books": {
-    "pinnacle": {
-     "1": 2.66,
-     "X": 3.07,
-     "2": 3.02,
-     "under2_5": 1.68,
-     "over2_5": 2.27
-    },
-    "bet365": {
-     "1": 2.55,
-     "X": 3.1,
-     "2": 2.85,
-     "under2_5": 1.62,
-     "over2_5": 2.25
-    },
-    "betfair": {
-     "1": 2.74,
-     "X": 3.25,
-     "2": 3.15,
-     "under2_5": 1.76,
-     "over2_5": 2.32
-    },
-    "average": {
-     "1": 2.59,
-     "X": 3.05,
-     "2": 2.88,
-     "under2_5": 1.62,
-     "over2_5": 2.25
-    },
-    "best": {
-     "1": 2.7,
-     "X": 3.2,
-     "2": 3.07,
-     "under2_5": 1.7,
-     "over2_5": 2.3
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 2.59,
-     "book": "1xbet"
-    },
-    "under2_5": {
-     "odd": 1.6,
-     "book": "AsianOdds"
-    },
-    "over2_5": {
-     "odd": 2.34,
-     "book": "Unibet"
-    }
-   }
-  },
-  {
-   "home": "Benfica",
-   "away": "Gil Vicente",
-   "league": "Portugal-Liga Portugal",
-   "kickoff": "Sun 18:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 1.14,
-     "X": 11.0,
-     "2": 30.0
-    },
-    "goals": {
-     "under2_5": 3.1,
-     "over2_5": 1.46
-    },
-    "volume1x2": 49599.04,
-    "volumeGoals": 5363.0
-   },
-   "move": {},
-   "btfName": "Benfica v Gil Vicente",
-   "books": {
-    "pinnacle": {
-     "1": 1.13,
-     "X": 9.83,
-     "2": 20.1,
-     "under2_5": 2.96,
-     "over2_5": 1.4
-    },
-    "bet365": {
-     "1": 1.1,
-     "X": 8.0,
-     "2": 21.0,
-     "under2_5": 2.5,
-     "over2_5": 1.5
-    },
-    "betfair": {
-     "1": 1.15,
-     "X": 10.5,
-     "2": 26.0,
-     "under2_5": 3.15,
-     "over2_5": 1.46
-    },
-    "average": {
-     "1": 1.13,
-     "X": 8.15,
-     "2": 19.12,
-     "under2_5": 2.6,
-     "over2_5": 1.45
-    },
-    "best": {
-     "1": 1.16,
-     "X": 9.83,
-     "2": 22.0,
-     "under2_5": 2.96,
-     "over2_5": 1.5
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.14,
-     "book": "Betsson"
-    },
-    "X": {
-     "odd": 7.14,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 15.8,
-     "book": "1xbet"
-    },
-    "under2_5": {
-     "odd": 2.32,
-     "book": "Pinnacle"
-    },
-    "over2_5": {
-     "odd": 1.49,
-     "book": "Betfred"
-    }
-   }
-  },
-  {
-   "home": "Amed Sportif",
-   "away": "Istanbul Basaksehir",
-   "league": "Turkiye-Super Lig",
-   "kickoff": "Sun 18:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 2.6,
-     "X": 3.6,
-     "2": 2.92
-    },
-    "goals": {
-     "under2_5": 2.28,
-     "over2_5": 1.78
-    },
-    "volume1x2": 3155.66,
-    "volumeGoals": 2502.0
-   },
-   "move": {},
-   "btfName": "Amed Sportif v Istanbul Basaksehir",
-   "books": {
-    "pinnacle": {
-     "1": 2.51,
-     "X": 3.59,
-     "2": 2.81
-    },
-    "bet365": {
-     "1": 2.5,
-     "X": 3.4,
-     "2": 2.5,
-     "under2_5": 2.0,
-     "over2_5": 1.8
-    },
-    "betfair": {
-     "1": 2.6,
-     "X": 3.65,
-     "2": 2.9,
-     "under2_5": 2.3,
-     "over2_5": 1.76
-    },
-    "average": {
-     "1": 2.54,
-     "X": 3.46,
-     "2": 2.6,
-     "under2_5": 2.01,
-     "over2_5": 1.76
-    },
-    "best": {
-     "1": 2.65,
-     "X": 3.6,
-     "2": 2.81,
-     "under2_5": 2.22,
-     "over2_5": 1.85
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 2.54,
-     "book": "Bwin"
-    },
-    "X": {
-     "odd": 3.44,
-     "book": "Betsson"
-    },
-    "2": {
-     "odd": 2.59,
-     "book": "Pinnacle"
-    },
-    "over2_5": {
-     "odd": 1.79,
-     "book": "1xbet"
-    }
-   }
-  },
-  {
-   "home": "Cd Fas",
-   "away": "Alianza Fc",
-   "league": "El Salvador-Primera Division",
-   "kickoff": "Sun 18:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 1.87,
-     "X": 3.15,
-     "2": 5.9
-    },
-    "goals": {
-     "under2_5": 1.84,
-     "over2_5": 2.16
-    },
-    "volume1x2": 476.98,
-    "volumeGoals": 60.0
-   },
-   "move": {},
-   "btfName": "Cd Fas v Alianza Fc",
-   "books": {
-    "betfair": {
-     "1": 1.87,
-     "X": 3.15,
-     "2": 5.9,
-     "under2_5": 1.84,
-     "over2_5": 2.16
-    },
-    "average": {
-     "1": 1.82,
-     "X": 3.25,
-     "2": 3.85,
-     "under2_5": 1.73,
-     "over2_5": 1.95
-    },
-    "best": {
-     "1": 2.18,
-     "X": 3.42,
-     "2": 4.2,
-     "under2_5": 2.08,
-     "over2_5": 2.1
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.86,
-     "book": "Marathon"
-    },
-    "X": {
-     "odd": 3.11,
-     "book": "Marathon"
-    },
-    "2": {
-     "odd": 3.71,
-     "book": "Unibet"
-    }
-   }
-  },
-  {
-   "home": "Raal La Louviere",
-   "away": "Kortrijk",
-   "league": "Belgium-First Division A",
-   "kickoff": "Sun 18:15",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 2.54,
-     "X": 3.45,
-     "2": 3.15
-    },
-    "goals": {
-     "under2_5": 2.0,
-     "over2_5": 2.0
-    },
-    "volume1x2": 2039.66,
-    "volumeGoals": 1014.0
-   },
-   "move": {},
-   "btfName": "Raal La Louviere v Kortrijk",
-   "books": {
-    "pinnacle": {
-     "1": 2.47,
-     "X": 3.4,
-     "2": 3.0
-    },
-    "bet365": {
-     "1": 2.35,
-     "X": 3.2,
-     "2": 2.75,
-     "under2_5": 1.85,
-     "over2_5": 1.95
-    },
-    "betfair": {
-     "1": 2.54,
-     "X": 3.45,
-     "2": 3.15,
-     "under2_5": 1.99,
-     "over2_5": 2.0
-    },
-    "average": {
-     "1": 2.41,
-     "X": 3.32,
-     "2": 2.85,
-     "under2_5": 1.82,
-     "over2_5": 1.93
-    },
-    "best": {
-     "1": 2.5,
-     "X": 3.4,
-     "2": 3.0,
-     "under2_5": 1.89,
-     "over2_5": 2.0
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 2.4,
-     "book": "AsianOdds"
-    },
-    "X": {
-     "odd": 3.32,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 2.82,
-     "book": "Pinnacle"
-    },
-    "under2_5": {
-     "odd": 1.86,
-     "book": "Marathon"
-    }
-   }
-  },
-  {
-   "home": "Botev Plovdiv",
-   "away": "Lokomotiv Plovdiv",
-   "league": "Bulgaria-First Professional League",
-   "kickoff": "Sun 18:30",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 1.87,
-     "X": 3.75,
-     "2": 5.0
-    },
-    "goals": {
-     "under2_5": 1.91,
-     "over2_5": 2.1
-    },
-    "volume1x2": 1817.54,
-    "volumeGoals": 36.0
-   },
-   "move": {},
-   "btfName": "Botev Plovdiv v Lokomotiv Plovdiv",
-   "books": {
-    "pinnacle": {
-     "1": 1.81,
-     "X": 3.6,
-     "2": 4.51,
-     "under2_5": 1.86,
-     "over2_5": 1.98
-    },
-    "bet365": {
-     "1": 1.71,
-     "X": 3.6,
-     "2": 4.75,
-     "under2_5": 1.85,
-     "over2_5": 1.95
-    },
-    "betfair": {
-     "1": 1.84,
-     "X": 3.75,
-     "2": 5.0,
-     "under2_5": 1.91,
-     "over2_5": 2.1
-    },
-    "average": {
-     "1": 1.77,
-     "X": 3.5,
-     "2": 4.34,
-     "under2_5": 1.81,
-     "over2_5": 1.93
-    },
-    "best": {
-     "1": 1.81,
-     "X": 3.6,
-     "2": 4.75,
-     "under2_5": 1.86,
-     "over2_5": 1.98
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.74,
-     "book": "Pinnacle"
-    },
-    "X": {
-     "odd": 3.46,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 4.48,
-     "book": "Bet365"
-    },
-    "under2_5": {
-     "odd": 1.81,
-     "book": "Pinnacle"
-    },
-    "over2_5": {
-     "odd": 1.99,
-     "book": "Pinnacle"
-    }
-   }
-  },
-  {
-   "home": "Corvinul Hunedoara",
-   "away": "Universitatea Craiova",
-   "league": "Romania-Superliga",
-   "kickoff": "Sun 18:30",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 5.6,
-     "X": 3.85,
-     "2": 1.76
-    },
-    "goals": {
-     "under2_5": 1.91,
-     "over2_5": 2.04
-    },
-    "volume1x2": 1448.02,
-    "volumeGoals": 17.0
-   },
-   "move": {},
-   "btfName": "Corvinul Hunedoara v Universitatea Craiova",
-   "books": {
-    "pinnacle": {
-     "1": 5.59,
-     "X": 3.75,
-     "2": 1.66,
-     "under2_5": 1.91,
-     "over2_5": 1.94
-    },
-    "betfair": {
-     "1": 5.7,
-     "X": 3.8,
-     "2": 1.75,
-     "under2_5": 1.99,
-     "over2_5": 2.02
-    },
-    "average": {
-     "1": 5.48,
-     "X": 3.73,
-     "2": 1.67,
-     "under2_5": 1.91,
-     "over2_5": 1.94
-    },
-    "best": {
-     "1": 5.59,
-     "X": 3.75,
-     "2": 1.69,
-     "under2_5": 1.92,
-     "over2_5": 1.95
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 4.16,
-     "book": "Pinnacle"
-    },
-    "X": {
-     "odd": 3.47,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 1.86,
-     "book": "AsianOdds"
-    },
-    "under2_5": {
-     "odd": 1.82,
-     "book": "AsianOdds"
-    },
-    "over2_5": {
-     "odd": 2.01,
-     "book": "AsianOdds"
-    }
-   }
-  },
-  {
-   "home": "Sarmiento",
-   "away": "Belgrano",
-   "league": "Argentina-Liga Profesional",
-   "kickoff": "Sun 18:45",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 3.55,
-     "X": 3.15,
-     "2": 2.58
-    },
-    "goals": {
-     "under2_5": 1.57,
-     "over2_5": 2.74
-    },
-    "volume1x2": 322.66,
-    "volumeGoals": 270.0
-   },
-   "move": {},
-   "btfName": "Sarmiento v Belgrano",
-   "books": {
-    "pinnacle": {
-     "1": 3.36,
-     "X": 2.99,
-     "2": 2.49
-    },
-    "betfair": {
-     "1": 3.55,
-     "X": 3.05,
-     "2": 2.58,
-     "under2_5": 1.56,
-     "over2_5": 2.72
-    },
-    "average": {
-     "1": 3.35,
-     "X": 2.98,
-     "2": 2.49
-    },
-    "best": {
-     "1": 3.37,
-     "X": 2.99,
-     "2": 2.49
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 3.18,
-     "book": "AsianOdds"
-    },
-    "X": {
-     "odd": 3.05,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 2.44,
-     "book": "Pinnacle"
-    }
-   }
-  },
-  {
-   "home": "Tigre",
-   "away": "Rosario Central",
-   "league": "Argentina-Liga Profesional",
-   "kickoff": "Sun 18:45",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 3.5,
-     "X": 2.96,
-     "2": 2.64
-    },
-    "goals": {
-     "under2_5": 1.5,
-     "over2_5": 3.0
-    },
-    "volume1x2": 3301.9,
-    "volumeGoals": 289.0
-   },
-   "move": {},
-   "btfName": "Tigre v Rosario Central",
-   "books": {
-    "pinnacle": {
-     "1": 3.31,
-     "X": 2.88,
-     "2": 2.61
-    },
-    "betfair": {
-     "1": 3.45,
-     "X": 2.98,
-     "2": 2.64,
-     "under2_5": 1.5,
-     "over2_5": 3.0
-    },
-    "average": {
-     "1": 3.3,
-     "X": 2.85,
-     "2": 2.59,
-     "under2_5": 1.42,
-     "over2_5": 2.79
-    },
-    "best": {
-     "1": 3.39,
-     "X": 2.88,
-     "2": 2.61,
-     "under2_5": 1.42,
-     "over2_5": 2.79
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 2.96,
-     "book": "AsianOdds"
-    },
-    "X": {
-     "odd": 2.87,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 2.72,
-     "book": "Pinnacle"
-    },
-    "under2_5": {
-     "odd": 1.44,
-     "book": "Marathon"
-    },
-    "over2_5": {
-     "odd": 2.71,
-     "book": "Marathon"
-    }
-   }
-  },
-  {
-   "home": "Al Drae",
-   "away": "Abha",
-   "league": "Saudi Arabia-Saudi Pro League",
-   "kickoff": "Sun 19:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 1.46,
-     "X": 5.3,
-     "2": 8.2
-    },
-    "goals": {
-     "under2_5": 2.44,
-     "over2_5": 1.67
-    },
-    "volume1x2": 703.42,
-    "volumeGoals": 333.0
-   },
-   "move": {},
-   "btfName": "Al Drae v Abha",
-   "books": {
-    "pinnacle": {
-     "1": 1.41,
-     "X": 4.89,
-     "2": 6.86
-    },
-    "betfair": {
-     "1": 1.47,
-     "X": 5.1,
-     "2": 8.2,
-     "under2_5": 2.44,
-     "over2_5": 1.67
-    },
-    "average": {
-     "1": 1.42,
-     "X": 4.79,
-     "2": 6.77
-    },
-    "best": {
-     "1": 1.44,
-     "X": 4.89,
-     "2": 6.86
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.5,
-     "book": "AsianOdds"
-    },
-    "X": {
-     "odd": 4.33,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 5.59,
-     "book": "Pinnacle"
-    }
-   }
-  },
-  {
-   "home": "Al Riyadh",
-   "away": "Al Kholood",
-   "league": "Saudi Arabia-Saudi Pro League",
-   "kickoff": "Sun 19:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 4.4,
-     "X": 3.65,
-     "2": 1.98
-    },
-    "goals": {
-     "under2_5": 1.84,
-     "over2_5": 2.2
-    },
-    "volume1x2": 4800.13,
-    "volumeGoals": 2861.0
-   },
-   "move": {},
-   "btfName": "Al Riyadh v Al Kholood",
-   "books": {
-    "pinnacle": {
-     "1": 4.11,
-     "X": 3.48,
-     "2": 1.92
-    },
-    "bet365": {
-     "1": 3.1,
-     "X": 3.4,
-     "2": 2.0,
-     "under2_5": 1.95,
-     "over2_5": 1.85
-    },
-    "betfair": {
-     "1": 4.5,
-     "X": 3.6,
-     "2": 2.0,
-     "under2_5": 1.82,
-     "over2_5": 2.22
-    },
-    "average": {
-     "1": 3.46,
-     "X": 3.39,
-     "2": 2.01,
-     "under2_5": 1.88,
-     "over2_5": 1.87
-    },
-    "best": {
-     "1": 4.11,
-     "X": 3.5,
-     "2": 2.2,
-     "under2_5": 1.95,
-     "over2_5": 2.12
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 3.03,
-     "book": "Pinnacle"
-    },
-    "X": {
-     "odd": 3.4,
-     "book": "Bwin"
-    },
-    "under2_5": {
-     "odd": 1.94,
-     "book": "Bet365"
-    },
-    "over2_5": {
-     "odd": 1.86,
-     "book": "3ET"
-    }
-   }
-  },
-  {
-   "home": "Psv Eindhoven",
-   "away": "Sparta Rotterdam",
-   "league": "Netherlands-Eredivisie",
-   "kickoff": "Sun 19:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 1.19,
-     "X": 10.5,
-     "2": 16.5
-    },
-    "goals": {
-     "under2_5": 6.2,
-     "over2_5": 1.19
-    },
-    "volume1x2": 8546.67,
-    "volumeGoals": 1466.0
-   },
-   "move": {},
-   "btfName": "Psv Eindhoven v Sparta Rotterdam",
-   "books": {
-    "pinnacle": {
-     "1": 1.14,
-     "X": 10.2,
-     "2": 15.14,
-     "under2_5": 5.68,
-     "over2_5": 1.14
-    },
-    "bet365": {
-     "1": 1.14,
-     "X": 9.0,
-     "2": 17.0,
-     "under2_5": 4.33,
-     "over2_5": 1.2
-    },
-    "betfair": {
-     "1": 1.18,
-     "X": 10.0,
-     "2": 17.0,
-     "under2_5": 6.2,
-     "over2_5": 1.19
-    },
-    "average": {
-     "1": 1.16,
-     "X": 8.48,
-     "2": 13.31,
-     "under2_5": 4.65,
-     "over2_5": 1.18
-    },
-    "best": {
-     "1": 1.2,
-     "X": 10.2,
-     "2": 17.0,
-     "under2_5": 5.68,
-     "over2_5": 1.22
-    }
-   },
-   "bestAvailable": {
-    "X": {
-     "odd": 7.66,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 11.67,
-     "book": "Bet365"
-    },
-    "under2_5": {
-     "odd": 4.64,
-     "book": "Pinnacle"
-    },
-    "over2_5": {
-     "odd": 1.18,
-     "book": "10Bet"
-    }
-   }
-  },
-  {
-   "home": "Sport Boys",
-   "away": "Deportivo Garcilaso",
-   "league": "Peru-Primera Division",
-   "kickoff": "Sun 19:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 1.74,
-     "X": 3.85,
-     "2": 5.9
-    },
-    "goals": {
-     "under2_5": 1.82,
-     "over2_5": 2.22
-    },
-    "volume1x2": 239.03,
-    "volumeGoals": 1627.0
-   },
-   "move": {},
-   "btfName": "Sport Boys v Deportivo Garcilaso",
-   "books": {
-    "pinnacle": {
-     "1": 1.62,
-     "X": 3.56,
-     "2": 5.57
-    },
-    "bet365": {
-     "1": 1.73,
-     "X": 3.4,
-     "2": 4.75,
-     "under2_5": 1.75,
-     "over2_5": 2.05
-    },
-    "betfair": {
-     "1": 1.75,
-     "X": 3.7,
-     "2": 6.0,
-     "under2_5": 1.82,
-     "over2_5": 2.22
-    },
-    "average": {
-     "1": 1.68,
-     "X": 3.51,
-     "2": 4.93,
-     "under2_5": 1.72,
-     "over2_5": 2.04
-    },
-    "best": {
-     "1": 1.74,
-     "X": 3.72,
-     "2": 5.57,
-     "under2_5": 1.78,
-     "over2_5": 2.12
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.72,
-     "book": "10Bet"
-    },
-    "X": {
-     "odd": 3.45,
-     "book": "Marathon"
-    },
-    "2": {
-     "odd": 4.65,
-     "book": "Pinnacle"
-    },
-    "under2_5": {
-     "odd": 1.74,
-     "book": "Betway"
-    }
-   }
-  },
-  {
-   "home": "Paok Thessaloniki Fc",
-   "away": "Aris Thessaloniki Fc",
-   "league": "Greece-Super League",
-   "kickoff": "Sun 19:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 1.68,
-     "X": 4.3,
-     "2": 6.2
-    },
-    "goals": {
-     "under2_5": 1.94,
-     "over2_5": 2.04
-    },
-    "volume1x2": 4668.96,
-    "volumeGoals": 443.0
-   },
-   "move": {},
-   "btfName": "Paok Thessaloniki Fc v Aris Thessaloniki Fc",
-   "books": {
-    "pinnacle": {
-     "1": 1.64,
-     "X": 4.11,
-     "2": 5.28,
-     "under2_5": 1.86,
-     "over2_5": 2.01
-    },
-    "bet365": {
-     "1": 1.56,
-     "X": 4.1,
-     "2": 5.25,
-     "under2_5": 2.08,
-     "over2_5": 1.73
-    },
-    "betfair": {
-     "1": 1.67,
-     "X": 4.1,
-     "2": 6.0,
-     "under2_5": 1.96,
-     "over2_5": 2.08
-    },
-    "average": {
-     "1": 1.58,
-     "X": 3.97,
-     "2": 5.42,
-     "under2_5": 1.97,
-     "over2_5": 1.82
-    },
-    "best": {
-     "1": 1.64,
-     "X": 4.35,
-     "2": 6.0,
-     "under2_5": 2.08,
-     "over2_5": 2.02
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.49,
-     "book": "Pinnacle"
-    },
-    "X": {
-     "odd": 4.2,
-     "book": "Unibet"
-    },
-    "2": {
-     "odd": 5.75,
-     "book": "Unibet"
-    },
-    "under2_5": {
-     "odd": 2.05,
-     "book": "Bet365"
-    },
-    "over2_5": {
-     "odd": 1.79,
-     "book": "AsianOdds"
-    }
-   }
-  },
-  {
-   "home": "Kifisia Fc",
-   "away": "Levadiakos",
-   "league": "Greece-Super League",
-   "kickoff": "Sun 19:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 2.42,
-     "X": 3.25,
-     "2": 3.5
-    },
-    "goals": {
-     "under2_5": 1.8,
-     "over2_5": 2.24
-    },
-    "volume1x2": 760.84,
-    "volumeGoals": 55.0
-   },
-   "move": {},
-   "btfName": "Kifisia Fc v Levadiakos",
-   "books": {
-    "bet365": {
-     "1": 2.3,
-     "X": 3.2,
-     "2": 3.1,
-     "under2_5": 1.7,
-     "over2_5": 2.1
-    },
-    "betfair": {
-     "1": 2.44,
-     "X": 3.25,
-     "2": 3.6,
-     "under2_5": 1.8,
-     "over2_5": 2.24
-    },
-    "average": {
-     "1": 2.33,
-     "X": 3.06,
-     "2": 3.01,
-     "under2_5": 1.68,
-     "over2_5": 2.1
-    },
-    "best": {
-     "1": 2.38,
-     "X": 3.2,
-     "2": 3.1,
-     "under2_5": 1.7,
-     "over2_5": 2.1
-    }
-   },
-   "bestAvailable": {
-    "X": {
-     "odd": 3.09,
-     "book": "Bet365"
-    },
-    "2": {
-     "odd": 2.84,
-     "book": "Bet365"
-    }
-   }
-  },
-  {
-   "home": "Hajduk Split",
-   "away": "Slaven",
-   "league": "Croatia-HNL",
-   "kickoff": "Sun 19:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 1.31,
-     "X": 6.8,
-     "2": 9.8
-    },
-    "goals": {
-     "under2_5": 3.4,
-     "over2_5": 1.42
-    },
-    "volume1x2": 450.7,
-    "volumeGoals": 143.0
-   },
-   "move": {},
-   "btfName": "Hajduk Split v Slaven",
-   "books": {
-    "pinnacle": {
-     "1": 1.28,
-     "X": 6.18,
-     "2": 8.51
-    },
-    "bet365": {
-     "1": 1.3,
-     "X": 5.0,
-     "2": 7.0
-    },
-    "betfair": {
-     "1": 1.32,
-     "X": 7.0,
-     "2": 11.0,
-     "under2_5": 3.4,
-     "over2_5": 1.42
-    },
-    "average": {
-     "1": 1.31,
-     "X": 5.26,
-     "2": 7.85,
-     "under2_5": 2.49,
-     "over2_5": 1.46
-    },
-    "best": {
-     "1": 1.34,
-     "X": 6.18,
-     "2": 8.7,
-     "under2_5": 2.52,
-     "over2_5": 1.5
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.31,
-     "book": "Bwin"
-    },
-    "X": {
-     "odd": 5.17,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 7.66,
-     "book": "10Bet"
-    },
-    "under2_5": {
-     "odd": 2.54,
-     "book": "1xbet"
-    },
-    "over2_5": {
-     "odd": 1.46,
-     "book": "10Bet"
-    }
-   }
-  },
-  {
-   "home": "La Serena",
-   "away": "Universidad De Chile",
-   "league": "Chile-Primera Division",
-   "kickoff": "Sun 19:00",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 4.3,
-     "X": 4.1,
-     "2": 1.91
-    },
-    "goals": {
-     "under2_5": 2.26,
-     "over2_5": 1.79
-    },
-    "volume1x2": 251.47,
-    "volumeGoals": 222.0
-   },
-   "move": {},
-   "btfName": "La Serena v Universidad De Chile",
-   "books": {
-    "pinnacle": {
-     "1": 4.16,
-     "X": 3.84,
-     "2": 1.85,
-     "under2_5": 2.13,
-     "over2_5": 1.76
-    },
-    "betfair": {
-     "1": 4.2,
-     "X": 3.9,
-     "2": 1.91,
-     "under2_5": 2.28,
-     "over2_5": 1.79
-    },
-    "average": {
-     "1": 4.06,
-     "X": 3.8,
-     "2": 1.85,
-     "under2_5": 2.13,
-     "over2_5": 1.74
-    },
-    "best": {
-     "1": 4.16,
-     "X": 3.84,
-     "2": 1.87,
-     "under2_5": 2.16,
-     "over2_5": 1.76
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 3.97,
-     "book": "Pinnacle"
-    },
-    "X": {
-     "odd": 3.77,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 1.82,
-     "book": "AsianOdds"
-    },
-    "under2_5": {
-     "odd": 2.09,
-     "book": "AsianOdds"
-    },
-    "over2_5": {
-     "odd": 1.74,
-     "book": "Pinnacle"
-    }
-   }
-  },
-  {
-   "home": "Panathinaikos",
-   "away": "Panetolikos",
-   "league": "Greece-Super League",
-   "kickoff": "Sun 19:30",
-   "betfairMarket": null,
-   "betfair": {
-    "odds": {
-     "1": 1.26,
-     "X": 6.6,
-     "2": 15.5
-    },
-    "goals": {
-     "under2_5": 2.5,
-     "over2_5": 1.66
-    },
-    "volume1x2": 5505.38,
-    "volumeGoals": 224.0
-   },
-   "move": {},
-   "btfName": "Panathinaikos v Panetolikos",
-   "books": {
-    "pinnacle": {
-     "1": 1.24,
-     "X": 6.29,
-     "2": 12.32
-    },
-    "bet365": {
-     "1": 1.22,
-     "X": 6.0,
-     "2": 11.0,
-     "under2_5": 2.08,
-     "over2_5": 1.73
-    },
-    "betfair": {
-     "1": 1.27,
-     "X": 6.6,
-     "2": 15.5,
-     "under2_5": 2.48,
-     "over2_5": 1.66
-    },
-    "average": {
-     "1": 1.24,
-     "X": 5.68,
-     "2": 11.16,
-     "under2_5": 2.05,
-     "over2_5": 1.72
-    },
-    "best": {
-     "1": 1.33,
-     "X": 6.29,
-     "2": 13.0,
-     "under2_5": 2.31,
-     "over2_5": 1.8
-    }
-   },
-   "bestAvailable": {
-    "1": {
-     "odd": 1.3,
-     "book": "Unibet"
-    },
-    "X": {
-     "odd": 4.91,
-     "book": "Pinnacle"
-    },
-    "2": {
-     "odd": 9.21,
-     "book": "10Bet"
-    },
-    "under2_5": {
-     "odd": 2.04,
-     "book": "Marathon"
-    },
-    "over2_5": {
-     "odd": 1.75,
-     "book": "10Bet"
-    }
-   }
-  },
   {
    "home": "Brest",
    "away": "Paris Saint-germain",
@@ -2795,49 +30,47 @@
    "btfName": "Brest v Paris Saint-germain",
    "books": {
     "pinnacle": {
-     "1": 11.6,
-     "X": 6.95,
-     "2": 1.24,
-     "under2_5": 3.18,
-     "over2_5": 1.36
+     "1": 11.84,
+     "X": 6.99,
+     "2": 1.23
     },
     "bet365": {
-     "1": 11.0,
-     "X": 7.0,
+     "1": 12.0,
+     "X": 6.5,
      "2": 1.22,
      "under2_5": 3.0,
      "over2_5": 1.4
     },
     "betfair": {
-     "1": 14.5,
-     "X": 7.2,
-     "2": 1.27,
-     "under2_5": 3.55,
-     "over2_5": 1.39
+     "1": 14.0,
+     "X": 7.4,
+     "2": 1.26,
+     "under2_5": 3.95,
+     "over2_5": 1.34
     },
     "average": {
-     "1": 10.92,
-     "X": 6.5,
+     "1": 10.98,
+     "X": 6.58,
      "2": 1.24,
-     "under2_5": 2.99,
+     "under2_5": 2.95,
      "over2_5": 1.37
     },
     "best": {
      "1": 12.0,
-     "X": 7.0,
+     "X": 7.25,
      "2": 1.29,
-     "under2_5": 3.18,
+     "under2_5": 3.0,
      "over2_5": 1.4
     }
    },
    "bestAvailable": {
     "1": {
      "odd": 9.92,
-     "book": "Betvictor"
+     "book": "Bet365"
     },
     "X": {
      "odd": 6.18,
-     "book": "Bet365"
+     "book": "Bwin"
     },
     "2": {
      "odd": 1.26,
@@ -2845,7 +78,7 @@
     },
     "under2_5": {
      "odd": 3.06,
-     "book": "Pinnacle"
+     "book": "Betfred"
     },
     "over2_5": {
      "odd": 1.38,
@@ -2876,45 +109,45 @@
    "btfName": "Sassuolo v Juventus",
    "books": {
     "pinnacle": {
-     "1": 5.85,
-     "X": 4.03,
-     "2": 1.63,
-     "under2_5": 2.07,
-     "over2_5": 1.82
+     "1": 5.48,
+     "X": 3.84,
+     "2": 1.71,
+     "under2_5": 1.97,
+     "over2_5": 1.93
     },
     "bet365": {
      "1": 5.25,
-     "X": 4.1,
-     "2": 1.62,
+     "X": 3.8,
+     "2": 1.65,
      "under2_5": 2.03,
      "over2_5": 1.83
     },
     "betfair": {
-     "1": 6.2,
-     "X": 4.1,
-     "2": 1.69,
-     "under2_5": 2.18,
-     "over2_5": 1.85
+     "1": 5.8,
+     "X": 4.0,
+     "2": 1.74,
+     "under2_5": 2.02,
+     "over2_5": 1.96
     },
     "average": {
-     "1": 5.36,
-     "X": 3.96,
-     "2": 1.64,
-     "under2_5": 2.03,
-     "over2_5": 1.78
+     "1": 5.22,
+     "X": 3.89,
+     "2": 1.66,
+     "under2_5": 2.01,
+     "over2_5": 1.82
     },
     "best": {
-     "1": 5.85,
+     "1": 5.55,
      "X": 4.11,
      "2": 1.71,
      "under2_5": 2.1,
-     "over2_5": 1.83
+     "over2_5": 1.96
     }
    },
    "bestAvailable": {
     "1": {
      "odd": 5.23,
-     "book": "Pinnacle"
+     "book": "Marathon"
     },
     "X": {
      "odd": 3.95,
@@ -2922,11 +155,11 @@
     },
     "2": {
      "odd": 1.64,
-     "book": "1xbet"
+     "book": "Pinnacle"
     },
     "over2_5": {
      "odd": 1.8,
-     "book": "Bet365"
+     "book": "AsianOdds"
     }
    }
   },
@@ -2953,30 +186,30 @@
    "btfName": "Ferroviaria v Paysandu",
    "books": {
     "pinnacle": {
-     "1": 1.72,
-     "X": 3.59,
-     "2": 3.86,
-     "under2_5": 1.83,
-     "over2_5": 1.9
+     "1": 1.85,
+     "X": 3.31,
+     "2": 4.22
     },
     "betfair": {
-     "1": 1.87,
-     "X": 3.9,
-     "2": 4.6
+     "1": 1.9,
+     "X": 3.75,
+     "2": 4.8,
+     "under2_5": 1.92,
+     "over2_5": 2.06
     },
     "average": {
-     "1": 1.8,
-     "X": 3.45,
-     "2": 3.82,
-     "under2_5": 1.79,
-     "over2_5": 1.91
+     "1": 1.83,
+     "X": 3.38,
+     "2": 3.95,
+     "under2_5": 1.78,
+     "over2_5": 1.92
     },
     "best": {
      "1": 2.05,
      "X": 3.8,
-     "2": 4.0,
+     "2": 4.22,
      "under2_5": 1.85,
-     "over2_5": 2.0
+     "over2_5": 2.04
     }
    },
    "bestAvailable": {
@@ -2990,7 +223,7 @@
     },
     "2": {
      "odd": 3.72,
-     "book": "Betfred"
+     "book": "Pinnacle"
     },
     "under2_5": {
      "odd": 1.84,
@@ -3021,49 +254,49 @@
    "btfName": "Mirassol v Vitoria",
    "books": {
     "pinnacle": {
-     "1": 1.76,
-     "X": 3.81,
-     "2": 4.99,
-     "under2_5": 2.02,
-     "over2_5": 1.89
+     "1": 1.91,
+     "X": 3.56,
+     "2": 4.43,
+     "under2_5": 1.94,
+     "over2_5": 1.96
     },
     "bet365": {
-     "1": 1.68,
+     "1": 1.66,
      "X": 3.6,
-     "2": 5.0,
+     "2": 5.25,
      "under2_5": 1.93,
      "over2_5": 1.93
     },
     "betfair": {
-     "1": 1.81,
-     "X": 3.95,
-     "2": 5.4,
-     "under2_5": 2.1,
-     "over2_5": 1.93
+     "1": 1.92,
+     "X": 3.6,
+     "2": 4.9,
+     "under2_5": 1.96,
+     "over2_5": 2.02
     },
     "average": {
-     "1": 1.74,
-     "X": 3.64,
-     "2": 4.7,
-     "under2_5": 1.91,
-     "over2_5": 1.89
+     "1": 1.77,
+     "X": 3.54,
+     "2": 4.65,
+     "under2_5": 1.87,
+     "over2_5": 1.92
     },
     "best": {
-     "1": 1.78,
-     "X": 3.81,
-     "2": 5.0,
-     "under2_5": 2.04,
-     "over2_5": 1.95
+     "1": 1.9,
+     "X": 3.75,
+     "2": 5.25,
+     "under2_5": 1.94,
+     "over2_5": 2.0
     }
    },
    "bestAvailable": {
     "1": {
      "odd": 1.73,
-     "book": "AsianOdds"
+     "book": "Pinnacle"
     },
     "X": {
      "odd": 3.62,
-     "book": "Pinnacle"
+     "book": "Betvictor"
     },
     "2": {
      "odd": 4.7,
@@ -3071,11 +304,11 @@
     },
     "under2_5": {
      "odd": 1.91,
-     "book": "AsianOdds"
+     "book": "Pinnacle"
     },
     "over2_5": {
      "odd": 1.93,
-     "book": "10Bet"
+     "book": "AsianOdds"
     }
    }
   },
@@ -3102,47 +335,49 @@
    "btfName": "Atletico Go v Criciuma",
    "books": {
     "pinnacle": {
-     "1": 2.41,
-     "X": 3.14,
-     "2": 3.28
+     "1": 2.45,
+     "X": 3.16,
+     "2": 3.18,
+     "under2_5": 1.6,
+     "over2_5": 2.43
     },
     "bet365": {
-     "1": 2.3,
+     "1": 2.32,
      "X": 3.2,
      "2": 3.1,
      "under2_5": 1.48,
      "over2_5": 2.6
     },
     "betfair": {
-     "1": 2.44,
-     "X": 3.3,
-     "2": 3.45,
-     "under2_5": 1.69,
-     "over2_5": 2.44
+     "1": 2.48,
+     "X": 3.2,
+     "2": 3.4,
+     "under2_5": 1.65,
+     "over2_5": 2.52
     },
     "average": {
-     "1": 2.27,
-     "X": 3.05,
-     "2": 3.29,
-     "under2_5": 1.46,
-     "over2_5": 2.58
+     "1": 2.28,
+     "X": 3.04,
+     "2": 3.25,
+     "under2_5": 1.51,
+     "over2_5": 2.53
     },
     "best": {
-     "1": 2.42,
-     "X": 3.24,
+     "1": 2.45,
+     "X": 3.2,
      "2": 3.75,
-     "under2_5": 1.48,
+     "under2_5": 1.63,
      "over2_5": 2.63
     }
    },
    "bestAvailable": {
     "1": {
      "odd": 2.15,
-     "book": "AsianOdds"
+     "book": "Pinnacle"
     },
     "X": {
      "odd": 2.95,
-     "book": "AsianOdds"
+     "book": "Bet365"
     }
    }
   },
@@ -3169,36 +404,38 @@
    "btfName": "Deportivo Pereira v Bucaramanga",
    "books": {
     "pinnacle": {
-     "1": 6.38,
-     "X": 4.24,
-     "2": 1.52
+     "1": 5.75,
+     "X": 4.16,
+     "2": 1.57,
+     "under2_5": 1.74,
+     "over2_5": 2.15
     },
     "betfair": {
-     "1": 7.2,
-     "X": 4.3,
-     "2": 1.57,
-     "under2_5": 1.78,
+     "1": 7.0,
+     "X": 4.1,
+     "2": 1.6,
+     "under2_5": 1.8,
      "over2_5": 2.2
     },
     "average": {
-     "1": 6.38,
-     "X": 4.15,
-     "2": 1.52,
-     "under2_5": 1.71,
-     "over2_5": 2.08
+     "1": 5.98,
+     "X": 4.06,
+     "2": 1.55,
+     "under2_5": 1.75,
+     "over2_5": 2.12
     },
     "best": {
-     "1": 6.53,
-     "X": 4.24,
-     "2": 1.54,
-     "under2_5": 1.71,
-     "over2_5": 2.08
+     "1": 6.35,
+     "X": 4.18,
+     "2": 1.57,
+     "under2_5": 1.75,
+     "over2_5": 2.14
     }
    },
    "bestAvailable": {
     "1": {
      "odd": 4.65,
-     "book": "AsianOdds"
+     "book": "Marathon"
     },
     "X": {
      "odd": 3.67,
@@ -3206,15 +443,15 @@
     },
     "2": {
      "odd": 1.73,
-     "book": "AsianOdds"
+     "book": "Pinnacle"
     },
     "under2_5": {
      "odd": 1.65,
-     "book": "Marathon"
+     "book": "AsianOdds"
     },
     "over2_5": {
      "odd": 2.23,
-     "book": "Marathon"
+     "book": "Pinnacle"
     }
    }
   },
@@ -3241,31 +478,31 @@
    "btfName": "Always Ready v Guabira",
    "books": {
     "bet365": {
-     "1": 1.13,
+     "1": 1.11,
      "X": 7.5,
      "2": 12.0,
      "under2_5": 3.4,
      "over2_5": 1.33
     },
     "betfair": {
-     "1": 1.19,
-     "X": 8.2,
-     "2": 17.5,
-     "under2_5": 4.3,
-     "over2_5": 1.3
+     "1": 1.17,
+     "X": 10.5,
+     "2": 20.0,
+     "under2_5": 4.9,
+     "over2_5": 1.23
     },
     "average": {
-     "1": 1.15,
-     "X": 7.02,
-     "2": 11.78,
-     "under2_5": 3.31,
+     "1": 1.14,
+     "X": 7.3,
+     "2": 12.05,
+     "under2_5": 3.35,
      "over2_5": 1.29
     },
     "best": {
      "1": 1.2,
      "X": 8.5,
      "2": 15.0,
-     "under2_5": 3.58,
+     "under2_5": 3.88,
      "over2_5": 1.33
     }
    },
@@ -3276,7 +513,7 @@
     },
     "X": {
      "odd": 6.69,
-     "book": "Betway"
+     "book": "Betvictor"
     },
     "2": {
      "odd": 12.25,
@@ -3315,39 +552,39 @@
    "btfName": "Real Sociedad v Atletico Madrid",
    "books": {
     "pinnacle": {
-     "1": 3.41,
-     "X": 3.64,
-     "2": 2.17,
-     "under2_5": 2.33,
-     "over2_5": 1.66
+     "1": 3.58,
+     "X": 3.58,
+     "2": 2.13,
+     "under2_5": 2.18,
+     "over2_5": 1.75
     },
     "bet365": {
-     "1": 3.25,
+     "1": 3.4,
      "X": 3.6,
-     "2": 2.1,
+     "2": 2.05,
      "under2_5": 2.2,
      "over2_5": 1.67
     },
     "betfair": {
-     "1": 3.5,
-     "X": 3.8,
-     "2": 2.26,
-     "under2_5": 2.48,
-     "over2_5": 1.69
+     "1": 3.65,
+     "X": 3.7,
+     "2": 2.2,
+     "under2_5": 2.28,
+     "over2_5": 1.78
     },
     "average": {
-     "1": 3.13,
-     "X": 3.59,
-     "2": 2.23,
-     "under2_5": 2.25,
-     "over2_5": 1.63
+     "1": 3.19,
+     "X": 3.54,
+     "2": 2.22,
+     "under2_5": 2.21,
+     "over2_5": 1.66
     },
     "best": {
-     "1": 3.41,
+     "1": 3.6,
      "X": 3.84,
      "2": 2.43,
-     "under2_5": 2.33,
-     "over2_5": 1.67
+     "under2_5": 2.3,
+     "over2_5": 1.79
     }
    },
    "bestAvailable": {
@@ -3365,11 +602,11 @@
     },
     "under2_5": {
      "odd": 2.3,
-     "book": "Pinnacle"
+     "book": "Betway"
     },
     "over2_5": {
      "odd": 1.66,
-     "book": "Bet365"
+     "book": "AsianOdds"
     }
    }
   },
@@ -3396,44 +633,44 @@
    "btfName": "Tenerife v Leganes",
    "books": {
     "pinnacle": {
-     "1": 2.34,
-     "X": 3.04,
-     "2": 3.59
+     "1": 2.45,
+     "X": 2.89,
+     "2": 3.58
     },
     "betfair": {
-     "1": 2.42,
-     "X": 3.05,
+     "1": 2.5,
+     "X": 2.96,
      "2": 3.8,
-     "under2_5": 1.53,
+     "under2_5": 1.54,
      "over2_5": 2.84
     },
     "average": {
-     "1": 2.32,
-     "X": 3.02,
-     "2": 3.53,
-     "under2_5": 1.52,
-     "over2_5": 2.48
+     "1": 2.41,
+     "X": 2.91,
+     "2": 3.5,
+     "under2_5": 1.51,
+     "over2_5": 2.5
     },
     "best": {
-     "1": 2.36,
-     "X": 3.04,
-     "2": 3.64,
-     "under2_5": 1.52,
-     "over2_5": 2.48
+     "1": 2.45,
+     "X": 2.94,
+     "2": 3.58,
+     "under2_5": 1.51,
+     "over2_5": 2.5
     }
    },
    "bestAvailable": {
     "1": {
      "odd": 2.58,
-     "book": "AsianOdds"
+     "book": "Pinnacle"
     },
     "X": {
      "odd": 2.95,
-     "book": "Pinnacle"
+     "book": "AsianOdds"
     },
     "2": {
      "odd": 3.0,
-     "book": "AsianOdds"
+     "book": "Pinnacle"
     },
     "under2_5": {
      "odd": 1.56,
@@ -3475,21 +712,21 @@
      "over2_5": 2.58
     },
     "betfair": {
-     "1": 2.1,
-     "X": 3.05,
-     "2": 4.9,
-     "under2_5": 1.44,
+     "1": 1.99,
+     "X": 3.15,
+     "2": 5.1,
+     "under2_5": 1.48,
      "over2_5": 3.1
     },
     "average": {
-     "1": 2.0,
-     "X": 3.02,
-     "2": 4.49,
+     "1": 1.92,
+     "X": 3.11,
+     "2": 4.64,
      "under2_5": 1.48,
      "over2_5": 2.58
     },
     "best": {
-     "1": 2.07,
+     "1": 1.95,
      "X": 3.18,
      "2": 4.65,
      "under2_5": 1.48,
@@ -3542,61 +779,55 @@
    "btfName": "Famalicao v Sporting Cp",
    "books": {
     "pinnacle": {
-     "1": 6.94,
-     "X": 4.74,
-     "2": 1.46,
-     "under2_5": 2.1,
-     "over2_5": 1.8
+     "1": 6.14,
+     "X": 4.32,
+     "2": 1.56
     },
     "bet365": {
-     "1": 7.0,
-     "X": 4.33,
-     "2": 1.45,
+     "1": 5.75,
+     "X": 4.1,
+     "2": 1.53,
      "under2_5": 2.05,
      "over2_5": 1.75
     },
     "betfair": {
-     "1": 7.8,
-     "X": 4.8,
-     "2": 1.51,
-     "under2_5": 2.16,
-     "over2_5": 1.86
+     "1": 6.8,
+     "X": 4.4,
+     "2": 1.59,
+     "under2_5": 2.12,
+     "over2_5": 1.89
     },
     "average": {
-     "1": 6.31,
-     "X": 4.4,
-     "2": 1.48,
-     "under2_5": 2.04,
-     "over2_5": 1.76
+     "1": 5.88,
+     "X": 4.24,
+     "2": 1.52,
+     "under2_5": 2.01,
+     "over2_5": 1.75
     },
     "best": {
-     "1": 7.0,
-     "X": 4.74,
-     "2": 1.55,
-     "under2_5": 2.1,
-     "over2_5": 1.81
+     "1": 6.5,
+     "X": 4.65,
+     "2": 1.58,
+     "under2_5": 2.05,
+     "over2_5": 1.8
     }
    },
    "bestAvailable": {
     "1": {
      "odd": 5.46,
-     "book": "Bet365"
-    },
-    "X": {
-     "odd": 4.27,
-     "book": "Pinnacle"
+     "book": "Betfred"
     },
     "2": {
      "odd": 1.52,
-     "book": "1xbet"
+     "book": "10Bet"
     },
     "under2_5": {
      "odd": 2.11,
-     "book": "Pinnacle"
+     "book": "Bet365"
     },
     "over2_5": {
      "odd": 1.75,
-     "book": "AsianOdds"
+     "book": "10Bet"
     }
    }
   },
@@ -3624,29 +855,29 @@
    "books": {
     "pinnacle": {
      "1": 1.78,
-     "X": 3.6,
+     "X": 3.58,
      "2": 5.14
     },
     "betfair": {
      "1": 1.82,
-     "X": 3.6,
+     "X": 3.65,
      "2": 5.6,
-     "under2_5": 1.71,
+     "under2_5": 1.7,
      "over2_5": 2.42
     },
     "average": {
      "1": 1.79,
      "X": 3.52,
      "2": 5.21,
-     "under2_5": 1.65,
+     "under2_5": 1.66,
      "over2_5": 2.3
     },
     "best": {
-     "1": 1.79,
-     "X": 3.6,
-     "2": 5.25,
-     "under2_5": 1.65,
-     "over2_5": 2.3
+     "1": 1.78,
+     "X": 3.58,
+     "2": 5.3,
+     "under2_5": 1.68,
+     "over2_5": 2.31
     }
    },
    "bestAvailable": {
@@ -3687,9 +918,11 @@
    "btfName": "Ada Jaen v Union Comercio",
    "books": {
     "betfair": {
-     "1": 1.8,
-     "X": 3.55,
-     "2": 6.2
+     "1": 1.7,
+     "X": 3.75,
+     "2": 6.6,
+     "under2_5": 1.63,
+     "over2_5": 2.46
     },
     "average": {
      "1": 1.95,
@@ -3731,28 +964,28 @@
    "btfName": "Atletico Grau v Alianza Atletico",
    "books": {
     "pinnacle": {
-     "1": 2.47,
-     "X": 2.99,
-     "2": 2.95
+     "1": 2.5,
+     "X": 3.03,
+     "2": 2.99
     },
     "betfair": {
      "1": 2.66,
-     "X": 3.3,
-     "2": 3.1,
+     "X": 3.25,
+     "2": 3.05,
      "under2_5": 1.87,
      "over2_5": 2.16
     },
     "average": {
-     "1": 2.44,
-     "X": 3.12,
-     "2": 2.91,
+     "1": 2.46,
+     "X": 3.11,
+     "2": 2.93,
      "under2_5": 1.71,
      "over2_5": 2.08
     },
     "best": {
-     "1": 2.47,
+     "1": 2.5,
      "X": 3.26,
-     "2": 2.95,
+     "2": 2.99,
      "under2_5": 1.71,
      "over2_5": 2.08
     }
@@ -3803,9 +1036,9 @@
    "btfName": "Csd Macara v Emelec",
    "books": {
     "pinnacle": {
-     "1": 1.81,
-     "X": 3.4,
-     "2": 4.82
+     "1": 1.89,
+     "X": 3.31,
+     "2": 4.49
     },
     "bet365": {
      "1": 1.86,
@@ -3815,24 +1048,24 @@
      "over2_5": 2.25
     },
     "betfair": {
-     "1": 1.85,
-     "X": 3.6,
-     "2": 5.0,
+     "1": 1.95,
+     "X": 3.5,
+     "2": 4.8,
      "under2_5": 1.77,
      "over2_5": 2.38
     },
     "average": {
-     "1": 1.9,
-     "X": 3.15,
-     "2": 4.01,
-     "under2_5": 1.6,
-     "over2_5": 2.2
+     "1": 1.92,
+     "X": 3.14,
+     "2": 3.95,
+     "under2_5": 1.59,
+     "over2_5": 2.21
     },
     "best": {
      "1": 2.02,
-     "X": 3.45,
-     "2": 4.84,
-     "under2_5": 1.71,
+     "X": 3.37,
+     "2": 4.56,
+     "under2_5": 1.65,
      "over2_5": 2.28
     }
    },
@@ -3848,6 +1081,10 @@
     "2": {
      "odd": 3.78,
      "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 1.59,
+     "book": "Betway"
     },
     "over2_5": {
      "odd": 2.27,
@@ -3878,38 +1115,36 @@
    "btfName": "Flamengo v Corinthians",
    "books": {
     "pinnacle": {
-     "1": 1.25,
-     "X": 5.94,
-     "2": 13.04,
-     "under2_5": 2.18,
-     "over2_5": 1.71
+     "1": 1.27,
+     "X": 5.81,
+     "2": 12.35
     },
     "bet365": {
-     "1": 1.22,
-     "X": 5.5,
+     "1": 1.24,
+     "X": 5.25,
      "2": 12.0,
      "under2_5": 2.03,
      "over2_5": 1.83
     },
     "betfair": {
-     "1": 1.29,
-     "X": 6.2,
-     "2": 16.0,
-     "under2_5": 2.28,
-     "over2_5": 1.76
+     "1": 1.3,
+     "X": 5.9,
+     "2": 14.5,
+     "under2_5": 2.2,
+     "over2_5": 1.82
     },
     "average": {
-     "1": 1.25,
-     "X": 5.52,
-     "2": 11.62,
-     "under2_5": 2.03,
-     "over2_5": 1.76
+     "1": 1.26,
+     "X": 5.4,
+     "2": 11.3,
+     "under2_5": 1.99,
+     "over2_5": 1.78
     },
     "best": {
      "1": 1.3,
-     "X": 6.0,
-     "2": 13.5,
-     "under2_5": 2.19,
+     "X": 5.81,
+     "2": 12.91,
+     "under2_5": 2.11,
      "over2_5": 1.91
     }
    },
@@ -3920,7 +1155,7 @@
     },
     "X": {
      "odd": 4.75,
-     "book": "Betvictor"
+     "book": "Pinnacle"
     },
     "2": {
      "odd": 9.19,
@@ -3928,7 +1163,7 @@
     },
     "under2_5": {
      "odd": 2.02,
-     "book": "AsianOdds"
+     "book": "3ET"
     },
     "over2_5": {
      "odd": 1.81,
@@ -3959,9 +1194,9 @@
    "btfName": "Colo Colo v Deportes Concepcion",
    "books": {
     "pinnacle": {
-     "1": 1.45,
-     "X": 4.68,
-     "2": 7.04
+     "1": 1.44,
+     "X": 4.73,
+     "2": 7.19
     },
     "bet365": {
      "1": 1.41,
@@ -3972,24 +1207,24 @@
     },
     "betfair": {
      "1": 1.48,
-     "X": 4.9,
+     "X": 5.1,
      "2": 7.8,
      "under2_5": 2.3,
      "over2_5": 1.73
     },
     "average": {
      "1": 1.41,
-     "X": 4.46,
-     "2": 6.78,
-     "under2_5": 2.15,
-     "over2_5": 1.66
+     "X": 4.48,
+     "2": 6.82,
+     "under2_5": 2.16,
+     "over2_5": 1.65
     },
     "best": {
-     "1": 1.47,
-     "X": 4.68,
-     "2": 7.04,
-     "under2_5": 2.21,
-     "over2_5": 1.71
+     "1": 1.46,
+     "X": 4.73,
+     "2": 7.19,
+     "under2_5": 2.23,
+     "over2_5": 1.7
     }
    },
    "bestAvailable": {
@@ -4592,6 +1827,804 @@
     },
     "volume1x2": 267167.65,
     "volumeGoals": 3429.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Suduva",
+   "away": "Zalgiris Vilnius",
+   "league": "Lithuania-A Lyga",
+   "kickoff": "Sun 16:45",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 2.66,
+     "X": 3.55,
+     "2": 2.86
+    },
+    "goals": {
+     "under2_5": 1.95,
+     "over2_5": 2.04
+    },
+    "volume1x2": 267.89,
+    "volumeGoals": 204.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Teplice",
+   "away": "Slavia Prague",
+   "league": "Czechia-First League",
+   "kickoff": "Sun 17:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 6.4,
+     "X": 4.2,
+     "2": 1.67
+    },
+    "goals": {
+     "under2_5": 2.12,
+     "over2_5": 1.89
+    },
+    "volume1x2": 1521.64,
+    "volumeGoals": 495.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Aek Larnaca",
+   "away": "Pafos Fc",
+   "league": "Cyprus-Cyprus League",
+   "kickoff": "Sun 17:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 2.88,
+     "X": 3.3,
+     "2": 2.88
+    },
+    "goals": {
+     "under2_5": 1.94,
+     "over2_5": 2.04
+    },
+    "volume1x2": 749.0,
+    "volumeGoals": 67.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Fc Nordsjaelland",
+   "away": "Agf",
+   "league": "Denmark-Superleague",
+   "kickoff": "Sun 17:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 1.85,
+     "X": 4.3,
+     "2": 4.3
+    },
+    "goals": {
+     "under2_5": 2.9,
+     "over2_5": 1.52
+    },
+    "volume1x2": 8511.42,
+    "volumeGoals": 720.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Ssc Napoli",
+   "away": "Bologna",
+   "league": "Italy-Serie A",
+   "kickoff": "Sun 17:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 1.96,
+     "X": 3.7,
+     "2": 4.7
+    },
+    "goals": {
+     "under2_5": 1.98,
+     "over2_5": 2.0
+    },
+    "volume1x2": 221490.5,
+    "volumeGoals": 4860.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Colombia U20 (w)",
+   "away": "North Korea U20 (w)",
+   "league": "international-U20 World Cup (Women)",
+   "kickoff": "Sun 17:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 30.0,
+     "X": 8.8,
+     "2": 1.14
+    },
+    "goals": {
+     "under2_5": null,
+     "over2_5": null
+    },
+    "volume1x2": 210.81,
+    "volumeGoals": null
+   },
+   "move": {}
+  },
+  {
+   "home": "Asteras Tripolis",
+   "away": "Aek Athens",
+   "league": "Greece-Super League",
+   "kickoff": "Sun 17:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 9.4,
+     "X": 5.0,
+     "2": 1.45
+    },
+    "goals": {
+     "under2_5": 2.06,
+     "over2_5": 1.93
+    },
+    "volume1x2": 3569.18,
+    "volumeGoals": 238.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Nsi Runavik",
+   "away": "Vikingur",
+   "league": "Faroe Islands-Premier League",
+   "kickoff": "Sun 17:15",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 2.16,
+     "X": 4.1,
+     "2": 3.45
+    },
+    "goals": {
+     "under2_5": 2.4,
+     "over2_5": 1.68
+    },
+    "volume1x2": 506.82,
+    "volumeGoals": 105.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Neom Sc",
+   "away": "Al Fateh Fc",
+   "league": "Saudi Arabia-Saudi Pro League",
+   "kickoff": "Sun 17:20",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 1.73,
+     "X": 4.5,
+     "2": 5.5
+    },
+    "goals": {
+     "under2_5": 2.36,
+     "over2_5": 1.73
+    },
+    "volume1x2": 349.47,
+    "volumeGoals": 212.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Elbasani",
+   "away": "Egnatia",
+   "league": "Albania-Kategoria Superiore",
+   "kickoff": "Sun 17:30",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 2.82,
+     "X": 3.4,
+     "2": 2.88
+    },
+    "goals": {
+     "under2_5": 1.79,
+     "over2_5": 2.14
+    },
+    "volume1x2": 332.94,
+    "volumeGoals": 69.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Getafe",
+   "away": "Deportivo La Coruna",
+   "league": "Spain-LaLiga",
+   "kickoff": "Sun 17:30",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 2.82,
+     "X": 2.98,
+     "2": 3.25
+    },
+    "goals": {
+     "under2_5": 1.47,
+     "over2_5": 3.15
+    },
+    "volume1x2": 49389.7,
+    "volumeGoals": 1473.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Mallorca",
+   "away": "Sabadell",
+   "league": "Spain-Segunda Division",
+   "kickoff": "Sun 17:30",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 1.94,
+     "X": 3.45,
+     "2": 5.0
+    },
+    "goals": {
+     "under2_5": 1.68,
+     "over2_5": 2.46
+    },
+    "volume1x2": 31715.7,
+    "volumeGoals": 20760.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Freiburg (w)",
+   "away": "Mainz 05 (w)",
+   "league": "Germany-Bundesliga Women",
+   "kickoff": "Sun 17:30",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 1.32,
+     "X": 6.6,
+     "2": 12.0
+    },
+    "goals": {
+     "under2_5": null,
+     "over2_5": null
+    },
+    "volume1x2": 506.39,
+    "volumeGoals": null
+   },
+   "move": {}
+  },
+  {
+   "home": "Zulte Waregem",
+   "away": "Sporting Charleroi",
+   "league": "Belgium-First Division A",
+   "kickoff": "Sun 17:30",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 2.9,
+     "X": 3.4,
+     "2": 2.7
+    },
+    "goals": {
+     "under2_5": 2.04,
+     "over2_5": 1.96
+    },
+    "volume1x2": 4362.55,
+    "volumeGoals": 1544.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Galatasaray",
+   "away": "Kocaelispor",
+   "league": "Turkiye-Super Lig",
+   "kickoff": "Sun 18:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 1.31,
+     "X": 6.4,
+     "2": 13.0
+    },
+    "goals": {
+     "under2_5": 2.58,
+     "over2_5": 1.62
+    },
+    "volume1x2": 53434.27,
+    "volumeGoals": 585.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Slovan Bratislava",
+   "away": "Zilina",
+   "league": "Slovakia-1. Liga",
+   "kickoff": "Sun 18:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 1.63,
+     "X": 5.1,
+     "2": 5.7
+    },
+    "goals": {
+     "under2_5": 3.05,
+     "over2_5": 1.46
+    },
+    "volume1x2": 774.44,
+    "volumeGoals": 184.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Fk Imt Beograd",
+   "away": "Fk Crvena Zvezda",
+   "league": "Serbia-Super Liga",
+   "kickoff": "Sun 18:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 12.0,
+     "X": 6.6,
+     "2": 1.29
+    },
+    "goals": {
+     "under2_5": 2.54,
+     "over2_5": 1.66
+    },
+    "volume1x2": 414.64,
+    "volumeGoals": 60.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Olympiakos Nicosia",
+   "away": "Omonia 29 Maiou",
+   "league": "Cyprus-Cyprus League",
+   "kickoff": "Sun 18:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 1.89,
+     "X": 3.55,
+     "2": 5.0
+    },
+    "goals": {
+     "under2_5": 1.76,
+     "over2_5": 2.24
+    },
+    "volume1x2": 742.8,
+    "volumeGoals": 29.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Bursaspor",
+   "away": "Esenler Erokspor",
+   "league": "Turkiye-1. Lig",
+   "kickoff": "Sun 18:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 1.8,
+     "X": 4.1,
+     "2": 4.9
+    },
+    "goals": {
+     "under2_5": 2.2,
+     "over2_5": 1.87
+    },
+    "volume1x2": 508.08,
+    "volumeGoals": 59.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Fatih Karagumruk",
+   "away": "Manisa Futbol Kulubu",
+   "league": "Turkiye-1. Lig",
+   "kickoff": "Sun 18:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 1.9,
+     "X": 4.2,
+     "2": 4.0
+    },
+    "goals": {
+     "under2_5": 2.4,
+     "over2_5": 1.75
+    },
+    "volume1x2": 287.59,
+    "volumeGoals": 193.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Arouca",
+   "away": "Santa Clara",
+   "league": "Portugal-Liga Portugal",
+   "kickoff": "Sun 18:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 2.74,
+     "X": 3.25,
+     "2": 3.05
+    },
+    "goals": {
+     "under2_5": 1.76,
+     "over2_5": 2.32
+    },
+    "volume1x2": 7275.86,
+    "volumeGoals": 431.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Benfica",
+   "away": "Gil Vicente",
+   "league": "Portugal-Liga Portugal",
+   "kickoff": "Sun 18:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 1.14,
+     "X": 11.0,
+     "2": 30.0
+    },
+    "goals": {
+     "under2_5": 3.1,
+     "over2_5": 1.46
+    },
+    "volume1x2": 49599.04,
+    "volumeGoals": 5363.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Amed Sportif",
+   "away": "Istanbul Basaksehir",
+   "league": "Turkiye-Super Lig",
+   "kickoff": "Sun 18:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 2.6,
+     "X": 3.6,
+     "2": 2.92
+    },
+    "goals": {
+     "under2_5": 2.28,
+     "over2_5": 1.78
+    },
+    "volume1x2": 3155.66,
+    "volumeGoals": 2502.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Cd Fas",
+   "away": "Alianza Fc",
+   "league": "El Salvador-Primera Division",
+   "kickoff": "Sun 18:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 1.87,
+     "X": 3.15,
+     "2": 5.9
+    },
+    "goals": {
+     "under2_5": 1.84,
+     "over2_5": 2.16
+    },
+    "volume1x2": 476.98,
+    "volumeGoals": 60.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Raal La Louviere",
+   "away": "Kortrijk",
+   "league": "Belgium-First Division A",
+   "kickoff": "Sun 18:15",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 2.54,
+     "X": 3.45,
+     "2": 3.15
+    },
+    "goals": {
+     "under2_5": 2.0,
+     "over2_5": 2.0
+    },
+    "volume1x2": 2039.66,
+    "volumeGoals": 1014.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Botev Plovdiv",
+   "away": "Lokomotiv Plovdiv",
+   "league": "Bulgaria-First Professional League",
+   "kickoff": "Sun 18:30",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 1.87,
+     "X": 3.75,
+     "2": 5.0
+    },
+    "goals": {
+     "under2_5": 1.91,
+     "over2_5": 2.1
+    },
+    "volume1x2": 1817.54,
+    "volumeGoals": 36.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Corvinul Hunedoara",
+   "away": "Universitatea Craiova",
+   "league": "Romania-Superliga",
+   "kickoff": "Sun 18:30",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 5.6,
+     "X": 3.85,
+     "2": 1.76
+    },
+    "goals": {
+     "under2_5": 1.91,
+     "over2_5": 2.04
+    },
+    "volume1x2": 1448.02,
+    "volumeGoals": 17.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Sarmiento",
+   "away": "Belgrano",
+   "league": "Argentina-Liga Profesional",
+   "kickoff": "Sun 18:45",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 3.55,
+     "X": 3.15,
+     "2": 2.58
+    },
+    "goals": {
+     "under2_5": 1.57,
+     "over2_5": 2.74
+    },
+    "volume1x2": 322.66,
+    "volumeGoals": 270.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Tigre",
+   "away": "Rosario Central",
+   "league": "Argentina-Liga Profesional",
+   "kickoff": "Sun 18:45",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 3.5,
+     "X": 2.96,
+     "2": 2.64
+    },
+    "goals": {
+     "under2_5": 1.5,
+     "over2_5": 3.0
+    },
+    "volume1x2": 3301.9,
+    "volumeGoals": 289.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Al Drae",
+   "away": "Abha",
+   "league": "Saudi Arabia-Saudi Pro League",
+   "kickoff": "Sun 19:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 1.46,
+     "X": 5.3,
+     "2": 8.2
+    },
+    "goals": {
+     "under2_5": 2.44,
+     "over2_5": 1.67
+    },
+    "volume1x2": 703.42,
+    "volumeGoals": 333.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Al Riyadh",
+   "away": "Al Kholood",
+   "league": "Saudi Arabia-Saudi Pro League",
+   "kickoff": "Sun 19:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 4.4,
+     "X": 3.65,
+     "2": 1.98
+    },
+    "goals": {
+     "under2_5": 1.84,
+     "over2_5": 2.2
+    },
+    "volume1x2": 4800.13,
+    "volumeGoals": 2861.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Psv Eindhoven",
+   "away": "Sparta Rotterdam",
+   "league": "Netherlands-Eredivisie",
+   "kickoff": "Sun 19:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 1.19,
+     "X": 10.5,
+     "2": 16.5
+    },
+    "goals": {
+     "under2_5": 6.2,
+     "over2_5": 1.19
+    },
+    "volume1x2": 8546.67,
+    "volumeGoals": 1466.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Sport Boys",
+   "away": "Deportivo Garcilaso",
+   "league": "Peru-Primera Division",
+   "kickoff": "Sun 19:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 1.74,
+     "X": 3.85,
+     "2": 5.9
+    },
+    "goals": {
+     "under2_5": 1.82,
+     "over2_5": 2.22
+    },
+    "volume1x2": 239.03,
+    "volumeGoals": 1627.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Paok Thessaloniki Fc",
+   "away": "Aris Thessaloniki Fc",
+   "league": "Greece-Super League",
+   "kickoff": "Sun 19:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 1.68,
+     "X": 4.3,
+     "2": 6.2
+    },
+    "goals": {
+     "under2_5": 1.94,
+     "over2_5": 2.04
+    },
+    "volume1x2": 4668.96,
+    "volumeGoals": 443.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Kifisia Fc",
+   "away": "Levadiakos",
+   "league": "Greece-Super League",
+   "kickoff": "Sun 19:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 2.42,
+     "X": 3.25,
+     "2": 3.5
+    },
+    "goals": {
+     "under2_5": 1.8,
+     "over2_5": 2.24
+    },
+    "volume1x2": 760.84,
+    "volumeGoals": 55.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Hajduk Split",
+   "away": "Slaven",
+   "league": "Croatia-HNL",
+   "kickoff": "Sun 19:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 1.31,
+     "X": 6.8,
+     "2": 9.8
+    },
+    "goals": {
+     "under2_5": 3.4,
+     "over2_5": 1.42
+    },
+    "volume1x2": 450.7,
+    "volumeGoals": 143.0
+   },
+   "move": {}
+  },
+  {
+   "home": "La Serena",
+   "away": "Universidad De Chile",
+   "league": "Chile-Primera Division",
+   "kickoff": "Sun 19:00",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 4.3,
+     "X": 4.1,
+     "2": 1.91
+    },
+    "goals": {
+     "under2_5": 2.26,
+     "over2_5": 1.79
+    },
+    "volume1x2": 251.47,
+    "volumeGoals": 222.0
+   },
+   "move": {}
+  },
+  {
+   "home": "Panathinaikos",
+   "away": "Panetolikos",
+   "league": "Greece-Super League",
+   "kickoff": "Sun 19:30",
+   "betfairMarket": null,
+   "betfair": {
+    "odds": {
+     "1": 1.26,
+     "X": 6.6,
+     "2": 15.5
+    },
+    "goals": {
+     "under2_5": 2.5,
+     "over2_5": 1.66
+    },
+    "volume1x2": 5505.38,
+    "volumeGoals": 224.0
    },
    "move": {}
   },
