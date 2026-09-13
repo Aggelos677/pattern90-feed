@@ -1,0 +1,148 @@
+# Pattern90 — Over/Under prices for today's matches
+# Reads the goal line and its two prices for every fixture in the chosen
+# leagues and writes them to goal_odds.json, so the model can price goals.
+name: TotalCorner goal odds
+
+on:
+  workflow_dispatch:
+    inputs:
+      leagues:
+        description: "league ids, comma separated"
+        required: false
+        default: "1427,1431,1432"
+      days:
+        description: "how many days ahead"
+        required: false
+        default: "2"
+      limit:
+        description: "most matches to price in one run (5 calls a minute)"
+        required: false
+        default: "40"
+  schedule:
+    - cron: "15 6 * * *"     # 06:15 UTC every morning
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch goal odds
+        env:
+          TC_TOKEN: ${{ secrets.TC_TOKEN }}
+          LEAGUES:  ${{ inputs.leagues || '1427,1431,1432' }}
+          DAYS:     ${{ inputs.days    || '2' }}
+          LIMIT:    ${{ inputs.limit   || '40' }}
+        run: |
+          python - << 'PY'
+          import os, json, time, urllib.request, urllib.parse, datetime, pathlib
+
+          TOKEN=os.environ.get("TC_TOKEN","").strip()
+          IDS=[x.strip() for x in (os.environ.get("LEAGUES") or "").split(",") if x.strip()]
+          DAYS=max(1,min(7,int(os.environ.get("DAYS") or 2)))
+          LIMIT=max(1,min(120,int(os.environ.get("LIMIT") or 40)))
+          BASE="https://api.totalcorner.com/v1"; GAP=13      # 13s keeps us under 5 calls a minute
+          calls=0; log=[]
+          def say(s=""): log.append(s)
+
+          def get(path, params):
+              global calls
+              if calls: time.sleep(GAP)
+              p=dict(params); p["token"]=TOKEN
+              url=f"{BASE}{path}?"+urllib.parse.urlencode(p)
+              try:
+                  with urllib.request.urlopen(url, timeout=45) as r:
+                      calls+=1
+                      return json.loads(r.read().decode("utf-8")), None
+              except Exception as e:
+                  return None, f"connection failed: {e}"
+
+          def err(b):
+              if not b: return None
+              if not b.get("success"):
+                  e=b.get("error",{}) or {}
+                  return f'{e.get("code","?")} — {e.get("message","")}'
+              return None
+
+          if not TOKEN:
+              print("TC_TOKEN is empty — add it under Settings › Secrets › Actions"); raise SystemExit(1)
+
+          now=datetime.datetime.utcnow()
+          say("# TotalCorner goal odds")
+          say(f"Run {now:%Y-%m-%d %H:%M} UTC · leagues {', '.join(IDS)} · next {DAYS} days"); say()
+
+          # ---------- 1. which matches are coming up ----------
+          fixtures=[]
+          for lid in IDS:
+              b,e=get(f"/league/schedule/{lid}", {"page":1,"columns":"odds"})
+              e=e or err(b)
+              if e:
+                  say(f"- league {lid}: **{e}**"); continue
+              d=b.get("data",{}) or {}
+              lname=(d.get("league") or {}).get("name", f"League {lid}")
+              for m in d.get("matches",[]):
+                  if m.get("status"): continue                # already under way or finished
+                  st=m.get("start")
+                  try:
+                      ko=datetime.datetime.strptime(st[:16], "%Y-%m-%d %H:%M")
+                  except Exception:
+                      continue
+                  if 0 <= (ko-now).total_seconds() <= DAYS*86400:
+                      fixtures.append(dict(id=m.get("id"), league=lname, home=m.get("h"),
+                                           away=m.get("a"), start=st))
+          fixtures.sort(key=lambda x: x["start"])
+          fixtures=fixtures[:LIMIT]
+          say(f"Found **{len(fixtures)}** matches to price."); say()
+
+          # ---------- 2. one call per match for its goal prices ----------
+          out=[]; failed=0
+          for f in fixtures:
+              b,e=get(f"/match/odds/{f['id']}", {"columns":"goalList"})
+              e=e or err(b)
+              if e:
+                  failed+=1; say(f"- {f['home']} v {f['away']}: {e}"); continue
+              d=b.get("data",[])
+              d=d[0] if isinstance(d,list) and d else (d if isinstance(d,dict) else {})
+              rows=d.get("goal_list") or d.get("goalList") or []
+              if not rows:
+                  failed+=1; continue
+              last=rows[-1] if isinstance(rows[-1],(list,tuple)) else list(rows[-1].values())
+              nums=[]
+              for v in last:
+                  try: nums.append(float(v))
+                  except (TypeError, ValueError): nums.append(None)
+              vals=[x for x in nums if x is not None]
+              if len(vals)<3: failed+=1; continue
+              # the entry holds the line and its two prices; the line is the value near a half-goal
+              line=min(vals, key=lambda x: abs(x-round(x*2)/2) if 0.5<=x<=7 else 99)
+              prices=[x for x in vals if x is not line and 1.05<=x<=15]
+              if len(prices)<2: failed+=1; continue
+              over, under = prices[0], prices[1]
+              out.append(dict(id=f["id"], league=f["league"], home=f["home"], away=f["away"],
+                              start=f["start"], line=line, over=over, under=under))
+
+          payload=dict(generatedAt=datetime.datetime.utcnow().isoformat()+"Z",
+                       source="TotalCorner", matches=out)
+          pathlib.Path("goal_odds.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+
+          say(f"Priced **{len(out)}** matches, {failed} without usable goal odds.")
+          say(f"API calls used: {calls}"); say()
+          if out:
+              say("| Match | Line | Over | Under |")
+              say("| --- | --- | --- | --- |")
+              for r in out[:25]:
+                  say(f"| {r['home']} v {r['away']} | {r['line']} | {r['over']} | {r['under']} |")
+          pathlib.Path("reports").mkdir(exist_ok=True)
+          pathlib.Path("reports/goal_odds_run.md").write_text("\n".join(log), encoding="utf-8")
+          print("\n".join(log))
+          PY
+      - name: Commit
+        run: |
+          git config user.name  "pattern90-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git commit -m "TotalCorner goal odds" || echo "nothing to commit"
+          git push
