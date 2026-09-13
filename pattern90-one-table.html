@@ -429,9 +429,10 @@ function adapt(d){
       books: books, best: r.bestAvailable || null,
       vol: Math.round(r.betfair&&r.betfair.volume1x2 || 0),
       split: null, ready: true,
-      fair:[bf['1'],bf['X'],bf['2']], prob:[33,33,34],
-      goals: 2.6, gsplit:[1.4,1.2], corners: 9.5, csplit:[5.2,4.3], cards: 4.2,
-      cs:'1-1', corn:null, cardz:null, model:null, ps:null, csig:null, gsig:null,
+      fair: bfT.slice(), prob: (()=>{const inv=bfT.map(x=>1/x), t=inv.reduce((a,b)=>a+b,0);
+        return inv.map(x=>Math.round(x/t*100));})(),
+      goals: null, gsplit: null, corners: null, csplit: null, cards: null,
+      cs: null, corn:null, cardz:null, model:null, ps:null, csig:null, gsig:null,
       insight:null, note2:null, cardFlag:false
     };
   }).filter(Boolean);
@@ -477,12 +478,9 @@ const daysAway = m => {
   const d = new Date(m.ko); d.setHours(0,0,0,0);
   return Math.round((d - t) / 86400000);
 };
+// the three windows are always offered; an empty one simply says so
 function dayOptions(){
-  const span = M.length ? Math.max(...M.map(daysAway)) : 0;
-  const opts = [['1','Today']];
-  if(span >= 1) opts.push(['2','Next 2 days']);
-  if(span >= 2) opts.push(['7','Next 7 days']);
-  return opts.length > 1 ? opts : [['1','Today'],['2','Next 2 days'],['7','Next 7 days']];
+  return [['1','Today'],['2','Next 2 days'],['7','Next 7 days']];
 }
 const inDayWindow = m => { const n = daysAway(m); return n >= 0 && n < (+day); };
 const WATCH=new Set(); const key=m=>m.h+'|'+m.a;
@@ -827,12 +825,14 @@ function valueRow(m,v){
       ? `<span class="proj ps" title="Projected Score — a representative scoreline from the model, not a prediction. Raw Poisson ${m.ps.raw}, rule ${m.ps.rule}."><b>${m.ps.display}</b>
          <small>projected</small></span>`
       : `<span class="proj none" title="No market price for goals, so no projected score">—<small>unavailable</small></span>`}</td>
-    <td class="c"><span class="proj ${m.goals>=3.4?'hi':m.goals<=1.9?'lo':''}" title="Expected goals, home and away">
-      <b>${m.goals.toFixed(2)}</b><small>${m.gsplit[0].toFixed(2)} · ${m.gsplit[1].toFixed(2)}</small></span>
+    <td class="c">${m.goals==null
+      ? `<span class="proj none">—</span>`
+      : `<span class="proj ${m.goals>=3.4?'hi':m.goals<=1.9?'lo':''}" title="Expected goals, home and away">
+      <b>${m.goals.toFixed(2)}</b><small>${m.gsplit[0].toFixed(2)} · ${m.gsplit[1].toFixed(2)}</small></span>`}
       ${m.gsig?`<span class="csig ${m.gsig.edge>=0.035&&m.gsig.edge<=0.12?'on':''}">${m.gsig.pick}</span>`
         : m.ps?`<span class="csig">O2.5 ${f2(m.ps.fairO)}</span>`:''}</td>
-    <td class="c"><span class="proj ${m.corn?'real':''} ${m.corners>=11.5?'hi':m.corners<=8?'lo':''}" title="${m.corn?`Last five games — ${esc(m.h)} take ${m.corn.hcf} and concede ${m.corn.hca}; ${esc(m.a)} ${m.corn.acf} and ${m.corn.aca}. Split by the market price.`:'Not enough history for a corner projection'}">
-      <b>${m.corners.toFixed(1)}</b><small>${m.csplit[0].toFixed(1)} · ${m.csplit[1].toFixed(1)}</small></span>
+    <td class="c"><span class="proj ${m.corn?'real':''} ${m.corners>=11.5?'hi':(m.corners!=null&&m.corners<=8)?'lo':''}" title="${m.corn?`Last five games — ${esc(m.h)} take ${m.corn.hcf} and concede ${m.corn.hca}; ${esc(m.a)} ${m.corn.acf} and ${m.corn.aca}. Split by the market price.`:'Not enough history for a corner projection'}">
+      <b>${m.corners==null?'—':m.corners.toFixed(1)}</b><small>${m.csplit?m.csplit[0].toFixed(1)+' · '+m.csplit[1].toFixed(1):''}</small></span>
       ${m.csig?`<span class="csig ${m.csig.edge>=0.035&&m.csig.edge<=0.12?'on':''}">${m.csig.pick}</span>`:''}</td>
     <td class="sep">${panel}</td>`;
 }
@@ -883,7 +883,7 @@ function render(){
       <tr class="det" data-d="${i}" hidden><td colspan="${isVal?8:8}">${detail(m,v)}</td></tr>`;
   });
   document.getElementById('tbl').innerHTML = rows.length ? t+'</tbody>'
-    : '<tbody><tr><td style="padding:34px;text-align:center;color:var(--muted)">Nothing inside this window.</td></tr></tbody>';
+    : '<tbody><tr><td style="padding:34px;text-align:center;color:var(--muted)">No match in this window yet — the feed reaches as far as it has been given.</td></tr></tbody>';
   document.getElementById('hM').textContent=rows.length;
   document.getElementById('hL').textContent=new Set(rows.map(m=>m.l)).size;
   document.getElementById('hS').textContent=rows.filter(m=>{const v=verdict(m);return v.tip||v.big||v.hot||v.against;}).length;
