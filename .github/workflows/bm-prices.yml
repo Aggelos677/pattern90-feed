@@ -1,7 +1,6 @@
-# Pattern90 — Betfair prices from your own site
-# Reads bet-mate's own data feed and turns it into prices.json:
-# 1X2 and Over/Under 2.5 with the matched volume on each, per match.
-# Nothing is asked of Betfair, so your API limit is untouched.
+# Pattern90 — Betfair prices and their movement, from your own site
+# Every run: reads bet-mate, writes prices.json, appends the snapshot to
+# history/<date>.json, and works out how each price has moved.
 name: Bet-mate prices
 
 on:
@@ -12,7 +11,7 @@ on:
         required: false
         default: "today"
   schedule:
-    - cron: "*/20 5-21 * * *"      # every 20 minutes, 05:00–21:00 UTC
+    - cron: "5 * * * *"        # every hour, five past
 
 permissions:
   contents: write
@@ -27,7 +26,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - name: Pull and parse
+      - name: Pull, store and compare
         env:
           DAY: ${{ inputs.days || 'today' }}
         run: |
@@ -35,81 +34,121 @@ jobs:
           import os, re, json, html, time, datetime, pathlib, urllib.request
 
           DAY=(os.environ.get("DAY") or "today").strip()
+          NOW=datetime.datetime.utcnow()
           URL=f"https://www.bet-mate.co/classes/home-ajax.php?date={DAY}&_={int(time.time()*1000)}"
           REQ=urllib.request.Request(URL, headers={
               "User-Agent":"Mozilla/5.0 (compatible; Pattern90/1.0)",
               "Referer":"https://www.bet-mate.co/",
               "X-Requested-With":"XMLHttpRequest",
-              "Accept":"text/html, */*; q=0.01",
-          })
+              "Accept":"text/html, */*; q=0.01"})
           log=[]
           def say(s=""): log.append(s)
+          def finish(code=0):
+              pathlib.Path("reports").mkdir(exist_ok=True)
+              pathlib.Path("reports/bm_prices_run.md").write_text("\n".join(log),encoding="utf-8")
+              print("\n".join(log)); raise SystemExit(code)
 
           try:
               with urllib.request.urlopen(REQ, timeout=45) as r:
                   raw=r.read().decode("utf-8","replace")
           except Exception as e:
-              say(f"**Could not reach bet-mate:** {e}")
-              pathlib.Path("reports").mkdir(exist_ok=True)
-              pathlib.Path("reports/bm_prices_run.md").write_text("\n".join(log),encoding="utf-8")
-              print("\n".join(log)); raise SystemExit(1)
+              say(f"**Could not reach bet-mate:** {e}"); finish(1)
 
-          say("# Bet-mate prices")
-          say(f"Run {datetime.datetime.utcnow():%Y-%m-%d %H:%M} UTC · day = {DAY} · {len(raw):,} characters received")
-          say()
-
-          # each fixture is one "body" block carrying its sort attributes
-          blocks=re.split(r'<div class="body (?:even|odd)"', raw)[1:]
-          say(f"Blocks found: **{len(blocks)}**"); say()
+          say("# Bet-mate prices"); say(f"Run {NOW:%Y-%m-%d %H:%M} UTC · day = {DAY}"); say()
 
           def num(x):
-              try: return float(x)
+              try: return float(str(x).replace(",",""))
               except: return None
 
-          out=[]
+          blocks=re.split(r'<div class="body (?:even|odd)"', raw)[1:]
+          rows=[]
           for b in blocks:
-              attrs=dict(re.findall(r'data-sort(\d+)="([^"]*)"', b))
-              league=html.unescape(attrs.get("1","")).strip()
-              vol1=num(attrs.get("2"))
-              o1,ox,o2 = num(attrs.get("3")), num(attrs.get("4")), num(attrs.get("5"))
-              # kick-off and teams sit in the left column
+              a=dict(re.findall(r'data-sort(\d+)="([^"]*)"', b))
+              league=html.unescape(a.get("1","")).strip()
+              o1,ox,o2 = num(a.get("3")), num(a.get("4")), num(a.get("5"))
+              vol1=num(a.get("2"))
               ko=re.search(r'>([A-Z][a-z]{2} \d{2}:\d{2})', b)
               teams=re.search(r'</span>\s*([^<>]+?)\s*</div>', b)
               mid=re.search(r'market\?id=([\d.]+)', b)
-              # the visible cells: 1, X, 2, volume, then under, over, volume
-              cells=[num(x) for x in re.findall(r'<div class="col-md-3[^"]*"[^>]*>(?:&#0128;)?([\d.,]+)</div>', b)]
+              # every visible cell in order: 1, X, 2, vol, under, over, vol
+              cells=[num(x) for x in re.findall(
+                  r'<div class="col-md-\d[^"]*"[^>]*>(?:&#0128;)?\s*([\d.,]+)\s*</div>', b)]
               cells=[c for c in cells if c is not None]
               u=o=vol2=None
-              if len(cells)>=7:
-                  u,o,vol2 = cells[4], cells[5], cells[6]
-              if not (league and o1 and ox and o2 and teams):
-                  continue
+              if len(cells)>=7: u,o,vol2 = cells[4],cells[5],cells[6]
+              if not (league and o1 and ox and o2 and teams and mid): continue
               t=teams.group(1)
-              home,away = [x.strip() for x in t.split(" - ",1)] if " - " in t else (t,"")
-              out.append(dict(
-                  league=league, kickoff=ko.group(1) if ko else None,
-                  home=html.unescape(home), away=html.unescape(away),
-                  odds={"1":o1,"X":ox,"2":o2}, volume1x2=vol1,
-                  goals={"under2_5":u,"over2_5":o}, volumeGoals=vol2,
-                  betfairMarket=mid.group(1) if mid else None))
+              home,away=[x.strip() for x in t.split(" - ",1)] if " - " in t else (t,"")
+              rows.append(dict(id=mid.group(1), league=league,
+                               kickoff=ko.group(1) if ko else None,
+                               home=html.unescape(home), away=html.unescape(away),
+                               odds={"1":o1,"X":ox,"2":o2}, volume1x2=vol1,
+                               goals={"under2_5":u,"over2_5":o}, volumeGoals=vol2))
+          say(f"Parsed **{len(rows)}** matches, **{sum(1 for r in rows if r['goals']['over2_5'])}** with goal prices."); say()
+          if not rows: say("Nothing parsed — the page layout may have changed."); finish(1)
 
-          payload=dict(generatedAt=datetime.datetime.utcnow().isoformat()+"Z",
-                       source="bet-mate.co (Betfair exchange)", day=DAY, matches=out)
+          # ---------- keep every snapshot, one file a day ----------
+          hdir=pathlib.Path("history"); hdir.mkdir(exist_ok=True)
+          hfile=hdir/f"{NOW:%Y-%m-%d}.json"
+          hist=json.loads(hfile.read_text(encoding="utf-8")) if hfile.exists() else {"points":[]}
+          hist["points"].append({"t":NOW.isoformat()+"Z",
+              "m":{r["id"]:[r["odds"]["1"],r["odds"]["X"],r["odds"]["2"],
+                            r["goals"]["under2_5"],r["goals"]["over2_5"],
+                            r["volume1x2"],r["volumeGoals"]] for r in rows}})
+          hist["points"]=hist["points"][-200:]
+          hfile.write_text(json.dumps(hist,ensure_ascii=False),encoding="utf-8")
+          say(f"History for today now holds **{len(hist['points'])}** snapshots.")
+
+          # ---------- how far each price has moved ----------
+          def at(minutes):
+              target=NOW-datetime.timedelta(minutes=minutes)
+              best=None
+              for p in hist["points"][:-1]:
+                  t=datetime.datetime.fromisoformat(p["t"].replace("Z",""))
+                  d=abs((t-target).total_seconds())
+                  if best is None or d<best[0]: best=(d,p)
+              return best[1] if best and best[0]<=45*60 else None
+
+          hour=at(60); first=hist["points"][0] if len(hist["points"])>1 else None
+          moved=0
+          for r in rows:
+              r["move"]={}
+              for label,snap in (("hour",hour),("open",first)):
+                  if not snap: continue
+                  prev=snap["m"].get(r["id"])
+                  if not prev: continue
+                  d={}
+                  for i,k in enumerate(["1","X","2"]):
+                      if prev[i]: d[k]=round(r["odds"][k]/prev[i]-1,4)
+                  if prev[4] and r["goals"]["over2_5"]:
+                      d["over2_5"]=round(r["goals"]["over2_5"]/prev[4]-1,4)
+                  if prev[5] is not None and r["volume1x2"] is not None:
+                      d["volume1x2"]=round(r["volume1x2"]-prev[5],2)
+                  d["from"]=snap["t"]
+                  r["move"][label]=d
+              if r["move"].get("hour") and any(abs(v)>=0.03 for k,v in r["move"]["hour"].items()
+                                               if k in ("1","X","2") and isinstance(v,float)):
+                  moved+=1
+
+          payload=dict(generatedAt=NOW.isoformat()+"Z",
+                       source="bet-mate.co (Betfair exchange)", day=DAY,
+                       snapshots=len(hist["points"]), matches=rows)
           pathlib.Path("prices.json").write_text(json.dumps(payload,ensure_ascii=False,indent=1),encoding="utf-8")
 
-          withgoals=sum(1 for m in out if m["goals"]["over2_5"])
-          say(f"Parsed **{len(out)}** matches, **{withgoals}** of them with Over/Under prices.")
-          say()
-          if out:
-              say("| Kick-off | Match | 1 | X | 2 | Matched | U2.5 | O2.5 |")
-              say("| --- | --- | --- | --- | --- | --- | --- | --- |")
-              for m in out[:20]:
-                  g=m["goals"]
-                  say(f"| {m['kickoff'] or '—'} | {m['home']} v {m['away']} | {m['odds']['1']} | {m['odds']['X']} | "
-                      f"{m['odds']['2']} | {m['volume1x2'] or '—'} | {g['under2_5'] or '—'} | {g['over2_5'] or '—'} |")
-          pathlib.Path("reports").mkdir(exist_ok=True)
-          pathlib.Path("reports/bm_prices_run.md").write_text("\n".join(log),encoding="utf-8")
-          print("\n".join(log))
+          say(f"Prices that moved 3% or more in the last hour: **{moved}**."); say()
+          if hour:
+              say("| Kick-off | Match | 1 | X | 2 | 1h change | Matched |")
+              say("| --- | --- | --- | --- | --- | --- | --- |")
+              shown=[r for r in rows if r["move"].get("hour")]
+              shown.sort(key=lambda r: -max(abs(r["move"]["hour"].get(k,0)) for k in ("1","X","2")))
+              for r in shown[:20]:
+                  mv=r["move"]["hour"]
+                  big=max(("1","X","2"), key=lambda k: abs(mv.get(k,0)))
+                  say(f"| {r['kickoff'] or '—'} | {r['home']} v {r['away']} | {r['odds']['1']} | {r['odds']['X']} | "
+                      f"{r['odds']['2']} | {big} {mv.get(big,0)*100:+.1f}% | {r['volume1x2'] or '—'} |")
+          else:
+              say("_No snapshot from an hour ago yet — movement appears from the second run on._")
+          finish(0)
           PY
       - name: Commit
         run: |
