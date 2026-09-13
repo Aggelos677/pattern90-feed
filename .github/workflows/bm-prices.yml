@@ -1,24 +1,13 @@
-# Pattern90 — Betfair prices and their movement, from your own site
-# Every run: reads bet-mate, writes prices.json, appends the snapshot to
-# history/<date>.json, and works out how each price has moved.
-name: Bet-mate prices
+# Pattern90 — what does btfodds actually return?
+# Tries a few bookmaker names and market types, reports what comes back.
+# Read the report, then we know exactly what to ask for.
+name: btfodds probe
 
 on:
   workflow_dispatch:
-    inputs:
-      days:
-        description: "which day: today, tomorrow or all"
-        required: false
-        default: "today"
-  schedule:
-    - cron: "5 * * * *"        # every hour, five past
 
 permissions:
   contents: write
-
-concurrency:
-  group: bm-prices
-  cancel-in-progress: false
 
 jobs:
   run:
@@ -28,148 +17,87 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Pull, store and compare
-        env:
-          DAY: ${{ inputs.days || 'today' }}
+      - name: Probe
         run: |
           python - << 'PY'
-          import os, re, json, html, time, datetime, pathlib, urllib.request
+          import json, re, html, time, datetime, pathlib, urllib.request, urllib.parse
 
-          DAY=(os.environ.get("DAY") or "today").strip()
-          NOW=datetime.datetime.utcnow()
-          URL=f"https://www.bet-mate.co/classes/home-ajax.php?date={DAY}&_={int(time.time()*1000)}"
-          REQ=urllib.request.Request(URL, headers={
-              "User-Agent":"Mozilla/5.0 (compatible; Pattern90/1.0)",
-              "Referer":"https://www.bet-mate.co/",
-              "X-Requested-With":"XMLHttpRequest",
-              "Accept":"text/html, */*; q=0.01"})
+          BASE="https://www.btfodds.com/classes/soccer/football-odds/"
           log=[]
           def say(s=""): log.append(s)
-          def finish(code=0):
+
+          def call(page, bookie, typ):
+              params={"id":"1","sport":"soccer","pg":"soccer/football-odds/display-odds",
+                      "date":"today","country":"all","bookie":bookie,"type":typ,
+                      "sort":"league","oddType":"eu","tz":"Europe/Bucharest","upd":3}
+              url=BASE+page+"?alldata="+urllib.parse.quote(json.dumps(params,separators=(",",":")))
+              url+=f"&_={int(time.time()*1000)}"
+              req=urllib.request.Request(url, headers={
+                  "User-Agent":"Mozilla/5.0 (compatible; Pattern90/1.0)",
+                  "Referer":"https://www.btfodds.com/soccer/football-odds/display-odds,all,today,average,UO,league",
+                  "X-Requested-With":"XMLHttpRequest",
+                  "Accept":"*/*"})
+              try:
+                  with urllib.request.urlopen(req, timeout=45) as r:
+                      return r.read().decode("utf-8","replace"), None
+              except Exception as e:
+                  return None, str(e)
+
+          say("# btfodds probe")
+          say(f"Run {datetime.datetime.utcnow():%Y-%m-%d %H:%M} UTC"); say()
+
+          BOOKIES=["average","pinnacle","pinnaclesports","Pinnacle","pin","bet365","betfair"]
+          TYPES=["UO","1X2","HA"]
+          PAGES=["display-odds.php","display-odds-ajax.php"]
+
+          say("| page | bookie | type | bytes | rows | first team seen |")
+          say("| --- | --- | --- | --- | --- | --- |")
+          keep={}
+          for page in PAGES:
+              for bookie in BOOKIES:
+                  body,err=call(page,bookie,"UO")
+                  if err:
+                      say(f"| {page} | {bookie} | UO | — | — | {err[:40]} |"); continue
+                  rows=len(re.findall(r'data-sort0=', body)) or len(re.findall(r'<tr', body))
+                  team=re.search(r'>([A-Z][A-Za-z\. ]{3,25}) - ([A-Z][A-Za-z\. ]{3,25})<', body)
+                  say(f"| {page} | {bookie} | UO | {len(body):,} | {rows} | {team.group(0)[1:40] if team else '—'} |")
+                  if rows: keep[(page,bookie,"UO")]=body
+                  time.sleep(1)
+
+          say()
+          say("| page | bookie | type | bytes | rows |")
+          say("| --- | --- | --- | --- | --- |")
+          for typ in TYPES:
+              body,err=call("display-odds.php","average",typ)
+              if err: say(f"| display-odds.php | average | {typ} | — | {err[:40]} |"); continue
+              rows=len(re.findall(r'data-sort0=', body)) or len(re.findall(r'<tr', body))
+              say(f"| display-odds.php | average | {typ} | {len(body):,} | {rows} |")
+              if rows: keep[("display-odds.php","average",typ)]=body
+              time.sleep(1)
+
+          # keep one sample so we can see the shape of a row
+          if keep:
+              k=sorted(keep, key=lambda x:-len(keep[x]))[0]
+              sample=keep[k]
               pathlib.Path("reports").mkdir(exist_ok=True)
-              pathlib.Path("reports/bm_prices_run.md").write_text("\n".join(log),encoding="utf-8")
-              print("\n".join(log)); raise SystemExit(code)
-
-          try:
-              with urllib.request.urlopen(REQ, timeout=45) as r:
-                  raw=r.read().decode("utf-8","replace")
-          except Exception as e:
-              say(f"**Could not reach bet-mate:** {e}"); finish(1)
-
-          say("# Bet-mate prices"); say(f"Run {NOW:%Y-%m-%d %H:%M} UTC · day = {DAY}"); say()
-
-          def num(x):
-              try: return float(str(x).replace(",",""))
-              except: return None
-
-          blocks=re.split(r'<div class="body (?:even|odd)"', raw)[1:]
-          rows=[]
-          for b in blocks:
-              a=dict(re.findall(r'data-sort(\d+)="([^"]*)"', b))
-              league=html.unescape(a.get("1","")).strip()
-              o1,ox,o2 = num(a.get("3")), num(a.get("4")), num(a.get("5"))
-              vol1=num(a.get("2"))
-              ko=re.search(r'>([A-Z][a-z]{2} \d{2}:\d{2})', b)
-              teams=re.search(r'</span>\s*([^<>]+?)\s*</div>', b)
-              mid=re.search(r'market\?id=([\d.]+)', b)
-              # every visible cell in order: 1, X, 2, vol, under, over, vol
-              cells=[num(x) for x in re.findall(
-                  r'<div class="col-md-\d[^"]*"[^>]*>(?:&#0128;)?\s*([\d.,]+)\s*</div>', b)]
-              cells=[c for c in cells if c is not None]
-              u=o=vol2=None
-              if len(cells)>=7: u,o,vol2 = cells[4],cells[5],cells[6]
-              if not (league and o1 and ox and o2 and teams and mid): continue
-              t=teams.group(1)
-              home,away=[x.strip() for x in t.split(" - ",1)] if " - " in t else (t,"")
-              rows.append(dict(id=mid.group(1), league=league,
-                               kickoff=ko.group(1) if ko else None,
-                               home=html.unescape(home), away=html.unescape(away),
-                               odds={"1":o1,"X":ox,"2":o2}, volume1x2=vol1,
-                               goals={"under2_5":u,"over2_5":o}, volumeGoals=vol2))
-          say(f"Parsed **{len(rows)}** matches, **{sum(1 for r in rows if r['goals']['over2_5'])}** with goal prices."); say()
-          if not rows: say("Nothing parsed — the page layout may have changed."); finish(1)
-
-          # ---------- keep every snapshot, one file a day ----------
-          hdir=pathlib.Path("history"); hdir.mkdir(exist_ok=True)
-          hfile=hdir/f"{NOW:%Y-%m-%d}.json"
-          hist=json.loads(hfile.read_text(encoding="utf-8")) if hfile.exists() else {"points":[]}
-          hist["points"].append({"t":NOW.isoformat()+"Z",
-              "m":{r["id"]:[r["odds"]["1"],r["odds"]["X"],r["odds"]["2"],
-                            r["goals"]["under2_5"],r["goals"]["over2_5"],
-                            r["volume1x2"],r["volumeGoals"]] for r in rows}})
-          hist["points"]=hist["points"][-200:]
-          hfile.write_text(json.dumps(hist,ensure_ascii=False),encoding="utf-8")
-          say(f"History for today now holds **{len(hist['points'])}** snapshots.")
-
-          # ---------- how far each price has moved ----------
-          def at(minutes):
-              target=NOW-datetime.timedelta(minutes=minutes)
-              best=None
-              for p in hist["points"][:-1]:
-                  t=datetime.datetime.fromisoformat(p["t"].replace("Z",""))
-                  d=abs((t-target).total_seconds())
-                  if best is None or d<best[0]: best=(d,p)
-              return best[1] if best and best[0]<=45*60 else None
-
-          hour=at(60); first=hist["points"][0] if len(hist["points"])>1 else None
-          moved=0
-          for r in rows:
-              r["move"]={}
-              for label,snap in (("hour",hour),("open",first)):
-                  if not snap: continue
-                  prev=snap["m"].get(r["id"])
-                  if not prev: continue
-                  d={}
-                  for i,k in enumerate(["1","X","2"]):
-                      if prev[i]: d[k]=round(r["odds"][k]/prev[i]-1,4)
-                  if prev[4] and r["goals"]["over2_5"]:
-                      d["over2_5"]=round(r["goals"]["over2_5"]/prev[4]-1,4)
-                  if prev[5] is not None and r["volume1x2"] is not None:
-                      d["volume1x2"]=round(r["volume1x2"]-prev[5],2)
-                  d["from"]=snap["t"]
-                  r["move"][label]=d
-              if r["move"].get("hour") and any(abs(v)>=0.03 for k,v in r["move"]["hour"].items()
-                                               if k in ("1","X","2") and isinstance(v,float)):
-                  moved+=1
-
-          payload=dict(generatedAt=NOW.isoformat()+"Z",
-                       source="bet-mate.co (Betfair exchange)", day=DAY,
-                       snapshots=len(hist["points"]), matches=rows)
-          pathlib.Path("prices.json").write_text(json.dumps(payload,ensure_ascii=False,indent=1),encoding="utf-8")
-
-          say(f"Prices that moved 3% or more in the last hour: **{moved}**."); say()
-          if hour:
-              say("| Kick-off | Match | 1 | X | 2 | 1h change | Matched |")
-              say("| --- | --- | --- | --- | --- | --- | --- |")
-              shown=[r for r in rows if r["move"].get("hour")]
-              shown.sort(key=lambda r: -max(abs(r["move"]["hour"].get(k,0)) for k in ("1","X","2")))
-              for r in shown[:20]:
-                  mv=r["move"]["hour"]
-                  big=max(("1","X","2"), key=lambda k: abs(mv.get(k,0)))
-                  say(f"| {r['kickoff'] or '—'} | {r['home']} v {r['away']} | {r['odds']['1']} | {r['odds']['X']} | "
-                      f"{r['odds']['2']} | {big} {mv.get(big,0)*100:+.1f}% | {r['volume1x2'] or '—'} |")
+              pathlib.Path("reports/btf_sample.html").write_text(sample[:40000],encoding="utf-8")
+              say(); say(f"Saved a sample from **{k[0]} · {k[1]} · {k[2]}** to `reports/btf_sample.html`.")
+              say()
+              say("First 1,500 characters:"); say("```html")
+              say(sample[:1500]); say("```")
           else:
-              say("_No snapshot from an hour ago yet — movement appears from the second run on._")
-          finish(0)
+              say(); say("**Nothing came back with rows** — the request may need a cookie or a different name.")
+
+          pathlib.Path("reports").mkdir(exist_ok=True)
+          pathlib.Path("reports/btf_probe.md").write_text("\n".join(log),encoding="utf-8")
+          print("\n".join(log))
           PY
       - name: Commit
         run: |
           git config user.name  "pattern90-bot"
           git config user.email "bot@users.noreply.github.com"
-          # take whatever is already on the branch first, then add ours
           git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
           git add -A
-          if git diff --cached --quiet; then
-            echo "nothing to commit"
-            exit 0
-          fi
-          git commit -m "bet-mate prices $(date -u +%H:%M)"
-          for i in 1 2 3; do
-            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
-              echo "pushed"; exit 0
-            fi
-            echo "push rejected, syncing and trying again"
-            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
-            sleep 5
-          done
-          echo "could not push after three attempts"; exit 1
+          git diff --cached --quiet && echo "nothing to commit" && exit 0
+          git commit -m "btfodds probe"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
