@@ -6,7 +6,7 @@ on:
       bookies:
         description: "which books, comma separated"
         required: false
-        default: "pinnacle,bet365,average,best"
+        default: "pinnacle,bet365,betfair,average,best"
       date:
         description: "today, tomorrow, next-7days"
         required: false
@@ -32,7 +32,7 @@ jobs:
 
       - name: Pull the odds
         env:
-          BOOKIES: ${{ inputs.bookies || 'pinnacle,bet365,average,best' }}
+          BOOKIES: ${{ inputs.bookies || 'pinnacle,bet365,betfair,average,best' }}
           DATE:    ${{ inputs.date    || 'today' }}
         run: |
           python - << 'PY'
