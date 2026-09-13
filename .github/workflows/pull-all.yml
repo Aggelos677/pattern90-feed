@@ -70,10 +70,13 @@ jobs:
               def num(x):
                   try: return float(str(x).replace(",",""))
                   except: return None
+              def odd(x):
+                  v = num(x)
+                  return v if (v is not None and 1.01 <= v <= 1000) else None
               rows = []
               for b in re.split(r'<div class="body (?:even|odd)"', raw)[1:]:
                   a = dict(re.findall(r'data-sort(\d+)="([^"]*)"', b))
-                  o1, ox, o2 = num(a.get("3")), num(a.get("4")), num(a.get("5"))
+                  o1, ox, o2 = odd(a.get("3")), odd(a.get("4")), odd(a.get("5"))
                   ko = re.search(r'>([A-Z][a-z]{2} \d{2}:\d{2})', b)
                   teams = re.search(r'</span>\s*([^<>]+?)\s*</div>', b)
                   mid = re.search(r'market\?id=([\d.]+)', b)
@@ -81,7 +84,8 @@ jobs:
                       r'<div class="col-md-\d[^"]*"[^>]*>(?:&#0128;)?\s*([\d.,]+)\s*</div>', b)]
                   cells = [c for c in cells if c is not None]
                   u = o = vol2 = None
-                  if len(cells) >= 7: u, o, vol2 = cells[4], cells[5], cells[6]
+                  if len(cells) >= 7:
+                      u, o, vol2 = odd(cells[4]), odd(cells[5]), cells[6]
                   if not (o1 and ox and o2 and teams and mid): continue
                   t = teams.group(1)
                   home, away = [x.strip() for x in t.split(" - ", 1)] if " - " in t else (t, "")
@@ -124,7 +128,9 @@ jobs:
                       r'<td[^>]*?title="([^"]*)"[^>]*?id="m_\d+_(1x2_\d|250_\d)"[^>]*?data-odd="([\d.]+)"', chunk):
                       k = {"1x2_1":"1","1x2_2":"X","1x2_3":"2",
                            "250_1":"under2_5","250_2":"over2_5"}[m.group(2)]
-                      odds[k] = float(m.group(3))
+                      v = float(m.group(3))
+                      if not (1.01 <= v <= 1000): continue
+                      odds[k] = v
                       parts = clean(m.group(1)).split()
                       if len(parts) >= 2:
                           try: best[k] = {"odd": float(parts[0]), "book": " ".join(parts[1:])}
