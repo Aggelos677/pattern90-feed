@@ -225,6 +225,7 @@ tr.main.open .caret{transform:rotate(90deg);color:var(--blue)}
 .rdrow.k-corners .rk,.rdrow.k-corners .rv b{color:var(--blue)}
 .rdrow.k-form .rk,.rdrow.k-form .rv b{color:var(--green)}
 .rdrow.k-goals .rk,.rdrow.k-goals .rv b{color:var(--pin)}
+.rdrow.k-bet365 .rk,.rdrow.k-bet365 .rv b{color:#1E8A5F}
 .pedge.outside{color:var(--faint)}
 .pedge.over{color:#4B31B8}.pedge.nomodel{color:var(--faint)}
 .ycard{display:inline-block;width:9px;height:13px;background:#F5C518;border-radius:2px;color:transparent;
@@ -335,7 +336,7 @@ footer b{color:var(--ink)}
     <span class="lab" id="subLab">SHOW</span>
     <div class="seg" id="subSeg"></div>
     <span class="lab">DAY</span><div class="seg" id="daySeg"></div>
-    <span class="lab">KICK-OFF</span><div class="seg" id="koSeg"></div>
+    <span class="lab" id="koLab">KICK-OFF</span><div class="seg" id="koSeg"></div>
     <span class="hint" id="srcNote"></span>
   </div>
   <div class="live">
@@ -398,18 +399,23 @@ function adapt(d){
     if(m) return new Date(year, MON[m[2]], +m[1], +m[3], +m[4]).toISOString();
     const t=Date.parse(k); return isNaN(t)?null:new Date(t).toISOString();
   }
+  // anything outside a sane range is a placeholder, not a price
+  const ok = v => (typeof v === 'number' && v >= 1.01 && v <= 1000) ? v : null;
+  const trio = o => { const t=[ok(o&&o['1']),ok(o&&o['X']),ok(o&&o['2'])];
+                      return t.every(x=>x!==null) ? t : null; };
   return (d.matches||[]).map(r=>{
-    const bf=(r.betfair&&r.betfair.odds)||{}, g=(r.betfair&&r.betfair.goals)||{};
-    const books=r.books||{}, pin=books.pinnacle||null;
+    const g=(r.betfair&&r.betfair.goals)||{};
+    const books=r.books||{};
+    const bfT=trio(r.betfair&&r.betfair.odds), pinT=trio(books.pinnacle);
     const ko=when(r.kickoff);
-    if(!ko || !bf['1']) return null;
+    if(!ko || !bfT) return null;
+    const u=ok(g.under2_5), ov=ok(g.over2_5);
     return {
       l:(r.league||'').replace(/-/g,' '), ko, h:r.home, a:r.away,
-      bf:[bf['1'],bf['X'],bf['2']],
-      o:[bf['1'],bf['X'],bf['2']],                       // opening filled in once history exists
-      n: pin ? [pin['1'],pin['X'],pin['2']] : null,
-      po: pin ? [pin['1'],pin['X'],pin['2']] : null,
-      uo: (g.under2_5&&g.over2_5) ? {u:g.under2_5,o:g.over2_5} : null,
+      bf:bfT, o:bfT.slice(),                  // opening fills in once history exists
+      n: pinT, po: pinT ? pinT.slice() : null,
+      uo: (u&&ov) ? {u:u,o:ov} : null,
+      books: books, best: r.bestAvailable || null,
       vol: Math.round(r.betfair&&r.betfair.volume1x2 || 0),
       split: null, ready: true,
       fair:[bf['1'],bf['X'],bf['2']], prob:[33,33,34],
@@ -429,7 +435,7 @@ async function loadFeed(){
     if(!rows.length) throw new Error('empty feed');
     M = rows;
     baseline();
-    seg('daySeg',dayOptions(),day,v=>day=v);
+    seg('daySeg',dayOptions(),day,v=>{ day=v; koVisible(); });
     document.getElementById('lastRun').textContent =
       new Date(d.generatedAt || Date.now()).toLocaleString([], {day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'});
     document.querySelector('.hint').textContent =
@@ -451,19 +457,21 @@ const edgeBar = price => 0.035 + Math.max(0, price-2.0)*0.012;
 function hsh(s){let x=0;for(let i=0;i<s.length;i++)x=(x*31+s.charCodeAt(i))>>>0;return x;}
 function baseline(){ M.forEach(m=>{const k=hsh(m.h+m.a); m.exp = m.exp || Math.round(m.vol*(0.65+((k>>>7)%12)/10));}); }
 baseline();
-let lens='value', sub='all', maxKo=0, day='all';
+let lens='value', sub='all', maxKo=0, day='1';
+// a window of days, not a list of dates: today, the next two, the next seven
 const dayKey = m => new Date(m.ko).toISOString().slice(0,10);
+const daysAway = m => {
+  const t = new Date(); t.setHours(0,0,0,0);
+  const d = new Date(m.ko); d.setHours(0,0,0,0);
+  return Math.round((d - t) / 86400000);
+};
 function dayOptions(){
-  const today=new Date().toISOString().slice(0,10);
-  const days=[...new Set(M.map(dayKey))].sort();
-  const label=d=>{
-    const dd=new Date(d+'T12:00:00'), t=new Date(today+'T12:00:00');
-    const n=Math.round((dd-t)/86400000);
-    if(n===0) return 'Today'; if(n===1) return 'Tomorrow'; if(n===-1) return 'Yesterday';
-    return dd.toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short'});
-  };
-  return [['all','All days'], ...days.map(d=>[d,label(d)])];
+  const span = M.length ? Math.max(...M.map(daysAway)) : 0;
+  const opts = [['1','Today'], ['2','Next 2 days']];
+  if(span >= 2) opts.push(['7','Next 7 days']);
+  return opts;
 }
+const inDayWindow = m => { const n = daysAway(m); return n >= 0 && n < (+day); };
 const WATCH=new Set(); const key=m=>m.h+'|'+m.a;
 const f2=v=>Number(v).toFixed(2);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -619,13 +627,30 @@ function detail(m,v){
   const fair = [0,1,2].map(k=>{const e=m.bf[k]/m.fair[k]-1;
     return `<span>${['1','X','2'][k]} fair <b>${f2(m.fair[k])}</b> · market <b>${f2(m.bf[k])}</b>
       <b style="color:${e>=0.045?'var(--green)':'var(--faint)'}"> ${(e>0?'+':'')+(e*100).toFixed(1)}%</b></span>`;}).join('');
-  const cmp = m.n ? [0,1,2].map(k=>`<span>${['1','X','2'][k]} P <b>${f2(m.n[k])}</b> · B <b>${f2(m.bf[k])}</b></span>`).join('')
-    : '<div class="dwhy">No Pinnacle price for this fixture.</div>';
+  const NAMES={pinnacle:'Pinnacle',bet365:'bet365',betfair:'Betfair',average:'Average',best:'Best price'};
+  let cmp;
+  if(m.books && Object.keys(m.books).length){
+    const order=['pinnacle','bet365','betfair','average','best'].filter(b=>m.books[b]);
+    cmp = `<table class="ltab"><tbody>
+      <tr><td class="pos"></td><td class="pts">1</td><td class="pts">X</td><td class="pts">2</td><td class="pts">O2.5</td></tr>
+      ${order.map(b=>{const o=m.books[b];
+        return `<tr class="${b==='pinnacle'?'me':''}"><td>${NAMES[b]||b}</td>
+          <td class="pts">${o['1']?f2(o['1']):'—'}</td>
+          <td class="pts">${o['X']?f2(o['X']):'—'}</td>
+          <td class="pts">${o['2']?f2(o['2']):'—'}</td>
+          <td class="pts">${o['over2_5']?f2(o['over2_5']):'—'}</td></tr>`;}).join('')}
+      </tbody></table>
+      ${m.best?`<div class="dwhy" style="margin-top:7px">Best available on 1:
+        <b>${m.best['1']?f2(m.best['1'].odd)+' at '+esc(m.best['1'].book):'—'}</b></div>`:''}`;
+  } else {
+    cmp = m.n ? [0,1,2].map(k=>`<span>${['1','X','2'][k]} P <b>${f2(m.n[k])}</b> · B <b>${f2(m.bf[k])}</b></span>`).join('')
+              : '<div class="dwhy">No book prices for this fixture.</div>';
+  }
   return `<div class="dhead">Everything we hold on <b>${esc(m.h)} v ${esc(m.a)}</b> — the same panels on every view</div>
   <div class="det-in">
     <div class="dbox"><div class="dlab">PATTERN90 FAIR</div><div class="mini">${fair}</div></div>
     <div class="dbox"><div class="dlab">SINCE THE MARKET OPENED</div><div class="mini">${moves}</div></div>
-    <div class="dbox"><div class="dlab">THE TWO BOOKS</div><div class="mini">${cmp}</div></div>
+    <div class="dbox"><div class="dlab">THE BOOKS</div>${m.books?cmp:`<div class="mini">${cmp}</div>`}</div>
     <div class="dbox"><div class="dlab">PROJECTED SCORE</div>
       ${m.ps?`<div class="mini">
         <span>Projected <b>${m.ps.display}</b></span>
@@ -734,6 +759,15 @@ function valueRow(m,v){
       if(w(m.model.formH)===3) f.push(['FORM', `${esc(m.h)} won their last three`, m.model.formH.join(' · ')]);
       if(w(m.model.formA)===3) f.push(['FORM', `${esc(m.a)} won their last three`, m.model.formA.join(' · ')]);
     }
+    if(m.books && m.books.pinnacle && m.books.bet365){
+      const P=m.books.pinnacle, B=m.books.bet365;
+      let bg=0, bk='';
+      for(const k of ['1','X','2','over2_5']){
+        if(P[k] && B[k] && B[k]/P[k]-1 > bg){ bg=B[k]/P[k]-1; bk=k; }
+      }
+      if(bg>=0.03) f.push(['BET365', `pays <b>${(bg*100).toFixed(1)}%</b> more than Pinnacle on ${bk}`,
+        `${f2(P[bk])} → ${f2(B[bk])}`]);
+    }
     if(m.ps && (m.ps.lh+m.ps.la)>=3.4) f.push(['GOALS', `<b>${(m.ps.lh+m.ps.la).toFixed(2)}</b> goals expected`, `projected ${m.ps.display}`]);
     if(!f.length) f.push(['MARKET', `<b>£${m.vol.toLocaleString()}</b> matched`,
       m.vol>=TRUST?`${Math.round(m.vol/m.exp*100)}% of what this fixture normally draws`:'a thin market, so nothing is read into it']);
@@ -794,7 +828,7 @@ function render(){
   document.getElementById('exp').innerHTML=L.exp;
   document.getElementById('tblCard').classList.toggle('pin-lens', L.book==='pin');
   document.getElementById('tblCard').classList.toggle('val-lens', lens==='value');
-  const rows=M.filter(m=> (day==='all' ? mins(m)>0 : dayKey(m)===day)
+  const rows=M.filter(m=> inDayWindow(m) && (day==='1' ? mins(m)>0 : true)
       && (maxKo===0 || mins(m)<=maxKo) && keep(m)).sort((a,b)=>new Date(a.ko)-new Date(b.ko));
   const isVal = lens==='value';
   let t = isVal
@@ -816,7 +850,10 @@ function render(){
     const railCls = lens!=='value' ? '' : (!v.hasModel?'rail none':v.tip?'rail val':(v.inWindow&&v.edge>=0.015&&v.edge<v.bar)?'rail mon':v.edge<=-0.08?'rail trap':'rail none');
     t+=`<tr class="main ${railCls}" data-i="${i}">
       <td class="c"><button class="star ${WATCH.has(key(m))?'on':''}" data-star="${key(m)}">${WATCH.has(key(m))?'★':'☆'}</button></td>
-      <td><span class="cd ${c.c}">${c.t}<small>${c.s.toUpperCase()}</small>
+      <td><span class="cd ${c.c}">${c.t}<small>${
+          day==='1' ? c.s.toUpperCase()
+          : new Date(m.ko).toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short'}).toUpperCase()
+        }</small>
         ${c.p>0?`<span class="bar2"><i style="width:${c.p.toFixed(0)}%"></i></span>`:''}</span></td>
       <td class="mcell"><div class="mtop"><span class="lgue">${esc(m.l)}</span>
           <span class="rdy ${m.ready&&m.vol>=TRUST?'ok':'pv'}">${m.ready&&m.vol>=TRUST?'READY':'PROV.'}</span></div>
@@ -854,8 +891,15 @@ function drawSubs(){
     : 'real Betfair prices and turnover · 13 Sept · fair odds and opening prices are demo';
 }
 drawTabs(); drawSubs();
-seg('daySeg',dayOptions(),day,v=>day=v);
+seg('daySeg',dayOptions(),day,v=>{ day=v; koVisible(); });
+function koVisible(){
+  const on = (day === '1');                 // a kick-off window only means something inside today
+  document.getElementById('koLab').style.display = on ? '' : 'none';
+  document.getElementById('koSeg').style.display = on ? '' : 'none';
+  if(!on) maxKo = 0;
+}
 seg('koSeg',[['0','All'],['360','≤ 6h'],['120','≤ 2h'],['60','≤ 1h']],'0',v=>maxKo=+v);
+koVisible();
 document.getElementById('tbl').addEventListener('click',e=>{
   const st=e.target.closest('[data-star]');
   if(st){e.stopPropagation(); const k=st.dataset.star; WATCH.has(k)?WATCH.delete(k):WATCH.add(k); render(); return;}
