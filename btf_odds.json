@@ -1,0 +1,10207 @@
+{
+ "generatedAt": "2026-09-13T15:40:15.586146Z",
+ "source": "btfodds.com",
+ "date": "today",
+ "books": [
+  "pinnacle",
+  "bet365",
+  "average",
+  "best"
+ ],
+ "matches": [
+  {
+   "id": "2612276",
+   "league": "Brazil: Serie A",
+   "kickoff": "Sun 23:30",
+   "home": "Flamengo",
+   "away": "Corinthians",
+   "books": {
+    "pinnacle": {
+     "1": 1.26,
+     "X": 5.9,
+     "2": 12.75
+    },
+    "bet365": {
+     "1": 1.22,
+     "X": 5.5,
+     "2": 12.0,
+     "under2_5": 2.03,
+     "over2_5": 1.83
+    },
+    "average": {
+     "1": 1.26,
+     "X": 5.5,
+     "2": 11.46,
+     "under2_5": 1.97,
+     "over2_5": 1.79
+    },
+    "best": {
+     "1": 1.3,
+     "X": 6.0,
+     "2": 13.0,
+     "under2_5": 2.08,
+     "over2_5": 1.91
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.34,
+     "book": "Unibet"
+    },
+    "X": {
+     "odd": 4.75,
+     "book": "Betvictor"
+    },
+    "2": {
+     "odd": 9.19,
+     "book": "Betvictor"
+    },
+    "under2_5": {
+     "odd": 2.02,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.81,
+     "book": "Betfred"
+    }
+   }
+  },
+  {
+   "id": "2612287",
+   "league": "Brazil: Serie A",
+   "kickoff": "Sun 22:00",
+   "home": "Mirassol",
+   "away": "Vitoria",
+   "books": {
+    "pinnacle": {
+     "1": 1.76,
+     "X": 3.81,
+     "2": 4.99,
+     "under2_5": 2.02,
+     "over2_5": 1.89
+    },
+    "bet365": {
+     "1": 1.68,
+     "X": 3.6,
+     "2": 5.0,
+     "under2_5": 1.93,
+     "over2_5": 1.93
+    },
+    "average": {
+     "1": 1.74,
+     "X": 3.64,
+     "2": 4.7,
+     "under2_5": 1.91,
+     "over2_5": 1.89
+    },
+    "best": {
+     "1": 1.78,
+     "X": 3.81,
+     "2": 5.0,
+     "under2_5": 2.04,
+     "over2_5": 1.95
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.73,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 3.62,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 4.7,
+     "book": "Bet365"
+    },
+    "under2_5": {
+     "odd": 1.91,
+     "book": "AsianOdds"
+    },
+    "over2_5": {
+     "odd": 1.93,
+     "book": "10Bet"
+    }
+   }
+  },
+  {
+   "id": "2612661",
+   "league": "Norway: Eliteserien",
+   "kickoff": "Sun 20:15",
+   "home": "Fredrikstad",
+   "away": "Sarpsborg 08",
+   "books": {
+    "pinnacle": {
+     "1": 2.62,
+     "X": 3.66,
+     "2": 2.68,
+     "under2_5": 2.16,
+     "over2_5": 1.75
+    },
+    "bet365": {
+     "1": 2.45,
+     "X": 3.5,
+     "2": 2.63,
+     "under2_5": 2.1,
+     "over2_5": 1.7
+    },
+    "average": {
+     "1": 2.45,
+     "X": 3.49,
+     "2": 2.67,
+     "under2_5": 2.12,
+     "over2_5": 1.69
+    },
+    "best": {
+     "1": 2.62,
+     "X": 3.66,
+     "2": 2.75,
+     "under2_5": 2.2,
+     "over2_5": 1.75
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.41,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.49,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.69,
+     "book": "Bwin"
+    },
+    "under2_5": {
+     "odd": 2.17,
+     "book": "1xbet"
+    },
+    "over2_5": {
+     "odd": 1.68,
+     "book": "10Bet"
+    }
+   }
+  },
+  {
+   "id": "2616372",
+   "league": "Argentina: Primera Nacional",
+   "kickoff": "Sun 21:30",
+   "home": "Almirante Brown",
+   "away": "Ferro Carril Oeste",
+   "books": {
+    "pinnacle": {
+     "1": 3.01,
+     "X": 2.72,
+     "2": 2.86
+    },
+    "bet365": {
+     "1": 2.85,
+     "X": 2.65,
+     "2": 2.75,
+     "under2_5": 1.33,
+     "over2_5": 3.4
+    },
+    "average": {
+     "1": 2.81,
+     "X": 2.65,
+     "2": 2.84,
+     "under2_5": 1.31,
+     "over2_5": 3.19
+    },
+    "best": {
+     "1": 3.02,
+     "X": 2.76,
+     "2": 3.01,
+     "under2_5": 1.35,
+     "over2_5": 3.4
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.72,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 1.29,
+     "book": "Betway"
+    },
+    "over2_5": {
+     "odd": 3.33,
+     "book": "Bet365"
+    }
+   }
+  },
+  {
+   "id": "2616373",
+   "league": "Argentina: Primera Nacional",
+   "kickoff": "Sun 21:30",
+   "home": "Club Atletico Estudiantes",
+   "away": "Acassuso",
+   "books": {
+    "pinnacle": {
+     "1": 1.65,
+     "X": 3.49,
+     "2": 6.22,
+     "under2_5": 1.49,
+     "over2_5": 2.65
+    },
+    "bet365": {
+     "1": 1.57,
+     "X": 3.3,
+     "2": 6.25,
+     "under2_5": 1.48,
+     "over2_5": 2.6
+    },
+    "average": {
+     "1": 1.62,
+     "X": 3.35,
+     "2": 5.9,
+     "under2_5": 1.46,
+     "over2_5": 2.56
+    },
+    "best": {
+     "1": 1.65,
+     "X": 3.5,
+     "2": 6.25,
+     "under2_5": 1.5,
+     "over2_5": 2.65
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.62,
+     "book": "10Bet"
+    },
+    "X": {
+     "odd": 3.34,
+     "book": "Betway"
+    },
+    "2": {
+     "odd": 5.83,
+     "book": "Bet365"
+    },
+    "under2_5": {
+     "odd": 1.42,
+     "book": "Betfred"
+    },
+    "over2_5": {
+     "odd": 2.49,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2616374",
+   "league": "Argentina: Primera Nacional",
+   "kickoff": "Sun 22:00",
+   "home": "Club Atletico Mitre",
+   "away": "Ca Chaco For Ever",
+   "books": {
+    "pinnacle": {
+     "1": 2.2,
+     "X": 2.95,
+     "2": 3.9,
+     "under2_5": 1.4,
+     "over2_5": 2.92
+    },
+    "bet365": {
+     "1": 2.1,
+     "X": 2.75,
+     "2": 3.8,
+     "under2_5": 1.4,
+     "over2_5": 2.88
+    },
+    "average": {
+     "1": 2.16,
+     "X": 2.84,
+     "2": 3.74,
+     "under2_5": 1.4,
+     "over2_5": 2.8
+    },
+    "best": {
+     "1": 2.23,
+     "X": 3.0,
+     "2": 3.95,
+     "under2_5": 1.45,
+     "over2_5": 2.92
+    }
+   },
+   "bestAvailable": {
+    "2": {
+     "odd": 3.72,
+     "book": "AsianOdds"
+    }
+   }
+  },
+  {
+   "id": "2616378",
+   "league": "Argentina: Primera Nacional",
+   "kickoff": "Sun 21:00",
+   "home": "Los Andes",
+   "away": "Ca San Miguel",
+   "books": {
+    "pinnacle": {
+     "1": 2.12,
+     "X": 2.87,
+     "2": 4.35,
+     "under2_5": 1.34,
+     "over2_5": 3.23
+    },
+    "bet365": {
+     "1": 2.01,
+     "X": 2.75,
+     "2": 4.33,
+     "under2_5": 1.33,
+     "over2_5": 3.4
+    },
+    "average": {
+     "1": 2.07,
+     "X": 2.78,
+     "2": 4.16,
+     "under2_5": 1.34,
+     "over2_5": 3.08
+    },
+    "best": {
+     "1": 2.14,
+     "X": 2.88,
+     "2": 4.37,
+     "under2_5": 1.37,
+     "over2_5": 3.4
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.07,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 2.77,
+     "book": "Betvictor"
+    },
+    "2": {
+     "odd": 4.13,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 1.33,
+     "book": "Unibet"
+    },
+    "over2_5": {
+     "odd": 3.18,
+     "book": "Bet365"
+    }
+   }
+  },
+  {
+   "id": "2616379",
+   "league": "Argentina: Primera Nacional",
+   "kickoff": "Sun 22:00",
+   "home": "Racing De Cordoba",
+   "away": "Deportivo Moron",
+   "books": {
+    "pinnacle": {
+     "1": 2.63,
+     "X": 2.74,
+     "2": 3.13,
+     "under2_5": 1.35,
+     "over2_5": 3.04
+    },
+    "average": {
+     "1": 2.59,
+     "X": 2.74,
+     "2": 3.09,
+     "under2_5": 1.35,
+     "over2_5": 2.91
+    },
+    "best": {
+     "1": 2.63,
+     "X": 2.75,
+     "2": 3.13,
+     "under2_5": 1.35,
+     "over2_5": 3.04
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.53,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 2.75,
+     "book": "AsianOdds"
+    },
+    "2": {
+     "odd": 3.19,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.35,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.89,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2616811",
+   "league": "Argentina: Primera B Metropolitana",
+   "kickoff": "Sun 21:00",
+   "home": "Argentino De Quilmes",
+   "away": "Deportivo Merlo",
+   "books": {
+    "pinnacle": {
+     "1": 2.27,
+     "X": 2.66,
+     "2": 3.48,
+     "under2_5": 1.33,
+     "over2_5": 3.01
+    },
+    "average": {
+     "1": 2.25,
+     "X": 2.69,
+     "2": 3.39,
+     "under2_5": 1.33,
+     "over2_5": 2.89
+    },
+    "best": {
+     "1": 2.3,
+     "X": 2.85,
+     "2": 3.5,
+     "under2_5": 1.36,
+     "over2_5": 3.01
+    }
+   },
+   "bestAvailable": {
+    "X": {
+     "odd": 2.64,
+     "book": "10Bet"
+    },
+    "under2_5": {
+     "odd": 1.33,
+     "book": "10Bet"
+    },
+    "over2_5": {
+     "odd": 2.96,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2616820",
+   "league": "Argentina: Primera B Metropolitana",
+   "kickoff": "Sun 21:00",
+   "home": "Flandria",
+   "away": "Casd Camioneros",
+   "books": {
+    "pinnacle": {
+     "1": 2.64,
+     "X": 2.76,
+     "2": 2.75,
+     "under2_5": 1.32,
+     "over2_5": 3.06
+    },
+    "average": {
+     "1": 2.77,
+     "X": 2.71,
+     "2": 2.73,
+     "under2_5": 1.32,
+     "over2_5": 3.06
+    },
+    "best": {
+     "1": 2.84,
+     "X": 2.76,
+     "2": 2.75,
+     "under2_5": 1.32,
+     "over2_5": 3.06
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.68,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 2.71,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.76,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.36,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.87,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2622606",
+   "league": "Faroe Islands: Premier League",
+   "kickoff": "Sun 20:30",
+   "home": "Skala",
+   "away": "Hb Torshavn",
+   "books": {
+    "pinnacle": {
+     "1": 3.95,
+     "X": 3.84,
+     "2": 1.77,
+     "under2_5": 2.36,
+     "over2_5": 1.56
+    },
+    "average": {
+     "1": 4.01,
+     "X": 3.82,
+     "2": 1.74,
+     "under2_5": 2.33,
+     "over2_5": 1.56
+    },
+    "best": {
+     "1": 4.05,
+     "X": 3.84,
+     "2": 1.77,
+     "under2_5": 2.36,
+     "over2_5": 1.56
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 4.62,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.85,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 1.61,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 2.15,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.65,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2622612",
+   "league": "Faroe Islands: Premier League",
+   "kickoff": "Sun 19:15",
+   "home": "Nsi Runavik",
+   "away": "Vikingur",
+   "books": {
+    "pinnacle": {
+     "1": 2.07,
+     "X": 3.7,
+     "2": 3.08
+    },
+    "average": {
+     "1": 2.04,
+     "X": 3.57,
+     "2": 3.03,
+     "under2_5": 2.26,
+     "over2_5": 1.57
+    },
+    "best": {
+     "1": 2.07,
+     "X": 3.71,
+     "2": 3.21,
+     "under2_5": 2.3,
+     "over2_5": 1.6
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.84,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.65,
+     "book": "AsianOdds"
+    },
+    "2": {
+     "odd": 3.5,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 2.27,
+     "book": "10Bet"
+    },
+    "over2_5": {
+     "odd": 1.58,
+     "book": "Betway"
+    }
+   }
+  },
+  {
+   "id": "2622613",
+   "league": "Faroe Islands: Premier League",
+   "kickoff": "Sun 19:15",
+   "home": "07 Vestur",
+   "away": "Klaksvik",
+   "books": {
+    "pinnacle": {
+     "1": 9.76,
+     "X": 6.16,
+     "2": 1.22,
+     "under2_5": 2.62,
+     "over2_5": 1.45
+    },
+    "average": {
+     "1": 9.87,
+     "X": 5.71,
+     "2": 1.22,
+     "under2_5": 2.62,
+     "over2_5": 1.45
+    },
+    "best": {
+     "1": 10.29,
+     "X": 6.16,
+     "2": 1.24,
+     "under2_5": 2.62,
+     "over2_5": 1.45
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 8.96,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 5.81,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 1.23,
+     "book": "Bwin"
+    },
+    "under2_5": {
+     "odd": 2.52,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.47,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2622614",
+   "league": "Faroe Islands: Premier League",
+   "kickoff": "Sun 20:30",
+   "home": "Ab Argir",
+   "away": "B68 Toftir",
+   "books": {
+    "pinnacle": {
+     "1": 1.82,
+     "X": 3.69,
+     "2": 3.88,
+     "under2_5": 2.17,
+     "over2_5": 1.68
+    },
+    "average": {
+     "1": 1.8,
+     "X": 3.6,
+     "2": 3.74,
+     "under2_5": 2.13,
+     "over2_5": 1.66
+    },
+    "best": {
+     "1": 1.85,
+     "X": 3.8,
+     "2": 4.07,
+     "under2_5": 2.2,
+     "over2_5": 1.68
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.8,
+     "book": "10Bet"
+    },
+    "X": {
+     "odd": 3.59,
+     "book": "Betway"
+    },
+    "over2_5": {
+     "odd": 1.66,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2624608",
+   "league": "Chile: Primera Division",
+   "kickoff": "Sun 21:00",
+   "home": "La Serena",
+   "away": "Universidad De Chile",
+   "books": {
+    "pinnacle": {
+     "1": 4.16,
+     "X": 3.84,
+     "2": 1.85,
+     "under2_5": 2.13,
+     "over2_5": 1.76
+    },
+    "average": {
+     "1": 4.06,
+     "X": 3.8,
+     "2": 1.85,
+     "under2_5": 2.13,
+     "over2_5": 1.74
+    },
+    "best": {
+     "1": 4.16,
+     "X": 3.84,
+     "2": 1.87,
+     "under2_5": 2.16,
+     "over2_5": 1.76
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 3.97,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.77,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 1.82,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 2.09,
+     "book": "AsianOdds"
+    },
+    "over2_5": {
+     "odd": 1.74,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2624609",
+   "league": "Chile: Primera Division",
+   "kickoff": "Sun 23:30",
+   "home": "Colo Colo",
+   "away": "Deportes Concepcion",
+   "books": {
+    "pinnacle": {
+     "1": 1.45,
+     "X": 4.68,
+     "2": 7.04
+    },
+    "bet365": {
+     "1": 1.41,
+     "X": 4.2,
+     "2": 6.5,
+     "under2_5": 2.15,
+     "over2_5": 1.67
+    },
+    "average": {
+     "1": 1.41,
+     "X": 4.46,
+     "2": 6.78,
+     "under2_5": 2.15,
+     "over2_5": 1.66
+    },
+    "best": {
+     "1": 1.47,
+     "X": 4.68,
+     "2": 7.04,
+     "under2_5": 2.21,
+     "over2_5": 1.71
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.39,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 4.49,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 6.87,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2625632",
+   "league": "Norway: 2. Division",
+   "kickoff": "Sun 18:45",
+   "home": "Junkeren",
+   "away": "Skeid",
+   "books": {
+    "pinnacle": {
+     "1": 2.29,
+     "X": 3.94,
+     "2": 2.59
+    },
+    "average": {
+     "1": 2.27,
+     "X": 3.89,
+     "2": 2.56,
+     "under2_5": 2.83,
+     "over2_5": 1.33
+    },
+    "best": {
+     "1": 2.29,
+     "X": 3.94,
+     "2": 2.59,
+     "under2_5": 2.83,
+     "over2_5": 1.33
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.55,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.75,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.31,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2626026",
+   "league": "Norway: 3. Division",
+   "kickoff": "Sun 21:00",
+   "home": "Ranheim 2",
+   "away": "Byaasen",
+   "books": {
+    "pinnacle": {
+     "1": 2.26,
+     "X": 3.75,
+     "2": 2.41
+    },
+    "average": {
+     "1": 2.26,
+     "X": 3.75,
+     "2": 2.41
+    },
+    "best": {
+     "1": 2.26,
+     "X": 3.75,
+     "2": 2.41
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.37,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.71,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.3,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2626392",
+   "league": "Norway: 3. Division",
+   "kickoff": "Sun 19:00",
+   "home": "Stabaek 2",
+   "away": "Vindbjart",
+   "books": {
+    "pinnacle": {
+     "1": 3.79,
+     "X": 4.89,
+     "2": 1.55
+    },
+    "average": {
+     "1": 3.99,
+     "X": 4.79,
+     "2": 1.53,
+     "under2_5": 3.82,
+     "over2_5": 1.19
+    },
+    "best": {
+     "1": 4.4,
+     "X": 4.89,
+     "2": 1.55,
+     "under2_5": 3.82,
+     "over2_5": 1.19
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 4.6,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 4.6,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 1.48,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 3.42,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.23,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2631526",
+   "league": "Georgia: Erovnuli Liga",
+   "kickoff": "Sun 19:00",
+   "home": "Iberia 1999",
+   "away": "Spaeri",
+   "books": {
+    "pinnacle": {
+     "1": 1.62,
+     "X": 3.41,
+     "2": 6.02,
+     "under2_5": 2.01,
+     "over2_5": 1.82
+    },
+    "average": {
+     "1": 1.64,
+     "X": 3.53,
+     "2": 4.87,
+     "under2_5": 1.93,
+     "over2_5": 1.81
+    },
+    "best": {
+     "1": 1.7,
+     "X": 3.75,
+     "2": 6.02,
+     "under2_5": 2.04,
+     "over2_5": 1.84
+    }
+   },
+   "bestAvailable": {
+    "X": {
+     "odd": 3.58,
+     "book": "Betway"
+    },
+    "2": {
+     "odd": 4.55,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.86,
+     "book": "AsianOdds"
+    },
+    "over2_5": {
+     "odd": 1.83,
+     "book": "Unibet"
+    }
+   }
+  },
+  {
+   "id": "2637717",
+   "league": "Brazil: Serie B",
+   "kickoff": "Sun 22:00",
+   "home": "Atletico Go",
+   "away": "Criciuma",
+   "books": {
+    "pinnacle": {
+     "1": 2.41,
+     "X": 3.14,
+     "2": 3.28
+    },
+    "bet365": {
+     "1": 2.3,
+     "X": 3.2,
+     "2": 3.1,
+     "under2_5": 1.48,
+     "over2_5": 2.6
+    },
+    "average": {
+     "1": 2.27,
+     "X": 3.05,
+     "2": 3.29,
+     "under2_5": 1.46,
+     "over2_5": 2.58
+    },
+    "best": {
+     "1": 2.42,
+     "X": 3.24,
+     "2": 3.75,
+     "under2_5": 1.48,
+     "over2_5": 2.63
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.15,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 2.95,
+     "book": "AsianOdds"
+    }
+   }
+  },
+  {
+   "id": "2640050",
+   "league": "Canada: Premier League",
+   "kickoff": "Sun 22:00",
+   "home": "Inter Toronto Fc",
+   "away": "Vancouver Fc",
+   "books": {
+    "pinnacle": {
+     "1": 2.5,
+     "X": 4.12,
+     "2": 2.23
+    },
+    "average": {
+     "1": 2.68,
+     "X": 3.77,
+     "2": 2.21
+    },
+    "best": {
+     "1": 2.9,
+     "X": 4.12,
+     "2": 2.31
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.59,
+     "book": "Betvictor"
+    },
+    "X": {
+     "odd": 3.83,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.22,
+     "book": "AsianOdds"
+    }
+   }
+  },
+  {
+   "id": "2640286",
+   "league": "Chile: Primera B",
+   "kickoff": "Sun 21:00",
+   "home": "Cobreloa",
+   "away": "Santiago Wanderers",
+   "books": {
+    "pinnacle": {
+     "1": 1.78,
+     "X": 3.5,
+     "2": 4.09,
+     "under2_5": 1.86,
+     "over2_5": 1.93
+    },
+    "average": {
+     "1": 1.76,
+     "X": 3.49,
+     "2": 4.13,
+     "under2_5": 1.85,
+     "over2_5": 1.91
+    },
+    "best": {
+     "1": 1.78,
+     "X": 3.5,
+     "2": 4.2,
+     "under2_5": 1.86,
+     "over2_5": 1.93
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.83,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.44,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.89,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.85,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.93,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2640291",
+   "league": "Chile: Primera B",
+   "kickoff": "Sun 21:00",
+   "home": "San Marcos",
+   "away": "Curico Unido",
+   "books": {
+    "average": {
+     "1": 1.74,
+     "X": 3.32,
+     "2": 4.46,
+     "under2_5": 1.69,
+     "over2_5": 2.06
+    },
+    "best": {
+     "1": 1.83,
+     "X": 3.6,
+     "2": 5.0,
+     "under2_5": 1.73,
+     "over2_5": 2.1
+    }
+   },
+   "bestAvailable": {
+    "2": {
+     "odd": 3.85,
+     "book": "Unibet"
+    }
+   }
+  },
+  {
+   "id": "2645058",
+   "league": "Ecuador: Serie A",
+   "kickoff": "Sun 23:30",
+   "home": "Csd Macara",
+   "away": "Emelec",
+   "books": {
+    "pinnacle": {
+     "1": 1.81,
+     "X": 3.4,
+     "2": 4.82
+    },
+    "bet365": {
+     "1": 1.86,
+     "X": 3.2,
+     "2": 4.2,
+     "under2_5": 1.62,
+     "over2_5": 2.25
+    },
+    "average": {
+     "1": 1.9,
+     "X": 3.15,
+     "2": 4.01,
+     "under2_5": 1.6,
+     "over2_5": 2.2
+    },
+    "best": {
+     "1": 2.02,
+     "X": 3.45,
+     "2": 4.84,
+     "under2_5": 1.71,
+     "over2_5": 2.28
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.94,
+     "book": "Betsson"
+    },
+    "X": {
+     "odd": 3.11,
+     "book": "AsianOdds"
+    },
+    "2": {
+     "odd": 3.78,
+     "book": "AsianOdds"
+    },
+    "over2_5": {
+     "odd": 2.27,
+     "book": "1xbet"
+    }
+   }
+  },
+  {
+   "id": "2647722",
+   "league": "Usa: MLS NEXT Pro",
+   "kickoff": "Sun 22:00",
+   "home": "Chattanooga Fc",
+   "away": "Atlanta United 2",
+   "books": {
+    "pinnacle": {
+     "1": 2.11,
+     "X": 3.59,
+     "2": 2.94
+    },
+    "average": {
+     "1": 2.09,
+     "X": 3.7,
+     "2": 2.9
+    },
+    "best": {
+     "1": 2.11,
+     "X": 3.76,
+     "2": 2.94
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.08,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.7,
+     "book": "AsianOdds"
+    },
+    "2": {
+     "odd": 2.92,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2647723",
+   "league": "Usa: MLS NEXT Pro",
+   "kickoff": "Sun 22:00",
+   "home": "Chicago Fire Fc Ii",
+   "away": "Philadelphia Union Ii",
+   "books": {
+    "pinnacle": {
+     "1": 1.67,
+     "X": 4.6,
+     "2": 3.61
+    },
+    "average": {
+     "1": 1.66,
+     "X": 4.61,
+     "2": 3.63,
+     "under2_5": 3.98,
+     "over2_5": 1.17
+    },
+    "best": {
+     "1": 1.68,
+     "X": 4.72,
+     "2": 3.8,
+     "under2_5": 3.98,
+     "over2_5": 1.17
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.64,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 4.35,
+     "book": "AsianOdds"
+    },
+    "2": {
+     "odd": 3.86,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 3.96,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.17,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2791617",
+   "league": "international: U20 World Cup (Women)",
+   "kickoff": "Sun 19:00",
+   "home": "Colombia U20 (w)",
+   "away": "North Korea U20 (w)",
+   "books": {
+    "pinnacle": {
+     "1": 16.76,
+     "X": 7.17,
+     "2": 1.14,
+     "under2_5": 2.41,
+     "over2_5": 1.53
+    },
+    "average": {
+     "1": 15.76,
+     "X": 7.03,
+     "2": 1.16,
+     "under2_5": 2.41,
+     "over2_5": 1.53
+    },
+    "best": {
+     "1": 16.76,
+     "X": 7.17,
+     "2": 1.17,
+     "under2_5": 2.41,
+     "over2_5": 1.53
+    }
+   },
+   "bestAvailable": {
+    "under2_5": {
+     "odd": 2.42,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.48,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2791618",
+   "league": "international: U20 World Cup (Women)",
+   "kickoff": "Sun 19:00",
+   "home": "Portugal U20 (w)",
+   "away": "Costa Rica U20 (w)",
+   "books": {
+    "pinnacle": {
+     "1": 1.11,
+     "X": 8.4,
+     "2": 21.48
+    },
+    "average": {
+     "1": 1.11,
+     "X": 8.32,
+     "2": 20.72
+    },
+    "best": {
+     "1": 1.11,
+     "X": 8.4,
+     "2": 21.48
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.19,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 5.71,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 9.74,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2791893",
+   "league": "Lithuania: A Lyga",
+   "kickoff": "Sun 18:45",
+   "home": "Suduva",
+   "away": "Zalgiris Vilnius",
+   "books": {
+    "pinnacle": {
+     "1": 2.23,
+     "X": 3.45,
+     "2": 3.06
+    },
+    "average": {
+     "1": 2.4,
+     "X": 3.26,
+     "2": 2.67,
+     "under2_5": 1.84,
+     "over2_5": 1.83
+    },
+    "best": {
+     "1": 2.55,
+     "X": 3.45,
+     "2": 3.15,
+     "under2_5": 1.93,
+     "over2_5": 1.9
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.57,
+     "book": "Unibet"
+    },
+    "X": {
+     "odd": 3.2,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.47,
+     "book": "AsianOdds"
+    }
+   }
+  },
+  {
+   "id": "2792117",
+   "league": "Croatia: HNL",
+   "kickoff": "Sun 21:00",
+   "home": "Hajduk Split",
+   "away": "Slaven",
+   "books": {
+    "pinnacle": {
+     "1": 1.28,
+     "X": 6.18,
+     "2": 8.51
+    },
+    "bet365": {
+     "1": 1.3,
+     "X": 5.0,
+     "2": 7.0
+    },
+    "average": {
+     "1": 1.31,
+     "X": 5.26,
+     "2": 7.85,
+     "under2_5": 2.49,
+     "over2_5": 1.46
+    },
+    "best": {
+     "1": 1.34,
+     "X": 6.18,
+     "2": 8.7,
+     "under2_5": 2.52,
+     "over2_5": 1.5
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.31,
+     "book": "Bwin"
+    },
+    "X": {
+     "odd": 5.17,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 7.66,
+     "book": "10Bet"
+    },
+    "under2_5": {
+     "odd": 2.54,
+     "book": "1xbet"
+    },
+    "over2_5": {
+     "odd": 1.46,
+     "book": "10Bet"
+    }
+   }
+  },
+  {
+   "id": "2792812",
+   "league": "Denmark: Superleague",
+   "kickoff": "Sun 19:00",
+   "home": "Fc Nordsjaelland",
+   "away": "Agf",
+   "books": {
+    "pinnacle": {
+     "1": 1.78,
+     "X": 4.16,
+     "2": 4.26,
+     "under2_5": 2.69,
+     "over2_5": 1.5
+    },
+    "bet365": {
+     "1": 1.81,
+     "X": 3.9,
+     "2": 3.75,
+     "under2_5": 2.7,
+     "over2_5": 1.44
+    },
+    "average": {
+     "1": 1.8,
+     "X": 3.96,
+     "2": 3.83,
+     "under2_5": 2.65,
+     "over2_5": 1.45
+    },
+    "best": {
+     "1": 1.88,
+     "X": 4.16,
+     "2": 4.26,
+     "under2_5": 2.75,
+     "over2_5": 1.5
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.8,
+     "book": "Betsson"
+    },
+    "X": {
+     "odd": 3.94,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.75,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 2.54,
+     "book": "Betfred"
+    },
+    "over2_5": {
+     "odd": 1.47,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2792975",
+   "league": "Peru: Primera Division",
+   "kickoff": "Sun 23:15",
+   "home": "Atletico Grau",
+   "away": "Alianza Atletico",
+   "books": {
+    "pinnacle": {
+     "1": 2.47,
+     "X": 2.99,
+     "2": 2.95
+    },
+    "average": {
+     "1": 2.44,
+     "X": 3.12,
+     "2": 2.91,
+     "under2_5": 1.73,
+     "over2_5": 2.07
+    },
+    "best": {
+     "1": 2.47,
+     "X": 3.26,
+     "2": 2.95,
+     "under2_5": 1.74,
+     "over2_5": 2.08
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.27,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.2,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 3.1,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.06,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2792978",
+   "league": "Peru: Primera Division",
+   "kickoff": "Sun 21:00",
+   "home": "Sport Boys",
+   "away": "Deportivo Garcilaso",
+   "books": {
+    "pinnacle": {
+     "1": 1.62,
+     "X": 3.56,
+     "2": 5.57
+    },
+    "bet365": {
+     "1": 1.73,
+     "X": 3.4,
+     "2": 4.75,
+     "under2_5": 1.75,
+     "over2_5": 2.05
+    },
+    "average": {
+     "1": 1.68,
+     "X": 3.51,
+     "2": 4.93,
+     "under2_5": 1.72,
+     "over2_5": 2.04
+    },
+    "best": {
+     "1": 1.74,
+     "X": 3.72,
+     "2": 5.57,
+     "under2_5": 1.78,
+     "over2_5": 2.12
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.72,
+     "book": "10Bet"
+    },
+    "X": {
+     "odd": 3.45,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 4.65,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.74,
+     "book": "Betway"
+    }
+   }
+  },
+  {
+   "id": "2793408",
+   "league": "Italy: Serie A",
+   "kickoff": "Sun 19:00",
+   "home": "Ssc Napoli",
+   "away": "Bologna",
+   "books": {
+    "pinnacle": {
+     "1": 1.92,
+     "X": 3.56,
+     "2": 4.41,
+     "under2_5": 1.93,
+     "over2_5": 1.97
+    },
+    "bet365": {
+     "1": 1.85,
+     "X": 3.6,
+     "2": 4.2,
+     "under2_5": 1.73,
+     "over2_5": 2.1
+    },
+    "average": {
+     "1": 1.86,
+     "X": 3.52,
+     "2": 4.4,
+     "under2_5": 1.79,
+     "over2_5": 2.03
+    },
+    "best": {
+     "1": 1.92,
+     "X": 3.66,
+     "2": 5.0,
+     "under2_5": 1.95,
+     "over2_5": 2.1
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.8,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.55,
+     "book": "1xbet"
+    },
+    "under2_5": {
+     "odd": 1.75,
+     "book": "AsianOdds"
+    },
+    "over2_5": {
+     "odd": 2.11,
+     "book": "10Bet"
+    }
+   }
+  },
+  {
+   "id": "2793409",
+   "league": "Italy: Serie A",
+   "kickoff": "Sun 21:45",
+   "home": "Sassuolo",
+   "away": "Juventus",
+   "books": {
+    "pinnacle": {
+     "1": 5.86,
+     "X": 4.03,
+     "2": 1.63
+    },
+    "bet365": {
+     "1": 5.25,
+     "X": 4.1,
+     "2": 1.62,
+     "under2_5": 2.03,
+     "over2_5": 1.83
+    },
+    "average": {
+     "1": 5.35,
+     "X": 3.96,
+     "2": 1.64,
+     "under2_5": 2.02,
+     "over2_5": 1.77
+    },
+    "best": {
+     "1": 5.86,
+     "X": 4.11,
+     "2": 1.71,
+     "under2_5": 2.1,
+     "over2_5": 1.83
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 5.23,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.95,
+     "book": "1xbet"
+    },
+    "2": {
+     "odd": 1.64,
+     "book": "1xbet"
+    },
+    "over2_5": {
+     "odd": 1.8,
+     "book": "Bet365"
+    }
+   }
+  },
+  {
+   "id": "2794709",
+   "league": "Bulgaria: First Professional League",
+   "kickoff": "Sun 20:30",
+   "home": "Botev Plovdiv",
+   "away": "Lokomotiv Plovdiv",
+   "books": {
+    "pinnacle": {
+     "1": 1.81,
+     "X": 3.6,
+     "2": 4.51,
+     "under2_5": 1.86,
+     "over2_5": 1.98
+    },
+    "bet365": {
+     "1": 1.71,
+     "X": 3.6,
+     "2": 4.75,
+     "under2_5": 1.85,
+     "over2_5": 1.95
+    },
+    "average": {
+     "1": 1.77,
+     "X": 3.5,
+     "2": 4.34,
+     "under2_5": 1.81,
+     "over2_5": 1.93
+    },
+    "best": {
+     "1": 1.81,
+     "X": 3.6,
+     "2": 4.75,
+     "under2_5": 1.86,
+     "over2_5": 1.98
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.74,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.46,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 4.48,
+     "book": "Bet365"
+    },
+    "under2_5": {
+     "odd": 1.81,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.99,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2795797",
+   "league": "France: Ligue 1",
+   "kickoff": "Sun 21:45",
+   "home": "Brest",
+   "away": "Paris Saint-germain",
+   "books": {
+    "pinnacle": {
+     "1": 11.56,
+     "X": 6.95,
+     "2": 1.24,
+     "under2_5": 3.18,
+     "over2_5": 1.36
+    },
+    "bet365": {
+     "1": 11.0,
+     "X": 7.0,
+     "2": 1.22,
+     "under2_5": 3.0,
+     "over2_5": 1.4
+    },
+    "average": {
+     "1": 10.92,
+     "X": 6.5,
+     "2": 1.24,
+     "under2_5": 2.99,
+     "over2_5": 1.37
+    },
+    "best": {
+     "1": 12.0,
+     "X": 7.0,
+     "2": 1.29,
+     "under2_5": 3.18,
+     "over2_5": 1.4
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 9.92,
+     "book": "Betvictor"
+    },
+    "X": {
+     "odd": 6.18,
+     "book": "Bet365"
+    },
+    "2": {
+     "odd": 1.26,
+     "book": "GGBet"
+    },
+    "under2_5": {
+     "odd": 3.06,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.38,
+     "book": "10Bet"
+    }
+   }
+  },
+  {
+   "id": "2797541",
+   "league": "Netherlands: Eredivisie",
+   "kickoff": "Sun 21:00",
+   "home": "Psv Eindhoven",
+   "away": "Sparta Rotterdam",
+   "books": {
+    "pinnacle": {
+     "1": 1.15,
+     "X": 10.0,
+     "2": 14.68
+    },
+    "bet365": {
+     "1": 1.14,
+     "X": 9.0,
+     "2": 17.0,
+     "under2_5": 4.33,
+     "over2_5": 1.2
+    },
+    "average": {
+     "1": 1.16,
+     "X": 8.45,
+     "2": 13.24,
+     "under2_5": 4.42,
+     "over2_5": 1.19
+    },
+    "best": {
+     "1": 1.2,
+     "X": 10.0,
+     "2": 17.0,
+     "under2_5": 4.6,
+     "over2_5": 1.22
+    }
+   },
+   "bestAvailable": {
+    "X": {
+     "odd": 7.66,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 11.67,
+     "book": "Bet365"
+    },
+    "under2_5": {
+     "odd": 4.64,
+     "book": "Betvictor"
+    },
+    "over2_5": {
+     "odd": 1.18,
+     "book": "10Bet"
+    }
+   }
+  },
+  {
+   "id": "2797955",
+   "league": "Slovakia: 1. Liga",
+   "kickoff": "Sun 20:00",
+   "home": "Slovan Bratislava",
+   "away": "Zilina",
+   "books": {
+    "pinnacle": {
+     "1": 1.55,
+     "X": 4.59,
+     "2": 5.18
+    },
+    "average": {
+     "1": 1.58,
+     "X": 4.24,
+     "2": 4.62,
+     "under2_5": 2.69,
+     "over2_5": 1.41
+    },
+    "best": {
+     "1": 1.73,
+     "X": 4.59,
+     "2": 5.23,
+     "under2_5": 2.8,
+     "over2_5": 1.45
+    }
+   },
+   "bestAvailable": {
+    "X": {
+     "odd": 3.99,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.95,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 2.64,
+     "book": "Betway"
+    },
+    "over2_5": {
+     "odd": 1.46,
+     "book": "Unibet"
+    }
+   }
+  },
+  {
+   "id": "2798101",
+   "league": "Serbia: Super Liga",
+   "kickoff": "Sun 20:00",
+   "home": "Fk Imt Beograd",
+   "away": "Fk Crvena Zvezda",
+   "books": {
+    "pinnacle": {
+     "1": 8.51,
+     "X": 6.54,
+     "2": 1.23
+    },
+    "bet365": {
+     "1": 9.0,
+     "X": 5.25,
+     "2": 1.3,
+     "under2_5": 2.3,
+     "over2_5": 1.6
+    },
+    "average": {
+     "1": 8.2,
+     "X": 5.4,
+     "2": 1.26,
+     "under2_5": 2.24,
+     "over2_5": 1.55
+    },
+    "best": {
+     "1": 10.0,
+     "X": 6.54,
+     "2": 1.3,
+     "under2_5": 2.45,
+     "over2_5": 1.6
+    }
+   },
+   "bestAvailable": {
+    "X": {
+     "odd": 4.97,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 1.31,
+     "book": "10Bet"
+    },
+    "under2_5": {
+     "odd": 2.24,
+     "book": "Unibet"
+    },
+    "over2_5": {
+     "odd": 1.58,
+     "book": "10Bet"
+    }
+   }
+  },
+  {
+   "id": "2809626",
+   "league": "Belgium: First Division A",
+   "kickoff": "Sun 19:30",
+   "home": "Zulte Waregem",
+   "away": "Sporting Charleroi",
+   "books": {
+    "pinnacle": {
+     "1": 2.85,
+     "X": 3.31,
+     "2": 2.63
+    },
+    "bet365": {
+     "1": 2.45,
+     "X": 3.3,
+     "2": 2.55,
+     "under2_5": 2.08,
+     "over2_5": 1.73
+    },
+    "average": {
+     "1": 2.62,
+     "X": 3.39,
+     "2": 2.57,
+     "under2_5": 2.07,
+     "over2_5": 1.69
+    },
+    "best": {
+     "1": 2.86,
+     "X": 3.6,
+     "2": 2.63,
+     "under2_5": 2.1,
+     "over2_5": 1.78
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.55,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 3.42,
+     "book": "Bwin"
+    },
+    "2": {
+     "odd": 2.59,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 2.08,
+     "book": "10Bet"
+    },
+    "over2_5": {
+     "odd": 1.71,
+     "book": "1xbet"
+    }
+   }
+  },
+  {
+   "id": "2809627",
+   "league": "Belgium: First Division A",
+   "kickoff": "Sun 20:15",
+   "home": "Raal La Louviere",
+   "away": "Kortrijk",
+   "books": {
+    "pinnacle": {
+     "1": 2.47,
+     "X": 3.4,
+     "2": 3.0
+    },
+    "bet365": {
+     "1": 2.35,
+     "X": 3.2,
+     "2": 2.75,
+     "under2_5": 1.85,
+     "over2_5": 1.95
+    },
+    "average": {
+     "1": 2.41,
+     "X": 3.32,
+     "2": 2.85,
+     "under2_5": 1.82,
+     "over2_5": 1.93
+    },
+    "best": {
+     "1": 2.5,
+     "X": 3.4,
+     "2": 3.0,
+     "under2_5": 1.89,
+     "over2_5": 2.0
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.4,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 3.32,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.82,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.86,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2810702",
+   "league": "Israel: Ligat HaAl",
+   "kickoff": "Sun 20:30",
+   "home": "Hapoel Petah Tikva",
+   "away": "Hapoel Beer Sheva",
+   "books": {
+    "pinnacle": {
+     "1": 5.67,
+     "X": 4.49,
+     "2": 1.52
+    },
+    "average": {
+     "1": 5.58,
+     "X": 4.42,
+     "2": 1.53,
+     "under2_5": 2.24,
+     "over2_5": 1.52
+    },
+    "best": {
+     "1": 5.67,
+     "X": 4.49,
+     "2": 1.55,
+     "under2_5": 2.24,
+     "over2_5": 1.52
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 5.69,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 4.42,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 1.49,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 2.35,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.54,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2811422",
+   "league": "Slovenia: Prva Liga",
+   "kickoff": "Sun 21:15",
+   "home": "Radomlje",
+   "away": "Maribor",
+   "books": {
+    "pinnacle": {
+     "1": 5.04,
+     "X": 4.36,
+     "2": 1.6
+    },
+    "average": {
+     "1": 4.56,
+     "X": 4.02,
+     "2": 1.61,
+     "under2_5": 2.32,
+     "over2_5": 1.53
+    },
+    "best": {
+     "1": 5.05,
+     "X": 4.36,
+     "2": 1.67,
+     "under2_5": 2.38,
+     "over2_5": 1.58
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 4.42,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 3.94,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 1.64,
+     "book": "10Bet"
+    },
+    "under2_5": {
+     "odd": 2.29,
+     "book": "Betfred"
+    },
+    "over2_5": {
+     "odd": 1.55,
+     "book": "Unibet"
+    }
+   }
+  },
+  {
+   "id": "2812728",
+   "league": "Montenegro: 1. CFL",
+   "kickoff": "Sun 20:00",
+   "home": "Sutjeska",
+   "away": "Decic Tuzi",
+   "books": {
+    "pinnacle": {
+     "1": 2.07,
+     "X": 3.12,
+     "2": 3.64,
+     "under2_5": 1.56,
+     "over2_5": 2.34
+    },
+    "average": {
+     "1": 2.06,
+     "X": 3.08,
+     "2": 3.59,
+     "under2_5": 1.56,
+     "over2_5": 2.32
+    },
+    "best": {
+     "1": 2.07,
+     "X": 3.12,
+     "2": 3.64,
+     "under2_5": 1.56,
+     "over2_5": 2.34
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.41,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 2.91,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.0,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.58,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.31,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2813385",
+   "league": "Belgium: First Division B",
+   "kickoff": "Sun 20:15",
+   "home": "Patro Eisden",
+   "away": "Eupen",
+   "books": {
+    "pinnacle": {
+     "1": 2.19,
+     "X": 3.51,
+     "2": 3.24,
+     "under2_5": 2.02,
+     "over2_5": 1.83
+    },
+    "bet365": {
+     "1": 2.1,
+     "X": 3.25,
+     "2": 3.0,
+     "under2_5": 1.95,
+     "over2_5": 1.85
+    },
+    "average": {
+     "1": 2.16,
+     "X": 3.33,
+     "2": 3.03,
+     "under2_5": 1.93,
+     "over2_5": 1.83
+    },
+    "best": {
+     "1": 2.3,
+     "X": 3.51,
+     "2": 3.24,
+     "under2_5": 2.02,
+     "over2_5": 1.86
+    }
+   },
+   "bestAvailable": {
+    "X": {
+     "odd": 3.23,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.83,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.91,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.88,
+     "book": "AsianOdds"
+    }
+   }
+  },
+  {
+   "id": "2814751",
+   "league": "Brazil: State Leagues 2",
+   "kickoff": "Sun 23:00",
+   "home": "Goianesia",
+   "away": "Gremio Anapolis",
+   "books": {
+    "pinnacle": {
+     "under2_5": 1.86,
+     "over2_5": 1.85
+    },
+    "average": {
+     "1": 1.35,
+     "X": 4.15,
+     "2": 7.36,
+     "under2_5": 1.85,
+     "over2_5": 1.84
+    },
+    "best": {
+     "1": 1.38,
+     "X": 4.4,
+     "2": 8.0,
+     "under2_5": 1.86,
+     "over2_5": 1.85
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.33,
+     "book": "Bwin"
+    },
+    "2": {
+     "odd": 7.7,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.89,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.8,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2815354",
+   "league": "USA: USL Super League",
+   "kickoff": "Sun 22:00",
+   "home": "Brooklyn (w)",
+   "away": "Sporting Jacksonville (w)",
+   "books": {
+    "average": {
+     "1": 4.7,
+     "X": 3.7,
+     "2": 1.59,
+     "under2_5": 1.87,
+     "over2_5": 1.82
+    },
+    "best": {
+     "1": 4.7,
+     "X": 3.7,
+     "2": 1.59,
+     "under2_5": 1.87,
+     "over2_5": 1.82
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 4.6,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.72,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 1.6,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.92,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.77,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2817652",
+   "league": "Russia: Russia Premier League",
+   "kickoff": "Sun 19:30",
+   "home": "Fc Krasnodar",
+   "away": "Akron Togliatti",
+   "books": {
+    "pinnacle": {
+     "1": 1.36,
+     "X": 5.39,
+     "2": 8.23,
+     "under2_5": 2.36,
+     "over2_5": 1.6
+    },
+    "average": {
+     "1": 1.36,
+     "X": 5.38,
+     "2": 8.4,
+     "under2_5": 2.36,
+     "over2_5": 1.6
+    },
+    "best": {
+     "1": 1.36,
+     "X": 5.39,
+     "2": 8.48,
+     "under2_5": 2.36,
+     "over2_5": 1.6
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.27,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 5.89,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 9.48,
+     "book": "AsianOdds"
+    }
+   }
+  },
+  {
+   "id": "2819191",
+   "league": "Romania: Superliga",
+   "kickoff": "Sun 20:30",
+   "home": "Corvinul Hunedoara",
+   "away": "Universitatea Craiova",
+   "books": {
+    "pinnacle": {
+     "1": 5.59,
+     "X": 3.75,
+     "2": 1.66
+    },
+    "average": {
+     "1": 5.48,
+     "X": 3.73,
+     "2": 1.67
+    },
+    "best": {
+     "1": 5.59,
+     "X": 3.75,
+     "2": 1.69
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 4.16,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.47,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 1.86,
+     "book": "AsianOdds"
+    }
+   }
+  },
+  {
+   "id": "2819432",
+   "league": "Poland: II Liga",
+   "kickoff": "Sun 20:30",
+   "home": "Sandecja Nowy Sacz",
+   "away": "Slask Wroclaw Ll",
+   "books": {
+    "pinnacle": {
+     "1": 1.45,
+     "X": 4.15,
+     "2": 4.61,
+     "under2_5": 2.75,
+     "over2_5": 1.34
+    },
+    "average": {
+     "1": 1.45,
+     "X": 4.13,
+     "2": 4.57,
+     "under2_5": 2.75,
+     "over2_5": 1.34
+    },
+    "best": {
+     "1": 1.45,
+     "X": 4.15,
+     "2": 4.61,
+     "under2_5": 2.75,
+     "over2_5": 1.34
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.55,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 4.07,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 4.96,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 2.24,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.59,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2822181",
+   "league": "Spain: LaLiga",
+   "kickoff": "Sun 19:30",
+   "home": "Getafe",
+   "away": "Deportivo La Coruna",
+   "books": {
+    "pinnacle": {
+     "1": 2.61,
+     "X": 2.94,
+     "2": 3.29,
+     "under2_5": 1.47,
+     "over2_5": 2.81
+    },
+    "bet365": {
+     "1": 2.5,
+     "X": 3.0,
+     "2": 3.1,
+     "under2_5": 1.36,
+     "over2_5": 3.2
+    },
+    "average": {
+     "1": 2.54,
+     "X": 2.88,
+     "2": 3.25,
+     "under2_5": 1.39,
+     "over2_5": 2.93
+    },
+    "best": {
+     "1": 2.7,
+     "X": 3.0,
+     "2": 3.55,
+     "under2_5": 1.47,
+     "over2_5": 3.2
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.43,
+     "book": "10Bet"
+    },
+    "X": {
+     "odd": 2.85,
+     "book": "Bet365"
+    },
+    "under2_5": {
+     "odd": 1.33,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.98,
+     "book": "Bet365"
+    }
+   }
+  },
+  {
+   "id": "2822186",
+   "league": "Spain: LaLiga",
+   "kickoff": "Sun 22:00",
+   "home": "Real Sociedad",
+   "away": "Atletico Madrid",
+   "books": {
+    "pinnacle": {
+     "1": 3.41,
+     "X": 3.65,
+     "2": 2.17,
+     "under2_5": 2.36,
+     "over2_5": 1.65
+    },
+    "bet365": {
+     "1": 3.25,
+     "X": 3.6,
+     "2": 2.1,
+     "under2_5": 2.2,
+     "over2_5": 1.67
+    },
+    "average": {
+     "1": 3.13,
+     "X": 3.59,
+     "2": 2.23,
+     "under2_5": 2.26,
+     "over2_5": 1.63
+    },
+    "best": {
+     "1": 3.42,
+     "X": 3.84,
+     "2": 2.43,
+     "under2_5": 2.36,
+     "over2_5": 1.67
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.92,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 3.52,
+     "book": "GGBet"
+    },
+    "2": {
+     "odd": 2.35,
+     "book": "1xbet"
+    },
+    "under2_5": {
+     "odd": 2.3,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.66,
+     "book": "Bet365"
+    }
+   }
+  },
+  {
+   "id": "2822570",
+   "league": "Spain: Segunda Division",
+   "kickoff": "Sun 19:30",
+   "home": "Mallorca",
+   "away": "Sabadell",
+   "books": {
+    "pinnacle": {
+     "1": 1.88,
+     "X": 3.49,
+     "2": 4.61
+    },
+    "average": {
+     "1": 1.87,
+     "X": 3.41,
+     "2": 4.54,
+     "under2_5": 1.63,
+     "over2_5": 2.31
+    },
+    "best": {
+     "1": 1.88,
+     "X": 3.49,
+     "2": 4.74,
+     "under2_5": 1.64,
+     "over2_5": 2.37
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.69,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.7,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 4.96,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 1.77,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.08,
+     "book": "3ET"
+    }
+   }
+  },
+  {
+   "id": "2822572",
+   "league": "Spain: Segunda Division",
+   "kickoff": "Sun 22:00",
+   "home": "Tenerife",
+   "away": "Leganes",
+   "books": {
+    "pinnacle": {
+     "1": 2.34,
+     "X": 3.04,
+     "2": 3.59
+    },
+    "average": {
+     "1": 2.32,
+     "X": 3.02,
+     "2": 3.53,
+     "under2_5": 1.52,
+     "over2_5": 2.48
+    },
+    "best": {
+     "1": 2.36,
+     "X": 3.04,
+     "2": 3.64,
+     "under2_5": 1.52,
+     "over2_5": 2.48
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.58,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 2.95,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.0,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 1.56,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.38,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2823254",
+   "league": "Bulgaria: Second Professional League",
+   "kickoff": "Sun 19:00",
+   "home": "Beroe",
+   "away": "Sportist Svoge",
+   "books": {
+    "pinnacle": {
+     "1": 1.55,
+     "X": 3.61,
+     "2": 5.24,
+     "under2_5": 1.69,
+     "over2_5": 2.05
+    },
+    "average": {
+     "1": 1.59,
+     "X": 3.44,
+     "2": 5.19,
+     "under2_5": 1.64,
+     "over2_5": 2.14
+    },
+    "best": {
+     "1": 1.88,
+     "X": 3.61,
+     "2": 5.8,
+     "under2_5": 1.69,
+     "over2_5": 2.3
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.86,
+     "book": "Unibet"
+    },
+    "X": {
+     "odd": 3.19,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.93,
+     "book": "10Bet"
+    },
+    "under2_5": {
+     "odd": 1.57,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.23,
+     "book": "Unibet"
+    }
+   }
+  },
+  {
+   "id": "2825698",
+   "league": "Guatemala: Liga Nacional",
+   "kickoff": "Sun 20:00",
+   "home": "Deportivo Mixco",
+   "away": "Aurora Fc",
+   "books": {
+    "pinnacle": {
+     "1": 1.47,
+     "X": 4.25,
+     "2": 6.16,
+     "under2_5": 2.05,
+     "over2_5": 1.76
+    },
+    "average": {
+     "1": 1.49,
+     "X": 4.2,
+     "2": 5.92,
+     "under2_5": 2.04,
+     "over2_5": 1.77
+    },
+    "best": {
+     "1": 1.5,
+     "X": 4.25,
+     "2": 6.16,
+     "under2_5": 2.05,
+     "over2_5": 1.77
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.44,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 4.2,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 6.19,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 2.0,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.76,
+     "book": "AsianOdds"
+    }
+   }
+  },
+  {
+   "id": "2825700",
+   "league": "Guatemala: Liga Nacional",
+   "kickoff": "Sun 22:00",
+   "home": "Coban Imperial",
+   "away": "Comunicaciones Fc",
+   "books": {
+    "pinnacle": {
+     "1": 1.85,
+     "X": 3.3,
+     "2": 4.03,
+     "under2_5": 1.69,
+     "over2_5": 2.1
+    },
+    "average": {
+     "1": 1.8,
+     "X": 3.27,
+     "2": 4.13,
+     "under2_5": 1.67,
+     "over2_5": 2.11
+    },
+    "best": {
+     "1": 1.86,
+     "X": 3.4,
+     "2": 4.35,
+     "under2_5": 1.73,
+     "over2_5": 2.2
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.79,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 3.25,
+     "book": "Betway"
+    },
+    "2": {
+     "odd": 4.26,
+     "book": "Unibet"
+    },
+    "under2_5": {
+     "odd": 1.67,
+     "book": "Betway"
+    },
+    "over2_5": {
+     "odd": 2.15,
+     "book": "10Bet"
+    }
+   }
+  },
+  {
+   "id": "2826595",
+   "league": "Spain: Liga F",
+   "kickoff": "Sun 20:30",
+   "home": "Eibar (w)",
+   "away": "Fc Badalona (w)",
+   "books": {
+    "pinnacle": {
+     "1": 3.26,
+     "X": 3.26,
+     "2": 2.15,
+     "under2_5": 1.61,
+     "over2_5": 2.3
+    },
+    "average": {
+     "1": 3.26,
+     "X": 3.26,
+     "2": 2.15,
+     "under2_5": 1.61,
+     "over2_5": 2.3
+    },
+    "best": {
+     "1": 3.26,
+     "X": 3.26,
+     "2": 2.15,
+     "under2_5": 1.61,
+     "over2_5": 2.3
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 3.94,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.14,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 1.85,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.6,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.22,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2826825",
+   "league": "Spain: Segunda Federacion",
+   "kickoff": "Sun 19:00",
+   "home": "Navalcarnero",
+   "away": "Real Avila",
+   "books": {
+    "pinnacle": {
+     "1": 2.15,
+     "X": 3.19,
+     "2": 3.34,
+     "under2_5": 1.69,
+     "over2_5": 2.15
+    },
+    "average": {
+     "1": 2.13,
+     "X": 3.17,
+     "2": 3.3,
+     "under2_5": 1.68,
+     "over2_5": 2.13
+    },
+    "best": {
+     "1": 2.15,
+     "X": 3.19,
+     "2": 3.34,
+     "under2_5": 1.69,
+     "over2_5": 2.15
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.12,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.14,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.26,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.67,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.12,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2826826",
+   "league": "Spain: Segunda Federacion",
+   "kickoff": "Sun 19:00",
+   "home": "Guadalajara",
+   "away": "Alcala",
+   "books": {
+    "pinnacle": {
+     "1": 1.97,
+     "X": 3.32,
+     "2": 3.71,
+     "under2_5": 1.71,
+     "over2_5": 2.11
+    },
+    "average": {
+     "1": 1.96,
+     "X": 3.28,
+     "2": 3.67,
+     "under2_5": 1.7,
+     "over2_5": 2.09
+    },
+    "best": {
+     "1": 1.97,
+     "X": 3.32,
+     "2": 3.71,
+     "under2_5": 1.71,
+     "over2_5": 2.11
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.94,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.25,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.63,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.69,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.08,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2826830",
+   "league": "Spain: Segunda Federacion",
+   "kickoff": "Sun 19:00",
+   "home": "Gimnastica Segoviana",
+   "away": "Conquense",
+   "books": {
+    "pinnacle": {
+     "1": 2.53,
+     "X": 2.74,
+     "2": 3.16,
+     "under2_5": 1.34,
+     "over2_5": 3.15
+    },
+    "average": {
+     "1": 2.5,
+     "X": 2.72,
+     "2": 3.13,
+     "under2_5": 1.35,
+     "over2_5": 3.06
+    },
+    "best": {
+     "1": 2.53,
+     "X": 2.74,
+     "2": 3.16,
+     "under2_5": 1.36,
+     "over2_5": 3.15
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.52,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.08,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.58,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.63,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.14,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2827133",
+   "league": "Spain: Segunda Federacion",
+   "kickoff": "Sun 20:00",
+   "home": "Cp Mijas-las Lagunas",
+   "away": "Ciudad Lucena",
+   "books": {
+    "average": {
+     "1": 3.28,
+     "X": 3.2,
+     "2": 2.03,
+     "under2_5": 1.72,
+     "over2_5": 2.0
+    },
+    "best": {
+     "1": 3.28,
+     "X": 3.2,
+     "2": 2.03,
+     "under2_5": 1.72,
+     "over2_5": 2.0
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 3.28,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.2,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 2.03,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.72,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.0,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2827438",
+   "league": "Spain: Segunda Federacion",
+   "kickoff": "Sun 20:00",
+   "home": "La Nucia",
+   "away": "Real Murcia Imperial Fc",
+   "books": {
+    "average": {
+     "1": 1.74,
+     "X": 3.22,
+     "2": 4.45,
+     "under2_5": 1.58,
+     "over2_5": 2.23
+    },
+    "best": {
+     "1": 1.74,
+     "X": 3.22,
+     "2": 4.45,
+     "under2_5": 1.58,
+     "over2_5": 2.23
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.76,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.24,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 4.3,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.55,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.29,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2827440",
+   "league": "Spain: Segunda Federacion",
+   "kickoff": "Sun 20:00",
+   "home": "Orihuela",
+   "away": "Lorca Deportiva",
+   "books": {
+    "pinnacle": {
+     "1": 2.22,
+     "X": 3.04,
+     "2": 3.35,
+     "under2_5": 1.68,
+     "over2_5": 2.18
+    },
+    "average": {
+     "1": 2.2,
+     "X": 3.02,
+     "2": 3.3,
+     "under2_5": 1.67,
+     "over2_5": 2.16
+    },
+    "best": {
+     "1": 2.22,
+     "X": 3.04,
+     "2": 3.35,
+     "under2_5": 1.68,
+     "over2_5": 2.18
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.19,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 2.98,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.27,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.65,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.16,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2827745",
+   "league": "Spain: Segunda Federacion",
+   "kickoff": "Sun 19:00",
+   "home": "Girona B",
+   "away": "Tudelano",
+   "books": {
+    "pinnacle": {
+     "1": 2.18,
+     "X": 3.24,
+     "2": 3.22,
+     "under2_5": 1.75,
+     "over2_5": 2.06
+    },
+    "average": {
+     "1": 2.13,
+     "X": 3.21,
+     "2": 3.25,
+     "under2_5": 1.74,
+     "over2_5": 2.04
+    },
+    "best": {
+     "1": 2.18,
+     "X": 3.24,
+     "2": 3.32,
+     "under2_5": 1.75,
+     "over2_5": 2.06
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.92,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.15,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.61,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.68,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.06,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2827748",
+   "league": "Spain: Segunda Federacion",
+   "kickoff": "Sun 19:30",
+   "home": "Osasuna B",
+   "away": "Arnedo",
+   "books": {
+    "average": {
+     "1": 1.42,
+     "X": 4.05,
+     "2": 6.3,
+     "under2_5": 2.04,
+     "over2_5": 1.69
+    },
+    "best": {
+     "1": 1.42,
+     "X": 4.05,
+     "2": 6.3,
+     "under2_5": 2.04,
+     "over2_5": 1.69
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.46,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.94,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 5.85,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 2.03,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.7,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2827749",
+   "league": "Spain: Segunda Federacion",
+   "kickoff": "Sun 20:00",
+   "home": "Terrassa",
+   "away": "Barbastro",
+   "books": {
+    "pinnacle": {
+     "1": 1.93,
+     "X": 3.14,
+     "2": 4.15,
+     "under2_5": 1.61,
+     "over2_5": 2.31
+    },
+    "average": {
+     "1": 1.91,
+     "X": 3.14,
+     "2": 4.08,
+     "under2_5": 1.6,
+     "over2_5": 2.28
+    },
+    "best": {
+     "1": 1.93,
+     "X": 3.14,
+     "2": 4.15,
+     "under2_5": 1.61,
+     "over2_5": 2.31
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.96,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.08,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.82,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.59,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.28,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2828056",
+   "league": "Spain: Segunda Federacion",
+   "kickoff": "Sun 20:00",
+   "home": "Sestao",
+   "away": "Real Oviedo B",
+   "books": {
+    "pinnacle": {
+     "1": 1.98,
+     "X": 3.13,
+     "2": 3.93,
+     "under2_5": 1.6,
+     "over2_5": 2.32
+    },
+    "average": {
+     "1": 1.98,
+     "X": 3.13,
+     "2": 3.93,
+     "under2_5": 1.6,
+     "over2_5": 2.32
+    },
+    "best": {
+     "1": 1.98,
+     "X": 3.13,
+     "2": 3.93,
+     "under2_5": 1.6,
+     "over2_5": 2.32
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.93,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.01,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.73,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.56,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.25,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2828391",
+   "league": "Portugal: Liga Portugal",
+   "kickoff": "Sun 20:00",
+   "home": "Arouca",
+   "away": "Santa Clara",
+   "books": {
+    "pinnacle": {
+     "1": 2.66,
+     "X": 3.07,
+     "2": 3.02
+    },
+    "bet365": {
+     "1": 2.55,
+     "X": 3.1,
+     "2": 2.85,
+     "under2_5": 1.62,
+     "over2_5": 2.25
+    },
+    "average": {
+     "1": 2.59,
+     "X": 3.05,
+     "2": 2.88,
+     "under2_5": 1.6,
+     "over2_5": 2.25
+    },
+    "best": {
+     "1": 2.7,
+     "X": 3.2,
+     "2": 3.07,
+     "under2_5": 1.64,
+     "over2_5": 2.3
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.59,
+     "book": "1xbet"
+    },
+    "under2_5": {
+     "odd": 1.6,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.34,
+     "book": "Unibet"
+    }
+   }
+  },
+  {
+   "id": "2828394",
+   "league": "Portugal: Liga Portugal",
+   "kickoff": "Sun 22:30",
+   "home": "Famalicao",
+   "away": "Sporting Cp",
+   "books": {
+    "pinnacle": {
+     "1": 6.81,
+     "X": 4.72,
+     "2": 1.47
+    },
+    "bet365": {
+     "1": 7.0,
+     "X": 4.33,
+     "2": 1.45,
+     "under2_5": 2.05,
+     "over2_5": 1.75
+    },
+    "average": {
+     "1": 6.29,
+     "X": 4.4,
+     "2": 1.48,
+     "under2_5": 2.01,
+     "over2_5": 1.74
+    },
+    "best": {
+     "1": 7.0,
+     "X": 4.72,
+     "2": 1.55,
+     "under2_5": 2.05,
+     "over2_5": 1.8
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 5.46,
+     "book": "Bet365"
+    },
+    "X": {
+     "odd": 4.27,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 1.52,
+     "book": "1xbet"
+    },
+    "under2_5": {
+     "odd": 2.11,
+     "book": "Bet365"
+    },
+    "over2_5": {
+     "odd": 1.75,
+     "book": "10Bet"
+    }
+   }
+  },
+  {
+   "id": "2828398",
+   "league": "Portugal: Liga Portugal",
+   "kickoff": "Sun 20:00",
+   "home": "Benfica",
+   "away": "Gil Vicente",
+   "books": {
+    "pinnacle": {
+     "1": 1.13,
+     "X": 9.83,
+     "2": 20.1,
+     "under2_5": 2.96,
+     "over2_5": 1.4
+    },
+    "bet365": {
+     "1": 1.1,
+     "X": 8.0,
+     "2": 21.0,
+     "under2_5": 2.5,
+     "over2_5": 1.5
+    },
+    "average": {
+     "1": 1.13,
+     "X": 8.15,
+     "2": 19.12,
+     "under2_5": 2.6,
+     "over2_5": 1.45
+    },
+    "best": {
+     "1": 1.16,
+     "X": 9.83,
+     "2": 22.0,
+     "under2_5": 2.96,
+     "over2_5": 1.5
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.14,
+     "book": "Betsson"
+    },
+    "X": {
+     "odd": 7.14,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 15.8,
+     "book": "1xbet"
+    },
+    "under2_5": {
+     "odd": 2.32,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.49,
+     "book": "Betfred"
+    }
+   }
+  },
+  {
+   "id": "2829943",
+   "league": "Malta: Premier League",
+   "kickoff": "Sun 21:30",
+   "home": "Sliema Wanderers",
+   "away": "Mosta",
+   "books": {
+    "average": {
+     "1": 1.62,
+     "X": 3.68,
+     "2": 4.5,
+     "under2_5": 1.79,
+     "over2_5": 1.9
+    },
+    "best": {
+     "1": 1.62,
+     "X": 3.68,
+     "2": 4.5,
+     "under2_5": 1.79,
+     "over2_5": 1.9
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.74,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.5,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 3.96,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.69,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.02,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2829944",
+   "league": "Malta: Premier League",
+   "kickoff": "Sun 19:00",
+   "home": "Valletta",
+   "away": "Balzan Fc",
+   "books": {
+    "pinnacle": {
+     "1": 1.72,
+     "X": 3.46,
+     "2": 4.52
+    },
+    "average": {
+     "1": 1.7,
+     "X": 3.44,
+     "2": 4.65,
+     "under2_5": 1.71,
+     "over2_5": 2.0
+    },
+    "best": {
+     "1": 1.72,
+     "X": 3.46,
+     "2": 4.77,
+     "under2_5": 1.71,
+     "over2_5": 2.0
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.81,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.25,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 4.07,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 1.66,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.13,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2835791",
+   "league": "Spain: Primera Federacion",
+   "kickoff": "Sun 19:15",
+   "home": "Lugo",
+   "away": "Cd Coria",
+   "books": {
+    "pinnacle": {
+     "1": 1.8,
+     "X": 3.31,
+     "2": 4.51,
+     "under2_5": 1.62,
+     "over2_5": 2.28
+    },
+    "average": {
+     "1": 1.79,
+     "X": 3.26,
+     "2": 4.44,
+     "under2_5": 1.61,
+     "over2_5": 2.26
+    },
+    "best": {
+     "1": 1.8,
+     "X": 3.31,
+     "2": 4.51,
+     "under2_5": 1.62,
+     "over2_5": 2.28
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.76,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.3,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 4.39,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.6,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.24,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2835796",
+   "league": "Spain: Primera Federacion",
+   "kickoff": "Sun 19:15",
+   "home": "Cacereno",
+   "away": "Cultural Leonesa",
+   "books": {
+    "pinnacle": {
+     "1": 3.48,
+     "X": 3.2,
+     "2": 2.09,
+     "under2_5": 1.6,
+     "over2_5": 2.31
+    },
+    "average": {
+     "1": 3.42,
+     "X": 3.15,
+     "2": 2.11,
+     "under2_5": 1.59,
+     "over2_5": 2.3
+    },
+    "best": {
+     "1": 3.48,
+     "X": 3.2,
+     "2": 2.14,
+     "under2_5": 1.6,
+     "over2_5": 2.31
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.94,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.0,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.34,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 1.56,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.31,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2838296",
+   "league": "Czechia: First League",
+   "kickoff": "Sun 19:00",
+   "home": "Teplice",
+   "away": "Slavia Prague",
+   "books": {
+    "pinnacle": {
+     "1": 5.97,
+     "X": 4.01,
+     "2": 1.58,
+     "under2_5": 2.49,
+     "over2_5": 1.55
+    },
+    "bet365": {
+     "1": 5.25,
+     "X": 3.8,
+     "2": 1.55,
+     "under2_5": 2.08,
+     "over2_5": 1.73
+    },
+    "average": {
+     "1": 5.43,
+     "X": 3.92,
+     "2": 1.58,
+     "under2_5": 2.13,
+     "over2_5": 1.67
+    },
+    "best": {
+     "1": 5.97,
+     "X": 4.21,
+     "2": 1.62,
+     "under2_5": 2.49,
+     "over2_5": 1.75
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 5.56,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.7,
+     "book": "AsianOdds"
+    },
+    "2": {
+     "odd": 1.58,
+     "book": "10Bet"
+    },
+    "under2_5": {
+     "odd": 2.09,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.7,
+     "book": "10Bet"
+    }
+   }
+  },
+  {
+   "id": "2842195",
+   "league": "Colombia: Primera A",
+   "kickoff": "Sun 22:00",
+   "home": "Deportivo Pereira",
+   "away": "Bucaramanga",
+   "books": {
+    "pinnacle": {
+     "1": 6.38,
+     "X": 4.24,
+     "2": 1.52
+    },
+    "average": {
+     "1": 6.38,
+     "X": 4.15,
+     "2": 1.52,
+     "under2_5": 1.71,
+     "over2_5": 2.08
+    },
+    "best": {
+     "1": 6.53,
+     "X": 4.24,
+     "2": 1.54,
+     "under2_5": 1.71,
+     "over2_5": 2.08
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 4.65,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 3.67,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 1.73,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 1.65,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.23,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2842340",
+   "league": "Colombia: Primera B",
+   "kickoff": "Sun 23:30",
+   "home": "Boca Juniors De Cali",
+   "away": "Real Santander",
+   "books": {
+    "pinnacle": {
+     "1": 2.36,
+     "X": 3.29,
+     "2": 2.86
+    },
+    "average": {
+     "1": 2.3,
+     "X": 3.17,
+     "2": 2.82,
+     "under2_5": 1.82,
+     "over2_5": 1.95
+    },
+    "best": {
+     "1": 2.37,
+     "X": 3.29,
+     "2": 2.92,
+     "under2_5": 1.83,
+     "over2_5": 1.97
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.59,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 2.96,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.59,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 1.7,
+     "book": "AsianOdds"
+    },
+    "over2_5": {
+     "odd": 2.03,
+     "book": "AsianOdds"
+    }
+   }
+  },
+  {
+   "id": "2842913",
+   "league": "Mexico: Ascenso MX",
+   "kickoff": "Sun 21:00",
+   "home": "Leones Negros",
+   "away": "Atletico La Paz",
+   "books": {
+    "average": {
+     "1": 1.99,
+     "X": 3.63,
+     "2": 3.06,
+     "under2_5": 2.23,
+     "over2_5": 1.59
+    },
+    "best": {
+     "1": 2.05,
+     "X": 3.85,
+     "2": 3.25,
+     "under2_5": 2.25,
+     "over2_5": 1.62
+    }
+   },
+   "bestAvailable": {
+    "X": {
+     "odd": 3.6,
+     "book": "10Bet"
+    },
+    "2": {
+     "odd": 3.18,
+     "book": "Unibet"
+    }
+   }
+  },
+  {
+   "id": "2851687",
+   "league": "Turkiye: Super Lig",
+   "kickoff": "Sun 20:00",
+   "home": "Amed Sportif",
+   "away": "Istanbul Basaksehir",
+   "books": {
+    "pinnacle": {
+     "1": 2.51,
+     "X": 3.59,
+     "2": 2.81
+    },
+    "bet365": {
+     "1": 2.5,
+     "X": 3.4,
+     "2": 2.5,
+     "under2_5": 2.0,
+     "over2_5": 1.8
+    },
+    "average": {
+     "1": 2.54,
+     "X": 3.46,
+     "2": 2.61,
+     "under2_5": 2.0,
+     "over2_5": 1.77
+    },
+    "best": {
+     "1": 2.65,
+     "X": 3.6,
+     "2": 2.82,
+     "under2_5": 2.18,
+     "over2_5": 1.85
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.54,
+     "book": "Bwin"
+    },
+    "X": {
+     "odd": 3.44,
+     "book": "Betsson"
+    },
+    "2": {
+     "odd": 2.59,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 1.99,
+     "book": "3ET"
+    },
+    "over2_5": {
+     "odd": 1.79,
+     "book": "1xbet"
+    }
+   }
+  },
+  {
+   "id": "2851690",
+   "league": "Turkiye: Super Lig",
+   "kickoff": "Sun 20:00",
+   "home": "Galatasaray",
+   "away": "Kocaelispor",
+   "books": {
+    "pinnacle": {
+     "1": 1.28,
+     "X": 5.97,
+     "2": 11.52,
+     "under2_5": 2.39,
+     "over2_5": 1.58
+    },
+    "bet365": {
+     "1": 1.19,
+     "X": 5.75,
+     "2": 11.0,
+     "under2_5": 2.4,
+     "over2_5": 1.53
+    },
+    "average": {
+     "1": 1.28,
+     "X": 5.49,
+     "2": 10.05,
+     "under2_5": 2.43,
+     "over2_5": 1.52
+    },
+    "best": {
+     "1": 1.35,
+     "X": 6.0,
+     "2": 12.25,
+     "under2_5": 2.55,
+     "over2_5": 1.58
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.3,
+     "book": "GGBet"
+    },
+    "X": {
+     "odd": 5.15,
+     "book": "Betway"
+    },
+    "2": {
+     "odd": 8.37,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 2.38,
+     "book": "10Bet"
+    },
+    "over2_5": {
+     "odd": 1.47,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2852515",
+   "league": "Turkiye: 1. Lig",
+   "kickoff": "Sun 20:00",
+   "home": "Fatih Karagumruk",
+   "away": "Manisa Futbol Kulubu",
+   "books": {
+    "pinnacle": {
+     "1": 1.87,
+     "X": 3.91,
+     "2": 3.81
+    },
+    "average": {
+     "1": 1.85,
+     "X": 3.8,
+     "2": 3.85,
+     "under2_5": 2.14,
+     "over2_5": 1.63
+    },
+    "best": {
+     "1": 1.87,
+     "X": 3.91,
+     "2": 3.92,
+     "under2_5": 2.14,
+     "over2_5": 1.63
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.9,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.67,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.6,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 2.14,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.68,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2852516",
+   "league": "Turkiye: 1. Lig",
+   "kickoff": "Sun 20:00",
+   "home": "Bursaspor",
+   "away": "Esenler Erokspor",
+   "books": {
+    "pinnacle": {
+     "1": 1.76,
+     "X": 4.09,
+     "2": 4.16
+    },
+    "average": {
+     "1": 1.72,
+     "X": 3.94,
+     "2": 4.12,
+     "under2_5": 1.99,
+     "over2_5": 1.73
+    },
+    "best": {
+     "1": 1.76,
+     "X": 4.09,
+     "2": 4.4,
+     "under2_5": 2.02,
+     "over2_5": 1.75
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.68,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.99,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 4.15,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 2.03,
+     "book": "1xbet"
+    },
+    "over2_5": {
+     "odd": 1.74,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2861213",
+   "league": "Mexico: U21 Liga MX",
+   "kickoff": "Sun 20:00",
+   "home": "Santos Laguna Ii",
+   "away": "Fc Juarez",
+   "books": {
+    "average": {
+     "1": 2.7,
+     "X": 3.32,
+     "2": 2.44,
+     "under2_5": 1.76,
+     "over2_5": 2.06
+    },
+    "best": {
+     "1": 2.7,
+     "X": 3.32,
+     "2": 2.44,
+     "under2_5": 1.76,
+     "over2_5": 2.06
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.7,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.32,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 2.44,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.77,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.05,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2866666",
+   "league": "Greece: Super League",
+   "kickoff": "Sun 19:00",
+   "home": "Asteras Tripolis",
+   "away": "Aek Athens",
+   "books": {
+    "pinnacle": {
+     "1": 7.72,
+     "X": 4.74,
+     "2": 1.42,
+     "under2_5": 2.02,
+     "over2_5": 1.86
+    },
+    "average": {
+     "1": 7.67,
+     "X": 4.61,
+     "2": 1.42,
+     "under2_5": 2.01,
+     "over2_5": 1.84
+    },
+    "best": {
+     "1": 7.76,
+     "X": 4.74,
+     "2": 1.45,
+     "under2_5": 2.02,
+     "over2_5": 1.86
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 7.94,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 4.57,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 1.38,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 1.89,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.93,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2866668",
+   "league": "Greece: Super League",
+   "kickoff": "Sun 21:00",
+   "home": "Kifisia Fc",
+   "away": "Levadiakos",
+   "books": {
+    "bet365": {
+     "1": 2.3,
+     "X": 3.2,
+     "2": 3.1,
+     "under2_5": 1.7,
+     "over2_5": 2.1
+    },
+    "average": {
+     "1": 2.33,
+     "X": 3.06,
+     "2": 3.01,
+     "under2_5": 1.68,
+     "over2_5": 2.1
+    },
+    "best": {
+     "1": 2.38,
+     "X": 3.2,
+     "2": 3.1,
+     "under2_5": 1.7,
+     "over2_5": 2.1
+    }
+   },
+   "bestAvailable": {
+    "X": {
+     "odd": 3.09,
+     "book": "Bet365"
+    },
+    "2": {
+     "odd": 2.84,
+     "book": "Bet365"
+    }
+   }
+  },
+  {
+   "id": "2866670",
+   "league": "Greece: Super League",
+   "kickoff": "Sun 21:00",
+   "home": "Paok Thessaloniki Fc",
+   "away": "Aris Thessaloniki Fc",
+   "books": {
+    "pinnacle": {
+     "1": 1.64,
+     "X": 4.1,
+     "2": 5.27,
+     "under2_5": 1.85,
+     "over2_5": 2.02
+    },
+    "bet365": {
+     "1": 1.56,
+     "X": 4.1,
+     "2": 5.25,
+     "under2_5": 2.08,
+     "over2_5": 1.73
+    },
+    "average": {
+     "1": 1.58,
+     "X": 3.96,
+     "2": 5.42,
+     "under2_5": 1.96,
+     "over2_5": 1.82
+    },
+    "best": {
+     "1": 1.64,
+     "X": 4.35,
+     "2": 6.0,
+     "under2_5": 2.08,
+     "over2_5": 2.02
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.49,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 4.2,
+     "book": "Unibet"
+    },
+    "2": {
+     "odd": 5.75,
+     "book": "Unibet"
+    },
+    "under2_5": {
+     "odd": 2.05,
+     "book": "Bet365"
+    },
+    "over2_5": {
+     "odd": 1.79,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2866672",
+   "league": "Greece: Super League",
+   "kickoff": "Sun 21:30",
+   "home": "Panathinaikos",
+   "away": "Panetolikos",
+   "books": {
+    "pinnacle": {
+     "1": 1.24,
+     "X": 6.29,
+     "2": 12.32
+    },
+    "bet365": {
+     "1": 1.22,
+     "X": 6.0,
+     "2": 11.0,
+     "under2_5": 2.08,
+     "over2_5": 1.73
+    },
+    "average": {
+     "1": 1.24,
+     "X": 5.68,
+     "2": 11.16,
+     "under2_5": 2.05,
+     "over2_5": 1.72
+    },
+    "best": {
+     "1": 1.33,
+     "X": 6.29,
+     "2": 13.0,
+     "under2_5": 2.31,
+     "over2_5": 1.8
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.3,
+     "book": "Unibet"
+    },
+    "X": {
+     "odd": 4.91,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 9.21,
+     "book": "10Bet"
+    },
+    "under2_5": {
+     "odd": 2.04,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.75,
+     "book": "10Bet"
+    }
+   }
+  },
+  {
+   "id": "2866845",
+   "league": "Albania: Kategoria Superiore",
+   "kickoff": "Sun 19:30",
+   "home": "Elbasani",
+   "away": "Egnatia",
+   "books": {
+    "pinnacle": {
+     "1": 2.34,
+     "X": 3.08,
+     "2": 2.63,
+     "under2_5": 1.61,
+     "over2_5": 2.19
+    },
+    "average": {
+     "1": 2.44,
+     "X": 3.08,
+     "2": 2.57,
+     "under2_5": 1.62,
+     "over2_5": 2.16
+    },
+    "best": {
+     "1": 2.64,
+     "X": 3.08,
+     "2": 2.63,
+     "under2_5": 1.64,
+     "over2_5": 2.19
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.79,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.18,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.27,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.72,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.98,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2869031",
+   "league": "Spain: U19 Division de Honor Juvenil",
+   "kickoff": "Sun 19:00",
+   "home": "Albacete U19",
+   "away": "Atletico Madrid U19",
+   "books": {
+    "pinnacle": {
+     "1": 7.3,
+     "X": 4.83,
+     "2": 1.3,
+     "under2_5": 2.26,
+     "over2_5": 1.55
+    },
+    "average": {
+     "1": 7.3,
+     "X": 4.83,
+     "2": 1.3,
+     "under2_5": 2.26,
+     "over2_5": 1.55
+    },
+    "best": {
+     "1": 7.3,
+     "X": 4.83,
+     "2": 1.3,
+     "under2_5": 2.26,
+     "over2_5": 1.55
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 6.96,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 4.54,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 1.31,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 2.23,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.55,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2869792",
+   "league": "Portugal: Liga 3",
+   "kickoff": "Sun 22:30",
+   "home": "Paredes",
+   "away": "Ad Fafe",
+   "books": {
+    "pinnacle": {
+     "1": 2.12,
+     "X": 2.93,
+     "2": 3.79
+    },
+    "average": {
+     "1": 2.09,
+     "X": 3.02,
+     "2": 3.47,
+     "under2_5": 1.67,
+     "over2_5": 2.11
+    },
+    "best": {
+     "1": 2.15,
+     "X": 3.2,
+     "2": 3.79,
+     "under2_5": 1.69,
+     "over2_5": 2.15
+    }
+   },
+   "bestAvailable": {
+    "X": {
+     "odd": 2.99,
+     "book": "10Bet"
+    },
+    "2": {
+     "odd": 3.58,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.67,
+     "book": "AsianOdds"
+    },
+    "over2_5": {
+     "odd": 2.17,
+     "book": "10Bet"
+    }
+   }
+  },
+  {
+   "id": "2869794",
+   "league": "Portugal: Liga 3",
+   "kickoff": "Sun 19:00",
+   "home": "Pacos De Ferreira",
+   "away": "Sc Joao Ver",
+   "books": {
+    "pinnacle": {
+     "1": 2.12,
+     "X": 3.39,
+     "2": 3.36,
+     "under2_5": 1.81,
+     "over2_5": 2.04
+    },
+    "average": {
+     "1": 2.13,
+     "X": 3.38,
+     "2": 3.38,
+     "under2_5": 1.8,
+     "over2_5": 2.06
+    },
+    "best": {
+     "1": 2.13,
+     "X": 3.39,
+     "2": 3.39,
+     "under2_5": 1.81,
+     "over2_5": 2.07
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.75,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 3.4,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 4.33,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 1.74,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.0,
+     "book": "AsianOdds"
+    }
+   }
+  },
+  {
+   "id": "2869884",
+   "league": "Portugal: Liga 3",
+   "kickoff": "Sun 19:00",
+   "home": "Caldas",
+   "away": "Vitoria De Sernache",
+   "books": {
+    "pinnacle": {
+     "1": 2.32,
+     "X": 3.22,
+     "2": 3.09,
+     "under2_5": 1.73,
+     "over2_5": 2.11
+    },
+    "average": {
+     "1": 2.32,
+     "X": 3.22,
+     "2": 3.09,
+     "under2_5": 1.73,
+     "over2_5": 2.11
+    },
+    "best": {
+     "1": 2.32,
+     "X": 3.22,
+     "2": 3.09,
+     "under2_5": 1.73,
+     "over2_5": 2.11
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.96,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.16,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.97,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.63,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.23,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2872758",
+   "league": "Germany: Bundesliga Women",
+   "kickoff": "Sun 19:30",
+   "home": "Freiburg (w)",
+   "away": "Mainz 05 (w)",
+   "books": {
+    "pinnacle": {
+     "1": 1.3,
+     "X": 5.42,
+     "2": 8.09,
+     "under2_5": 2.52,
+     "over2_5": 1.5
+    },
+    "average": {
+     "1": 1.29,
+     "X": 5.46,
+     "2": 8.53,
+     "under2_5": 2.54,
+     "over2_5": 1.46
+    },
+    "best": {
+     "1": 1.33,
+     "X": 5.85,
+     "2": 10.25,
+     "under2_5": 2.59,
+     "over2_5": 1.5
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.28,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 5.27,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 7.91,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 2.5,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.46,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2878446",
+   "league": "Paraguay: Division Profesional",
+   "kickoff": "Sun 22:00",
+   "home": "Olimpia",
+   "away": "Luqueno",
+   "books": {
+    "pinnacle": {
+     "1": 1.56,
+     "X": 4.22,
+     "2": 5.65,
+     "under2_5": 2.05,
+     "over2_5": 1.79
+    },
+    "average": {
+     "1": 1.56,
+     "X": 4.2,
+     "2": 5.68,
+     "under2_5": 2.06,
+     "over2_5": 1.78
+    },
+    "best": {
+     "1": 1.56,
+     "X": 4.22,
+     "2": 5.69,
+     "under2_5": 2.06,
+     "over2_5": 1.79
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.55,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 4.14,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 5.45,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 2.04,
+     "book": "AsianOdds"
+    },
+    "over2_5": {
+     "odd": 1.77,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2881945",
+   "league": "Spain: Primera Federacion",
+   "kickoff": "Sun 21:30",
+   "home": "Atletico Madrid B",
+   "away": "Real Murcia",
+   "books": {
+    "pinnacle": {
+     "1": 2.22,
+     "X": 3.15,
+     "2": 3.1,
+     "under2_5": 1.81,
+     "over2_5": 1.98
+    },
+    "average": {
+     "1": 2.21,
+     "X": 3.25,
+     "2": 3.08,
+     "under2_5": 1.82,
+     "over2_5": 1.98
+    },
+    "best": {
+     "1": 2.22,
+     "X": 3.3,
+     "2": 3.1,
+     "under2_5": 1.82,
+     "over2_5": 1.98
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.4,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.04,
+     "book": "AsianOdds"
+    },
+    "2": {
+     "odd": 2.9,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.7,
+     "book": "AsianOdds"
+    },
+    "over2_5": {
+     "odd": 2.09,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2893115",
+   "league": "Brazil: State Leagues 2",
+   "kickoff": "Sun 21:30",
+   "home": "Planaltina Ec",
+   "away": "Candango Ec Df",
+   "books": {
+    "average": {
+     "1": 1.11,
+     "X": 6.65,
+     "2": 16.5,
+     "under2_5": 2.23,
+     "over2_5": 1.57
+    },
+    "best": {
+     "1": 1.11,
+     "X": 6.65,
+     "2": 16.5,
+     "under2_5": 2.23,
+     "over2_5": 1.57
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.13,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 6.25,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 15.5,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 2.1,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.64,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2893179",
+   "league": "Brazil: State Leagues 2",
+   "kickoff": "Sun 20:45",
+   "home": "Se Paraty Rj",
+   "away": "Friburguense",
+   "books": {
+    "average": {
+     "1": 5.9,
+     "X": 4.1,
+     "2": 1.43,
+     "under2_5": 2.06,
+     "over2_5": 1.67
+    },
+    "best": {
+     "1": 5.9,
+     "X": 4.1,
+     "2": 1.43,
+     "under2_5": 2.06,
+     "over2_5": 1.67
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 5.65,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 4.05,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 1.45,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 2.05,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.67,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2897432",
+   "league": "Cyprus: Cyprus League",
+   "kickoff": "Sun 19:00",
+   "home": "Aek Larnaca",
+   "away": "Pafos Fc",
+   "books": {
+    "pinnacle": {
+     "1": 2.67,
+     "X": 3.11,
+     "2": 2.71,
+     "under2_5": 1.81,
+     "over2_5": 2.04
+    },
+    "average": {
+     "1": 2.49,
+     "X": 3.14,
+     "2": 2.67,
+     "under2_5": 1.8,
+     "over2_5": 1.95
+    },
+    "best": {
+     "1": 2.67,
+     "X": 3.3,
+     "2": 2.88,
+     "under2_5": 1.82,
+     "over2_5": 2.04
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.3,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.78,
+     "book": "Unibet"
+    }
+   }
+  },
+  {
+   "id": "2897433",
+   "league": "Cyprus: Cyprus League",
+   "kickoff": "Sun 20:00",
+   "home": "Olympiakos Nicosia",
+   "away": "Omonia 29 Maiou",
+   "books": {
+    "pinnacle": {
+     "1": 1.82,
+     "X": 3.46,
+     "2": 4.42,
+     "under2_5": 1.7,
+     "over2_5": 2.15
+    },
+    "average": {
+     "1": 1.81,
+     "X": 3.41,
+     "2": 4.46,
+     "under2_5": 1.7,
+     "over2_5": 2.13
+    },
+    "best": {
+     "1": 1.82,
+     "X": 3.46,
+     "2": 4.5,
+     "under2_5": 1.7,
+     "over2_5": 2.15
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.12,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.18,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.42,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.7,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.09,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2897853",
+   "league": "Tanzania: Premier League",
+   "kickoff": "Sun 19:00",
+   "home": "Kagera Sugar",
+   "away": "Fountain Gate Fc",
+   "books": {
+    "pinnacle": {
+     "under2_5": 1.58,
+     "over2_5": 2.25
+    },
+    "average": {
+     "1": 1.83,
+     "X": 3.08,
+     "2": 4.15,
+     "under2_5": 1.58,
+     "over2_5": 2.24
+    },
+    "best": {
+     "1": 1.83,
+     "X": 3.08,
+     "2": 4.15,
+     "under2_5": 1.58,
+     "over2_5": 2.25
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.0,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.04,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 3.52,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.58,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.21,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2897863",
+   "league": "Malta: 1. Division",
+   "kickoff": "Sun 21:30",
+   "home": "Mgarr United Fc",
+   "away": "Tarxien Rainbows",
+   "books": {
+    "pinnacle": {
+     "under2_5": 2.33,
+     "over2_5": 1.5
+    },
+    "average": {
+     "1": 2.71,
+     "X": 3.48,
+     "2": 2.19,
+     "under2_5": 2.32,
+     "over2_5": 1.5
+    },
+    "best": {
+     "1": 2.71,
+     "X": 3.48,
+     "2": 2.19,
+     "under2_5": 2.33,
+     "over2_5": 1.5
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.71,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.48,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 2.19,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 2.3,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.49,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2897865",
+   "league": "Malta: 1. Division",
+   "kickoff": "Sun 19:00",
+   "home": "Gudja United",
+   "away": "Melita Fc Saint Julian",
+   "books": {
+    "average": {
+     "1": 3.8,
+     "X": 3.55,
+     "2": 1.76,
+     "under2_5": 2.0,
+     "over2_5": 1.71
+    },
+    "best": {
+     "1": 3.8,
+     "X": 3.55,
+     "2": 1.76,
+     "under2_5": 2.0,
+     "over2_5": 1.71
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 3.74,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.6,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 1.76,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 2.0,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.71,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2897866",
+   "league": "Malta: 1. Division",
+   "kickoff": "Sun 21:30",
+   "home": "Zebbug Rangers",
+   "away": "Fgura United",
+   "books": {
+    "average": {
+     "1": 6.15,
+     "X": 4.15,
+     "2": 1.41,
+     "under2_5": 2.21,
+     "over2_5": 1.53
+    },
+    "best": {
+     "1": 6.15,
+     "X": 4.15,
+     "2": 1.41,
+     "under2_5": 2.21,
+     "over2_5": 1.53
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 4.75,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 4.1,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 1.52,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 2.28,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.5,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2898449",
+   "league": "Portugal: Campeonato de Portugal",
+   "kickoff": "Sun 19:30",
+   "home": "Chaves B",
+   "away": "Cd Celoricense",
+   "books": {
+    "average": {
+     "1": 2.59,
+     "X": 2.97,
+     "2": 2.56,
+     "under2_5": 1.63,
+     "over2_5": 2.12
+    },
+    "best": {
+     "1": 2.59,
+     "X": 2.97,
+     "2": 2.56,
+     "under2_5": 1.63,
+     "over2_5": 2.12
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.56,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.02,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 2.56,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.57,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.23,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2899297",
+   "league": "Costa Rica: Liga de Ascenso",
+   "kickoff": "Sun 20:00",
+   "home": "Santa Ana Fc",
+   "away": "Guadalupe Fc",
+   "books": {
+    "pinnacle": {
+     "1": 1.88,
+     "X": 3.46,
+     "2": 3.43,
+     "under2_5": 2.01,
+     "over2_5": 1.72
+    },
+    "average": {
+     "1": 2.03,
+     "X": 3.34,
+     "2": 3.08,
+     "under2_5": 1.95,
+     "over2_5": 1.73
+    },
+    "best": {
+     "1": 2.4,
+     "X": 3.5,
+     "2": 3.46,
+     "under2_5": 2.01,
+     "over2_5": 1.8
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.2,
+     "book": "Unibet"
+    },
+    "X": {
+     "odd": 3.17,
+     "book": "Betway"
+    },
+    "2": {
+     "odd": 2.59,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.93,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.76,
+     "book": "Betfred"
+    }
+   }
+  },
+  {
+   "id": "2899365",
+   "league": "Mexico: Liga MX Femenil",
+   "kickoff": "Sun 21:00",
+   "home": "Puebla (w)",
+   "away": "Queretaro (w)",
+   "books": {
+    "average": {
+     "1": 2.61,
+     "X": 3.64,
+     "2": 2.2,
+     "under2_5": 2.43,
+     "over2_5": 1.44
+    },
+    "best": {
+     "1": 2.61,
+     "X": 3.64,
+     "2": 2.2,
+     "under2_5": 2.43,
+     "over2_5": 1.44
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.24,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.44,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 2.66,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 2.13,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.62,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2900219",
+   "league": "Chile: Segunda Division",
+   "kickoff": "Sun 22:00",
+   "home": "Provincial Osorno",
+   "away": "Santiago City Fc",
+   "books": {
+    "pinnacle": {
+     "1": 1.88,
+     "X": 3.5,
+     "2": 3.49,
+     "under2_5": 1.88,
+     "over2_5": 1.87
+    },
+    "average": {
+     "1": 1.85,
+     "X": 3.51,
+     "2": 3.56,
+     "under2_5": 1.87,
+     "over2_5": 1.86
+    },
+    "best": {
+     "1": 1.88,
+     "X": 3.52,
+     "2": 3.7,
+     "under2_5": 1.88,
+     "over2_5": 1.87
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.66,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.62,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 4.3,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.93,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.76,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2900220",
+   "league": "Chile: Segunda Division",
+   "kickoff": "Sun 22:00",
+   "home": "Concon National",
+   "away": "Colchagua",
+   "books": {
+    "pinnacle": {
+     "1": 2.33,
+     "X": 3.22,
+     "2": 2.74,
+     "under2_5": 1.77,
+     "over2_5": 2.0
+    },
+    "average": {
+     "1": 2.27,
+     "X": 3.17,
+     "2": 2.81,
+     "under2_5": 1.75,
+     "over2_5": 1.98
+    },
+    "best": {
+     "1": 2.33,
+     "X": 3.25,
+     "2": 3.0,
+     "under2_5": 1.77,
+     "over2_5": 2.0
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.19,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.2,
+     "book": "10Bet"
+    },
+    "under2_5": {
+     "odd": 1.7,
+     "book": "10Bet"
+    },
+    "over2_5": {
+     "odd": 2.01,
+     "book": "Betfred"
+    }
+   }
+  },
+  {
+   "id": "2900250",
+   "league": "Argentina: Torneo Federal A",
+   "kickoff": "Sun 23:00",
+   "home": "9 De Julio Rafaela",
+   "away": "Ca Bartolome Mitre",
+   "books": {
+    "pinnacle": {
+     "1": 1.41,
+     "X": 3.37,
+     "2": 6.83,
+     "under2_5": 1.49,
+     "over2_5": 2.27
+    },
+    "average": {
+     "1": 1.42,
+     "X": 3.41,
+     "2": 7.02,
+     "under2_5": 1.5,
+     "over2_5": 2.28
+    },
+    "best": {
+     "1": 1.44,
+     "X": 3.5,
+     "2": 7.4,
+     "under2_5": 1.53,
+     "over2_5": 2.31
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.41,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.7,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 7.5,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.65,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.08,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2900252",
+   "league": "Argentina: Torneo Federal A",
+   "kickoff": "Sun 22:00",
+   "home": "Sportivo Belgrano",
+   "away": "Douglas Haig",
+   "books": {
+    "pinnacle": {
+     "1": 2.19,
+     "X": 2.64,
+     "2": 3.46,
+     "under2_5": 1.35,
+     "over2_5": 2.81
+    },
+    "average": {
+     "1": 2.2,
+     "X": 2.79,
+     "2": 3.36,
+     "under2_5": 1.42,
+     "over2_5": 2.63
+    },
+    "best": {
+     "1": 2.3,
+     "X": 3.0,
+     "2": 3.5,
+     "under2_5": 1.5,
+     "over2_5": 2.81
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.05,
+     "book": "Bwin"
+    },
+    "X": {
+     "odd": 2.95,
+     "book": "Unibet"
+    },
+    "2": {
+     "odd": 3.5,
+     "book": "Betway"
+    },
+    "under2_5": {
+     "odd": 1.43,
+     "book": "Betfred"
+    },
+    "over2_5": {
+     "odd": 2.46,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2900281",
+   "league": "Argentina: Torneo Federal A",
+   "kickoff": "Sun 21:30",
+   "home": "Club Cipolletti",
+   "away": "Ca Alvarado",
+   "books": {
+    "pinnacle": {
+     "1": 2.72,
+     "X": 2.33,
+     "2": 3.04,
+     "under2_5": 1.31,
+     "over2_5": 3.0
+    },
+    "average": {
+     "1": 2.72,
+     "X": 2.33,
+     "2": 3.04,
+     "under2_5": 1.31,
+     "over2_5": 3.0
+    },
+    "best": {
+     "1": 2.72,
+     "X": 2.33,
+     "2": 3.04,
+     "under2_5": 1.31,
+     "over2_5": 3.0
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.59,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 2.32,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.25,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.3,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 3.08,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2900282",
+   "league": "Argentina: Torneo Federal A",
+   "kickoff": "Sun 22:30",
+   "home": "Sportivo Atenas",
+   "away": "Juventud Antoniana",
+   "books": {
+    "average": {
+     "1": 1.4,
+     "X": 3.44,
+     "2": 9.3,
+     "under2_5": 1.32,
+     "over2_5": 2.88
+    },
+    "best": {
+     "1": 1.4,
+     "X": 3.44,
+     "2": 9.3,
+     "under2_5": 1.32,
+     "over2_5": 2.88
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.52,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.18,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 7.1,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.33,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.83,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2900283",
+   "league": "Argentina: Torneo Federal A",
+   "kickoff": "Sun 21:00",
+   "home": "Kimberley",
+   "away": "Huracan Las Heras",
+   "books": {
+    "average": {
+     "1": 1.56,
+     "X": 3.3,
+     "2": 6.05,
+     "under2_5": 1.5,
+     "over2_5": 2.41
+    },
+    "best": {
+     "1": 1.7,
+     "X": 3.6,
+     "2": 7.0,
+     "under2_5": 1.53,
+     "over2_5": 2.45
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.53,
+     "book": "Betway"
+    },
+    "under2_5": {
+     "odd": 1.48,
+     "book": "Betfred"
+    },
+    "over2_5": {
+     "odd": 2.33,
+     "book": "Unibet"
+    }
+   }
+  },
+  {
+   "id": "2900284",
+   "league": "Argentina: Torneo Federal A",
+   "kickoff": "Sun 21:45",
+   "home": "Argentino Monte Maiz",
+   "away": "Villa Mitre",
+   "books": {
+    "pinnacle": {
+     "1": 2.43,
+     "X": 2.52,
+     "2": 3.16,
+     "under2_5": 1.3,
+     "over2_5": 3.03
+    },
+    "average": {
+     "1": 2.43,
+     "X": 2.55,
+     "2": 3.16,
+     "under2_5": 1.3,
+     "over2_5": 3.03
+    },
+    "best": {
+     "1": 2.43,
+     "X": 2.61,
+     "2": 3.16,
+     "under2_5": 1.3,
+     "over2_5": 3.04
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.35,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 2.69,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 3.18,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.27,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 3.14,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2900345",
+   "league": "Saudi Arabia: Division 1",
+   "kickoff": "Sun 18:50",
+   "home": "Al Saqer Fc",
+   "away": "Al Anwar",
+   "books": {
+    "pinnacle": {
+     "1": 2.65,
+     "X": 3.05,
+     "2": 2.79,
+     "under2_5": 1.65,
+     "over2_5": 2.24
+    },
+    "average": {
+     "1": 2.6,
+     "X": 3.11,
+     "2": 2.74,
+     "under2_5": 1.65,
+     "over2_5": 2.2
+    },
+    "best": {
+     "1": 2.65,
+     "X": 3.19,
+     "2": 2.79,
+     "under2_5": 1.66,
+     "over2_5": 2.24
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.13,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.34,
+     "book": "AsianOdds"
+    },
+    "2": {
+     "odd": 2.91,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.8,
+     "book": "AsianOdds"
+    },
+    "over2_5": {
+     "odd": 1.89,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2900346",
+   "league": "Saudi Arabia: Division 1",
+   "kickoff": "Sun 20:20",
+   "home": "Al Taee",
+   "away": "Al-zulfi",
+   "books": {
+    "pinnacle": {
+     "1": 2.62,
+     "X": 3.55,
+     "2": 2.49,
+     "under2_5": 1.88,
+     "over2_5": 1.96
+    },
+    "average": {
+     "1": 2.59,
+     "X": 3.5,
+     "2": 2.45,
+     "under2_5": 1.86,
+     "over2_5": 1.94
+    },
+    "best": {
+     "1": 2.62,
+     "X": 3.55,
+     "2": 2.49,
+     "under2_5": 1.88,
+     "over2_5": 1.96
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 3.15,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.28,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.04,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.8,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.89,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2901974",
+   "league": "Germany: 3. Liga",
+   "kickoff": "Sun 20:30",
+   "home": "Hoffenheim Ii",
+   "away": "Fortuna Koeln",
+   "books": {
+    "pinnacle": {
+     "1": 2.09,
+     "X": 3.66,
+     "2": 3.34,
+     "under2_5": 2.3,
+     "over2_5": 1.63
+    },
+    "bet365": {
+     "1": 2.0,
+     "X": 3.5,
+     "2": 3.1,
+     "under2_5": 2.25,
+     "over2_5": 1.62
+    },
+    "average": {
+     "1": 2.06,
+     "X": 3.52,
+     "2": 3.13,
+     "under2_5": 2.22,
+     "over2_5": 1.59
+    },
+    "best": {
+     "1": 2.11,
+     "X": 3.67,
+     "2": 3.34,
+     "under2_5": 2.3,
+     "over2_5": 1.63
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.1,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 3.48,
+     "book": "AsianOdds"
+    },
+    "2": {
+     "odd": 2.99,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 2.25,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.63,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2902525",
+   "league": "Brazil: Copa Santa Catarina",
+   "kickoff": "Sun 21:00",
+   "home": "Santa Catarina",
+   "away": "Marcilio Dias",
+   "books": {
+    "pinnacle": {
+     "1": 2.6,
+     "X": 2.8,
+     "2": 2.61,
+     "under2_5": 1.52,
+     "over2_5": 2.29
+    },
+    "average": {
+     "1": 2.6,
+     "X": 2.84,
+     "2": 2.62,
+     "under2_5": 1.53,
+     "over2_5": 2.29
+    },
+    "best": {
+     "1": 2.63,
+     "X": 3.0,
+     "2": 2.75,
+     "under2_5": 1.54,
+     "over2_5": 2.29
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.18,
+     "book": "Betvictor"
+    },
+    "X": {
+     "odd": 3.22,
+     "book": "Betvictor"
+    },
+    "2": {
+     "odd": 2.92,
+     "book": "Bwin"
+    },
+    "under2_5": {
+     "odd": 1.72,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.98,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2902595",
+   "league": "Argentina: Torneo Federal A",
+   "kickoff": "Sun 21:00",
+   "home": "Club Tucuman Central Deportes",
+   "away": "Sportivo Las Parejas",
+   "books": {
+    "pinnacle": {
+     "1": 4.46,
+     "X": 3.56,
+     "2": 1.59,
+     "under2_5": 1.48,
+     "over2_5": 2.37
+    },
+    "average": {
+     "1": 4.51,
+     "X": 3.55,
+     "2": 1.6,
+     "under2_5": 1.47,
+     "over2_5": 2.38
+    },
+    "best": {
+     "1": 4.6,
+     "X": 3.56,
+     "2": 1.63,
+     "under2_5": 1.48,
+     "over2_5": 2.41
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 3.72,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 2.91,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.0,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.39,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.59,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2902596",
+   "league": "Argentina: Torneo Federal A",
+   "kickoff": "Sun 22:00",
+   "home": "El Linqueno",
+   "away": "Boca Unidos",
+   "books": {
+    "pinnacle": {
+     "1": 1.61,
+     "X": 3.57,
+     "2": 4.42,
+     "under2_5": 1.5,
+     "over2_5": 2.35
+    },
+    "average": {
+     "1": 1.58,
+     "X": 3.43,
+     "2": 5.4,
+     "under2_5": 1.5,
+     "over2_5": 2.39
+    },
+    "best": {
+     "1": 1.73,
+     "X": 3.6,
+     "2": 6.5,
+     "under2_5": 1.54,
+     "over2_5": 2.5
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.95,
+     "book": "Unibet"
+    }
+   }
+  },
+  {
+   "id": "2902597",
+   "league": "Argentina: Torneo Federal A",
+   "kickoff": "Sun 21:30",
+   "home": "Ca Defensores De Vilelas",
+   "away": "Independiente Chivilcoy",
+   "books": {
+    "average": {
+     "1": 1.47,
+     "X": 4.05,
+     "2": 5.4,
+     "under2_5": 1.66,
+     "over2_5": 2.07
+    },
+    "best": {
+     "1": 1.47,
+     "X": 4.05,
+     "2": 5.4,
+     "under2_5": 1.66,
+     "over2_5": 2.07
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.81,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.22,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 4.0,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.57,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.23,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2902598",
+   "league": "Argentina: Torneo Federal A",
+   "kickoff": "Sun 21:30",
+   "home": "Gimnasia Y Esgrima De Concepcion",
+   "away": "Sarmiento De Resistencia",
+   "books": {
+    "pinnacle": {
+     "1": 1.59,
+     "X": 3.17,
+     "2": 5.51,
+     "under2_5": 1.46,
+     "over2_5": 2.43
+    },
+    "average": {
+     "1": 1.59,
+     "X": 3.19,
+     "2": 5.64,
+     "under2_5": 1.47,
+     "over2_5": 2.43
+    },
+    "best": {
+     "1": 1.59,
+     "X": 3.22,
+     "2": 5.9,
+     "under2_5": 1.48,
+     "over2_5": 2.44
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.66,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.28,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 4.85,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.53,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.31,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2902664",
+   "league": "Argentina: Torneo Federal A",
+   "kickoff": "Sun 22:00",
+   "home": "San Martin Mendoza",
+   "away": "Circulo Deportivo",
+   "books": {
+    "average": {
+     "1": 1.83,
+     "X": 2.99,
+     "2": 4.35,
+     "under2_5": 1.48,
+     "over2_5": 2.46
+    },
+    "best": {
+     "1": 1.9,
+     "X": 3.1,
+     "2": 4.85,
+     "under2_5": 1.5,
+     "over2_5": 2.5
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.91,
+     "book": "1xbet"
+    },
+    "X": {
+     "odd": 3.02,
+     "book": "Betvictor"
+    },
+    "2": {
+     "odd": 3.95,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2902665",
+   "league": "Argentina: Torneo Federal A",
+   "kickoff": "Sun 21:30",
+   "home": "Germinal",
+   "away": "Guillermo Brown",
+   "books": {
+    "pinnacle": {
+     "1": 2.25,
+     "X": 2.6,
+     "2": 3.37,
+     "under2_5": 1.33,
+     "over2_5": 2.91
+    },
+    "average": {
+     "1": 2.34,
+     "X": 2.74,
+     "2": 3.1,
+     "under2_5": 1.39,
+     "over2_5": 2.75
+    },
+    "best": {
+     "1": 2.45,
+     "X": 2.9,
+     "2": 3.4,
+     "under2_5": 1.44,
+     "over2_5": 2.91
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.28,
+     "book": "1xbet"
+    },
+    "X": {
+     "odd": 2.86,
+     "book": "Unibet"
+    },
+    "under2_5": {
+     "odd": 1.36,
+     "book": "Betfred"
+    },
+    "over2_5": {
+     "odd": 2.69,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2902751",
+   "league": "Spain: Primera Federacion (Women)",
+   "kickoff": "Sun 20:00",
+   "home": "Alhama Cf (w)",
+   "away": "Levante (w)",
+   "books": {
+    "average": {
+     "1": 2.01,
+     "X": 3.24,
+     "2": 3.26,
+     "under2_5": 1.69,
+     "over2_5": 2.02
+    },
+    "best": {
+     "1": 2.01,
+     "X": 3.24,
+     "2": 3.26,
+     "under2_5": 1.69,
+     "over2_5": 2.02
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.0,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.24,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 3.28,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.69,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.02,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2903197",
+   "league": "Italy: Serie C",
+   "kickoff": "Sun 19:00",
+   "home": "Folgore Caratese",
+   "away": "Alcione",
+   "books": {
+    "pinnacle": {
+     "1": 2.62,
+     "X": 3.11,
+     "2": 2.76,
+     "under2_5": 1.5,
+     "over2_5": 2.53
+    },
+    "average": {
+     "1": 2.55,
+     "X": 2.96,
+     "2": 2.74,
+     "under2_5": 1.47,
+     "over2_5": 2.56
+    },
+    "best": {
+     "1": 2.7,
+     "X": 3.11,
+     "2": 2.9,
+     "under2_5": 1.53,
+     "over2_5": 2.65
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.5,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 2.94,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.79,
+     "book": "Unibet"
+    },
+    "under2_5": {
+     "odd": 1.41,
+     "book": "AsianOdds"
+    },
+    "over2_5": {
+     "odd": 2.52,
+     "book": "Unibet"
+    }
+   }
+  },
+  {
+   "id": "2903199",
+   "league": "Italy: Serie C",
+   "kickoff": "Sun 19:00",
+   "home": "Lumezzane",
+   "away": "Renate",
+   "books": {
+    "pinnacle": {
+     "1": 2.59,
+     "X": 3.15,
+     "2": 2.78
+    },
+    "average": {
+     "1": 2.51,
+     "X": 3.08,
+     "2": 2.7,
+     "under2_5": 1.7,
+     "over2_5": 2.06
+    },
+    "best": {
+     "1": 2.6,
+     "X": 3.2,
+     "2": 2.81,
+     "under2_5": 1.73,
+     "over2_5": 2.1
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.5,
+     "book": "Unibet"
+    },
+    "X": {
+     "odd": 2.98,
+     "book": "Betfred"
+    },
+    "2": {
+     "odd": 2.72,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 1.7,
+     "book": "Betfred"
+    },
+    "over2_5": {
+     "odd": 2.07,
+     "book": "10Bet"
+    }
+   }
+  },
+  {
+   "id": "2903200",
+   "league": "Italy: Serie C",
+   "kickoff": "Sun 22:00",
+   "home": "Novara",
+   "away": "Pergolettese",
+   "books": {
+    "pinnacle": {
+     "1": 1.99,
+     "X": 3.11,
+     "2": 3.94,
+     "under2_5": 1.6,
+     "over2_5": 2.3
+    },
+    "average": {
+     "1": 1.97,
+     "X": 3.09,
+     "2": 3.72,
+     "under2_5": 1.6,
+     "over2_5": 2.24
+    },
+    "best": {
+     "1": 2.01,
+     "X": 3.25,
+     "2": 3.94,
+     "under2_5": 1.62,
+     "over2_5": 2.3
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.03,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 3.06,
+     "book": "Betvictor"
+    },
+    "2": {
+     "odd": 3.59,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.58,
+     "book": "10Bet"
+    },
+    "over2_5": {
+     "odd": 2.28,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2903201",
+   "league": "Italy: Serie C",
+   "kickoff": "Sun 19:00",
+   "home": "Ospitaletto",
+   "away": "Juventus Next Gen",
+   "books": {
+    "pinnacle": {
+     "1": 2.21,
+     "X": 3.08,
+     "2": 3.49
+    },
+    "average": {
+     "1": 2.23,
+     "X": 3.04,
+     "2": 3.17,
+     "under2_5": 1.61,
+     "over2_5": 2.2
+    },
+    "best": {
+     "1": 2.38,
+     "X": 3.13,
+     "2": 3.49,
+     "under2_5": 1.67,
+     "over2_5": 2.25
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.3,
+     "book": "Unibet"
+    },
+    "X": {
+     "odd": 3.0,
+     "book": "Betvictor"
+    },
+    "2": {
+     "odd": 3.06,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.64,
+     "book": "Betway"
+    },
+    "over2_5": {
+     "odd": 2.2,
+     "book": "Bwin"
+    }
+   }
+  },
+  {
+   "id": "2903202",
+   "league": "Italy: Serie C",
+   "kickoff": "Sun 22:00",
+   "home": "Trento",
+   "away": "Union Brescia",
+   "books": {
+    "pinnacle": {
+     "1": 3.64,
+     "X": 2.9,
+     "2": 2.18,
+     "under2_5": 1.53,
+     "over2_5": 2.4
+    },
+    "average": {
+     "1": 3.31,
+     "X": 2.95,
+     "2": 2.24,
+     "under2_5": 1.58,
+     "over2_5": 2.24
+    },
+    "best": {
+     "1": 3.68,
+     "X": 3.3,
+     "2": 2.44,
+     "under2_5": 1.7,
+     "over2_5": 2.4
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 3.36,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 2.98,
+     "book": "Betsson"
+    },
+    "2": {
+     "odd": 2.22,
+     "book": "1xbet"
+    },
+    "under2_5": {
+     "odd": 1.58,
+     "book": "Unibet"
+    },
+    "over2_5": {
+     "odd": 2.27,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2903204",
+   "league": "Italy: Serie C",
+   "kickoff": "Sun 22:00",
+   "home": "Arzignanochiampo",
+   "away": "Desenzano",
+   "books": {
+    "pinnacle": {
+     "1": 2.19,
+     "X": 3.06,
+     "2": 3.4
+    },
+    "average": {
+     "1": 2.21,
+     "X": 3.0,
+     "2": 3.38,
+     "under2_5": 1.5,
+     "over2_5": 2.38
+    },
+    "best": {
+     "1": 2.25,
+     "X": 3.06,
+     "2": 3.43,
+     "under2_5": 1.5,
+     "over2_5": 2.38
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.26,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 3.04,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.2,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 1.5,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.46,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2905035",
+   "league": "Bahrain: First Division",
+   "kickoff": "Sun 19:00",
+   "home": "Al Tadamun Buri",
+   "away": "Etehad Alreef",
+   "books": {
+    "pinnacle": {
+     "1": 2.25,
+     "X": 3.12,
+     "2": 3.07,
+     "under2_5": 1.85,
+     "over2_5": 1.93
+    },
+    "average": {
+     "1": 2.25,
+     "X": 3.12,
+     "2": 3.07,
+     "under2_5": 1.85,
+     "over2_5": 1.93
+    },
+    "best": {
+     "1": 2.25,
+     "X": 3.12,
+     "2": 3.07,
+     "under2_5": 1.85,
+     "over2_5": 1.93
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.43,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.17,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.65,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.95,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.81,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2905036",
+   "league": "Bahrain: First Division",
+   "kickoff": "Sun 19:00",
+   "home": "Busaiteen",
+   "away": "Al-hala",
+   "books": {
+    "pinnacle": {
+     "1": 3.64,
+     "X": 3.5,
+     "2": 1.88,
+     "under2_5": 2.04,
+     "over2_5": 1.74
+    },
+    "average": {
+     "1": 3.66,
+     "X": 3.49,
+     "2": 1.85,
+     "under2_5": 2.02,
+     "over2_5": 1.73
+    },
+    "best": {
+     "1": 3.7,
+     "X": 3.5,
+     "2": 1.88,
+     "under2_5": 2.04,
+     "over2_5": 1.74
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 3.7,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.6,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 1.77,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.93,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.76,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2907311",
+   "league": "Argentina: Primera Nacional",
+   "kickoff": "Sun 22:30",
+   "home": "Ca Ferrocarril Midland",
+   "away": "Chacarita Juniors",
+   "books": {
+    "pinnacle": {
+     "1": 1.85,
+     "X": 3.18,
+     "2": 4.65,
+     "under2_5": 1.48,
+     "over2_5": 2.58
+    },
+    "average": {
+     "1": 2.0,
+     "X": 3.02,
+     "2": 4.49,
+     "under2_5": 1.48,
+     "over2_5": 2.58
+    },
+    "best": {
+     "1": 2.07,
+     "X": 3.18,
+     "2": 4.65,
+     "under2_5": 1.48,
+     "over2_5": 2.58
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.85,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 3.18,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 4.65,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.48,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.58,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2907313",
+   "league": "Argentina: Primera Nacional",
+   "kickoff": "Sun 21:30",
+   "home": "Patronato De Parana",
+   "away": "Temperley",
+   "books": {
+    "bet365": {
+     "1": 2.2,
+     "X": 2.82,
+     "2": 3.6,
+     "under2_5": 1.36,
+     "over2_5": 3.1
+    },
+    "average": {
+     "1": 2.26,
+     "X": 2.8,
+     "2": 3.42,
+     "under2_5": 1.37,
+     "over2_5": 2.88
+    },
+    "best": {
+     "1": 2.36,
+     "X": 2.94,
+     "2": 3.68,
+     "under2_5": 1.4,
+     "over2_5": 3.1
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.3,
+     "book": "GGBet"
+    },
+    "under2_5": {
+     "odd": 1.38,
+     "book": "Betfred"
+    },
+    "over2_5": {
+     "odd": 2.82,
+     "book": "Bet365"
+    }
+   }
+  },
+  {
+   "id": "2907624",
+   "league": "Argentina: Primera C",
+   "kickoff": "Sun 21:00",
+   "home": "Central Cordoba De Rosario",
+   "away": "Argentino De Rosario",
+   "books": {
+    "pinnacle": {
+     "1": 1.85,
+     "X": 2.81,
+     "2": 4.34,
+     "under2_5": 1.36,
+     "over2_5": 2.79
+    },
+    "average": {
+     "1": 1.78,
+     "X": 2.96,
+     "2": 4.59,
+     "under2_5": 1.43,
+     "over2_5": 2.6
+    },
+    "best": {
+     "1": 1.91,
+     "X": 3.13,
+     "2": 5.11,
+     "under2_5": 1.5,
+     "over2_5": 2.79
+    }
+   },
+   "bestAvailable": {
+    "X": {
+     "odd": 3.09,
+     "book": "1xbet"
+    },
+    "2": {
+     "odd": 4.88,
+     "book": "1xbet"
+    },
+    "under2_5": {
+     "odd": 1.43,
+     "book": "Betfred"
+    },
+    "over2_5": {
+     "odd": 2.46,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2907627",
+   "league": "Argentina: Primera C",
+   "kickoff": "Sun 21:00",
+   "home": "Defensores De Cambaceres",
+   "away": "Sportivo Barracas",
+   "books": {
+    "pinnacle": {
+     "1": 2.75,
+     "X": 2.4,
+     "2": 2.9,
+     "under2_5": 1.29,
+     "over2_5": 3.13
+    },
+    "average": {
+     "1": 2.72,
+     "X": 2.47,
+     "2": 2.88,
+     "under2_5": 1.3,
+     "over2_5": 3.05
+    },
+    "best": {
+     "1": 2.75,
+     "X": 2.6,
+     "2": 2.9,
+     "under2_5": 1.32,
+     "over2_5": 3.13
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.64,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 2.76,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 2.69,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.36,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.7,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2907632",
+   "league": "Argentina: Primera C",
+   "kickoff": "Sun 21:00",
+   "home": "Justo Jose De Urquiza",
+   "away": "Lamadrid",
+   "books": {
+    "pinnacle": {
+     "1": 2.84,
+     "X": 2.36,
+     "2": 2.87
+    },
+    "average": {
+     "1": 2.8,
+     "X": 2.6,
+     "2": 2.63,
+     "under2_5": 1.36,
+     "over2_5": 2.87
+    },
+    "best": {
+     "1": 2.88,
+     "X": 2.8,
+     "2": 2.9,
+     "under2_5": 1.38,
+     "over2_5": 2.95
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.76,
+     "book": "Betway"
+    },
+    "X": {
+     "odd": 2.7,
+     "book": "Unibet"
+    },
+    "2": {
+     "odd": 2.49,
+     "book": "Betway"
+    }
+   }
+  },
+  {
+   "id": "2907736",
+   "league": "Argentina: Liga Profesional",
+   "kickoff": "Sun 20:45",
+   "home": "Sarmiento",
+   "away": "Belgrano",
+   "books": {
+    "pinnacle": {
+     "1": 3.36,
+     "X": 2.99,
+     "2": 2.49
+    },
+    "average": {
+     "1": 3.35,
+     "X": 2.99,
+     "2": 2.49
+    },
+    "best": {
+     "1": 3.37,
+     "X": 2.99,
+     "2": 2.49
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 3.18,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 3.05,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.44,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2907741",
+   "league": "Argentina: Liga Profesional",
+   "kickoff": "Sun 23:00",
+   "home": "Argentinos Juniors",
+   "away": "Gimnasia Lp",
+   "books": {
+    "pinnacle": {
+     "1": 1.78,
+     "X": 3.6,
+     "2": 5.14
+    },
+    "average": {
+     "1": 1.79,
+     "X": 3.52,
+     "2": 5.21,
+     "under2_5": 1.65,
+     "over2_5": 2.3
+    },
+    "best": {
+     "1": 1.79,
+     "X": 3.6,
+     "2": 5.25,
+     "under2_5": 1.65,
+     "over2_5": 2.3
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.77,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 3.48,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 4.97,
+     "book": "AsianOdds"
+    }
+   }
+  },
+  {
+   "id": "2907742",
+   "league": "Argentina: Liga Profesional",
+   "kickoff": "Sun 20:45",
+   "home": "Tigre",
+   "away": "Rosario Central",
+   "books": {
+    "pinnacle": {
+     "1": 3.31,
+     "X": 2.88,
+     "2": 2.61
+    },
+    "average": {
+     "1": 3.3,
+     "X": 2.85,
+     "2": 2.59,
+     "under2_5": 1.42,
+     "over2_5": 2.79
+    },
+    "best": {
+     "1": 3.39,
+     "X": 2.88,
+     "2": 2.61,
+     "under2_5": 1.42,
+     "over2_5": 2.79
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.96,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 2.87,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.72,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.44,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.71,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2922162",
+   "league": "Brazil: State Leagues 2",
+   "kickoff": "Sun 20:45",
+   "home": "Santa Cruz",
+   "away": "Se Buzios Rj",
+   "books": {
+    "pinnacle": {
+     "under2_5": 2.31,
+     "over2_5": 1.45
+    },
+    "average": {
+     "1": 1.33,
+     "X": 4.7,
+     "2": 6.75,
+     "under2_5": 2.36,
+     "over2_5": 1.44
+    },
+    "best": {
+     "1": 1.33,
+     "X": 4.7,
+     "2": 6.75,
+     "under2_5": 2.46,
+     "over2_5": 1.45
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.14,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 6.35,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 12.75,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 2.3,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.49,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2922164",
+   "league": "Brazil: State Leagues 2",
+   "kickoff": "Sun 20:45",
+   "home": "Cardoso Moreira Rj",
+   "away": "Fc Rio De Janeiro Rj",
+   "books": {
+    "average": {
+     "1": 1.28,
+     "X": 4.85,
+     "2": 8.0,
+     "under2_5": 2.25,
+     "over2_5": 1.56
+    },
+    "best": {
+     "1": 1.28,
+     "X": 4.85,
+     "2": 8.0,
+     "under2_5": 2.25,
+     "over2_5": 1.56
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.26,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 5.05,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 8.3,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 2.29,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.54,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2922241",
+   "league": "Serbia: U19 League",
+   "kickoff": "Sun 20:00",
+   "home": "Mladost Lucani",
+   "away": "Fk Vozdovac",
+   "books": {
+    "pinnacle": {
+     "1": 1.91,
+     "X": 3.81,
+     "2": 3.07,
+     "under2_5": 2.7,
+     "over2_5": 1.39
+    },
+    "average": {
+     "1": 1.91,
+     "X": 3.8,
+     "2": 3.08,
+     "under2_5": 2.69,
+     "over2_5": 1.38
+    },
+    "best": {
+     "1": 1.91,
+     "X": 3.81,
+     "2": 3.1,
+     "under2_5": 2.7,
+     "over2_5": 1.39
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.0,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.66,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.94,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 2.35,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.47,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2922243",
+   "league": "Serbia: U19 League",
+   "kickoff": "Sun 19:00",
+   "home": "Cukaricki U19",
+   "away": "Fk Spartak Subotica U19",
+   "books": {
+    "pinnacle": {
+     "1": 1.63,
+     "X": 4.3,
+     "2": 3.77
+    },
+    "average": {
+     "1": 1.63,
+     "X": 4.3,
+     "2": 3.77
+    },
+    "best": {
+     "1": 1.63,
+     "X": 4.3,
+     "2": 3.77
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.79,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.92,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.21,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2923607",
+   "league": "England: WSL",
+   "kickoff": "Sun 20:30",
+   "home": "Aston Villa Women",
+   "away": "Manchester City Women",
+   "books": {
+    "pinnacle": {
+     "1": 8.19,
+     "X": 5.84,
+     "2": 1.3
+    },
+    "average": {
+     "1": 8.28,
+     "X": 5.62,
+     "2": 1.29,
+     "under2_5": 2.43,
+     "over2_5": 1.44
+    },
+    "best": {
+     "1": 8.7,
+     "X": 5.84,
+     "2": 1.3,
+     "under2_5": 2.43,
+     "over2_5": 1.44
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 7.9,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 5.49,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 1.29,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 2.45,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.49,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2932300",
+   "league": "Bolivia: Primera Division",
+   "kickoff": "Sun 22:00",
+   "home": "Always Ready",
+   "away": "Guabira",
+   "books": {
+    "bet365": {
+     "1": 1.13,
+     "X": 7.5,
+     "2": 12.0,
+     "under2_5": 3.4,
+     "over2_5": 1.33
+    },
+    "average": {
+     "1": 1.15,
+     "X": 7.02,
+     "2": 11.78,
+     "under2_5": 3.31,
+     "over2_5": 1.29
+    },
+    "best": {
+     "1": 1.2,
+     "X": 8.5,
+     "2": 15.0,
+     "under2_5": 3.58,
+     "over2_5": 1.33
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.15,
+     "book": "Unibet"
+    },
+    "X": {
+     "odd": 6.69,
+     "book": "Betway"
+    },
+    "2": {
+     "odd": 12.25,
+     "book": "Betvictor"
+    },
+    "under2_5": {
+     "odd": 3.2,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.26,
+     "book": "Bet365"
+    }
+   }
+  },
+  {
+   "id": "2934882",
+   "league": "Croatia: U19 Prva NL Juniori",
+   "kickoff": "Sun 19:00",
+   "home": "Nk Mladost Zdralovi",
+   "away": "Nk Istra 1961",
+   "books": {
+    "average": {
+     "1": 2.54,
+     "X": 3.58,
+     "2": 2.27,
+     "under2_5": 2.25,
+     "over2_5": 1.56
+    },
+    "best": {
+     "1": 2.54,
+     "X": 3.58,
+     "2": 2.27,
+     "under2_5": 2.25,
+     "over2_5": 1.56
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.47,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.66,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 2.3,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 2.31,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.53,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2935379",
+   "league": "Spain: Tercera Federacion",
+   "kickoff": "Sun 19:00",
+   "home": "Sarriana",
+   "away": "Viveiro Cf",
+   "books": {
+    "pinnacle": {
+     "1": 1.63,
+     "X": 3.63,
+     "2": 4.9,
+     "under2_5": 1.81,
+     "over2_5": 1.99
+    },
+    "average": {
+     "1": 1.61,
+     "X": 3.59,
+     "2": 5.02,
+     "under2_5": 1.8,
+     "over2_5": 1.96
+    },
+    "best": {
+     "1": 1.63,
+     "X": 3.63,
+     "2": 5.25,
+     "under2_5": 1.81,
+     "over2_5": 1.99
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.43,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.94,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 6.25,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.89,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.8,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2935681",
+   "league": "Spain: Tercera Federacion",
+   "kickoff": "Sun 19:30",
+   "home": "Cd Mosconia",
+   "away": "Ud Gijon Industrial",
+   "books": {
+    "pinnacle": {
+     "1": 1.59,
+     "X": 3.57,
+     "2": 5.49,
+     "under2_5": 1.68,
+     "over2_5": 2.12
+    },
+    "average": {
+     "1": 1.57,
+     "X": 3.54,
+     "2": 5.64,
+     "under2_5": 1.67,
+     "over2_5": 2.11
+    },
+    "best": {
+     "1": 1.59,
+     "X": 3.57,
+     "2": 5.95,
+     "under2_5": 1.68,
+     "over2_5": 2.12
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.59,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.35,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 5.4,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.63,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.12,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2935684",
+   "league": "Spain: Tercera Federacion",
+   "kickoff": "Sun 19:00",
+   "home": "Caudal Deportivo",
+   "away": "Uc Ceares",
+   "books": {
+    "pinnacle": {
+     "1": 1.4,
+     "X": 4.25,
+     "2": 7.07,
+     "under2_5": 1.91,
+     "over2_5": 1.88
+    },
+    "average": {
+     "1": 1.4,
+     "X": 4.25,
+     "2": 7.07,
+     "under2_5": 1.91,
+     "over2_5": 1.88
+    },
+    "best": {
+     "1": 1.4,
+     "X": 4.25,
+     "2": 7.07,
+     "under2_5": 1.91,
+     "over2_5": 1.88
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.39,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 4.17,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 6.84,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.89,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.86,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2935987",
+   "league": "Spain: Tercera Federacion",
+   "kickoff": "Sun 19:15",
+   "home": "Sd Revilla",
+   "away": "Cd Elemental Atletico Mineros",
+   "books": {
+    "average": {
+     "1": 2.21,
+     "X": 3.18,
+     "2": 2.89,
+     "under2_5": 1.75,
+     "over2_5": 1.94
+    },
+    "best": {
+     "1": 2.21,
+     "X": 3.18,
+     "2": 2.89,
+     "under2_5": 1.75,
+     "over2_5": 1.94
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.5,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.2,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 2.5,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.76,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.93,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2936529",
+   "league": "Spain: Tercera Federacion",
+   "kickoff": "Sun 20:00",
+   "home": "Atletico Monzon",
+   "away": "Cd Robres",
+   "books": {
+    "pinnacle": {
+     "1": 1.41,
+     "X": 4.17,
+     "2": 6.91,
+     "under2_5": 1.91,
+     "over2_5": 1.88
+    },
+    "average": {
+     "1": 1.4,
+     "X": 4.11,
+     "2": 7.11,
+     "under2_5": 1.88,
+     "over2_5": 1.87
+    },
+    "best": {
+     "1": 1.41,
+     "X": 4.17,
+     "2": 7.5,
+     "under2_5": 1.91,
+     "over2_5": 1.88
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.61,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.49,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 4.96,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.79,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.95,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2936841",
+   "league": "Spain: Tercera Federacion",
+   "kickoff": "Sun 20:00",
+   "home": "Villarrobledo",
+   "away": "Cd Quintanar Del Rey",
+   "books": {
+    "average": {
+     "1": 3.1,
+     "X": 2.99,
+     "2": 2.2,
+     "under2_5": 1.55,
+     "over2_5": 2.27
+    },
+    "best": {
+     "1": 3.1,
+     "X": 2.99,
+     "2": 2.2,
+     "under2_5": 1.55,
+     "over2_5": 2.27
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 3.02,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.08,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 2.19,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.67,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.05,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2937146",
+   "league": "Spain: Tercera Federacion",
+   "kickoff": "Sun 19:00",
+   "home": "Sd Leioa",
+   "away": "Pasaia Ke",
+   "books": {
+    "pinnacle": {
+     "1": 1.52,
+     "X": 3.7,
+     "2": 6.11,
+     "under2_5": 1.7,
+     "over2_5": 2.09
+    },
+    "average": {
+     "1": 1.51,
+     "X": 3.66,
+     "2": 6.19,
+     "under2_5": 1.69,
+     "over2_5": 2.07
+    },
+    "best": {
+     "1": 1.52,
+     "X": 3.7,
+     "2": 6.35,
+     "under2_5": 1.7,
+     "over2_5": 2.09
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.53,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.56,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 5.6,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.68,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.04,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2937531",
+   "league": "Spain: Tercera Federacion",
+   "kickoff": "Sun 20:30",
+   "home": "Santa Amalia",
+   "away": "Cd Quintana",
+   "books": {
+    "average": {
+     "1": 2.07,
+     "X": 3.08,
+     "2": 3.28,
+     "under2_5": 1.62,
+     "over2_5": 2.14
+    },
+    "best": {
+     "1": 2.07,
+     "X": 3.08,
+     "2": 3.28,
+     "under2_5": 1.62,
+     "over2_5": 2.14
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.19,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 2.98,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 3.13,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.6,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.17,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2938875",
+   "league": "Spain: Tercera Federacion",
+   "kickoff": "Sun 20:00",
+   "home": "Linense",
+   "away": "Ud Tomares",
+   "books": {
+    "pinnacle": {
+     "1": 1.48,
+     "X": 3.75,
+     "2": 6.68,
+     "under2_5": 1.65,
+     "over2_5": 2.17
+    },
+    "average": {
+     "1": 1.48,
+     "X": 3.75,
+     "2": 6.68,
+     "under2_5": 1.65,
+     "over2_5": 2.17
+    },
+    "best": {
+     "1": 1.48,
+     "X": 3.75,
+     "2": 6.68,
+     "under2_5": 1.65,
+     "over2_5": 2.17
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.68,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.28,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 4.83,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.58,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.27,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2939414",
+   "league": "Spain: Tercera Federacion",
+   "kickoff": "Sun 19:00",
+   "home": "Villarreal C",
+   "away": "CD Roda",
+   "books": {
+    "pinnacle": {
+     "1": 1.63,
+     "X": 3.6,
+     "2": 5.05,
+     "under2_5": 1.79,
+     "over2_5": 2.01
+    },
+    "average": {
+     "1": 1.61,
+     "X": 3.57,
+     "2": 5.08,
+     "under2_5": 1.77,
+     "over2_5": 2.0
+    },
+    "best": {
+     "1": 1.63,
+     "X": 3.6,
+     "2": 5.15,
+     "under2_5": 1.79,
+     "over2_5": 2.01
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.63,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.51,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 4.85,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.78,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.0,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2939415",
+   "league": "Spain: Tercera Federacion",
+   "kickoff": "Sun 19:00",
+   "home": "Ontinyent",
+   "away": "Atletico Saguntino",
+   "books": {
+    "pinnacle": {
+     "1": 3.4,
+     "X": 2.73,
+     "2": 2.32,
+     "under2_5": 1.37,
+     "over2_5": 2.89
+    },
+    "average": {
+     "1": 3.36,
+     "X": 2.73,
+     "2": 2.3,
+     "under2_5": 1.37,
+     "over2_5": 2.83
+    },
+    "best": {
+     "1": 3.4,
+     "X": 2.73,
+     "2": 2.32,
+     "under2_5": 1.37,
+     "over2_5": 2.89
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 3.34,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 2.7,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.3,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.36,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.86,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2939417",
+   "league": "Spain: Tercera Federacion",
+   "kickoff": "Sun 19:30",
+   "home": "Crevillente",
+   "away": "Cd Soneja",
+   "books": {
+    "pinnacle": {
+     "1": 1.99,
+     "X": 3.07,
+     "2": 3.81,
+     "under2_5": 1.58,
+     "over2_5": 2.32
+    },
+    "average": {
+     "1": 1.98,
+     "X": 3.05,
+     "2": 3.78,
+     "under2_5": 1.57,
+     "over2_5": 2.3
+    },
+    "best": {
+     "1": 1.99,
+     "X": 3.07,
+     "2": 3.81,
+     "under2_5": 1.58,
+     "over2_5": 2.32
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.13,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 2.87,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.47,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.47,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.48,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2940020",
+   "league": "Spain: Tercera Federacion",
+   "kickoff": "Sun 20:00",
+   "home": "Bembibre",
+   "away": "Cd Mirandes B",
+   "books": {
+    "average": {
+     "1": 2.71,
+     "X": 3.2,
+     "2": 2.32,
+     "under2_5": 1.68,
+     "over2_5": 2.04
+    },
+    "best": {
+     "1": 2.71,
+     "X": 3.2,
+     "2": 2.32,
+     "under2_5": 1.68,
+     "over2_5": 2.04
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.73,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.2,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 2.31,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.69,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.02,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2940028",
+   "league": "Spain: Tercera Federacion",
+   "kickoff": "Sun 19:00",
+   "home": "Cf Palencia",
+   "away": "Cultural Leonesa B",
+   "books": {
+    "average": {
+     "1": 1.95,
+     "X": 2.94,
+     "2": 3.84,
+     "under2_5": 1.56,
+     "over2_5": 2.25
+    },
+    "best": {
+     "1": 1.95,
+     "X": 2.94,
+     "2": 3.84,
+     "under2_5": 1.56,
+     "over2_5": 2.25
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.09,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 2.92,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 3.42,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.56,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.25,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2940326",
+   "league": "Spain: Tercera Federacion",
+   "kickoff": "Sun 20:00",
+   "home": "Arenas Armilla",
+   "away": "Atletico Mancha Real",
+   "books": {
+    "pinnacle": {
+     "1": 1.71,
+     "X": 3.22,
+     "2": 5.12,
+     "under2_5": 1.48,
+     "over2_5": 2.51
+    },
+    "average": {
+     "1": 1.71,
+     "X": 3.22,
+     "2": 5.12,
+     "under2_5": 1.48,
+     "over2_5": 2.51
+    },
+    "best": {
+     "1": 1.71,
+     "X": 3.22,
+     "2": 5.12,
+     "under2_5": 1.48,
+     "over2_5": 2.51
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.75,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.09,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 4.71,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.46,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.52,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2940331",
+   "league": "Spain: Tercera Federacion",
+   "kickoff": "Sun 21:00",
+   "home": "Motril",
+   "away": "Ud Torre Del Mar",
+   "books": {
+    "pinnacle": {
+     "1": 1.91,
+     "X": 2.95,
+     "2": 4.1,
+     "under2_5": 1.44,
+     "over2_5": 2.56
+    },
+    "average": {
+     "1": 1.89,
+     "X": 2.96,
+     "2": 4.15,
+     "under2_5": 1.44,
+     "over2_5": 2.52
+    },
+    "best": {
+     "1": 1.91,
+     "X": 2.97,
+     "2": 4.25,
+     "under2_5": 1.44,
+     "over2_5": 2.56
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.72,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.28,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 4.4,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.57,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.23,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2940333",
+   "league": "Spain: Tercera Federacion",
+   "kickoff": "Sun 20:00",
+   "home": "Fc Marbelli",
+   "away": "Ciudad Torredonjimeno",
+   "books": {
+    "pinnacle": {
+     "1": 2.11,
+     "X": 2.94,
+     "2": 3.62,
+     "under2_5": 1.49,
+     "over2_5": 2.48
+    },
+    "average": {
+     "1": 2.1,
+     "X": 2.93,
+     "2": 3.59,
+     "under2_5": 1.49,
+     "over2_5": 2.46
+    },
+    "best": {
+     "1": 2.11,
+     "X": 2.94,
+     "2": 3.62,
+     "under2_5": 1.49,
+     "over2_5": 2.48
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.07,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 2.9,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.52,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.49,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.41,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2943972",
+   "league": "Spain: Tercera Federacion",
+   "kickoff": "Sun 20:00",
+   "home": "Union Molinense Cf 2020",
+   "away": "San Javier Mar Menor Cf",
+   "books": {
+    "average": {
+     "1": 1.74,
+     "X": 3.28,
+     "2": 4.3,
+     "under2_5": 1.61,
+     "over2_5": 2.15
+    },
+    "best": {
+     "1": 1.74,
+     "X": 3.28,
+     "2": 4.3,
+     "under2_5": 1.61,
+     "over2_5": 2.15
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.74,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.28,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 4.3,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.61,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.15,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2944577",
+   "league": "Spain: Tercera Federacion",
+   "kickoff": "Sun 19:00",
+   "home": "Santanyi",
+   "away": "Constancia",
+   "books": {
+    "pinnacle": {
+     "1": 3.73,
+     "X": 3.06,
+     "2": 2.01,
+     "under2_5": 1.6,
+     "over2_5": 2.27
+    },
+    "average": {
+     "1": 3.69,
+     "X": 3.06,
+     "2": 2.0,
+     "under2_5": 1.59,
+     "over2_5": 2.25
+    },
+    "best": {
+     "1": 3.73,
+     "X": 3.06,
+     "2": 2.01,
+     "under2_5": 1.6,
+     "over2_5": 2.27
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 3.6,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.05,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 1.97,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.58,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.21,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2947417",
+   "league": "Italy: Serie D",
+   "kickoff": "Sun 21:00",
+   "home": "Licata",
+   "away": "Nissa",
+   "books": {
+    "pinnacle": {
+     "1": 5.7,
+     "X": 3.83,
+     "2": 1.45,
+     "under2_5": 1.68,
+     "over2_5": 2.04
+    },
+    "average": {
+     "1": 6.12,
+     "X": 3.79,
+     "2": 1.44,
+     "under2_5": 1.68,
+     "over2_5": 2.04
+    },
+    "best": {
+     "1": 6.95,
+     "X": 3.83,
+     "2": 1.45,
+     "under2_5": 1.68,
+     "over2_5": 2.04
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 5.25,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.56,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 1.56,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.64,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.1,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2949684",
+   "league": "International: CAF Champions League Qualification",
+   "kickoff": "Sun 20:00",
+   "home": "Teungueth Fc",
+   "away": "Fc Canchungo",
+   "books": {
+    "average": {
+     "1": 1.44,
+     "X": 3.72,
+     "2": 6.6,
+     "under2_5": 1.79,
+     "over2_5": 1.9
+    },
+    "best": {
+     "1": 1.44,
+     "X": 3.72,
+     "2": 6.6,
+     "under2_5": 1.79,
+     "over2_5": 1.9
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.44,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.64,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 6.95,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.85,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.85,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2949685",
+   "league": "International: CAF Champions League Qualification",
+   "kickoff": "Sun 19:00",
+   "home": "Stade Malien",
+   "away": "Colombe",
+   "books": {
+    "pinnacle": {
+     "1": 1.79,
+     "X": 2.98,
+     "2": 4.58,
+     "under2_5": 1.43,
+     "over2_5": 2.58
+    },
+    "average": {
+     "1": 1.79,
+     "X": 2.99,
+     "2": 4.55,
+     "under2_5": 1.44,
+     "over2_5": 2.56
+    },
+    "best": {
+     "1": 1.79,
+     "X": 3.02,
+     "2": 4.58,
+     "under2_5": 1.45,
+     "over2_5": 2.58
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.0,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.02,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 3.55,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.53,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.31,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2949693",
+   "league": "International: CAF Champions League Qualification",
+   "kickoff": "Sun 20:00",
+   "home": "Pyramids Fc",
+   "away": "Gor Mahia",
+   "books": {
+    "pinnacle": {
+     "1": 1.11,
+     "X": 6.69,
+     "2": 17.14,
+     "under2_5": 2.23,
+     "over2_5": 1.56
+    },
+    "average": {
+     "1": 1.11,
+     "X": 6.63,
+     "2": 18.01,
+     "under2_5": 2.22,
+     "over2_5": 1.57
+    },
+    "best": {
+     "1": 1.11,
+     "X": 6.69,
+     "2": 19.75,
+     "under2_5": 2.23,
+     "over2_5": 1.58
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.2,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 4.95,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 13.0,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.94,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.75,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2949741",
+   "league": "International: CAF Confederations Cup",
+   "kickoff": "Sun 20:00",
+   "home": "Cs Sfaxien",
+   "away": "Shooting Stars",
+   "books": {
+    "pinnacle": {
+     "1": 1.26,
+     "X": 4.55,
+     "2": 10.74,
+     "under2_5": 1.64,
+     "over2_5": 2.14
+    },
+    "bet365": {
+     "1": 1.2,
+     "X": 5.5,
+     "2": 11.0,
+     "under2_5": 1.48,
+     "over2_5": 2.6
+    },
+    "average": {
+     "1": 1.36,
+     "X": 4.05,
+     "2": 9.22,
+     "under2_5": 1.48,
+     "over2_5": 2.46
+    },
+    "best": {
+     "1": 1.57,
+     "X": 5.5,
+     "2": 13.5,
+     "under2_5": 1.64,
+     "over2_5": 2.75
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.48,
+     "book": "10Bet"
+    },
+    "X": {
+     "odd": 3.39,
+     "book": "Bet365"
+    },
+    "2": {
+     "odd": 6.32,
+     "book": "Bwin"
+    },
+    "under2_5": {
+     "odd": 1.39,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.59,
+     "book": "Betfred"
+    }
+   }
+  },
+  {
+   "id": "2957491",
+   "league": "Spain: Segunda Federacion",
+   "kickoff": "Sun 19:00",
+   "home": "Espanyol B",
+   "away": "Cf Calamocha",
+   "books": {
+    "pinnacle": {
+     "1": 1.39,
+     "X": 4.34,
+     "2": 7.9,
+     "under2_5": 1.71,
+     "over2_5": 2.12
+    },
+    "average": {
+     "1": 1.37,
+     "X": 4.26,
+     "2": 8.03,
+     "under2_5": 1.7,
+     "over2_5": 2.1
+    },
+    "best": {
+     "1": 1.39,
+     "X": 4.34,
+     "2": 8.3,
+     "under2_5": 1.71,
+     "over2_5": 2.12
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.5,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.61,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 6.47,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.58,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.26,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2957559",
+   "league": "Spain: Segunda Federacion",
+   "kickoff": "Sun 21:00",
+   "home": "Recreativo Huelva",
+   "away": "Puente Genil",
+   "books": {
+    "pinnacle": {
+     "1": 1.56,
+     "X": 3.57,
+     "2": 5.89,
+     "under2_5": 1.58,
+     "over2_5": 2.32
+    },
+    "average": {
+     "1": 1.54,
+     "X": 3.53,
+     "2": 6.03,
+     "under2_5": 1.57,
+     "over2_5": 2.3
+    },
+    "best": {
+     "1": 1.56,
+     "X": 3.57,
+     "2": 6.3,
+     "under2_5": 1.58,
+     "over2_5": 2.32
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.59,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.41,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 5.73,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.55,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.32,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2959752",
+   "league": "Moldova: National Division",
+   "kickoff": "Sun 19:00",
+   "home": "Fc Milsami Orhei",
+   "away": "Fc Sheriff",
+   "books": {
+    "pinnacle": {
+     "1": 4.28,
+     "X": 3.27,
+     "2": 1.75,
+     "under2_5": 1.67,
+     "over2_5": 2.09
+    },
+    "average": {
+     "1": 4.28,
+     "X": 3.27,
+     "2": 1.75,
+     "under2_5": 1.67,
+     "over2_5": 2.09
+    },
+    "best": {
+     "1": 4.28,
+     "X": 3.27,
+     "2": 1.75,
+     "under2_5": 1.67,
+     "over2_5": 2.09
+    }
+   },
+   "bestAvailable": {}
+  },
+  {
+   "id": "2960750",
+   "league": "Peru: Liga Femenina",
+   "kickoff": "Sun 21:00",
+   "home": "Carlos A Mannucci (w)",
+   "away": "Sporting Cristal (w)",
+   "books": {
+    "average": {
+     "1": 13.25,
+     "X": 6.8,
+     "2": 1.12,
+     "under2_5": 2.7,
+     "over2_5": 1.36
+    },
+    "best": {
+     "1": 13.25,
+     "X": 6.8,
+     "2": 1.12,
+     "under2_5": 2.7,
+     "over2_5": 1.36
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 11.25,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 6.35,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 1.15,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 2.69,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.36,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2967588",
+   "league": "Brazil: State Leagues 2",
+   "kickoff": "Sun 22:00",
+   "home": "Gaucho",
+   "away": "Veranopolis",
+   "books": {
+    "average": {
+     "1": 2.67,
+     "X": 2.7,
+     "2": 2.72,
+     "under2_5": 1.36,
+     "over2_5": 2.7
+    },
+    "best": {
+     "1": 2.67,
+     "X": 2.7,
+     "2": 2.72,
+     "under2_5": 1.36,
+     "over2_5": 2.7
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.68,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 2.89,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 2.54,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.41,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.52,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2967608",
+   "league": "Venezuela: Segunda Division",
+   "kickoff": "Sun 22:30",
+   "home": "Atletico El Vigia",
+   "away": "Yaracuyanos Fc",
+   "books": {
+    "pinnacle": {
+     "under2_5": 1.89,
+     "over2_5": 1.82
+    },
+    "average": {
+     "1": 2.57,
+     "X": 3.2,
+     "2": 2.43,
+     "under2_5": 1.88,
+     "over2_5": 1.82
+    },
+    "best": {
+     "1": 2.57,
+     "X": 3.2,
+     "2": 2.43,
+     "under2_5": 1.89,
+     "over2_5": 1.83
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.3,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.26,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 2.69,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.83,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.86,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2967609",
+   "league": "Venezuela: Segunda Division",
+   "kickoff": "Sun 22:30",
+   "home": "Urena Sc",
+   "away": "Real Frontera",
+   "books": {
+    "pinnacle": {
+     "under2_5": 2.28,
+     "over2_5": 1.52
+    },
+    "average": {
+     "1": 1.65,
+     "X": 3.74,
+     "2": 4.2,
+     "under2_5": 2.3,
+     "over2_5": 1.51
+    },
+    "best": {
+     "1": 1.65,
+     "X": 3.74,
+     "2": 4.2,
+     "under2_5": 2.33,
+     "over2_5": 1.52
+    }
+   },
+   "bestAvailable": {
+    "under2_5": {
+     "odd": 2.38,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.48,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2967610",
+   "league": "Venezuela: Segunda Division",
+   "kickoff": "Sun 22:30",
+   "home": "Club Atletico Barinas",
+   "away": "Deportivo Lara",
+   "books": {
+    "pinnacle": {
+     "under2_5": 2.09,
+     "over2_5": 1.65
+    },
+    "average": {
+     "1": 4.1,
+     "X": 3.52,
+     "2": 1.71,
+     "under2_5": 2.06,
+     "over2_5": 1.67
+    },
+    "best": {
+     "1": 4.1,
+     "X": 3.52,
+     "2": 1.71,
+     "under2_5": 2.09,
+     "over2_5": 1.71
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 4.1,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.54,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 1.71,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.85,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.85,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2967866",
+   "league": "Belarus: Premier League",
+   "kickoff": "Sun 20:10",
+   "home": "Dinamo Minsk",
+   "away": "Dynamo Brest",
+   "books": {
+    "pinnacle": {
+     "1": 1.92,
+     "X": 3.39,
+     "2": 3.8,
+     "under2_5": 1.89,
+     "over2_5": 1.93
+    },
+    "average": {
+     "1": 1.92,
+     "X": 3.39,
+     "2": 3.8,
+     "under2_5": 1.89,
+     "over2_5": 1.93
+    },
+    "best": {
+     "1": 1.92,
+     "X": 3.39,
+     "2": 3.8,
+     "under2_5": 1.89,
+     "over2_5": 1.93
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.93,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.29,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.73,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.83,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.96,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2972075",
+   "league": "Iraq: Premier League",
+   "kickoff": "Sun 21:00",
+   "home": "Al Karkh",
+   "away": "Duhok",
+   "books": {
+    "pinnacle": {
+     "1": 3.42,
+     "X": 3.23,
+     "2": 1.91,
+     "under2_5": 1.68,
+     "over2_5": 2.03
+    },
+    "average": {
+     "1": 3.42,
+     "X": 3.23,
+     "2": 1.91,
+     "under2_5": 1.68,
+     "over2_5": 2.03
+    },
+    "best": {
+     "1": 3.42,
+     "X": 3.23,
+     "2": 1.91,
+     "under2_5": 1.68,
+     "over2_5": 2.03
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 3.42,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.23,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 1.91,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.68,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.03,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2972076",
+   "league": "Iraq: Premier League",
+   "kickoff": "Sun 21:00",
+   "home": "Naft Maysan",
+   "away": "Al Talaba",
+   "books": {
+    "pinnacle": {
+     "1": 2.82,
+     "X": 3.01,
+     "2": 2.29,
+     "under2_5": 1.74,
+     "over2_5": 1.99
+    },
+    "average": {
+     "1": 2.85,
+     "X": 3.02,
+     "2": 2.28,
+     "under2_5": 1.73,
+     "over2_5": 1.99
+    },
+    "best": {
+     "1": 2.9,
+     "X": 3.05,
+     "2": 2.29,
+     "under2_5": 1.74,
+     "over2_5": 2.0
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 3.08,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.1,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 2.15,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.62,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 2.14,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2972819",
+   "league": "Peru: Segunda Division",
+   "kickoff": "Sun 21:00",
+   "home": "Deportivo Llacuabamba",
+   "away": "Pirata Fc",
+   "books": {
+    "pinnacle": {
+     "1": 1.2,
+     "X": 5.3,
+     "2": 9.15,
+     "under2_5": 2.33,
+     "over2_5": 1.49
+    },
+    "average": {
+     "1": 1.19,
+     "X": 5.53,
+     "2": 11.07,
+     "under2_5": 2.3,
+     "over2_5": 1.5
+    },
+    "best": {
+     "1": 1.2,
+     "X": 5.76,
+     "2": 15.25,
+     "under2_5": 2.33,
+     "over2_5": 1.52
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.48,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 4.1,
+     "book": "AsianOdds"
+    },
+    "2": {
+     "odd": 5.2,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 2.21,
+     "book": "Pinnacle"
+    },
+    "over2_5": {
+     "odd": 1.58,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2972821",
+   "league": "Peru: Segunda Division",
+   "kickoff": "Sun 23:15",
+   "home": "Ada Jaen",
+   "away": "Union Comercio",
+   "books": {
+    "average": {
+     "1": 1.95,
+     "X": 2.93,
+     "2": 3.83,
+     "under2_5": 1.5,
+     "over2_5": 2.5
+    },
+    "best": {
+     "1": 2.05,
+     "X": 3.0,
+     "2": 4.5,
+     "under2_5": 1.5,
+     "over2_5": 2.5
+    }
+   },
+   "bestAvailable": {}
+  },
+  {
+   "id": "2972823",
+   "league": "Peru: Segunda Division",
+   "kickoff": "Sun 23:15",
+   "home": "Universidad San Martin",
+   "away": "Academia Cantolao",
+   "books": {
+    "average": {
+     "1": 1.38,
+     "X": 4.1,
+     "2": 6.9,
+     "under2_5": 1.87,
+     "over2_5": 1.82
+    },
+    "best": {
+     "1": 1.38,
+     "X": 4.1,
+     "2": 6.9,
+     "under2_5": 1.87,
+     "over2_5": 1.82
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.31,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 4.4,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 8.2,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 2.02,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.69,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2973074",
+   "league": "Saudi Arabia: Saudi Pro League",
+   "kickoff": "Sun 19:20",
+   "home": "Neom Sc",
+   "away": "Al Fateh Fc",
+   "books": {
+    "bet365": {
+     "1": 1.62,
+     "X": 3.75,
+     "2": 4.33,
+     "under2_5": 2.3,
+     "over2_5": 1.6
+    },
+    "average": {
+     "1": 1.64,
+     "X": 3.88,
+     "2": 4.39,
+     "under2_5": 2.27,
+     "over2_5": 1.58
+    },
+    "best": {
+     "1": 1.67,
+     "X": 4.2,
+     "2": 4.6,
+     "under2_5": 2.3,
+     "over2_5": 1.6
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.67,
+     "book": "10Bet"
+    },
+    "X": {
+     "odd": 3.89,
+     "book": "Betway"
+    },
+    "2": {
+     "odd": 4.22,
+     "book": "10Bet"
+    }
+   }
+  },
+  {
+   "id": "2973075",
+   "league": "Saudi Arabia: Saudi Pro League",
+   "kickoff": "Sun 21:00",
+   "home": "Al Riyadh",
+   "away": "Al Kholood",
+   "books": {
+    "pinnacle": {
+     "1": 3.98,
+     "X": 3.44,
+     "2": 1.96,
+     "under2_5": 1.73,
+     "over2_5": 2.13
+    },
+    "bet365": {
+     "1": 3.1,
+     "X": 3.4,
+     "2": 2.0,
+     "under2_5": 1.95,
+     "over2_5": 1.85
+    },
+    "average": {
+     "1": 3.44,
+     "X": 3.38,
+     "2": 2.02,
+     "under2_5": 1.85,
+     "over2_5": 1.91
+    },
+    "best": {
+     "1": 4.06,
+     "X": 3.5,
+     "2": 2.2,
+     "under2_5": 1.95,
+     "over2_5": 2.13
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 3.03,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 3.4,
+     "book": "Bwin"
+    },
+    "under2_5": {
+     "odd": 1.94,
+     "book": "Bet365"
+    },
+    "over2_5": {
+     "odd": 1.86,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2973076",
+   "league": "Saudi Arabia: Saudi Pro League",
+   "kickoff": "Sun 21:00",
+   "home": "Al Drae",
+   "away": "Abha",
+   "books": {
+    "pinnacle": {
+     "1": 1.41,
+     "X": 4.89,
+     "2": 6.86
+    },
+    "average": {
+     "1": 1.42,
+     "X": 4.79,
+     "2": 6.77
+    },
+    "best": {
+     "1": 1.44,
+     "X": 4.89,
+     "2": 6.86
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.5,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 4.33,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 5.59,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2973133",
+   "league": "Mexico: Liga Primera Premier",
+   "kickoff": "Sun 21:00",
+   "home": "Montaneses Fc",
+   "away": "Racing De Veracruz",
+   "books": {
+    "average": {
+     "1": 4.15,
+     "X": 3.62,
+     "2": 1.68,
+     "under2_5": 1.9,
+     "over2_5": 1.79
+    },
+    "best": {
+     "1": 4.15,
+     "X": 3.62,
+     "2": 1.68,
+     "under2_5": 1.9,
+     "over2_5": 1.79
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 3.5,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.52,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 1.84,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.93,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.76,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2973582",
+   "league": "Brazil: State Leagues 2",
+   "kickoff": "Sun 21:00",
+   "home": "Uniao Frederiquense",
+   "away": "Brasil De Pelotas",
+   "books": {
+    "average": {
+     "1": 2.88,
+     "X": 2.76,
+     "2": 2.48,
+     "under2_5": 1.38,
+     "over2_5": 2.63
+    },
+    "best": {
+     "1": 2.88,
+     "X": 2.76,
+     "2": 2.48,
+     "under2_5": 1.38,
+     "over2_5": 2.63
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.62,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 2.68,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 2.79,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.36,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.69,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2973585",
+   "league": "Brazil: State Leagues 2",
+   "kickoff": "Sun 21:00",
+   "home": "Pelotas",
+   "away": "Ec Guarani Rs",
+   "books": {
+    "pinnacle": {
+     "1": 1.53,
+     "X": 3.43,
+     "2": 5.53,
+     "under2_5": 1.59,
+     "over2_5": 2.19
+    },
+    "average": {
+     "1": 1.52,
+     "X": 3.47,
+     "2": 5.77,
+     "under2_5": 1.6,
+     "over2_5": 2.17
+    },
+    "best": {
+     "1": 1.53,
+     "X": 3.55,
+     "2": 6.25,
+     "under2_5": 1.62,
+     "over2_5": 2.19
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.46,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.85,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 5.95,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.76,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.93,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2973773",
+   "league": "Brazil: U20 State Leagues",
+   "kickoff": "Sun 21:00",
+   "home": "America Pe U20",
+   "away": "Sport Recife U20",
+   "books": {
+    "pinnacle": {
+     "under2_5": 2.13,
+     "over2_5": 1.62
+    },
+    "average": {
+     "1": 4.0,
+     "X": 3.55,
+     "2": 1.69,
+     "under2_5": 2.13,
+     "over2_5": 1.62
+    },
+    "best": {
+     "1": 4.0,
+     "X": 3.6,
+     "2": 1.71,
+     "under2_5": 2.13,
+     "over2_5": 1.62
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 4.0,
+     "book": "Bwin"
+    },
+    "2": {
+     "odd": 1.71,
+     "book": "Bwin"
+    }
+   }
+  },
+  {
+   "id": "2977715",
+   "league": "Venezuela: Segunda Division",
+   "kickoff": "Sun 22:30",
+   "home": "Aragua Fc",
+   "away": "Deportivo Miranda",
+   "books": {
+    "average": {
+     "1": 1.93,
+     "X": 3.2,
+     "2": 3.54,
+     "under2_5": 1.51,
+     "over2_5": 2.36
+    },
+    "best": {
+     "1": 1.93,
+     "X": 3.2,
+     "2": 3.54,
+     "under2_5": 1.51,
+     "over2_5": 2.36
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.14,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.13,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 3.08,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.55,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.27,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2977717",
+   "league": "Venezuela: Segunda Division",
+   "kickoff": "Sun 22:30",
+   "home": "Mineros De Guayana",
+   "away": "Bolivar Sc",
+   "books": {
+    "average": {
+     "1": 2.44,
+     "X": 2.84,
+     "2": 2.85,
+     "under2_5": 1.63,
+     "over2_5": 2.12
+    },
+    "best": {
+     "1": 2.44,
+     "X": 2.84,
+     "2": 2.85,
+     "under2_5": 1.63,
+     "over2_5": 2.12
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.43,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 2.88,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 2.83,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.63,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.12,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2979647",
+   "league": "Brazil: State Leagues 3",
+   "kickoff": "Sun 22:00",
+   "home": "Ferroviaria",
+   "away": "Paysandu",
+   "books": {
+    "pinnacle": {
+     "1": 1.72,
+     "X": 3.59,
+     "2": 3.86,
+     "under2_5": 1.83,
+     "over2_5": 1.9
+    },
+    "average": {
+     "1": 1.8,
+     "X": 3.45,
+     "2": 3.82,
+     "under2_5": 1.79,
+     "over2_5": 1.91
+    },
+    "best": {
+     "1": 2.05,
+     "X": 3.8,
+     "2": 4.0,
+     "under2_5": 1.85,
+     "over2_5": 2.0
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.87,
+     "book": "Unibet"
+    },
+    "X": {
+     "odd": 3.32,
+     "book": "Betway"
+    },
+    "2": {
+     "odd": 3.72,
+     "book": "Betfred"
+    },
+    "under2_5": {
+     "odd": 1.84,
+     "book": "Betway"
+    }
+   }
+  },
+  {
+   "id": "2979691",
+   "league": "Uruguay: Primera Division",
+   "kickoff": "Sun 19:00",
+   "home": "Juventud De Las Piedras",
+   "away": "Danubio",
+   "books": {
+    "pinnacle": {
+     "1": 2.04,
+     "X": 3.27,
+     "2": 4.02,
+     "under2_5": 1.65,
+     "over2_5": 2.28
+    },
+    "average": {
+     "1": 2.03,
+     "X": 3.23,
+     "2": 3.92,
+     "under2_5": 1.65,
+     "over2_5": 2.25
+    },
+    "best": {
+     "1": 2.06,
+     "X": 3.27,
+     "2": 4.02,
+     "under2_5": 1.67,
+     "over2_5": 2.28
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.08,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 3.21,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.57,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.62,
+     "book": "AsianOdds"
+    },
+    "over2_5": {
+     "odd": 2.26,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2979693",
+   "league": "Uruguay: Primera Division",
+   "kickoff": "Sun 22:00",
+   "home": "Defensor Sporting",
+   "away": "Deportivo Maldonado",
+   "books": {
+    "pinnacle": {
+     "1": 2.81,
+     "X": 3.23,
+     "2": 2.64,
+     "under2_5": 1.7,
+     "over2_5": 2.2
+    },
+    "average": {
+     "1": 2.78,
+     "X": 3.17,
+     "2": 2.59,
+     "under2_5": 1.69,
+     "over2_5": 2.16
+    },
+    "best": {
+     "1": 2.81,
+     "X": 3.23,
+     "2": 2.66,
+     "under2_5": 1.71,
+     "over2_5": 2.2
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.79,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.22,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 2.49,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 1.69,
+     "book": "AsianOdds"
+    },
+    "over2_5": {
+     "odd": 2.14,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2981782",
+   "league": "Portugal: Campeonato Nacional",
+   "kickoff": "Sun 21:00",
+   "home": "Torreense (w)",
+   "away": "Rio Ave (w)",
+   "books": {
+    "average": {
+     "1": 1.36,
+     "X": 4.05,
+     "2": 7.7,
+     "under2_5": 1.62,
+     "over2_5": 2.13
+    },
+    "best": {
+     "1": 1.36,
+     "X": 4.05,
+     "2": 7.7,
+     "under2_5": 1.62,
+     "over2_5": 2.13
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.49,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.72,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 5.8,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.67,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.06,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2982751",
+   "league": "Bosnia And Herzegovina: Premier League",
+   "kickoff": "Sun 21:45",
+   "home": "Fk Velez Mostar",
+   "away": "Fk Sarajevo",
+   "books": {
+    "pinnacle": {
+     "1": 3.28,
+     "X": 2.94,
+     "2": 2.24,
+     "under2_5": 1.51,
+     "over2_5": 2.42
+    },
+    "average": {
+     "1": 3.17,
+     "X": 2.9,
+     "2": 2.22,
+     "under2_5": 1.5,
+     "over2_5": 2.36
+    },
+    "best": {
+     "1": 3.29,
+     "X": 3.0,
+     "2": 2.26,
+     "under2_5": 1.55,
+     "over2_5": 2.5
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 3.09,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 2.9,
+     "book": "Betfred"
+    },
+    "2": {
+     "odd": 2.24,
+     "book": "AsianOdds"
+    },
+    "under2_5": {
+     "odd": 1.49,
+     "book": "10Bet"
+    }
+   }
+  },
+  {
+   "id": "2982754",
+   "league": "Bosnia And Herzegovina: Premier League",
+   "kickoff": "Sun 19:30",
+   "home": "Sloga Doboj",
+   "away": "Zeljeznicar",
+   "books": {
+    "pinnacle": {
+     "1": 2.19,
+     "X": 2.97,
+     "2": 3.52
+    },
+    "average": {
+     "1": 2.17,
+     "X": 2.94,
+     "2": 3.49,
+     "under2_5": 1.49,
+     "over2_5": 2.44
+    },
+    "best": {
+     "1": 2.19,
+     "X": 2.97,
+     "2": 3.52,
+     "under2_5": 1.49,
+     "over2_5": 2.44
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 2.17,
+     "book": "Pinnacle"
+    },
+    "X": {
+     "odd": 3.02,
+     "book": "Pinnacle"
+    },
+    "2": {
+     "odd": 3.14,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.55,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.29,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2984518",
+   "league": "Venezuela: Primera Division",
+   "kickoff": "Sun 23:00",
+   "home": "Zamora Fc",
+   "away": "Trujillanos Fc",
+   "books": {
+    "pinnacle": {
+     "1": 1.9,
+     "X": 3.09,
+     "2": 4.15,
+     "under2_5": 1.66,
+     "over2_5": 2.16
+    },
+    "average": {
+     "1": 1.91,
+     "X": 3.18,
+     "2": 4.06,
+     "under2_5": 1.68,
+     "over2_5": 2.14
+    },
+    "best": {
+     "1": 1.91,
+     "X": 3.22,
+     "2": 4.15,
+     "under2_5": 1.69,
+     "over2_5": 2.16
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.84,
+     "book": "AsianOdds"
+    },
+    "X": {
+     "odd": 3.27,
+     "book": "AsianOdds"
+    },
+    "2": {
+     "odd": 4.14,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 1.71,
+     "book": "AsianOdds"
+    },
+    "over2_5": {
+     "odd": 2.08,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2984655",
+   "league": "Uruguay: Primera Division Women",
+   "kickoff": "Sun 22:00",
+   "home": "Danubio Fc Montevideo (w)",
+   "away": "Montevideo City Torque (w)",
+   "books": {
+    "pinnacle": {
+     "1": 10.2,
+     "X": 6.58,
+     "2": 1.14,
+     "under2_5": 2.77,
+     "over2_5": 1.35
+    },
+    "average": {
+     "1": 11.55,
+     "X": 6.82,
+     "2": 1.13,
+     "under2_5": 2.77,
+     "over2_5": 1.35
+    },
+    "best": {
+     "1": 14.25,
+     "X": 7.3,
+     "2": 1.14,
+     "under2_5": 2.78,
+     "over2_5": 1.35
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 10.2,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 6.58,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 1.14,
+     "book": "Pinnacle"
+    },
+    "under2_5": {
+     "odd": 2.77,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 1.35,
+     "book": "Pinnacle"
+    }
+   }
+  },
+  {
+   "id": "2985213",
+   "league": "Kosovo: Superliga",
+   "kickoff": "Sun 20:00",
+   "home": "Drita",
+   "away": "Gjilani",
+   "books": {
+    "average": {
+     "1": 1.72,
+     "X": 3.3,
+     "2": 4.4,
+     "under2_5": 1.7,
+     "over2_5": 2.01
+    },
+    "best": {
+     "1": 1.72,
+     "X": 3.3,
+     "2": 4.4,
+     "under2_5": 1.7,
+     "over2_5": 2.01
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.73,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.42,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 4.15,
+     "book": "Marathon"
+    },
+    "under2_5": {
+     "odd": 1.71,
+     "book": "Marathon"
+    },
+    "over2_5": {
+     "odd": 2.0,
+     "book": "Marathon"
+    }
+   }
+  },
+  {
+   "id": "2986756",
+   "league": "El Salvador: Primera Division",
+   "kickoff": "Sun 20:00",
+   "home": "Cd Fas",
+   "away": "Alianza Fc",
+   "books": {
+    "average": {
+     "1": 1.82,
+     "X": 3.25,
+     "2": 3.85,
+     "under2_5": 1.73,
+     "over2_5": 1.95
+    },
+    "best": {
+     "1": 2.18,
+     "X": 3.42,
+     "2": 4.2,
+     "under2_5": 2.08,
+     "over2_5": 2.1
+    }
+   },
+   "bestAvailable": {
+    "1": {
+     "odd": 1.86,
+     "book": "Marathon"
+    },
+    "X": {
+     "odd": 3.11,
+     "book": "Marathon"
+    },
+    "2": {
+     "odd": 3.71,
+     "book": "Unibet"
+    }
+   }
+  }
+ ]
+}
