@@ -91,5 +91,3 @@ jobs:
           if git diff --cached --quiet; then echo "nothing to save"; exit 0; fi
           git commit -m "btf check"
           git push origin "HEAD:${GITHUB_REF_NAME}"
-
-
