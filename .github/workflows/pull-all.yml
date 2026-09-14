@@ -200,29 +200,59 @@ jobs:
                          key(m["home"], m["away"], 5)):
                   idx.setdefault(kk, i)
 
-          merged, unmatched = [], []
+          # every btfodds fixture is kept; Betfair and its turnover are attached where we have them
+          bmIdx = {}
           for m in bm:
-              hit = (idx.get(norm(m["home"]) + "|" + norm(m["away"]))
-                     or idx.get(key(m["home"], m["away"]))
-                     or idx.get(key(m["home"], m["away"], 5)))
-              rec = dict(home=m["home"], away=m["away"], league=m["league"],
-                         day=m.get("day"), kickoff=m["kickoff"],
-                         betfairMarket=m["id"],
-                         betfair=dict(odds=m["odds"], goals=m["goals"],
-                                      volume1x2=m["volume1x2"], volumeGoals=m["volumeGoals"]))
-              if hit:
-                  rec["btfName"] = allbtf[hit]["home"] + " v " + allbtf[hit]["away"]
-                  rec["books"] = {b: byBook[b][hit]["odds"] for b in byBook if hit in byBook[b]}
-                  if "average" in byBook and hit in byBook["average"]:
-                      rec["bestAvailable"] = byBook["average"][hit]["best"]
-                  merged.append(rec)
-              else:
-                  unmatched.append(rec)
+              for kk in (norm(m["home"]) + "|" + norm(m["away"]),
+                         key(m["home"], m["away"]), key(m["home"], m["away"], 5)):
+                  bmIdx.setdefault(kk, m)
 
+          allbtf = {}
+          for b, rows in byBook.items():
+              for i, m in rows.items(): allbtf.setdefault(i, m)
+
+          merged, withBF = [], 0
+          usedBM = set()
+          for i, base in allbtf.items():
+              hit = (bmIdx.get(norm(base["home"]) + "|" + norm(base["away"]))
+                     or bmIdx.get(key(base["home"], base["away"]))
+                     or bmIdx.get(key(base["home"], base["away"], 5)))
+              rec = dict(home=base["home"], away=base["away"], league=base["league"],
+                         kickoff=base["kickoff"], day=base.get("day"),
+                         books={b: byBook[b][i]["odds"] for b in byBook if i in byBook[b]})
+              if "average" in byBook and i in byBook["average"]:
+                  rec["bestAvailable"] = byBook["average"][i]["best"]
+              if hit:
+                  usedBM.add(hit["id"])
+                  rec["betfairMarket"] = hit["id"]
+                  rec["betfair"] = dict(odds=hit["odds"], goals=hit["goals"],
+                                        volume1x2=hit["volume1x2"], volumeGoals=hit["volumeGoals"])
+                  rec["tradable"] = True
+                  withBF += 1
+              else:
+                  # no exchange price: the row still carries the books, but no turnover
+                  bf = rec["books"].get("betfair") or {}
+                  rec["betfair"] = dict(odds={k: bf.get(k) for k in ("1","X","2")},
+                                        goals={"under2_5": bf.get("under2_5"), "over2_5": bf.get("over2_5")},
+                                        volume1x2=None, volumeGoals=None)
+                  rec["tradable"] = False
+              merged.append(rec)
+
+          # anything bet-mate had that btfodds did not carry at all
+          orphans = [m for m in bm if m["id"] not in usedBM]
+          for m in orphans:
+              merged.append(dict(home=m["home"], away=m["away"], league=m["league"],
+                  kickoff=m["kickoff"], day=m.get("day"), books={},
+                  betfairMarket=m["id"], tradable=True,
+                  betfair=dict(odds=m["odds"], goals=m["goals"],
+                               volume1x2=m["volume1x2"], volumeGoals=m["volumeGoals"])))
+
+          merged.sort(key=lambda r: (not r.get("tradable"), r.get("kickoff") or ""))
+          unmatched = orphans
           payload = dict(generatedAt=NOW.isoformat()+"Z",
                          sources={"betfair":"bet-mate.co","books":"btfodds.com"},
-                         matched=len(merged), unmatched=len(unmatched),
-                         matches=merged + unmatched)
+                         total=len(merged), tradable=withBF,
+                         onlyBetfair=len(orphans), matches=merged)
           pathlib.Path("merged_odds.json").write_text(
               json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
 
@@ -230,23 +260,28 @@ jobs:
           hf = hdir / (NOW.strftime("%Y-%m-%d") + ".json")
           hist = json.loads(hf.read_text(encoding="utf-8")) if hf.exists() else {"points":[]}
           hist["points"].append({"t": NOW.isoformat()+"Z",
-              "m": {r["betfairMarket"]: {"bf": r["betfair"]["odds"],
-                                         "vol": r["betfair"]["volume1x2"],
-                                         "pin": (r.get("books") or {}).get("pinnacle")}
+              "m": {(r.get("betfairMarket") or (r["home"]+"|"+r["away"])):
+                    {"bf": r["betfair"]["odds"], "vol": r["betfair"]["volume1x2"],
+                     "pin": (r.get("books") or {}).get("pinnacle"),
+                     "b365": (r.get("books") or {}).get("bet365")}
                     for r in merged}})
           hist["points"] = hist["points"][-200:]
           hf.write_text(json.dumps(hist, ensure_ascii=False), encoding="utf-8")
 
-          say("Paired **%d** of %d bet-mate matches (%.0f%%). History holds **%d** snapshots today."
-              % (len(merged), len(bm), 100.0*len(merged)/max(1,len(bm)), len(hist["points"])))
-          byday = {}
-          for r in merged: byday[r.get("day","?")] = byday.get(r.get("day","?"),0)+1
-          say("Paired by day: " + ", ".join("**%s** %d" % (k,v) for k,v in sorted(byday.items())))
+          say("Kept **%d** matches: **%d** with a Betfair price and turnover, **%d** with book prices only."
+              % (len(merged), withBF, len(merged)-withBF))
+          if orphans:
+              say("**%d** of them came from bet-mate alone, with no btfodds entry." % len(orphans))
+          pinN = sum(1 for r in merged if (r.get("books") or {}).get("pinnacle"))
+          b365N = sum(1 for r in merged if (r.get("books") or {}).get("bet365"))
+          say("Pinnacle covers **%d**, bet365 covers **%d**." % (pinN, b365N))
+          say("History holds **%d** snapshots today." % len(hist["points"]))
           say("")
 
-          # both feeds carry Betfair — now read at the same moment, so they should agree
+          # both feeds carry Betfair — read at the same moment, so they should agree
           diffs = []
           for r in merged:
+              if not r.get("tradable"): continue
               b1 = r["betfair"]["odds"].get("1")
               b2 = (r.get("books") or {}).get("betfair", {}).get("1")
               if b1 and b2: diffs.append((abs(b2/b1-1), r, b1, b2))
@@ -262,6 +297,27 @@ jobs:
                       say("| %s v %s | %s | %s | %.1f%% |" % (r["home"], r["away"], b1, b2, d*100))
               say("")
 
+          say("## Where bet365 pays more than Pinnacle")
+          say("")
+          gaps = []
+          for r in merged:
+              P = (r.get("books") or {}).get("pinnacle")
+              B = (r.get("books") or {}).get("bet365")
+              if not (P and B): continue
+              for k in ("1","X","2","over2_5","under2_5"):
+                  if P.get(k) and B.get(k) and B[k] > P[k]:
+                      gaps.append((B[k]/P[k]-1, r, k, P[k], B[k]))
+          gaps.sort(key=lambda x: -x[0])
+          if gaps:
+              say("| Match | Selection | Pinnacle | bet365 | Difference | Tradable |")
+              say("| --- | --- | --- | --- | --- | --- |")
+              for d, r, k, po, bo in gaps[:12]:
+                  say("| %s v %s | %s | %s | %s | +%.1f%% | %s |" % (
+                      r["home"], r["away"], k, po, bo, d*100, "yes" if r.get("tradable") else "no"))
+          else:
+              say("_No fixture where bet365 is longer than Pinnacle._")
+          say("")
+
           say("## Pinnacle beside Betfair")
           say("")
           say("| Day | Kick-off | Match | BF 1 | PIN 1 | BF O2.5 | PIN O2.5 | Matched |")
@@ -269,7 +325,7 @@ jobs:
           n = 0
           for r in merged:
               pin = (r.get("books") or {}).get("pinnacle")
-              if not pin: continue
+              if not (pin and r.get("tradable")): continue
               say("| %s | %s | %s v %s | %s | %s | %s | %s | %s |" % (
                   r.get("day","—"), r["kickoff"] or "—", r["home"], r["away"],
                   r["betfair"]["odds"].get("1","—"), pin.get("1","—"),
@@ -278,11 +334,11 @@ jobs:
               n += 1
               if n >= 20: break
 
-          if unmatched:
+          if orphans:
               say("")
-              say("## Still unpaired")
+              say("## In bet-mate but not in btfodds")
               say("")
-              for r in unmatched[:20]:
+              for r in orphans[:15]:
                   say("- %s v %s _(%s)_" % (r["home"], r["away"], r["league"]))
           finish(0)
           PY
