@@ -1,59 +1,59 @@
 # Pull all odds
-Run 2026-09-14 06:13 UTC — both feeds read inside the same minute, so they can be compared.
+Run 2026-09-14 13:58 UTC — both feeds read inside the same minute, so they can be compared.
 
-bet-mate today: **27** matches
-bet-mate tomorrow: **14** matches
+bet-mate today: **49** matches
+bet-mate tomorrow: **19** matches
 bet-mate all: **16** matches
-btfodds pinnacle: **609** matches (today 95, next-7days 609)
-btfodds bet365: **165** matches (today 30, next-7days 165)
-btfodds betfair: **177** matches (today 54, next-7days 177)
-btfodds average: **740** matches (today 116, next-7days 740)
-btfodds best: **751** matches (today 116, next-7days 751)
+btfodds pinnacle: **634** matches (today 89, next-7days 634)
+btfodds bet365: **174** matches (today 30, next-7days 174)
+btfodds betfair: **205** matches (today 55, next-7days 205)
+btfodds average: **806** matches (today 105, next-7days 806)
+btfodds best: **817** matches (today 105, next-7days 817)
 
-Kept **753** matches: **58** with a Betfair price and turnover, **695** with book prices only.
-Pinnacle covers **609**, bet365 covers **165**.
-History holds **3** snapshots today.
+Kept **817** matches: **87** with a Betfair price and turnover, **730** with book prices only.
+Pinnacle covers **634**, bet365 covers **174**.
+History holds **4** snapshots today.
 
-The two Betfair readings agree within 2% on **57 of 57** matches.
+The two Betfair readings agree within 2% on **84 of 84** matches.
 
 ## Where bet365 pays more than Pinnacle
 
 | Match | Selection | Pinnacle | bet365 | Difference | Tradable |
 | --- | --- | --- | --- | --- | --- |
 | Alianza Lima v Asociacion Deportiva Tarma | 2 | 9.39 | 13.0 | +38.4% | no |
+| Ajax v Willem Ii | 2 | 13.25 | 17.0 | +28.3% | yes |
 | Reading v Brentford | 1 | 7.84 | 10.0 | +27.6% | yes |
-| Ross County v Queen Of The South | 2 | 6.56 | 8.0 | +22.0% | no |
-| Ajax v Willem Ii | 2 | 12.46 | 15.0 | +20.4% | no |
-| Ipswich v Arsenal | 1 | 7.23 | 8.5 | +17.6% | yes |
-| Nfc Volos v Aek Athens | 1 | 8.09 | 9.5 | +17.4% | no |
+| Genoa v Sudtirol | 2 | 5.18 | 6.5 | +25.5% | no |
+| Ipswich v Arsenal | 1 | 7.23 | 9.0 | +24.5% | yes |
+| Ross County v Queen Of The South | 2 | 6.55 | 8.0 | +22.1% | no |
+| Fc Inter Turku v Vps | 2 | 5.8 | 7.0 | +20.7% | yes |
+| Bodoe/glimt v Sandefjord | 2 | 12.63 | 15.0 | +18.8% | yes |
+| Nfc Volos v Aek Athens | 1 | 8.14 | 9.5 | +16.7% | no |
+| Red Star v Metz | over2_5 | 1.85 | 2.15 | +16.2% | yes |
 | Londrina Ec v Ponte Preta | 2 | 9.63 | 11.0 | +14.2% | no |
-| Barcelona v Racing Santander | 2 | 25.62 | 29.0 | +13.2% | yes |
-| Fc Cajamarca v Cusco Fc | 2 | 2.08 | 2.35 | +13.0% | no |
-| Club Atletico Platense v Fluminense | X | 3.01 | 3.4 | +13.0% | no |
-| Corinthians v Estudiantes | X | 3.11 | 3.5 | +12.5% | no |
-| Levadiakos v Olympiacos | 1 | 7.56 | 8.5 | +12.4% | no |
+| Chesterfield v Manchester City Academy | X | 3.61 | 4.1 | +13.6% | no |
 
 ## Pinnacle beside Betfair
 
 | Day | Kick-off | Match | BF 1 | PIN 1 | BF O2.5 | PIN O2.5 | Matched |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| today | Mon 10:00 | Chinese Taipei (w) v Vietnam (w) | 3.55 | 2.96 | 2.24 | 2.09 | 566.51 |
-| today | Mon 14:30 | Geylang International Fc v Tanjong Pagar United Fc | 1.59 | 1.54 | 1.45 | — | 1263.04 |
-| today | Mon 15:30 | Dynamo Kyiv v Epitsentr Kamianets-podilskyi | 1.47 | 1.42 | 1.65 | 1.62 | 422.08 |
-| today | Mon 16:00 | Gaziantep Fk U19 v Fenerbahce U19 | 6.8 | 2.94 | 1.77 | 1.65 | 10080.3 |
-| today | Mon 17:00 | Tala Ea El Gaish v Smouha Sc | 2.86 | 2.77 | 3.7 | 3.37 | 417.66 |
-| today | Mon 18:00 | Fc Inter Turku v Vps | 1.74 | 1.72 | 2.18 | 2.17 | 1233.09 |
-| today | Mon 18:00 | Universitatea Cluj v Otelul Galati | 1.76 | 1.71 | 1.86 | 1.83 | 510.4 |
-| today | Mon 18:00 | Shakhtar Donetsk v Chornomorets Odesa | 1.17 | 1.12 | None | 1.51 | 708.64 |
-| today | Mon 19:00 | Al-shamal v Al Ittihad | 4.5 | 4.72 | 1.67 | 1.57 | 678.88 |
-| today | Mon 19:30 | Como v Parma Calcio 1913 | 1.26 | 1.23 | 1.71 | 1.69 | 93445.62 |
-| today | Mon 19:30 | Torino v Roma | 6.8 | 6.32 | 1.82 | 1.75 | 41865.36 |
-| today | Mon 20:00 | Fc Midtjylland v Brondby If | 1.85 | 1.81 | 1.63 | 1.59 | 2728.92 |
-| today | Mon 20:00 | Bodoe/glimt v Sandefjord | 1.17 | 1.17 | 1.28 | 1.22 | 4422.09 |
-| today | Mon 20:00 | Djurgaarden v GAIS | 1.57 | 1.52 | 1.66 | 1.62 | 1438.2 |
-| today | Mon 20:00 | Gaziantep Fk v Fenerbahce | 6.8 | 5.99 | 1.77 | 1.76 | 10080.3 |
-| today | Mon 20:30 | Ludogorets Razgrad v Septemvri Sofia | 1.22 | 1.22 | 1.68 | 1.6 | 570.85 |
-| today | Mon 20:45 | Rio Ave v Estrela Da Amadora | 2.84 | 2.74 | 2.22 | 2.15 | 3581.71 |
-| today | Mon 21:00 | Fc Fcsb v Petrolul Ploiesti | 1.46 | 1.41 | None | — | 817.63 |
-| today | Mon 21:45 | Red Star v Metz | 2.54 | 2.42 | 2.22 | 2.05 | 1104.43 |
-| today | Mon 21:45 | Shelbourne v Drogheda United | 1.9 | 1.8 | 1.95 | 1.93 | 206.45 |
+| today | Mon 17:00 | Tala Ea El Gaish v Smouha Sc | 2.96 | 2.65 | 4.3 | — | 3439.13 |
+| today | Mon 17:00 | Uniao De Leiria U23 v Benfica U23 | 2.78 | 2.73 | 1.75 | 1.7 | 313.66 |
+| today | Mon 17:45 | Hebar v Etar | 2.2 | 2.1 | 1.66 | 1.51 | 397.09 |
+| today | Mon 18:00 | Fc Inter Turku v Vps | 1.67 | 1.62 | 2.06 | 2.01 | 8007.05 |
+| today | Mon 18:00 | Universitatea Cluj v Otelul Galati | 1.6 | 1.56 | 1.81 | 1.76 | 3728.33 |
+| today | Mon 18:00 | Shakhtar Donetsk v Chornomorets Odesa | 1.15 | 1.12 | 1.6 | — | 6312.73 |
+| today | Mon 19:00 | Hnk Gorica v Nk Varazdin | 3.9 | 3.44 | 2.22 | — | 354.69 |
+| today | Mon 19:00 | Tartu Jk Welco v Nomme Kalju U21 | 1.26 | 1.16 | None | — | 1579.12 |
+| today | Mon 19:00 | Jk Tabasalu v Tjk Legion | 1.61 | 1.55 | 1.2 | — | 1053.21 |
+| today | Mon 19:00 | Bayer Leverkusen (w) v Bayern Munich (w) | 10.5 | 7.54 | 1.57 | — | 562.18 |
+| today | Mon 19:00 | Al-shamal v Al Ittihad | 4.7 | 4.08 | 1.64 | — | 1649.99 |
+| today | Mon 19:30 | Hapoel Haifa v Bnei Sakhnin | 1.86 | 1.88 | 2.18 | 2.16 | 282.22 |
+| today | Mon 19:30 | Hapoel Ramat Gan v Maccabi Netanya | 5.6 | 4.53 | 1.56 | — | 467.44 |
+| today | Mon 19:30 | Como v Parma Calcio 1913 | 1.26 | 1.23 | 1.63 | — | 191664.71 |
+| today | Mon 19:30 | Torino v Roma | 7.2 | 6.41 | 1.8 | — | 197720.34 |
+| today | Mon 20:00 | Fc Midtjylland v Brondby If | 1.86 | 1.8 | 1.61 | — | 7514.45 |
+| today | Mon 20:00 | Dinamo Tbilisi v Fc Gagra | 1.72 | 1.62 | 1.99 | — | 315.77 |
+| today | Mon 20:00 | Hapoel Ironi Kiryat Shmona v Maccabi Haifa | 5.6 | 4.11 | 1.56 | 1.65 | 467.44 |
+| today | Mon 20:00 | Bodoe/glimt v Sandefjord | 1.17 | 1.16 | 1.24 | — | 16268.82 |
+| today | Mon 20:00 | Radomiak Radom v Piast Gliwice | 2.52 | 2.42 | 1.74 | — | 1229.63 |
