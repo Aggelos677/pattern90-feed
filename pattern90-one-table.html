@@ -106,6 +106,18 @@ tr.main.open .caret{transform:rotate(90deg);color:var(--blue)}
 .cell .bf.win{background:var(--bf-l);color:var(--bf);box-shadow:inset 3px 0 0 var(--bf-b)}
 .cell .bf.win .tg{color:var(--bf)}
 .cell .none{font-size:10px;color:var(--faint)}
+.cell.books{display:inline-flex;flex-direction:column;min-width:106px}
+.p3{display:flex;align-items:center;gap:6px;font-family:var(--mono);font-size:12px;padding:2px 7px}
+.p3 .tg{font-size:11px;font-weight:700;min-width:12px;text-align:center;color:#9FB0BF}
+.p3 .v{margin-left:auto}
+.p3.miss .v{color:#C9D6E2}
+.p3.win{font-weight:700;font-size:13px}
+.p3.pinnacle.win{background:var(--pin-l);color:var(--pin);box-shadow:inset 3px 0 0 var(--pin-o)}
+.p3.pinnacle.win .tg{color:var(--pin)}
+.p3.bet365.win{background:#E4F3EC;color:#0B5C3C;box-shadow:inset 3px 0 0 #1E8A5F}
+.p3.bet365.win .tg{color:#0B5C3C}
+.p3.betfair.win{background:var(--bf-l);color:var(--bf);box-shadow:inset 3px 0 0 var(--bf-b)}
+.p3.betfair.win .tg{color:var(--bf)}
 .cell.d10{background:var(--blue3)}.cell.d7{background:var(--blue2)}.cell.d3{background:var(--bluepale)}
 .cell.u10{background:var(--red3)}.cell.u7{background:var(--red2)}.cell.u3{background:var(--redpale)}
 .pin-lens .cell.d10{background:#F2A06A}.pin-lens .cell.d7{background:#F8C4A0}.pin-lens .cell.d3{background:#FDE6D6}
@@ -560,6 +572,28 @@ function cellPMove(m,k){
     <span class="r1"><span class="old">${f2(m.po[k])}</span></span>
     <span class="r2"><span class="now">${f2(m.n[k])}</span><span class="v mono" style="font-size:10.5px;color:${d<0?'var(--pin)':d>0?'#6B7C8C':'var(--faint)'}">${(d>0?'+':'')+(d*100).toFixed(1)}%</span></span></span>`;
 }
+function cellBooks(m,k){
+  const B=m.books||{};
+  const rows=[['P','pinnacle'],['3','bet365'],['B','betfair']];
+  const eff3=(p,b)=> (b==='betfair' && p) ? 1+(p-1)*0.97 : p;   // the exchange keeps its commission
+  const scored=rows.map(([t,b])=>{const o=B[b]; const v=o && o[['1','X','2'][k]];
+                                  return {t,b,v,e:eff3(v,b)};});
+  const live=scored.filter(x=>x.v);
+  if(!live.length) return `<span class="cell"><span class="r1"><span class="v none">no price</span></span></span>`;
+  const top=live.reduce((a,b)=>b.e>a.e?b:a);
+  return `<span class="cell books">${scored.map(x=>
+    !x.v ? `<span class="p3 miss"><span class="tg">${x.t}</span><span class="v">—</span></span>`
+    : `<span class="p3 ${x.b} ${x===top?'win':''}"><span class="tg">${x.t}</span><span class="v">${f2(x.v)}</span></span>`
+  ).join('')}</span>`;
+}
+function spread(m){
+  const B=m.books||{}; let w=0;
+  for(const k of ['1','X','2']){
+    const xs=[B.pinnacle&&B.pinnacle[k], B.bet365&&B.bet365[k], B.betfair&&B.betfair[k]].filter(Boolean);
+    if(xs.length>1) w=Math.max(w, Math.max(...xs)/Math.min(...xs)-1);
+  }
+  return w;
+}
 function cellCompare(m,k,v){
   if(!m.n) return `<span class="cell">
     <span class="r1 pin"><span class="tg">P</span><span class="v none">no feed</span></span>
@@ -576,7 +610,7 @@ const SUBS={
   value:[['all','Everything'],['tip','Value tips'],['mon','Monitoring'],['model','Has a model']],
   move:[['all','Everything'],['drop','Dropped'],['drift','Drifted'],['big','Moved ≥ 7%']],
   pmove:[['all','Everything'],['drop','Dropped'],['drift','Drifted'],['big','Moved ≥ 7%']],
-  compare:[['all','Everything'],['P','Pinnacle better'],['B','Betfair better'],['gap','Big gaps']]
+  compare:[['all','Everything'],['P','Pinnacle and bet365'],['B','Has bet365'],['gap','Widest spread']]
 };
 const LENS={
   value:{name:'Value bets', dot:'i-v', head:'FAIR / MARKET', cell:cellValue,
@@ -585,8 +619,8 @@ const LENS={
     exp:'<b>Odds move.</b> Opening price crossed out above, current price below, with the change. Blue means the price shortened, red means it drifted; the deeper the shade, the bigger the move.'},
   pmove:{name:'Odds move · Pinnacle', dot:'i-c', head:'PINNACLE OPEN → NOW', cell:cellPMove, book:'pin',
     exp:'<b>Odds move, Pinnacle.</b> The same price path on the sharper book. A bookmaker does not publish what has been staked, so no turnover signal is raised here.'},
-  compare:{name:'Pinnacle vs Betfair', dot:'i-c', head:'PINNACLE / BETFAIR', cell:cellCompare,
-    exp:'<b>Pinnacle vs Betfair.</b> Both books on the same row, the better one after commission highlighted. Rows with little money matched carry no signal at all.'}
+  compare:{name:'Compare books', dot:'i-c', head:'PIN · BET365 · BETFAIR', cell:cellBooks,
+    exp:'<b>Compare books.</b> Pinnacle, bet365 and Betfair in the same cell, with the best of the three marked. Betfair is judged after commission, so a thin edge there is not counted twice.'}
 };
 LENS.value.book='bf'; LENS.move.book='bf'; LENS.compare.book='bf';
 
@@ -713,8 +747,11 @@ function keep(m){
     return sub==='drop'?d<=-0.03 : sub==='drift'?d>=0.03 : Math.abs(d)>=0.07;
   }
   if(lens==='compare'){
-    if(!v.both) return false;
-    return sub==='gap'?v.big : v.who===sub;
+    const B=m.books||{};
+    if(sub==='P')   return !!(B.pinnacle && B.bet365);
+    if(sub==='B')   return !!B.bet365;
+    if(sub==='gap') return !!(B.pinnacle && B.bet365);
+    return true;
   }
   return true;
 }
@@ -845,7 +882,10 @@ function render(){
   document.getElementById('tblCard').classList.toggle('val-lens', lens==='value');
   // a match that has kicked off is gone from every window, not just today's
   const rows=M.filter(m=> mins(m)>0 && inDayWindow(m)
-      && (maxKo===0 || mins(m)<=maxKo) && keep(m)).sort((a,b)=>new Date(a.ko)-new Date(b.ko));
+      && (maxKo===0 || mins(m)<=maxKo) && keep(m))
+      .sort((a,b)=> (lens==='compare' && sub==='gap')
+        ? spread(b)-spread(a)
+        : new Date(a.ko)-new Date(b.ko));
   const isVal = lens==='value';
   let t = isVal
    ? `<colgroup><col style="width:28px"><col style="width:76px"><col style="width:330px"><col style="width:186px">
