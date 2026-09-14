@@ -572,6 +572,24 @@ function cellPMove(m,k){
     <span class="r1"><span class="old">${f2(m.po[k])}</span></span>
     <span class="r2"><span class="now">${f2(m.n[k])}</span><span class="v mono" style="font-size:10.5px;color:${d<0?'var(--pin)':d>0?'#6B7C8C':'var(--faint)'}">${(d>0?'+':'')+(d*100).toFixed(1)}%</span></span></span>`;
 }
+function bookCell(m,k,book){
+  const o=(m.books||{})[book];
+  const now=o && o[['1','X','2'][k]];
+  if(!now) return `<span class="cell"><span class="r1"><span class="v none">no price</span></span></span>`;
+  const was=(m.openBooks&&m.openBooks[book]&&m.openBooks[book][['1','X','2'][k]]) || null;
+  const d = was ? now/was-1 : 0;
+  return `<span class="cell ${was?cls(d):''}">
+    <span class="r1"><span class="old" ${was?'':'style="text-decoration:none;color:#C9D6E2"'}>${was?f2(was):'—'}</span></span>
+    <span class="r2"><span class="now">${f2(now)}</span>${(was&&Math.abs(d)>=0.005)
+      ? `<span class="v mono" style="font-size:10.5px;color:${d<0?'var(--blue)':'var(--red)'}">${(d>0?'+':'')+(d*100).toFixed(1)}%</span>`
+      : ''}</span></span>`;
+}
+function bookGoals(m,book){
+  const o=(m.books||{})[book];
+  if(!o || !(o.over2_5||o.under2_5)) return `<span class="proj none">—</span>`;
+  return `<span class="proj" title="Over and Under 2.5 at this book">
+    <b>${o.over2_5?f2(o.over2_5):'—'}</b><small>U ${o.under2_5?f2(o.under2_5):'—'}</small></span>`;
+}
 function cellBooks(m,k){
   const B=m.books||{};
   const rows=[['P','pinnacle'],['3','bet365'],['B','betfair']];
@@ -608,21 +626,27 @@ function cellCompare(m,k,v){
 }
 const SUBS={
   value:[['all','Everything'],['tip','Value tips'],['mon','Monitoring'],['model','Has a model']],
-  move:[['all','Everything'],['drop','Dropped'],['drift','Drifted'],['big','Moved ≥ 7%']],
-  pmove:[['all','Everything'],['drop','Dropped'],['drift','Drifted'],['big','Moved ≥ 7%']],
+  pin:[['all','Everything'],['drop','Shortened'],['drift','Drifted'],['big','Moved ≥ 5%']],
+  bf:[['all','Everything'],['drop','Shortened'],['drift','Drifted'],['big','Moved ≥ 5%']],
+  b365:[['all','Everything'],['drop','Shortened'],['drift','Drifted'],['big','Moved ≥ 5%']],
   compare:[['all','Everything'],['P','Pinnacle and bet365'],['B','Has bet365'],['gap','Widest spread']]
 };
 const LENS={
   value:{name:'Value bets', dot:'i-v', head:'FAIR / MARKET', cell:cellValue,
     exp:'<b>Value bets.</b> A tip is raised only where our own price disagrees with the market by enough to matter, and only on prices worth taking. Where there is no tip, the card shows what matters most about the match instead.'},
-  move:{name:'Odds move · Betfair', dot:'i-m', head:'BETFAIR OPEN → NOW', cell:cellMove,
-    exp:'<b>Odds move.</b> Opening price crossed out above, current price below, with the change. Blue means the price shortened, red means it drifted; the deeper the shade, the bigger the move.'},
-  pmove:{name:'Odds move · Pinnacle', dot:'i-c', head:'PINNACLE OPEN → NOW', cell:cellPMove, book:'pin',
-    exp:'<b>Odds move, Pinnacle.</b> The same price path on the sharper book. A bookmaker does not publish what has been staked, so no turnover signal is raised here.'},
+  pin:{name:'Pinnacle', dot:'i-c', head:'PINNACLE', only:'pinnacle', book:'pin',
+    cell:(m,k)=>bookCell(m,k,'pinnacle'),
+    exp:'<b>Pinnacle.</b> Its own prices, with the change since we first saw them. A bookmaker does not publish turnover, so no money signal is raised here.'},
+  bf:{name:'Betfair', dot:'i-m', head:'BETFAIR', only:'betfair',
+    cell:(m,k)=>bookCell(m,k,'betfair'),
+    exp:'<b>Betfair.</b> Exchange prices with the change since we first saw them, and the money matched where an exchange market exists.'},
+  b365:{name:'bet365', dot:'i-v', head:'BET365', only:'bet365',
+    cell:(m,k)=>bookCell(m,k,'bet365'),
+    exp:'<b>bet365.</b> Its own prices and how far they have moved. A soft book usually follows the sharper ones, so a move here that Pinnacle has not made is worth a look.'},
   compare:{name:'Compare books', dot:'i-c', head:'PIN · BET365 · BETFAIR', cell:cellBooks,
     exp:'<b>Compare books.</b> Pinnacle, bet365 and Betfair in the same cell, with the best of the three marked. Betfair is judged after commission, so a thin edge there is not counted twice.'}
 };
-LENS.value.book='bf'; LENS.move.book='bf'; LENS.compare.book='bf';
+LENS.value.book='bf'; LENS.compare.book='bf';
 
 function signals(m,v){
   const all=[];
@@ -739,13 +763,19 @@ function biggestMove(m,book){
 }
 function keep(m){
   const v=verdict(m);
-  if(lens==='pmove' && !m.po) return sub==='all';
+  // a single-book view hides anything that book does not price, whatever the sub-filter says
+  if(LENS[lens].only){
+    const bk=LENS[lens].only, o=(m.books||{})[bk];
+    if(!o || !o['1']) return false;
+    if(sub==='all') return true;
+    const was=m.openBooks && m.openBooks[bk];
+    if(!was) return false;
+    let d=0;
+    for(const k of ['1','X','2']) if(o[k]&&was[k] && Math.abs(o[k]/was[k]-1)>Math.abs(d)) d=o[k]/was[k]-1;
+    return sub==='drop'? d<=-0.02 : sub==='drift'? d>=0.02 : Math.abs(d)>=0.05;
+  }
   if(sub==='all') return true;
   if(lens==='value')   return sub==='tip'?v.tip : sub==='mon'?(v.hasModel&&v.inWindow&&v.edge>=0.015&&v.edge<v.bar) : v.hasModel;
-  if(lens==='move'||lens==='pmove'){
-    const d=biggestMove(m, LENS[lens].book); if(d===null) return false;
-    return sub==='drop'?d<=-0.03 : sub==='drift'?d>=0.03 : Math.abs(d)>=0.07;
-  }
   if(lens==='compare'){
     const B=m.books||{};
     if(sub==='P')   return !!(B.pinnacle && B.bet365);
@@ -864,7 +894,7 @@ function valueRow(m,v){
       ? `<span class="proj ps" title="Projected Score — a representative scoreline from the model, not a prediction. Raw Poisson ${m.ps.raw}, rule ${m.ps.rule}."><b>${m.ps.display}</b>
          <small>projected</small></span>`
       : `<span class="proj none" title="No market price for goals, so no projected score">—<small>unavailable</small></span>`}</td>
-    <td class="c">${m.goals==null
+    <td class="c">${LENS[lens].only ? bookGoals(m, LENS[lens].only) : m.goals==null
       ? `<span class="proj none">—</span>`
       : `<span class="proj ${m.goals>=3.4?'hi':m.goals<=1.9?'lo':''}" title="Expected goals, home and away">
       <b>${m.goals.toFixed(2)}</b><small>${m.gsplit[0].toFixed(2)} · ${m.gsplit[1].toFixed(2)}</small></span>`}
