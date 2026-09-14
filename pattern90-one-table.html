@@ -418,18 +418,20 @@ function adapt(d){
     const g=(r.betfair&&r.betfair.goals)||{};
     const books=r.books||{};
     const bfT=trio(r.betfair&&r.betfair.odds), pinT=trio(books.pinnacle);
+    const shown = bfT || pinT || trio(books.bet365) || trio(books.best);
     const ko=when(r.kickoff, r.day);
-    if(!ko || !bfT) return null;
+    if(!ko || !shown) return null;
     const u=ok(g.under2_5), ov=ok(g.over2_5);
     return {
       l:(r.league||'').replace(/-/g,' '), ko, h:r.home, a:r.away,
-      bf:bfT, o:bfT.slice(),                  // opening fills in once history exists
+      bf:shown, o:shown.slice(),              // opening fills in once history exists
+      tradable: !!r.tradable, hasBF: !!bfT,
       n: pinT, po: pinT ? pinT.slice() : null,
       uo: (u&&ov) ? {u:u,o:ov} : null,
       books: books, best: r.bestAvailable || null,
-      vol: Math.round(r.betfair&&r.betfair.volume1x2 || 0),
+      vol: Math.round((r.betfair&&r.betfair.volume1x2) || 0),
       split: null, ready: true,
-      fair: bfT.slice(), prob: (()=>{const inv=bfT.map(x=>1/x), t=inv.reduce((a,b)=>a+b,0);
+      fair: shown.slice(), prob: (()=>{const inv=shown.map(x=>1/x), t=inv.reduce((a,b)=>a+b,0);
         return inv.map(x=>Math.round(x/t*100));})(),
       goals: null, gsplit: null, corners: null, csplit: null, cards: null,
       cs: null, corn:null, cardz:null, model:null, ps:null, csig:null, gsig:null,
@@ -870,7 +872,9 @@ function render(){
         }</small>
         ${c.p>0?`<span class="bar2"><i style="width:${c.p.toFixed(0)}%"></i></span>`:''}</span></td>
       <td class="mcell"><div class="mtop"><span class="lgue">${esc(m.l)}</span>
-          <span class="rdy ${m.ready&&m.vol>=TRUST?'ok':'pv'}">${m.ready&&m.vol>=TRUST?'READY':'PROV.'}</span></div>
+          <span class="rdy ${m.tradable&&m.vol>=TRUST?'ok':'pv'}"
+            title="${m.tradable?'A Betfair market with money behind it':'Book prices only — no exchange turnover'}"
+            >${m.tradable?(m.vol>=TRUST?'TRADABLE':'THIN'):'PRICES ONLY'}</span></div>
         <span class="caret">›</span> <span class="tm" style="display:inline">${esc(m.h)} v ${esc(m.a)}</span>
         ${m.insight?`<div class="ins ${m.insight.kind}"><i></i>${esc(m.insight.text)}${m.insight.more?`<b>+${m.insight.more}</b>`:''}</div>`:''}</td>
       ${isVal ? valueRow(m,v) : `
@@ -878,6 +882,8 @@ function render(){
       <td class="r sep"><span class="flags">${(L.book==='pin'?signalsPin(m,v):signals(m,v)).join('')}</span></td>
       <td class="r">${L.book==='pin'
         ? `<span class="vol">Pinnacle</span><div class="lgn">no turnover published</div>`
+        : !m.tradable
+        ? `<span class="vol">—</span><div class="lgn">no exchange market</div>`
         : `<span class="vol">£${m.vol.toLocaleString()}</span>
            <div class="lgn">${v.liquid?Math.round(m.vol/m.exp*100)+'% of normal':'thin market'}</div>`}`}</td></tr>
       <tr class="det" data-d="${i}" hidden><td colspan="${isVal?8:8}">${detail(m,v)}</td></tr>`;
